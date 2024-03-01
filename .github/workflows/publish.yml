@@ -18,12 +18,11 @@ jobs:
               plenary.nvim
 
     steps:
-      - uses: actions/checkout@v3
-
       - name: Checkout plugin repository
         uses: actions/checkout@v3
         with:
           repository: ${{ matrix.plugins.name }}
+          path: .
 
       - name: Get latest tag or commit message
         id: get-release
