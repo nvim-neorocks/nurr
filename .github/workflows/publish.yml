@@ -1,10 +1,10 @@
 name: Publish LuaRocks
 
-# TODO: Reinstantiate when ready.
-# on:
-#   schedule:
-#     # Runs every 4 hours
-#     cron: "0 */4 * * *"
+on:
+  schedule:
+    # Runs every 4 hours
+    cron: "0 */4 * * *"
+  workflow_dispatch:
 
 jobs:
   publish:
@@ -13,10 +13,9 @@ jobs:
       matrix:
         # Define plugins and their dependencies
         plugins:
-          - name: owner1/repo1
+          - name: NeogitOrg/neogit
             dependencies: |
-              dependency1
-              dependency2
+              plenary.nvim
 
     steps:
       - uses: actions/checkout@v3
