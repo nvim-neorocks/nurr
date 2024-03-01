@@ -13,14 +13,14 @@ jobs:
       matrix:
         # Define plugins and their dependencies
         plugins:
-          - name: NeogitOrg/neogit
-            shorthand: neogit # TODO: Get rid of this somehow
+          - name: "NeogitOrg/neogit"
+            shorthand: "neogit" # TODO: Get rid of this somehow
             dependencies: |
               plenary.nvim
 
     steps:
       - name: Checkout plugin repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           repository: ${{ matrix.plugins.name }}
           path: .
