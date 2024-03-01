@@ -1,0 +1,51 @@
+name: Publish LuaRocks
+
+# TODO: Reinstantiate when ready.
+# on:
+#   schedule:
+#     # Runs every 4 hours
+#     cron: "0 */4 * * *"
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        # Define plugins and their dependencies
+        plugins:
+          - name: owner1/repo1
+            dependencies: |
+              dependency1
+              dependency2
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Checkout plugin repository
+        uses: actions/checkout@v3
+        with:
+          repository: ${{ matrix.plugins.name }}
+
+      - name: Get latest tag or commit message
+        id: get-release
+        run: |
+          # Check for tags
+          TAG=$(git describe --tags --abbrev=0)
+
+          if [[ -z "$TAG" ]]; then
+            # If there is no tag (aka semver versioning)
+            # then count the number of commits instead.
+            COUNT=$(git rev-list --count HEAD)
+            echo "::set-output name=RELEASE_VERSION::0.0.${COUNT}"
+          else
+            echo "::set-output name=RELEASE_VERSION::${TAG}"
+          fi
+
+          echo "NEW_COMMIT_COUNT=$(git rev-list --count HEAD --since '4 hours ago')" >> $GITHUB_ENV
+
+      - name: Publish LuaRock
+        uses: nvim-neorocks/luarocks-tag-release@v5
+        if: ${{ env.NEW_COMMIT_COUNT > 0 }}
+        with:
+          dependencies: ${{ matrix.plugins.dependencies }}
+          version: ${{ steps.get-release.outputs.RELEASE_VERSION }}
