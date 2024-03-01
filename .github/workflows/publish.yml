@@ -57,7 +57,7 @@ jobs:
 
       - name: Publish LuaRock
         uses: nvim-neorocks/luarocks-tag-release@v5
-        if: ${{ env.NEW_COMMIT_COUNT > 0 || PUBLISHED_COUNT == 0 }}
+        if: ${{ env.NEW_COMMIT_COUNT > 0 || env.PUBLISHED_COUNT == 0 }}
         with:
           dependencies: ${{ matrix.plugins.dependencies }}
           version: ${{ env.RELEASE_VERSION }}
