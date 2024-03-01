@@ -14,6 +14,7 @@ jobs:
         # Define plugins and their dependencies
         plugins:
           - name: NeogitOrg/neogit
+            shorthand: neogit # TODO: Get rid of this somehow
             dependencies: |
               plenary.nvim
 
@@ -23,6 +24,18 @@ jobs:
         with:
           repository: ${{ matrix.plugins.name }}
           path: .
+
+      - name: Install Lua
+        uses: leso-kn/gh-actions-lua@master
+        with:
+          luaVersion: "5.1"
+
+      - name: Install Luarocks
+        uses: hishamhm/gh-actions-luarocks@master
+
+      - name: Print environment
+        run: |
+          printenv
 
       - name: Get latest tag or commit message
         id: get-release
@@ -34,16 +47,17 @@ jobs:
             # If there is no tag (aka semver versioning)
             # then count the number of commits instead.
             COUNT=$(git rev-list --count HEAD)
-            echo "::set-output name=RELEASE_VERSION::0.0.${COUNT}"
+            echo "RELEASE_VERSION='0.0.${COUNT}'" >> $GITHUB_ENV
           else
-            echo "::set-output name=RELEASE_VERSION::${TAG}"
+            echo "RELEASE_VERSION='${TAG}'" >> $GITHUB_ENV
           fi
 
           echo "NEW_COMMIT_COUNT=$(git rev-list --count HEAD --since '4 hours ago')" >> $GITHUB_ENV
+          echo "PUBLISHED_COUNT=$(luarocks search ${{ matrix.plugins.shorthand }} --porcelain | wc -l)" >> $GITHUB_ENV
 
       - name: Publish LuaRock
         uses: nvim-neorocks/luarocks-tag-release@v5
-        if: ${{ env.NEW_COMMIT_COUNT > 0 }}
+        if: ${{ env.NEW_COMMIT_COUNT > 0 || PUBLISHED_COUNT == 0 }}
         with:
           dependencies: ${{ matrix.plugins.dependencies }}
-          version: ${{ steps.get-release.outputs.RELEASE_VERSION }}
+          version: ${{ env.RELEASE_VERSION }}
