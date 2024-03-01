@@ -53,7 +53,7 @@ jobs:
           fi
 
           echo "NEW_COMMIT_COUNT=$(git rev-list --count HEAD --since '4 hours ago')" >> $GITHUB_ENV
-          echo "PUBLISHED_COUNT=$(luarocks search ${{ matrix.plugins.shorthand }} --porcelain | wc -l)" >> $GITHUB_ENV
+          echo "PUBLISHED_COUNT=$(luarocks --server=https://luarocks.org/m/neovim search ${{ matrix.plugins.shorthand }} --porcelain | wc -l)" >> $GITHUB_ENV
 
       - name: Publish LuaRock
         uses: nvim-neorocks/luarocks-tag-release@v5
