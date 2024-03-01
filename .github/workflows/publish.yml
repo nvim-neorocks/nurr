@@ -63,3 +63,5 @@ jobs:
         with:
           dependencies: ${{ matrix.plugins.dependencies }}
           version: ${{ env.RELEASE_VERSION }}
+          extra_luarocks_args: |
+            --server=https://luarocks.org/m/neovim
