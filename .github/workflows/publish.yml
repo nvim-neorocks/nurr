@@ -7,18 +7,19 @@ on:
   workflow_dispatch:
 
 jobs:
+  generate-matrix:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.set-matrix.outputs.matrix }}
+    steps:
+    - id: set-matrix
+      run: echo "::set-output name=matrix::$(cat ./plugins.json)"
   publish:
     runs-on: ubuntu-latest
     strategy:
       matrix:
         # Define plugins and their dependencies
-        plugins:
-          - name: "NeogitOrg/neogit"
-            shorthand: "neogit" # TODO: Get rid of this somehow
-            dependencies: |
-              plenary.nvim
-            summary: An interactive and powerful Git interface for Neovim, inspired by Magit
-            license: MIT
+        plugins: ${{ fromJson(needs.generate-matrix.outputs.matrix) }}
 
     steps:
       - name: Checkout plugin repository

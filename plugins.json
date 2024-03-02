@@ -1,0 +1,9 @@
+[
+    {
+        "name": "NeogitOrg/neogit",
+        "shorthand": "neogit",
+        "dependencies": "plenary.nvim",
+        "summary": "An interactive and powerful Git interface for Neovim, inspired by Magit",
+        "license": "MIT"
+    }
+]
