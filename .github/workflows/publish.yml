@@ -17,6 +17,9 @@ jobs:
             shorthand: "neogit" # TODO: Get rid of this somehow
             dependencies: |
               plenary.nvim
+            summary: |
+              An interactive and powerful Git interface for Neovim, inspired by Magit
+            license: MIT
 
     steps:
       - name: Checkout plugin repository
@@ -47,9 +50,9 @@ jobs:
             # If there is no tag (aka semver versioning)
             # then count the number of commits instead.
             COUNT=$(git rev-list --count HEAD)
-            echo "RELEASE_VERSION='0.0.${COUNT}'" >> $GITHUB_ENV
+            echo "RELEASE_VERSION=0.0.${COUNT}" >> $GITHUB_ENV
           else
-            echo "RELEASE_VERSION='${TAG}'" >> $GITHUB_ENV
+            echo "RELEASE_VERSION=${TAG}" >> $GITHUB_ENV
           fi
 
           echo "NEW_COMMIT_COUNT=$(git rev-list --count HEAD --since '4 hours ago')" >> $GITHUB_ENV
@@ -61,7 +64,12 @@ jobs:
         env:
           LUAROCKS_API_KEY: ${{ secrets.LUAROCKS_API_KEY }}
         with:
+          name: ${{ matrix.plugins.shorthand }}
           dependencies: ${{ matrix.plugins.dependencies }}
           version: ${{ env.RELEASE_VERSION }}
+          summary: ${{ matrix.plugins.summary }}
+          license: ${{ matrix.plugins.license }}
+          labels: neovim
+          test_interpreters: "" # Don't try to run busted tests
           extra_luarocks_args: |
             --server=https://luarocks.org/m/neovim
