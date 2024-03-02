@@ -55,7 +55,7 @@ jobs:
           echo "GITHUB_SHA_OVERRIDE=$(git rev-parse HEAD)" >> $GITHUB_ENV
 
       - name: Publish LuaRock
-        uses: nvim-neorocks/luarocks-tag-release@target-server-input
+        uses: nvim-neorocks/luarocks-tag-release@v5
         if: ${{ env.NEW_COMMIT_COUNT > 0 || env.PUBLISHED_COUNT == 0 }}
         env:
           LUAROCKS_API_KEY: ${{ secrets.LUAROCKS_API_KEY }}
@@ -67,4 +67,5 @@ jobs:
           license: ${{ matrix.plugins.license }}
           labels: neovim
           test_interpreters: "" # Don't try to run busted tests
-          target_server: https://luarocks.org/m/neovim
+          extra_luarocks_args: |
+            --server=https://luarocks.org/m/neovim
