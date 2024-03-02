@@ -6,6 +6,20 @@
             "dependencies": "plenary.nvim",
             "summary": "An interactive and powerful Git interface for Neovim, inspired by Magit",
             "license": "MIT"
+        },
+        {
+            "name": "folke/flash.nvim",
+            "shorthand": "flash.nvim",
+            "dependencies": "",
+            "summary": "Navigate your code with search labels, enhanced character motions and Treesitter integration",
+            "license": "Apache-2.0"
+        },
+        {
+            "name": "stevearc/oil.nvim",
+            "shorthand": "oil.nvim",
+            "dependencies": "nvim-web-devicons",
+            "summary": "Neovim file explorer: edit your filesystem like a buffer",
+            "license": "MIT"
         }
     ]
 }
