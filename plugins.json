@@ -69,6 +69,41 @@
             "dependencies": "nvim-web-devicons",
             "summary": "Neovim file explorer: edit your filesystem like a buffer",
             "license": "MIT"
+        },
+        {
+            "name": "rktjmp/paperplanes.nvim",
+            "shorthand": "paperplanes.nvim",
+            "dependencies": "",
+            "summary": "Neovim pastebins",
+            "license": "MIT"
+        },
+        {
+            "name": "lewis6991/gitsigns.nvim",
+            "shorthand": "gitsigns.nvim",
+            "dependencies": "",
+            "summary": "Super fast git decorations implemented purely in Lua",
+            "license": "MIT"
+        },
+        {
+            "name": "nacro90/numb.nvim",
+            "shorthand": "numb.nvim",
+            "dependencies": "",
+            "summary": "Peek lines just when you intend",
+            "license": "MIT"
+        },
+        {
+            "name": "asiryk/auto-hlsearch.nvim",
+            "shorthand": "auto-hlsearch.nvim",
+            "dependencies": "",
+            "summary": "Automatically manage hlsearch setting",
+            "license": "Apache-2.0"
+        },
+        {
+            "name": "nanozuki/tabby.nvim",
+            "shorthand": "tabby.nvim",
+            "dependencies": "nvim-web-devicons",
+            "summary": "A declarative, highly configurable, and neovim style tabline plugin. Use your nvim tabs as a workspace multiplexer",
+            "license": "MIT"
         }
     ]
 }
