@@ -14,14 +14,14 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - id: set-matrix
-        run: echo "MATRIX=$(cat ./plugins.json)" >> $GITHUB_ENV
+        run: echo "MATRIX=$(cat ./plugins.json)" >> $GITHUB_OUTPUT
   publish:
     runs-on: ubuntu-latest
     needs: generate-matrix
     strategy:
       matrix:
         # Define plugins and their dependencies
-        plugins: ${{ fromJson(${{ env.MATRIX }}) }}
+        plugins: ${{ fromJson(needs.generate-matrix.outputs.matrix) }}
 
     steps:
       - name: Checkout plugin repository
