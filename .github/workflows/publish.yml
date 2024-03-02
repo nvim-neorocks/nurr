@@ -68,4 +68,4 @@ jobs:
           labels: neovim
           test_interpreters: "" # Don't try to run busted tests
           extra_luarocks_args: |
-            --server=https://luarocks.org/m/neovim
+            --namespace=neorocks
