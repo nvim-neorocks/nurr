@@ -37,9 +37,9 @@ jobs:
         id: get-release
         run: |
           # Check for tags
-          TAG=$(git describe --tags --abbrev=0 || true)
+          TAG=$(git describe --tags --abbrev=0 || false)
 
-          if [[ -z "$TAG" ]]; then
+          if [[ ! $TAG ]]; then
             # If there is no tag (aka semver versioning)
             # then count the number of commits instead.
             COUNT=$(git rev-list --count HEAD)
