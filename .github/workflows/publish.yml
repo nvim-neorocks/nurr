@@ -28,6 +28,14 @@ jobs:
           repository: ${{ matrix.plugins.name }}
           path: .
 
+      - name: Install Lua
+        uses: leso-kn/gh-actions-lua@master
+        with:
+          luaVersion: "5.1"
+
+      - name: Install Luarocks
+        uses: hishamhm/gh-actions-luarocks@master
+
       - name: Print plugin directories and environment
         run: |
           ls -a
