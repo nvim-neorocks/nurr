@@ -30,6 +30,7 @@ jobs:
         with:
           repository: ${{ matrix.plugins.name }}
           path: .
+          fetch-tags: true
 
       - name: Install Lua
         uses: leso-kn/gh-actions-lua@master
