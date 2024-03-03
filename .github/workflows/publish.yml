@@ -30,7 +30,7 @@ jobs:
         with:
           repository: ${{ matrix.plugins.name }}
           path: .
-          fetch-tags: true
+          fetch-depth: "0"
 
       - name: Install Lua
         uses: leso-kn/gh-actions-lua@master
@@ -63,7 +63,7 @@ jobs:
           fi
 
           echo "NEW_COMMIT_COUNT=$(git rev-list --count HEAD --since '4 hours ago')" >> $GITHUB_ENV
-          echo "PUBLISHED_COUNT=$(luarocks --server=https://luarocks.org/m/neovim search ${{ matrix.plugins.shorthand }} --porcelain | wc -l)" >> $GITHUB_ENV
+          echo "PUBLISHED_COUNT=$(luarocks --server=https://luarocks.org/manifests/neorocks search ${{ matrix.plugins.shorthand }} --porcelain | wc -l)" >> $GITHUB_ENV
           echo "GITHUB_REPOSITORY_OVERRIDE=${{ matrix.plugins.name }}" >> $GITHUB_ENV
           echo "GITHUB_SHA_OVERRIDE=$(git rev-parse HEAD)" >> $GITHUB_ENV
 
