@@ -111,6 +111,20 @@
             "dependencies": "",
             "summary": "Create custom submodes and menus",
             "license": "MIT"
-        }
+        },
+        {
+            "name": "rebelot/kanagawa.nvim",
+            "shorthand": "kanagawa.nvim",
+            "dependencies": "",
+            "summary": "NeoVim dark colorscheme inspired by the colors of the famous painting by Katsushika Hokusai.",
+            "license": "MIT"
+        },
+        {
+            "name": "danymat/neogen",
+            "shorthand": "neogen",
+            "dependencies": "",
+            "summary": "A better annotation generator. Supports multiple languages and annotation conventions.",
+            "license": "GPL-3.0"
+        },
     ]
 }
