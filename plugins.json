@@ -104,6 +104,13 @@
             "dependencies": "nvim-web-devicons",
             "summary": "A declarative, highly configurable, and neovim style tabline plugin. Use your nvim tabs as a workspace multiplexer",
             "license": "MIT"
+        },
+        {
+            "name": "nvimtools/hydra.nvim",
+            "shorthand": "hydra.nvim",
+            "dependencies": "",
+            "summary": "Create custom submodes and menus",
+            "license": "MIT"
         }
     ]
 }
