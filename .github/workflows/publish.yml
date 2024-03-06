@@ -45,31 +45,34 @@ jobs:
           ls -a
           printenv
 
-      - name: Get latest tag or commit message
+      - name: Get latest Tag
         id: get-release
         run: |
           # Check for tags
           TAG=$(git describe --tags --abbrev=0 || echo)
 
-          if [[ -z "$TAG" ]]; then
-            # If there is no tag (aka semver versioning)
-            # then count the number of commits instead.
-            COUNT=$(git rev-list --count HEAD)
-            echo "RELEASE_VERSION=dev" >> $GITHUB_ENV
-          else
+          if [[ -n "$TAG" ]]; then
             echo "RELEASE_VERSION=${TAG}" >> $GITHUB_ENV
             echo "GITHUB_REF_TYPE_OVERRIDE=tag" >> $GITHUB_ENV
             echo "GITHUB_REF_NAME_OVERRIDE=$RELEASE_VERSION" >> $GITHUB_ENV
           fi
 
-          echo "NEW_COMMIT_COUNT=$(git rev-list --count HEAD --since '4 hours ago')" >> $GITHUB_ENV
-          echo "PUBLISHED_COUNT=$(luarocks --server=https://luarocks.org/manifests/neorocks search ${{ matrix.plugins.shorthand }} --porcelain | wc -l)" >> $GITHUB_ENV
           echo "GITHUB_REPOSITORY_OVERRIDE=${{ matrix.plugins.name }}" >> $GITHUB_ENV
           echo "GITHUB_SHA_OVERRIDE=$(git rev-parse HEAD)" >> $GITHUB_ENV
 
+      - name: Parse version from string
+        id: version
+        uses: release-kit/semver@v2
+        with:
+          string: ${{ env.RELEASE_VERSION }}
+
+      - if: ${{ steps.version.outputs.full != '' }}
+        run: |
+          echo "PUBLISHED_COUNT=$(luarocks --only-server=https://luarocks.org/manifests/neorocks search ${{ matrix.plugins.shorthand }} ${{ steps.version.outputs.full }} --porcelain | wc -l)" >> $GITHUB_ENV
+
       - name: Publish LuaRock
         uses: nvim-neorocks/luarocks-tag-release@dev-version
-        if: ${{ env.NEW_COMMIT_COUNT > 0 || env.PUBLISHED_COUNT == 0 }}
+        if: ${{ env.PUBLISHED_COUNT == 0 }}
         env:
           LUAROCKS_API_KEY: ${{ secrets.LUAROCKS_API_KEY }}
         with:
