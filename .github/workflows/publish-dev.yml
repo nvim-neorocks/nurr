@@ -40,7 +40,7 @@ jobs:
         with:
           name: ${{ matrix.plugins.shorthand }}
           dependencies: ${{ matrix.plugins.dependencies }}
-          version: "dev"
+          version: "scm"
           summary: ${{ matrix.plugins.summary }}
           license: ${{ matrix.plugins.license }}
           labels: neovim
