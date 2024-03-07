@@ -75,7 +75,7 @@ jobs:
 
       - name: Publish LuaRock
         uses: nvim-neorocks/luarocks-tag-release@dev-version
-        if: ${{ env.PUBLISHED_COUNT == 0 }}
+        if: ${{ env.PUBLISHED_COUNT == 0 }} && ${{ env.RELEASE_VERSION != '' }}
         env:
           LUAROCKS_API_KEY: ${{ secrets.LUAROCKS_API_KEY }}
         with:
