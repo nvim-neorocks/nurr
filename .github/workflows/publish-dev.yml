@@ -30,7 +30,6 @@ jobs:
         with:
           repository: ${{ matrix.plugins.name }}
           path: .
-          fetch-depth: "0"
 
       - run: |
           echo "GITHUB_REPOSITORY_OVERRIDE=${{ matrix.plugins.name }}" >> $GITHUB_ENV
@@ -38,7 +37,6 @@ jobs:
 
       - name: Publish Development LuaRock
         uses: nvim-neorocks/luarocks-tag-release@dev-version
-        if: ${{ env.PUBLISHED_COUNT == 0 }}
         env:
           LUAROCKS_API_KEY: ${{ secrets.LUAROCKS_API_KEY }}
         with:
