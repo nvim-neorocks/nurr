@@ -32,7 +32,6 @@ jobs:
           repository: ${{ matrix.plugins.name }}
           path: .
           fetch-tags: true
-          fetch-depth: 0
 
       - name: Get latest Tag
         id: get-release
@@ -43,12 +42,7 @@ jobs:
             echo "Found tags:"
             echo "$TAGS"
           fi
-          SEMVER_TAGS="$(echo '$TAGS' | grep -P '[0-9]{1,}.[0-9]{1,}.[0-9]{1,}' )"
-          if [[ -n "$SEMVER_TAGS" ]]; then
-            echo "Found SemVer tags:"
-            echo "$SEMVER_TAGS"
-          fi
-          TAG="$(echo '$SEMVER_TAGS' | sed 's/refs\/tags\/\(.*\)/\1/' | tail -n1)"
+          TAG="$(git for-each-ref --sort=authordate --format '%(refname)' refs/tags | grep -P '[0-9]{1,}.[0-9]{1,}.[0-9]{1,}' | sed 's/refs\/tags\/\(.*\)/\1/' | tail -n1)"
           if [[ -n "$TAG" ]]; then
             echo "Found $TAG"
             git checkout $TAG
