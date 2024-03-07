@@ -5,8 +5,8 @@ on:
     branches:
       - 'main'
   schedule:
-    # Runs every 4 hours
-    - cron: "0 */4 * * *"
+    # Runs every minute of every 4th hour
+    - cron: "30 */4 * * *"
   workflow_dispatch:
 
 jobs:
