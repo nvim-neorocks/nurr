@@ -38,8 +38,8 @@ jobs:
         run: |
           # Check for semver tags
           echo "$(git for-each-ref --sort=authordate --format '%(refname)' refs/tags )"
-          echo "$(git for-each-ref --sort=authordate --format '%(refname)' refs/tags | grep '[0-9]{1,}.[0-9]{1,}.[0-9]{1,}' )"
-          TAG="$(git for-each-ref --sort=authordate --format '%(refname)' refs/tags | grep '[0-9]{1,}.[0-9]{1,}.[0-9]{1,}' | sed 's/refs\/tags\/\(.*\)/\1/' | tail -n1)"
+          echo "$(git for-each-ref --sort=authordate --format '%(refname)' refs/tags | grep -P '[0-9]{1,}.[0-9]{1,}.[0-9]{1,}' )"
+          TAG="$(git for-each-ref --sort=authordate --format '%(refname)' refs/tags | grep -P '[0-9]{1,}.[0-9]{1,}.[0-9]{1,}' | sed 's/refs\/tags\/\(.*\)/\1/' | tail -n1)"
           echo "$TAG"
           if [[ -n "$TAG" ]]; then
             git checkout $TAG
