@@ -53,6 +53,7 @@ jobs:
           TAG=$(git for-each-ref --sort=authordate --format '%(refname)' refs/tags | grep '[0-9]{1,}.[0-9]{1,}.[0-9]{1,}' | sed 's/refs\/tags\/\(.*\)/\1/' | tail -n1)
 
           if [[ -n "$TAG" ]]; then
+            echo "Found tag: $TAG"
             git checkout $TAG
             VERSION=$(sed 's/v\(.*\)/\1/')
             echo "RELEASE_VERSION=${VERSION}" >> $GITHUB_ENV
