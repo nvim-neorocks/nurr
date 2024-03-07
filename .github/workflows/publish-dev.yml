@@ -6,7 +6,7 @@ on:
       - 'main'
   schedule:
     # Runs every minute of every 4th hour
-    - cron: "30 */4 * * *"
+    - cron: "30 */12 * * *"
   workflow_dispatch:
 
 jobs:
