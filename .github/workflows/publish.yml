@@ -37,7 +37,12 @@ jobs:
         id: get-release
         run: |
           # Check for semver tags
-          TAG="$(git for-each-ref --sort=authordate --format '%(refname)' refs/tags | grep -P '[0-9]{1,}.[0-9]{1,}.[0-9]{1,}' | sed 's/refs\/tags\/\(.*\)/\1/' | tail -n1)"
+          TAGS="$(git for-each-ref --sort=authordate --format '%(refname)' refs/tags )"
+          if [[ -n "$TAGS" ]]; then
+            echo "Found tags:"
+            echo "$TAGS"
+          fi
+          TAG="$(echo '$TAGS' | grep -P '[0-9]{1,}.[0-9]{1,}.[0-9]{1,}' | sed 's/refs\/tags\/\(.*\)/\1/' | tail -n1)"
           if [[ -n "$TAG" ]]; then
             echo "Found $TAG"
             git checkout $TAG
