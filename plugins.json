@@ -126,5 +126,278 @@
             "summary": "A better annotation generator. Supports multiple languages and annotation conventions.",
             "license": "GPL-3.0"
         },
+        {
+            "name": "echasnovski/mini.nvim",
+            "shorthand": "mini.nvim",
+            "dependencies": "",
+            "summary": "Library of 35+ independent Lua modules improving overall Neovim (version 0.7 and higher) experience with minimal effort (full suite)",
+            "license": "MIT"
+        },
+        {
+            "name": "echasnovski/mini.ai",
+            "shorthand": "mini.ai",
+            "dependencies": "",
+            "summary": "Extend and create a/i textobjects. Part of the mini.nvim suite.",
+            "license": "MIT"
+        },
+        {
+            "name": "echasnovski/mini.align",
+            "shorthand": "mini.align",
+            "dependencies": "",
+            "summary": "A Neovim plugin to align text interactively. Part of the mini.nvim suite.",
+            "license": "MIT"
+        },
+        {
+            "name": "echasnovski/mini.animate",
+            "shorthand": "mini.animate",
+            "dependencies": "",
+            "summary": "Animate common Neovim actions Part of the mini.nvim suite.",
+            "license": "MIT"
+        },
+        {
+            "name": "echasnovski/mini.base16",
+            "shorthand": "mini.base16",
+            "dependencies": "",
+            "summary": "Base16 colorscheme creation for Neovim Part of the mini.nvim suite.",
+            "license": "MIT"
+        },
+        {
+            "name": "echasnovski/mini.basics",
+            "shorthand": "mini.basics",
+            "dependencies": "",
+            "summary": "Common configuration presets for Neovim Part of the mini.nvim suite.",
+            "license": "MIT"
+        },
+        {
+            "name": "echasnovski/mini.bracketed",
+            "shorthand": "mini.bracketed",
+            "dependencies": "",
+            "summary": "Go forward/backward in Neovim with square brackets Part of the mini.nvim suite.",
+            "license": "MIT"
+        },
+        {
+            "name": "echasnovski/mini.bufremove",
+            "shorthand": "mini.bufremove",
+            "dependencies": "",
+            "summary": "Remove Neovim buffers. Part of the mini.nvim suite.",
+            "license": "MIT"
+        },
+        {
+            "name": "echasnovski/mini.clue",
+            "shorthand": "mini.clue",
+            "dependencies": "",
+            "summary": "Show next key clues in Neovim. Part of the mini.nvim suite.",
+            "license": "MIT"
+        },
+        {
+            "name": "echasnovski/mini.colors",
+            "shorthand": "mini.colors",
+            "dependencies": "",
+            "summary": "Tweak and save any Neovim colorscheme. Part of the mini.nvim suite.",
+            "license": "MIT"
+        },
+        {
+            "name": "echasnovski/mini.comment",
+            "shorthand": "mini.comment",
+            "dependencies": "",
+            "summary": "Comment lines in Neovim. Part of the mini.nvim suite.",
+            "license": "MIT"
+        },
+        {
+            "name": "echasnovski/mini.completion",
+            "shorthand": "mini.completion",
+            "dependencies": "",
+            "summary": "Completion and signature help for Neovim. Part of the mini.nvim suite.",
+            "license": "MIT"
+        },
+        {
+            "name": "echasnovski/mini.cursorword",
+            "shorthand": "mini.cursorword",
+            "dependencies": "",
+            "summary": "Autohighlight word under cursor for Neovim. Part of the mini.nvim suite.",
+            "license": "MIT"
+        },
+        {
+            "name": "echasnovski/mini.deps",
+            "shorthand": "mini.deps",
+            "dependencies": "",
+            "summary": "Git plugin manager for Neovim. Part of the mini.nvim suite.",
+            "license": "MIT"
+        },
+        {
+            "name": "echasnovski/mini.doc",
+            "shorthand": "mini.doc",
+            "dependencies": "",
+            "summary": "Generate Neovim help files. Part of the mini.nvim suite.",
+            "license": "MIT"
+        },
+        {
+            "name": "echasnovski/mini.extra",
+            "shorthand": "mini.extra",
+            "dependencies": "",
+            "summary": "Extra 'mini.nvim' functionality. Part of the mini.nvim suite.",
+            "license": "MIT"
+        },
+        {
+            "name": "echasnovski/mini.files",
+            "shorthand": "mini.files",
+            "dependencies": "",
+            "summary": "Navigate and manipulate the file system in Neovim. Part of the mini.nvim suite.",
+            "license": "MIT"
+        },
+        {
+            "name": "echasnovski/mini.fuzzy",
+            "shorthand": "mini.fuzzy",
+            "dependencies": "",
+            "summary": "Fuzzy matching for Neovim. Part of the mini.nvim suite.",
+            "license": "MIT"
+        },
+        {
+            "name": "echasnovski/mini.hipatterns",
+            "shorthand": "mini.hipatterns",
+            "dependencies": "",
+            "summary": "Neovim: Highlight patterns in text. Part of the mini.nvim suite.",
+            "license": "MIT"
+        },
+        {
+            "name": "echasnovski/mini.hues",
+            "shorthand": "mini.hues",
+            "dependencies": "",
+            "summary": "Neovim: Generate configurable color scheme. Part of the mini.nvim suite.",
+            "license": "MIT"
+        },
+        {
+            "name": "echasnovski/mini.indentscope",
+            "shorthand": "mini.indentscope",
+            "dependencies": "",
+            "summary": "Neovim: Visualize and work with indent scope. Part of the mini.nvim suite.",
+            "license": "MIT"
+        },
+        {
+            "name": "echasnovski/mini.jump",
+            "shorthand": "mini.jump",
+            "dependencies": "",
+            "summary": "Neovim: Jump to next/previous single character. Part of the mini.nvim suite.",
+            "license": "MIT"
+        },
+        {
+            "name": "echasnovski/mini.jump2d",
+            "shorthand": "mini.jump2d",
+            "dependencies": "",
+            "summary": "Neovim: Jump within visible lines. Part of the mini.nvim suite.",
+            "license": "MIT"
+        },
+        {
+            "name": "echasnovski/mini.map",
+            "shorthand": "mini.map",
+            "dependencies": "",
+            "summary": "Neovim: Window with buffer text overview. Part of the mini.nvim suite.",
+            "license": "MIT"
+        },
+        {
+            "name": "echasnovski/mini.misc",
+            "shorthand": "mini.misc",
+            "dependencies": "",
+            "summary": "Neovim: Miscellaneous functions. Part of the mini.nvim suite.",
+            "license": "MIT"
+        },
+        {
+            "name": "echasnovski/mini.move",
+            "shorthand": "mini.move",
+            "dependencies": "",
+            "summary": "Neovim: Move any selection in any direction. Part of the mini.nvim suite.",
+            "license": "MIT"
+        },
+        {
+            "name": "echasnovski/mini.notify",
+            "shorthand": "mini.notify",
+            "dependencies": "",
+            "summary": "Neovim: Show notifications. Part of the mini.nvim suite.",
+            "license": "MIT"
+        },
+        {
+            "name": "echasnovski/mini.operators",
+            "shorthand": "mini.operators",
+            "dependencies": "",
+            "summary": "Neovim: Text edit operators. Part of the mini.nvim suite.",
+            "license": "MIT"
+        },
+        {
+            "name": "echasnovski/mini.pairs",
+            "shorthand": "mini.pairs",
+            "dependencies": "",
+            "summary": "Neovim autopairs. Part of the mini.nvim suite.",
+            "license": "MIT"
+        },
+        {
+            "name": "echasnovski/mini.pick",
+            "shorthand": "mini.pick",
+            "dependencies": "",
+            "summary": "Neovim: Pick anything. Part of the mini.nvim suite.",
+            "license": "MIT"
+        },
+        {
+            "name": "echasnovski/mini.sessions",
+            "shorthand": "mini.sessions",
+            "dependencies": "",
+            "summary": "Neovim: Session management. Part of the mini.nvim suite.",
+            "license": "MIT"
+        },
+        {
+            "name": "echasnovski/mini.splitjoin",
+            "shorthand": "mini.splitjoin",
+            "dependencies": "",
+            "summary": "Neovim: Split and join arguments. Part of the mini.nvim suite.",
+            "license": "MIT"
+        },
+        {
+            "name": "echasnovski/mini.starter",
+            "shorthand": "mini.starter",
+            "dependencies": "",
+            "summary": "Neovim start screen. Part of the mini.nvim suite.",
+            "license": "MIT"
+        },
+        {
+            "name": "echasnovski/mini.statusline",
+            "shorthand": "mini.statusline",
+            "dependencies": "",
+            "summary": "Neovim statusline. Part of the mini.nvim suite.",
+            "license": "MIT"
+        },
+        {
+            "name": "echasnovski/mini.surround",
+            "shorthand": "mini.surround",
+            "dependencies": "",
+            "summary": "Neovim surround actions. Part of the mini.nvim suite.",
+            "license": "MIT"
+        },
+        {
+            "name": "echasnovski/mini.tabline",
+            "shorthand": "mini.tabline",
+            "dependencies": "",
+            "summary": "Neovim tabline. Part of the mini.nvim suite.",
+            "license": "MIT"
+        },
+        {
+            "name": "echasnovski/mini.test",
+            "shorthand": "mini.test",
+            "dependencies": "",
+            "summary": "Test neovim plugins. Part of the mini.nvim suite.",
+            "license": "MIT"
+        },
+        {
+            "name": "echasnovski/mini.trailspace",
+            "shorthand": "mini.trailspace",
+            "dependencies": "",
+            "summary": "Neovim: Trailspace (highlight and remove). Part of the mini.nvim suite.",
+            "license": "MIT"
+        },
+        {
+            "name": "echasnovski/mini.visits",
+            "shorthand": "mini.visits",
+            "dependencies": "",
+            "summary": "Neovim: Track and reuse file system visits. Part of the mini.nvim suite.",
+            "license": "MIT"
+        }
     ]
 }
