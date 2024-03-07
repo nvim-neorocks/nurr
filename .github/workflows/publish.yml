@@ -33,25 +33,11 @@ jobs:
           path: .
           fetch-tags: true
 
-      - name: Install Lua
-        uses: leso-kn/gh-actions-lua@master
-        with:
-          luaVersion: "5.1"
-
-      - name: Install Luarocks
-        uses: hishamhm/gh-actions-luarocks@master
-
-      - name: Print plugin directories and environment
-        run: |
-          ls -a
-          printenv
-
       - name: Get latest Tag
         id: get-release
         run: |
           # Check for semver tags
           TAG=$(git for-each-ref --sort=authordate --format '%(refname)' refs/tags | grep '[0-9]{1,}.[0-9]{1,}.[0-9]{1,}' | sed 's/refs\/tags\/\(.*\)/\1/' | tail -n1)
-
           echo "$TAG"
           if [[ -n "$TAG" ]]; then
             git checkout $TAG
@@ -62,6 +48,22 @@ jobs:
           else
             echo "PUBLISHED_COUNT=NOTHING" >> $GITHUB_ENV
           fi
+
+      - name: Install Lua
+        if: ${{ env.RELEASE_VERSION != '' }}
+        uses: leso-kn/gh-actions-lua@master
+        with:
+          luaVersion: "5.1"
+
+      - name: Install Luarocks
+        if: ${{ env.RELEASE_VERSION != '' }}
+        uses: hishamhm/gh-actions-luarocks@master
+
+      - name: Print plugin directories and environment
+        if: ${{ env.RELEASE_VERSION != '' }}
+        run: |
+          ls -a
+          printenv
 
       - if: ${{ env.RELEASE_VERSION != '' }}
         run: |
