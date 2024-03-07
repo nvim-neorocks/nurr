@@ -43,7 +43,12 @@ jobs:
             echo "Found tags:"
             echo "$TAGS"
           fi
-          TAG="$(echo '$TAGS' | grep -P '[0-9]{1,}.[0-9]{1,}.[0-9]{1,}' | sed 's/refs\/tags\/\(.*\)/\1/' | tail -n1)"
+          SEMVER_TAGS="$(echo '$TAGS' | grep -P '[0-9]{1,}.[0-9]{1,}.[0-9]{1,}' )"
+          if [[ -n "$SEMVER_TAGS" ]]; then
+            echo "Found SemVer tags:"
+            echo "$SEMVER_TAGS"
+          fi
+          TAG="$(echo '$SEMVER_TAGS' | sed 's/refs\/tags\/\(.*\)/\1/' | tail -n1)"
           if [[ -n "$TAG" ]]; then
             echo "Found $TAG"
             git checkout $TAG
