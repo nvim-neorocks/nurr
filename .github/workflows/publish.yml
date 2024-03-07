@@ -52,8 +52,8 @@ jobs:
           # Check for semver tags
           TAG=$(git for-each-ref --sort=authordate --format '%(refname)' refs/tags | grep '[0-9]{1,}.[0-9]{1,}.[0-9]{1,}' | sed 's/refs\/tags\/\(.*\)/\1/' | tail -n1)
 
+          echo "$TAG"
           if [[ -n "$TAG" ]]; then
-            echo "Found tag: $TAG"
             git checkout $TAG
             VERSION=$(sed 's/v\(.*\)/\1/')
             echo "RELEASE_VERSION=${VERSION}" >> $GITHUB_ENV
@@ -67,7 +67,7 @@ jobs:
 
       - name: Publish LuaRock
         uses: nvim-neorocks/luarocks-tag-release@dev-version
-        if: ${{ env.PUBLISHED_COUNT == 0 }}
+        if: ${{ env.PUBLISHED_COUNT == '0' }}
         env:
           LUAROCKS_API_KEY: ${{ secrets.LUAROCKS_API_KEY }}
         with:
