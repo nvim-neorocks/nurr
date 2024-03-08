@@ -401,441 +401,441 @@
         },
         {
             "name": "jackMort/ChatGPT.nvim",
-            "shortname": "ChatGPT.nvim",
+            "shorthand": "ChatGPT.nvim",
             "license": "Apache-2.0",
             "summary": "ChatGPT Neovim Plugin: Effortless Natural Language Generation with OpenAI's ChatGPT API",
             "dependencies": "nui.nvim\nplenary.nvim\ntrouble.nvim\ntelescope.nvim"
         },
         {
             "name": "dpayne/CodeGPT.nvim",
-            "shortname": "CodeGPT.nvim",
+            "shorthand": "CodeGPT.nvim",
             "license": "GPL-3.0",
             "summary": "CodeGPT is a plugin for neovim that provides commands to interact with ChatGPT.",
             "dependencies": "plenary.nvim\nnui.nvim"
         },
         {
             "name": "matbme/JABS.nvim",
-            "shortname": "JABS.nvim",
+            "shorthand": "JABS.nvim",
             "license": "GPL-3.0",
             "summary": "Just Another Buffer Switcher for Neovim",
             "dependencies": ""
         },
         {
             "name": "b0o/SchemaStore.nvim",
-            "shortname": "SchemaStore.nvim",
+            "shorthand": "SchemaStore.nvim",
             "license": "Apache-2.0",
             "summary": "JSON schemas for Neovim",
             "dependencies": ""
         },
         {
             "name": "aznhe21/actions-preview.nvim",
-            "shortname": "actions-preview.nvim",
+            "shorthand": "actions-preview.nvim",
             "license": "GPL-3.0",
             "summary": "Fully customizable previewer for LSP code actions.",
             "dependencies": ""
         },
         {
             "name": "pocco81/auto-save.nvim",
-            "shortname": "auto-save.nvim",
+            "shorthand": "auto-save.nvim",
             "license": "GPL-3.0",
             "summary": "Automatically save your changes in NeoVim",
             "dependencies": ""
         },
         {
             "name": "max397574/better-escape.nvim",
-            "shortname": "better-escape.nvim",
+            "shorthand": "better-escape.nvim",
             "license": "GPL-3.0",
             "summary": "Escape from insert mode without delay when typing",
             "dependencies": ""
         },
         {
             "name": "famiu/bufdelete.nvim",
-            "shortname": "bufdelete.nvim",
+            "shorthand": "bufdelete.nvim",
             "license": "GPL-3.0",
             "summary": "Delete Neovim buffers without losing window layout",
             "dependencies": ""
         },
         {
             "name": "akinsho/bufferline.nvim",
-            "shortname": "bufferline.nvim",
+            "shorthand": "bufferline.nvim",
             "license": "GPL-3.0",
             "summary": "A snazzy bufferline for Neovim",
             "dependencies": "nvim-web-devicons"
         },
         {
             "name": "saadparwaiz1/cmp_luasnip",
-            "shortname": "cmp_luasnip",
+            "shorthand": "cmp_luasnip",
             "license": "Apache-2.0",
             "summary": "luasnip completion source for nvim-cmp",
             "dependencies": "nvim-cmp"
         },
         {
             "name": "nvim-colortils/colortils.nvim",
-            "shortname": "colortils.nvim",
+            "shorthand": "colortils.nvim",
             "license": "GPL-2.0",
             "summary": "Some color utils for neovim",
             "dependencies": ""
         },
         {
             "name": "xeluxee/competitest.nvim",
-            "shortname": "competitest.nvim",
+            "shorthand": "competitest.nvim",
             "license": "LGPL-3.0",
             "summary": "CompetiTest.nvim is a Neovim plugin for Competitive Programming: it can manage and check testcases, download problems and contests from online judges and much more",
             "dependencies": "nui.nvim"
         },
         {
             "name": "elihunter173/dirbuf.nvim",
-            "shortname": "dirbuf.nvim",
+            "shorthand": "dirbuf.nvim",
             "license": "AGPL-3.0",
             "summary": "A file manager for Neovim which lets you edit your filesystem like you edit text",
             "dependencies": ""
         },
         {
             "name": "chipsenkbeil/distant.nvim",
-            "shortname": "distant.nvim",
+            "shorthand": "distant.nvim",
             "license": "Apache-2.0",
             "summary": "Edit files, run programs, and work with LSP on a remote machine from the comfort of your local environment",
             "dependencies": ""
         },
         {
             "name": "Bekaboo/dropbar.nvim",
-            "shortname": "dropbar.nvim",
+            "shorthand": "dropbar.nvim",
             "license": "GPL-3.0",
             "summary": "IDE-like breadcrumbs, out of the box",
             "dependencies": ""
         },
         {
             "name": "folke/edgy.nvim",
-            "shortname": "edgy.nvim",
+            "shorthand": "edgy.nvim",
             "license": "Apache-2.0",
             "summary": "Easily create and manage predefined window layouts, bringing a new edge to your workflow",
             "dependencies": ""
         },
         {
             "name": "ibhagwan/fzf-lua",
-            "shortname": "fzf-lua",
+            "shorthand": "fzf-lua",
             "license": "AGPL-3.0",
             "summary": "Improved fzf.vim written in lua",
             "dependencies": "nvim-web-devicons"
         },
         {
             "name": "f-person/git-blame.nvim",
-            "shortname": "git-blame.nvim",
+            "shorthand": "git-blame.nvim",
             "license": "GPL-3.0",
             "summary": "Git Blame plugin for Neovim written in Lua",
             "dependencies": ""
         },
         {
             "name": "ruifm/gitlinker.nvim",
-            "shortname": "gitlinker.nvim",
+            "shorthand": "gitlinker.nvim",
             "license": "GPL-3.0",
             "summary": "A lua neovim plugin to generate shareable file permalinks (with line ranges) for several git web frontend hosts. Inspired by tpope/vim-fugitive's :GBrowse",
             "dependencies": "plenary.nvim"
         },
         {
             "name": "rmagatti/goto-preview",
-            "shortname": "goto-preview",
+            "shorthand": "goto-preview",
             "license": "Apache-2.0",
             "summary": "A small Neovim plugin for previewing definitions using floating windows.",
             "dependencies": ""
         },
         {
             "name": "pocco81/high-str.nvim",
-            "shortname": "high-str.nvim",
+            "shorthand": "high-str.nvim",
             "license": "GPL-3.0",
             "summary": "A NeoVim plugin for highlighting visual selections like in a normal document editor!",
             "dependencies": ""
         },
         {
             "name": "frabjous/knap",
-            "shortname": "knap",
+            "shorthand": "knap",
             "license": "GPL-3.0",
             "summary": "Neovim plugin for creating live-updating-as-you-type previews of LaTeX, markdown, and other files in the viewer of your choice.",
             "dependencies": ""
         },
         {
             "name": "folke/lazy.nvim",
-            "shortname": "lazy.nvim",
+            "shorthand": "lazy.nvim",
             "license": "Apache-2.0",
             "summary": "A modern plugin manager for Neovim",
             "dependencies": ""
         },
         {
             "name": "huggingface/llm.nvim",
-            "shortname": "llm.nvim",
+            "shorthand": "llm.nvim",
             "license": "Apache-2.0",
             "summary": "LLM powered development for Neovim",
             "dependencies": ""
         },
         {
             "name": "ray-x/lsp_signature.nvim",
-            "shortname": "lsp_signature.nvim",
+            "shorthand": "lsp_signature.nvim",
             "license": "Apache-2.0",
             "summary": "LSP signature hint as you type",
             "dependencies": ""
         },
         {
             "name": "williamboman/mason-lspconfig.nvim",
-            "shortname": "mason-lspconfig.nvim",
+            "shorthand": "mason-lspconfig.nvim",
             "license": "Apache-2.0",
             "summary": "Extension to mason.nvim that makes it easier to use lspconfig with mason.nvim.",
             "dependencies": "mason.nvim\nnvim-lspconfig"
         },
         {
             "name": "jay-babu/mason-nvim-dap.nvim",
-            "shortname": "mason-nvim-dap.nvim",
+            "shorthand": "mason-nvim-dap.nvim",
             "license": "AGPL-3.0",
             "summary": "Bridges mason.nvim with the nvim-dap plugins - making it easier to use both plugins together.",
             "dependencies": "mason.nvim\nnvim-dap"
         },
         {
             "name": "williamboman/mason.nvim",
-            "shortname": "mason.nvim",
+            "shorthand": "mason.nvim",
             "license": "Apache-2.0",
             "summary": "Portable package manager for Neovim that runs everywhere Neovim runs. Easily install and manage LSP servers, DAP servers, linters, and formatters.",
             "dependencies": ""
         },
         {
             "name": "marko-cerovac/material.nvim",
-            "shortname": "material.nvim",
+            "shorthand": "material.nvim",
             "license": "GPL-2.0",
             "summary": "Material colorscheme for NeoVim written in Lua with built-in support for native LSP, TreeSitter and many more plugins",
             "dependencies": ""
         },
         {
             "name": "jakewvincent/mkdnflow.nvim",
-            "shortname": "mkdnflow.nvim",
+            "shorthand": "mkdnflow.nvim",
             "license": "GPL-3.0",
             "summary": "Fluent navigation and management of markdown notebooks",
             "dependencies": ""
         },
         {
             "name": "fedepujol/move.nvim",
-            "shortname": "move.nvim",
+            "shorthand": "move.nvim",
             "license": "GPL-3.0",
             "summary": "Gain the power to move lines and blocks and auto-indent them!",
             "dependencies": ""
         },
         {
             "name": "folke/neoconf.nvim",
-            "shortname": "neoconf.nvim",
+            "shorthand": "neoconf.nvim",
             "license": "Apache-2.0",
             "summary": "Neovim plugin to manage global and project-local settings",
             "dependencies": ""
         },
         {
             "name": "Shatur/neovim-ayu",
-            "shortname": "neovim-ayu",
+            "shorthand": "neovim-ayu",
             "license": "GPL-3.0",
             "summary": "Ayu theme for Neovim.",
             "dependencies": ""
         },
         {
             "name": "Shatur/neovim-session-manager",
-            "shortname": "neovim-session-manager",
+            "shorthand": "neovim-session-manager",
             "license": "GPL-3.0",
             "summary": "A simple wrapper around :mksession.",
             "dependencies": "plenary.nvim"
         },
         {
             "name": "folke/noice.nvim",
-            "shortname": "noice.nvim",
+            "shorthand": "noice.nvim",
             "license": "Apache-2.0",
             "summary": "Highly experimental plugin that completely replaces the UI for messages, cmdline and the popupmenu.",
             "dependencies": "nui.nvim\nnvim-notify"
         },
         {
             "name": "rcarriga/nvim-notify",
-            "shortname": "nvim-notify",
+            "shorthand": "nvim-notify",
             "license": "MIT",
             "summary": "A fancy, configurable, notification manager for NeoVim",
             "dependencies": ""
         },
         {
             "name": "mfussenegger/nvim-dap-python",
-            "shortname": "nvim-dap-python",
+            "shorthand": "nvim-dap-python",
             "license": "GPL-3.0",
             "summary": "An extension for nvim-dap, providing default configurations for python and methods to debug individual test methods or classes.",
             "dependencies": "nvim-dap"
         },
         {
             "name": "theHamsta/nvim-dap-virtual-text",
-            "shortname": "nvim-dap-virtual-text",
+            "shorthand": "nvim-dap-virtual-text",
             "license": "GPL-3.0",
             "summary": "Adds virtual text support to nvim-dap.",
             "dependencies": "nvim-dap\nnvim-treesitter"
         },
         {
             "name": "kndndrj/nvim-dbee",
-            "shortname": "nvim-dbee",
+            "shorthand": "nvim-dbee",
             "license": "GPL-3.0",
             "summary": "Interactive database client for neovim",
             "dependencies": "nui.nvim"
         },
         {
             "name": "vijaymarupudi/nvim-fzf",
-            "shortname": "nvim-fzf",
+            "shorthand": "nvim-fzf",
             "license": "AGPL-3.0",
             "summary": "A Lua API for using fzf in neovim.",
             "dependencies": ""
         },
         {
             "name": "mfussenegger/nvim-jdtls",
-            "shortname": "nvim-jdtls",
+            "shorthand": "nvim-jdtls",
             "license": "GPL-3.0",
             "summary": "Extensions for the built-in LSP support in Neovim for eclipse.jdt.ls",
             "dependencies": ""
         },
         {
             "name": "mfussenegger/nvim-lint",
-            "shortname": "nvim-lint",
+            "shorthand": "nvim-lint",
             "license": "GPL-3.0",
             "summary": "An asynchronous linter plugin for Neovim complementary to the built-in Language Server Protocol support.",
             "dependencies": ""
         },
         {
             "name": "scalameta/nvim-metals",
-            "shortname": "nvim-metals",
+            "shorthand": "nvim-metals",
             "license": "Apache-2.0",
             "summary": "A Metals plugin for Neovim",
             "dependencies": "plenary.nvim"
         },
         {
             "name": "SmiteshP/nvim-navic",
-            "shortname": "nvim-navic",
+            "shorthand": "nvim-navic",
             "license": "Apache-2.0",
             "summary": "Simple winbar/statusline plugin that shows your current code context",
             "dependencies": "nvim-lspconfig"
         },
         {
             "name": "mfussenegger/nvim-treehopper",
-            "shortname": "nvim-treehopper",
+            "shorthand": "nvim-treehopper",
             "license": "GPL-3.0",
             "summary": "Region selection with hints on the AST nodes of a document powered by treesitter",
             "dependencies": ""
         },
         {
             "name": "epwalsh/obsidian.nvim",
-            "shortname": "obsidian.nvim",
+            "shorthand": "obsidian.nvim",
             "license": "Apache-2.0",
             "summary": "Obsidian + Neovim",
             "dependencies": "plenary.nvim"
         },
         {
             "name": "vuki656/package-info.nvim",
-            "shortname": "package-info.nvim",
+            "shorthand": "package-info.nvim",
             "license": "GPL-3.0",
             "summary": "All the npm/yarn/pnpm commands I don't want to type",
             "dependencies": "nui.nvim"
         },
         {
             "name": "folke/persistence.nvim",
-            "shortname": "persistence.nvim",
+            "shorthand": "persistence.nvim",
             "license": "Apache-2.0",
             "summary": "Simple session management for Neovim",
             "dependencies": ""
         },
         {
             "name": "anuvyklack/pretty-fold.nvim",
-            "shortname": "pretty-fold.nvim",
+            "shorthand": "pretty-fold.nvim",
             "license": "Apache-2.0",
             "summary": "Foldtext customization in Neovim",
             "dependencies": ""
         },
         {
             "name": "ahmedkhalf/project.nvim",
-            "shortname": "project.nvim",
+            "shorthand": "project.nvim",
             "license": "Apache-2.0",
             "summary": "The superior project management solution for neovim.",
             "dependencies": ""
         },
         {
             "name": "HiPhish/rainbow-delimiters.nvim",
-            "shortname": "rainbow-delimiters.nvim",
+            "shorthand": "rainbow-delimiters.nvim",
             "license": "Apache-2.0",
             "summary": "Rainbow delimiters for Neovim with Tree-sitter",
             "dependencies": ""
         },
         {
             "name": "filipdutescu/renamer.nvim",
-            "shortname": "renamer.nvim",
+            "shorthand": "renamer.nvim",
             "license": "Apache-2.0",
             "summary": "VS Code-like renaming UI for Neovim, writen in Lua.",
             "dependencies": "plenary.nvim"
         },
         {
             "name": "Xuyuanp/scrollbar.nvim",
-            "shortname": "scrollbar.nvim",
+            "shorthand": "scrollbar.nvim",
             "license": "Apache-2.0",
             "summary": "scrollbar for neovim",
             "dependencies": ""
         },
         {
             "name": "sourcegraph/sg.nvim",
-            "shortname": "sg.nvim",
+            "shorthand": "sg.nvim",
             "license": "Apache-2.0",
             "summary": "Experimental Sourcegraph + Cody plugin for Neovim",
             "dependencies": ""
         },
         {
             "name": "startup-nvim/startup.nvim",
-            "shortname": "startup.nvim",
+            "shorthand": "startup.nvim",
             "license": "GPL-2.0",
             "summary": "A highly configurable neovim startup screen",
             "dependencies": "telescope.nvim\nplenary.nvim"
         },
         {
             "name": "gbprod/substitute.nvim",
-            "shortname": "substitute.nvim",
+            "shorthand": "substitute.nvim",
             "license": "WTFPL",
             "summary": "Neovim plugin introducing a new operators motions to quickly replace and exchange text.",
             "dependencies": ""
         },
         {
             "name": "abecodes/tabout.nvim",
-            "shortname": "tabout.nvim",
+            "shorthand": "tabout.nvim",
             "license": "Unlicense",
             "summary": "tabout plugin for neovim",
             "dependencies": "nvim-treesitter"
         },
         {
             "name": "ThemerCorp/themer.lua",
-            "shortname": "themer.lua",
+            "shorthand": "themer.lua",
             "license": "GPL-3.0",
             "summary": "A simple, minimal highlighter plugin for neovim",
             "dependencies": ""
         },
         {
             "name": "akinsho/toggleterm.nvim",
-            "shortname": "toggleterm.nvim",
+            "shorthand": "toggleterm.nvim",
             "license": "GPL-3.0",
             "summary": "A neovim lua plugin to help easily manage multiple terminal windows",
             "dependencies": ""
         },
         {
             "name": "pocco81/true-zen.nvim",
-            "shortname": "true-zen.nvim",
+            "shorthand": "true-zen.nvim",
             "license": "GPL-3.0",
             "summary": "Clean and elegant distraction-free writing for NeoVim",
             "dependencies": ""
         },
         {
             "name": "gbprod/yanky.nvim",
-            "shortname": "yanky.nvim",
+            "shorthand": "yanky.nvim",
             "license": "WTFPL",
             "summary": "Improved Yank and Put functionalities for Neovim",
             "dependencies": ""
         },
         {
             "name": "folke/zen-mode.nvim",
-            "shortname": "zen-mode.nvim",
+            "shorthand": "zen-mode.nvim",
             "license": "Apache-2.0",
             "summary": "Distraction-free coding for Neovim",
             "dependencies": ""
         },
         {
             "name": "zk-org/zk-nvim",
-            "shortname": "zk-nvim",
+            "shorthand": "zk-nvim",
             "license": "GPL-3.0",
             "summary": "Neovim extension for zk",
             "dependencies": ""
