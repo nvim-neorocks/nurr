@@ -30,14 +30,14 @@ jobs:
             echo "Found tags:"
             echo "$TAGS"
           fi
-          TAG="$(git for-each-ref --sort=authordate --format '%(refname)' refs/tags | grep -P '[0-9]{1,}.[0-9]{1,}.[0-9]{1,}' | sed 's/refs\/tags\/\(.*\)/\1/' | tail -n1)"
+          TAG="$(git for-each-ref --sort=authordate --format '%(refname)' refs/tags | sed 's/refs\/tags\/\(.*\)/\1/' | grep -P '^[v]*[0-9]{1,}.[0-9]{1,}.[0-9]{1,}' | tail -n1)"
           if [[ -z "$TAG" ]]; then
             # Try without patch
-            TAG="$(git for-each-ref --sort=authordate --format '%(refname)' refs/tags | grep -P '[0-9]{1,}.[0-9]{1,}' | sed 's/refs\/tags\/\(.*\)/\1/' | tail -n1)"
+            TAG="$(git for-each-ref --sort=authordate --format '%(refname)' refs/tags | sed 's/refs\/tags\/\(.*\)/\1/' | grep -P '^[v]*[0-9]{1,}.[0-9]{1,}' | tail -n1)"
           fi
           if [[ -z "$TAG" ]]; then
             # Try without minor
-            TAG="$(git for-each-ref --sort=authordate --format '%(refname)' refs/tags | grep -P '[0-9]{1,}' | sed 's/refs\/tags\/\(.*\)/\1/' | tail -n1)"
+            TAG="$(git for-each-ref --sort=authordate --format '%(refname)' refs/tags | sed 's/refs\/tags\/\(.*\)/\1/' | grep -P '^[v]*[0-9]{1,}' | tail -n1)"
           fi
           if [[ -n "$TAG" ]]; then
             echo "Found $TAG"
