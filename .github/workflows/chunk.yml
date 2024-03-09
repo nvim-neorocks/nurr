@@ -1,0 +1,30 @@
+---
+
+on:
+  push:
+    branches:
+      - 'main'
+  schedule:
+    # Runs every 4 hours
+    - cron: "0 */4 * * *"
+  workflow_dispatch:
+
+jobs:
+  chunk-publish-workflows:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Trigger workflows for each chunk
+        run: |
+          jq '{plugins: .plugins | _nwise(256)}' plugins.json | jq -s '{chunks: .}' > chunks.json
+          # The above command outputs a nested list
+          CHUNK_COUNT=$(jq '.chunks | length' chunks.json)
+          for ((i = 0 ; i < CHUNK_COUNT ; i++ )); do
+            PAYLOAD=$(jq -c --argjson e "$i" '.chunks[$e]' chunks.json)
+            curl -X POST -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+            -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/repos/nvim-neorocks/nurr/dispatches" \
+            --data @- <<EOF
+          {"event_type":"chunked_trigger","client_payload":${PAYLOAD}}
+          EOF
+          done
