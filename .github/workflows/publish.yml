@@ -19,7 +19,6 @@ jobs:
         with:
           repository: ${{ matrix.plugins.name }}
           path: .
-          fetch-tags: true
           fetch-depth: 0
 
       - name: Get latest Tag
