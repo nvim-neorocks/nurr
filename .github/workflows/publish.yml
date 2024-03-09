@@ -12,7 +12,7 @@ jobs:
     steps:
       - id: set-matrix
         run: |
-          CHUNK="${{ github.event.client_payload }}"
+          CHUNK="${{ toJSON(github.event.client_payload) }}"
           echo $CHUNK
           echo $CHUNK > chunk.json
           echo "MATRIX=$(cat ./chunk.json | tr -d '\n\r')" >> $GITHUB_OUTPUT
