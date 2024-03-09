@@ -8,15 +8,12 @@ jobs:
   generate-matrix:
     runs-on: ubuntu-latest
     outputs:
-      matrix: ${{ steps.set-matrix.outputs.matrix }}
+      plugins: ${{ steps.set-matrix.outputs.plugins }}
     steps:
       - id: set-matrix
-        env:
-          CHUNK: ${{ github.event.client_payload }}
         run: |
-          echo $CHUNK
-          echo $CHUNK > chunk.json
-          echo "MATRIX=$(cat ./chunk.json | tr -d '\n\r')" >> $GITHUB_OUTPUT
+          PLUGINS='${{ toJSON(github.event.client_payload.plugins) }}'
+          echo ::set-output name=plugins::${PLUGINS}
 
   publish:
     runs-on: ubuntu-latest
@@ -24,7 +21,7 @@ jobs:
     strategy:
       fail-fast: false
       max-parallel: 10 # Don't DDOS the luarocks servers
-      matrix: ${{ fromJson(needs.generate-matrix.outputs.matrix) }}
+      matrix: ${{ fromJson(needs.generate-matrix.outputs.plugins) }}
 
     steps:
       - name: Checkout plugin repository
