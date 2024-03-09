@@ -17,7 +17,7 @@ jobs:
       - name: Checkout plugin repository
         uses: actions/checkout@v4
         with:
-          repository: ${{ matrix.plugins.name }}
+          repository: ${{ matrix.plugin.name }}
           path: .
           fetch-depth: 0
 
@@ -46,7 +46,7 @@ jobs:
             echo "RELEASE_VERSION=${VERSION}" >> $GITHUB_ENV
             echo "GITHUB_REF_TYPE_OVERRIDE=tag" >> $GITHUB_ENV
             echo "GITHUB_REF_NAME_OVERRIDE=$TAG" >> $GITHUB_ENV
-            echo "GITHUB_REPOSITORY_OVERRIDE=${{ matrix.plugins.name }}" >> $GITHUB_ENV
+            echo "GITHUB_REPOSITORY_OVERRIDE=${{ matrix.plugin.name }}" >> $GITHUB_ENV
           else
             echo "PUBLISHED_COUNT=NOTHING" >> $GITHUB_ENV
           fi
@@ -69,7 +69,7 @@ jobs:
 
       - if: ${{ env.RELEASE_VERSION != '' }}
         run: |
-          echo "PUBLISHED_COUNT=$(luarocks --only-server=https://luarocks.org/manifests/neorocks search ${{ matrix.plugins.shorthand }} ${{ env.RELEASE_VERSION }} --porcelain | wc -l)" >> $GITHUB_ENV
+          echo "PUBLISHED_COUNT=$(luarocks --only-server=https://luarocks.org/manifests/neorocks search ${{ matrix.plugin.shorthand }} ${{ env.RELEASE_VERSION }} --porcelain | wc -l)" >> $GITHUB_ENV
 
       - name: Publish LuaRock
         uses: nvim-neorocks/luarocks-tag-release@v5
@@ -77,11 +77,11 @@ jobs:
         env:
           LUAROCKS_API_KEY: ${{ secrets.LUAROCKS_API_KEY }}
         with:
-          name: ${{ matrix.plugins.shorthand }}
-          dependencies: ${{ matrix.plugins.dependencies }}
+          name: ${{ matrix.plugin.shorthand }}
+          dependencies: ${{ matrix.plugin.dependencies }}
           version: ${{ env.RELEASE_VERSION }}
-          summary: ${{ matrix.plugins.summary }}
-          license: ${{ matrix.plugins.license }}
+          summary: ${{ matrix.plugin.summary }}
+          license: ${{ matrix.plugin.license }}
           labels: neovim
           test_interpreters: "" # Don't try to run busted tests
           extra_luarocks_args: |

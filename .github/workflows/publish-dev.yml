@@ -17,11 +17,11 @@ jobs:
       - name: Checkout plugin repository
         uses: actions/checkout@v4
         with:
-          repository: ${{ matrix.plugins.name }}
+          repository: ${{ matrix.plugin.name }}
           path: .
 
       - run: |
-          echo "GITHUB_REPOSITORY_OVERRIDE=${{ matrix.plugins.name }}" >> $GITHUB_ENV
+          echo "GITHUB_REPOSITORY_OVERRIDE=${{ matrix.plugin.name }}" >> $GITHUB_ENV
           echo "GITHUB_SHA_OVERRIDE=$(git rev-parse HEAD)" >> $GITHUB_ENV
 
       - name: Publish Development LuaRock
@@ -29,11 +29,11 @@ jobs:
         env:
           LUAROCKS_API_KEY: ${{ secrets.LUAROCKS_API_KEY }}
         with:
-          name: ${{ matrix.plugins.shorthand }}
-          dependencies: ${{ matrix.plugins.dependencies }}
+          name: ${{ matrix.plugin.shorthand }}
+          dependencies: ${{ matrix.plugin.dependencies }}
           version: "scm"
-          summary: ${{ matrix.plugins.summary }}
-          license: ${{ matrix.plugins.license }}
+          summary: ${{ matrix.plugin.summary }}
+          license: ${{ matrix.plugin.license }}
           labels: neovim
           test_interpreters: "" # Don't try to run busted tests
           extra_luarocks_args: |
