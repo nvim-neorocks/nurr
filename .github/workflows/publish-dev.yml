@@ -23,6 +23,7 @@ jobs:
     needs: generate-matrix
     strategy:
       fail-fast: false
+      max-parallel: 10 # Don't DDOS the luarocks servers
       matrix: ${{ fromJson(needs.generate-matrix.outputs.matrix) }}
 
     steps:
