@@ -12,8 +12,10 @@ jobs:
     steps:
       - id: set-matrix
         run: |
-          PLUGINS='${{ toJSON(github.event.client_payload.plugins) }}'
-          echo ::set-output name=plugins::${PLUGINS}
+          CHUNK="${{ github.event.client_payload }}"
+          echo $CHUNK
+          echo $CHUNK > chunk.json
+          echo "MATRIX=$(cat ./chunk.json | tr -d '\n\r')" >> $GITHUB_OUTPUT
 
   publish:
     runs-on: ubuntu-latest
