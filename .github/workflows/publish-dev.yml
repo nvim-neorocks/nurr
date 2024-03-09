@@ -29,7 +29,7 @@ jobs:
           echo "GITHUB_SHA_OVERRIDE=$(git rev-parse HEAD)" >> $GITHUB_ENV
 
       - name: Publish Development LuaRock
-        uses: nvim-neorocks/luarocks-tag-release@v5
+        uses: nvim-neorocks/luarocks-tag-release@dev-check-sha
         env:
           LUAROCKS_API_KEY: ${{ secrets.LUAROCKS_API_KEY }}
         with:
