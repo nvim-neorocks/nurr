@@ -4,6 +4,10 @@ on:
   repository_dispatch:
     types: [chunked_publish]
 
+concurrency:
+  group: publish-dev-releases
+  cancel-in-progress: true
+
 jobs:
   publish:
     runs-on: ubuntu-latest
