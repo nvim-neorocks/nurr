@@ -32,6 +32,14 @@ jobs:
           fi
           TAG="$(git for-each-ref --sort=authordate --format '%(refname)' refs/tags | grep -P '[0-9]{1,}.[0-9]{1,}.[0-9]{1,}' | sed 's/refs\/tags\/\(.*\)/\1/' | tail -n1)"
           if [[ -n "$TAG" ]]; then
+            # Try without patch
+            TAG="$(git for-each-ref --sort=authordate --format '%(refname)' refs/tags | grep -P '[0-9]{1,}.[0-9]{1,}' | sed 's/refs\/tags\/\(.*\)/\1/' | tail -n1)"
+          end
+          if [[ -n "$TAG" ]]; then
+            # Try without minor
+            TAG="$(git for-each-ref --sort=authordate --format '%(refname)' refs/tags | grep -P '[0-9]{1,}' | sed 's/refs\/tags\/\(.*\)/\1/' | tail -n1)"
+          end
+          if [[ -n "$TAG" ]]; then
             echo "Found $TAG"
             git checkout $TAG
             VERSION=$(echo "$TAG" | sed 's/v\(.*\)/\1/')
