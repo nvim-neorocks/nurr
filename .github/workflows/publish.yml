@@ -5,25 +5,14 @@ on:
     types: [chunked_trigger]
 
 jobs:
-  generate-matrix:
-    runs-on: ubuntu-latest
-    outputs:
-      plugins: ${{ steps.set-matrix.outputs.plugins }}
-    steps:
-      - id: set-matrix
-        run: |
-          CHUNK="${{ toJSON(github.event.client_payload) }}"
-          echo $CHUNK
-          echo $CHUNK > chunk.json
-          echo "MATRIX=$(cat ./chunk.json | tr -d '\n\r')" >> $GITHUB_OUTPUT
 
   publish:
     runs-on: ubuntu-latest
-    needs: generate-matrix
     strategy:
       fail-fast: false
       max-parallel: 10 # Don't DDOS the luarocks servers
-      matrix: ${{ fromJson(needs.generate-matrix.outputs.plugins) }}
+      matrix: 
+        plugin: ${{ github.event.client_payload.plugins }}
 
     steps:
       - name: Checkout plugin repository
