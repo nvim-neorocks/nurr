@@ -2,7 +2,7 @@ name: Publish Dev Release LuaRocks
 
 on:
   repository_dispatch:
-    types: [chunked_trigger]
+    types: [chunked_publish]
 
 jobs:
   publish:
@@ -10,7 +10,8 @@ jobs:
     strategy:
       fail-fast: false
       max-parallel: 10 # Don't DDOS the luarocks servers
-      matrix: ${{ fromJson(github.event.client_payload) }}
+      matrix: 
+        plugin: ${{ github.event.client_payload.plugins }}
 
     steps:
       - name: Checkout plugin repository

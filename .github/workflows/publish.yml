@@ -2,10 +2,9 @@ name: Publish semver tags to LuaRocks
 
 on:
   repository_dispatch:
-    types: [chunked_trigger]
+    types: [chunked_publish]
 
 jobs:
-
   publish:
     runs-on: ubuntu-latest
     strategy:

@@ -21,7 +21,7 @@ jobs:
           CHUNK_COUNT=$(jq '.chunks | length' chunks.json)
           for ((i = 0 ; i < CHUNK_COUNT ; i++ )); do
             PAYLOAD=$(jq -c --argjson e "$i" '.chunks[$e]' chunks.json)
-            JSON_PAYLOAD=$(jq -nc --argjson data "$PAYLOAD" '{"event_type":"chunked_trigger","client_payload":$data}')
+            JSON_PAYLOAD=$(jq -nc --argjson data "$PAYLOAD" '{"event_type":"chunked_publish","client_payload":$data}')
             curl -X POST -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
             -H "Accept: application/vnd.github+json" \
             "https://api.github.com/repos/nvim-neorocks/nurr/dispatches" \
