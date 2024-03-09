@@ -31,11 +31,11 @@ jobs:
             echo "$TAGS"
           fi
           TAG="$(git for-each-ref --sort=authordate --format '%(refname)' refs/tags | grep -P '[0-9]{1,}.[0-9]{1,}.[0-9]{1,}$' | sed 's/refs\/tags\/\(.*\)/\1/' | tail -n1)"
-          if [[ -n "$TAG" ]]; then
+          if [[ -z "$TAG" ]]; then
             # Try without patch
             TAG="$(git for-each-ref --sort=authordate --format '%(refname)' refs/tags | grep -P '[0-9]{1,}.[0-9]{1,}$' | sed 's/refs\/tags\/\(.*\)/\1/' | tail -n1)"
           end
-          if [[ -n "$TAG" ]]; then
+          if [[ -z "$TAG" ]]; then
             # Try without minor
             TAG="$(git for-each-ref --sort=authordate --format '%(refname)' refs/tags | grep -P '[0-9]{1,}$' | sed 's/refs\/tags\/\(.*\)/\1/' | tail -n1)"
           end
