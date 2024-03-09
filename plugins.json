@@ -1867,7 +1867,7 @@
             "shorthand": "telescope-undo.nvim",
             "license": "MIT",
             "summary": "A telescope extension to view and search your undo tree",
-            "dependencies": "plenary.nvim\ntelescope-undo.nvim"
+            "dependencies": "plenary.nvim"
         },
         {
             "name": "levouh/tint.nvim",
