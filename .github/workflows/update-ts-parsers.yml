@@ -1,0 +1,37 @@
+---
+name: Update tree-sitter grammars JSON
+
+# Prevent concurrent auto-commits
+concurrency:
+  group: update-tree-sitter-grammars-json
+  cancel-in-progress: true
+
+on:
+  push:
+    branches:
+      - 'main'
+  schedule:
+    # Runs every 4 hours
+    - cron: "0 */4 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}
+      - name: Install Luarocks
+        uses: hishamhm/gh-actions-luarocks@master
+      - uses: rhysd/action-setup-vim@v1
+        with:
+          neovim: true
+          version: nightly
+      - name: Update tree-sitter grammars JSON
+        run: ./scripts/generate-ts-json.lua | jq > tree-sitter-parsers.json
+      - name: commit
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update tree-sitter grammars.json"
+          file_pattern: "tree-sitter-grammars.json"
