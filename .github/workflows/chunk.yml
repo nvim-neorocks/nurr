@@ -4,6 +4,11 @@ on:
   push:
     branches:
       - 'main'
+    paths:
+      - 'plugins.json'
+      - .github/workflows/chunk.yml
+      - .github/workflows/publish.yml
+      - .github/workflows/publish-dev.yml
   schedule:
     # Runs every 4 hours
     - cron: "0 */4 * * *"
