@@ -16,9 +16,10 @@ action.
 
 The plugin metadata are stored in a [plugins.json](./plugins.json) file, which
 is currently updated manually.
-A [chunk workflow](./.github/workflows/chunk.yml) reads the file and chunks it into
-a set of 256 (the max number of outputs per job). Each chunk is dispatched to an update
-workflow, which uses the chunk it receives as the input for a matrix build.
+A [chunk workflow](./.github/workflows/chunk.yml) reads the plugins.json file and 
+chunks the plugins into sets of 256 (the max number of outputs per job).
+Each chunk is dispatched to an update workflow, 
+which uses the chunk it receives as the input for a matrix build.
 
 ### Tree-sitter parsers [WIP]
 
