@@ -7,6 +7,21 @@ This repository contains a CI which runs every 4 hours, enumerating a set of cur
 and publishing them to the `neovim` manifest on `luarocks.org` - this keeps the root manifest clean
 and allows the original authors to publish their own plugins if they so choose.
 
+## How it works
+
+Plugins are published using the [luarocks-tag-release](https://github.com/nvim-neorocks/luarocks-tag-release)
+action.
+
+### Plugins
+
+The plugin metadata are stored in a [plugins.json](./plugins.json) file, which
+is currently updated manually.
+A [chunk workflow](./.github/workflows/chunk.yml) reads the file and chunks it into
+a set of 256 (the max number of outputs per job). Each chunk is dispatched to an update
+workflow, which uses the chunk it receives as the input for a matrix build.
+
+### Tree-sitter parsers [WIP]
+
 > [!IMPORTANT]
 >
 > The [tree-sitter-parsers.json](./tree-sitter-parsers.json) file is
