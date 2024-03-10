@@ -10,6 +10,9 @@ on:
   push:
     branches:
       - 'main'
+    paths:
+      - 'scripts/generate-ts-json.lua'
+      - .github/workflows/update-ts-parsers.yml
   schedule:
     # Runs every 4 hours
     - cron: "0 */4 * * *"
