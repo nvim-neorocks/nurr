@@ -34,10 +34,10 @@ jobs:
         with:
           neovim: true
           version: nightly
-      - name: Update tree-sitter grammars JSON
+      - name: Update tree-sitter parsers JSON
         run: ./scripts/generate-ts-json.lua | jq > tree-sitter-parsers.json
       - name: commit
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "chore: update tree-sitter grammars.json"
-          file_pattern: "tree-sitter-grammars.json"
+          commit_message: "chore: update tree-sitter-parsers.json"
+          file_pattern: "tree-sitter-parsers.json"
