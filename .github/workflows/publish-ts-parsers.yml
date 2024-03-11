@@ -7,7 +7,7 @@ on:
       - 'main'
     paths:
       - tree-sitter-parsers.json
-      - .github/workflows/update-ts-parsers.yml
+      - .github/workflows/publish-ts-parsers.yml
   workflow_dispatch:
 
 jobs:
