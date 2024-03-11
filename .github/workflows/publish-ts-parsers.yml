@@ -10,6 +10,11 @@ on:
       - .github/workflows/publish-ts-parsers.yml
   workflow_dispatch:
 
+  # TODO: Remove
+concurrency:
+  group: publish-tree-sitter-parsers
+  cancel-in-progress: true
+
 jobs:
   generate-matrix:
     runs-on: ubuntu-latest
