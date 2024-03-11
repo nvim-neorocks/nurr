@@ -110,7 +110,7 @@ jobs:
           then
             sed -i 's/generate_requires_npm\s=\sfalse/generate_requires_npm = true/g' rockspec.template
           fi
-          if [[ "${{ matrix.parsers.install_info.location }}" == "true" ]]; 
+          if [[ -n "${{ matrix.parsers.install_info.location }}" ]]; 
           then
             sed -i 's/location\s=\snil/location = ${{ env.matrix.parsers.install_info.location }}/g' rockspec.template
           fi
