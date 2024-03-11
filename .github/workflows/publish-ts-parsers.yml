@@ -14,7 +14,7 @@ jobs:
   generate-matrix:
     runs-on: ubuntu-latest
     outputs:
-      parsers: ${{ steps.set-matrix.outputs.parsers }}
+      matrix: ${{ steps.set-matrix.outputs.matrix }}
     steps:
       - uses: actions/checkout@v4
       - id: set-matrix
@@ -26,9 +26,9 @@ jobs:
     strategy:
       fail-fast: false
       max-parallel: 10 # Don't DDOS the luarocks servers
-      matrix: ${{ fromJson(needs.generate-matrix.outputs.parsers) }}
+      matrix: ${{ fromJson(needs.generate-matrix.outputs.matrix) }}
     steps:
       - name: Checkout parser repository
         run: |
-          git clone ${{ matrix.parsers.url }}
+          git clone ${{ matrix.parsers.install_info.url }}
           ls
