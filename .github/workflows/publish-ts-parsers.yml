@@ -37,6 +37,7 @@ jobs:
       - name: Clone parser repository
         run: |
           REPO_URL=$(echo "${{ matrix.parsers.install_info.url }}" | sed 's/\.git$//')
+          echo "REPO_URL=$REPO_URL" >> $GITHUB_ENV
           git clone --filter=blob:none "$REPO_URL.git" .
 
       - name: Get latest Tag and parser name
@@ -66,8 +67,7 @@ jobs:
             echo "RELEASE_VERSION=${VERSION}" >> $GITHUB_ENV
             echo "GITHUB_REF_TYPE_OVERRIDE=tag" >> $GITHUB_ENV
             echo "GITHUB_REF_NAME_OVERRIDE=$TAG" >> $GITHUB_ENV
-            # TODO: Get repo from url
-            # echo "GITHUB_REPOSITORY_OVERRIDE=${{ matrix.parsers.name }}" >> $GITHUB_ENV
+            echo "GITHUB_REPOSITORY_OVERRIDE="$(echo "${{ env.REPO_URL }}" | awk -F/ '{print $4"/"$5}')" >> $GITHUB_ENV
           else
             echo "PUBLISHED_COUNT=NOTHING" >> $GITHUB_ENV
           fi
@@ -123,6 +123,8 @@ jobs:
       - name: Publish LuaRock (TODO)
         # uses: nvim-neorocks/luarocks-tag-release@v5
         if: ${{ env.PUBLISHED_COUNT == '0' }}
-        run: echo ${{ env.PARSER_NAME }}
+        run: |
+          echo ${{ env.PARSER_NAME }}
+          echo "${{ env.GITHUB_REF_TYPE_OVERRIDE }}"
 
 
