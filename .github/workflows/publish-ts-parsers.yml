@@ -28,7 +28,36 @@ jobs:
       max-parallel: 10 # Don't DDOS the luarocks servers
       matrix: ${{ fromJson(needs.generate-matrix.outputs.matrix) }}
     steps:
-      - name: Checkout parser repository
+      - name: Clone parser repository
         run: |
-          git clone ${{ matrix.parsers.install_info.url }}
-          ls
+          git clone --filter=blob:none ${{ matrix.parsers.install_info.url }}
+      - name: Get latest Tag
+        id: get-release
+        run: |
+          # Check for semver tags
+          TAGS="$(git for-each-ref --sort=authordate --format '%(refname)' refs/tags )"
+          if [[ -n "$TAGS" ]]; then
+            echo "Found tags:"
+            echo "$TAGS"
+          fi
+          TAG="$(git for-each-ref --sort=authordate --format '%(refname)' refs/tags | sed 's/refs\/tags\/\(.*\)/\1/' | grep -P '^[v]*[0-9]{1,}.[0-9]{1,}.[0-9]{1,}' | tail -n1)"
+          if [[ -z "$TAG" ]]; then
+            # Try without patch
+            TAG="$(git for-each-ref --sort=authordate --format '%(refname)' refs/tags | sed 's/refs\/tags\/\(.*\)/\1/' | grep -P '^[v]*[0-9]{1,}.[0-9]{1,}' | tail -n1)"
+          fi
+          if [[ -z "$TAG" ]]; then
+            # Try without minor
+            TAG="$(git for-each-ref --sort=authordate --format '%(refname)' refs/tags | sed 's/refs\/tags\/\(.*\)/\1/' | grep -P '^[v]*[0-9]{1,}' | tail -n1)"
+          fi
+          if [[ -n "$TAG" ]]; then
+            echo "Found $TAG"
+            git checkout $TAG
+            VERSION=$(echo "$TAG" | sed 's/v\(.*\)/\1/')
+            echo "RELEASE_VERSION=${VERSION}" >> $GITHUB_ENV
+            echo "GITHUB_REF_TYPE_OVERRIDE=tag" >> $GITHUB_ENV
+            echo "GITHUB_REF_NAME_OVERRIDE=$TAG" >> $GITHUB_ENV
+            echo "GITHUB_REPOSITORY_OVERRIDE=${{ matrix.plugin.name }}" >> $GITHUB_ENV
+          else
+            echo "PUBLISHED_COUNT=NOTHING" >> $GITHUB_ENV
+          fi
+
