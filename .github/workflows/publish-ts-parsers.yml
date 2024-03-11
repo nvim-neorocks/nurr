@@ -25,9 +25,6 @@ jobs:
       - id: set-matrix
         run: |
           echo "MATRIX=$(cat ./tree-sitter-parsers.json | tr -d '\n\r')" >> $GITHUB_OUTPUT
-      - id: get-rockspec-template
-        run: |
-          echo "ROCKSPEC_TEMPLATE='$(cat ./resources/tree-sitter-parser-rockspec.template)'" >> $GITHUB_ENV
 
   publish:
     runs-on: ubuntu-latest
@@ -88,10 +85,18 @@ jobs:
         run: |
           echo "PUBLISHED_COUNT=$(luarocks --only-server=https://luarocks.org/manifests/neorocks search ${{ env.PARSER_NAME }} ${{ env.RELEASE_VERSION }} --porcelain | wc -l)" >> $GITHUB_ENV
 
+      - name: Get Rockspec template
+        if: ${{ env.RELEASE_VERSION != '' }}
+        uses: actions/checkout@v4
+        with: 
+          sparse-checkout: resources/tree-sitter-parser-rockspec.template
+          path: rockspec-template
+
       - name: Prepare Rockspec template
         # uses: nvim-neorocks/luarocks-tag-release@v5
         if: ${{ env.PUBLISHED_COUNT == '0' }}
         run: |
+          mv rockspec-template/resources/tree-sitter-parser-rockspec.template rockspec.template
           echo ${{ env.ROCKSPEC_TEMPLATE }} > rockspec.template
           sed -i 's/LANG/${{ matrix.parsers.lang }}/g' rockspec.template
           cat rockspec.template
