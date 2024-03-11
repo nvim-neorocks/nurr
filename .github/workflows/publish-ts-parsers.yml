@@ -125,6 +125,6 @@ jobs:
         if: ${{ env.PUBLISHED_COUNT == '0' }}
         run: |
           echo ${{ env.PARSER_NAME }}
-          echo "${{ env.GITHUB_REF_TYPE_OVERRIDE }}"
+          echo "${{ env.GITHUB_REPOSITORY_OVERRIDE }}"
 
 
