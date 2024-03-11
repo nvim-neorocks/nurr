@@ -7,15 +7,15 @@ concurrency:
   cancel-in-progress: true
 
 on:
-  # push:
-  #   branches:
-  #     - 'main'
-  #   paths:
-  #     - 'scripts/generate-ts-json.lua'
-  #     - .github/workflows/update-ts-parsers-json.yml
-  # schedule:
-  #   # Runs every 4 hours
-  #   - cron: "0 */4 * * *"
+  push:
+    branches:
+      - 'main'
+    paths:
+      - 'scripts/generate-ts-json.lua'
+      - .github/workflows/update-ts-parsers-json.yml
+  schedule:
+    # Runs every 8 hours
+    - cron: "0 */8 * * *"
   workflow_dispatch:
 
 jobs:

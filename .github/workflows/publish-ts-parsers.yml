@@ -6,7 +6,7 @@ on:
     branches:
       - 'main'
     paths:
-      - tree-sitter-parsers.json
+      - ./tree-sitter-parsers.json
       - .github/workflows/publish-ts-parsers.yml
   workflow_dispatch:
 
