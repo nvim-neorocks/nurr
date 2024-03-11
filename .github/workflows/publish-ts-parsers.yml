@@ -27,7 +27,7 @@ jobs:
       fail-fast: false
       max-parallel: 10 # Don't DDOS the luarocks servers
       matrix: 
-        parser: ${{ fromJson(needs.generate-matrix.outputs.parsers) }}
+        parser: ${{ needs.generate-matrix.outputs.parsers }}
     steps:
       - name: Checkout parser repository
         run: |
