@@ -23,7 +23,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - id: set-matrix
-        run: echo "MATRIX=$(cat ./tree-sitter-parsers.json | tr -d '\n\r')" >> $GITHUB_OUTPUT
+        run: |
+          echo "MATRIX=$(cat ./tree-sitter-parsers.json | tr -d '\n\r')" >> $GITHUB_OUTPUT
+      - id: get-rockspec-template
+        run: |
+          echo "ROCKSPEC_TEMPLATE=$(cat ./resources/tree-sitter-parser-rockspec.template)" >> $GITHUB_OUTPUT
 
   publish:
     runs-on: ubuntu-latest
@@ -33,18 +37,11 @@ jobs:
       max-parallel: 10 # Don't DDOS the luarocks servers
       matrix: ${{ fromJson(needs.generate-matrix.outputs.matrix) }}
     steps:
-      - name: Checkout Rockspec template
-        uses: actions/checkout@v4
-        with: 
-          sparse-checkout: |
-            resources/tree-sitter-parser-rockspec.template
-
       - name: Clone parser repository
         run: |
-          mv resources/tree-sitter-parser-rockspec.template ./rockspec.template
-          rmdir resources
           REPO_URL=$(echo "${{ matrix.parsers.install_info.url }}" | sed 's/\.git$//')
           git clone --filter=blob:none "$REPO_URL.git" .
+
       - name: Get latest Tag and parser name
         id: get-release
         run: |
@@ -95,6 +92,7 @@ jobs:
         # uses: nvim-neorocks/luarocks-tag-release@v5
         if: ${{ env.PUBLISHED_COUNT == '0' }}
         run: |
+          echo ${{ env.ROCKSPEC_TEMPLATE }} > rockspec.template
           sed -i 's/LANG/${{ matrix.parsers.lang }}/g' rockspec.template
           cat rockspec.template
 
