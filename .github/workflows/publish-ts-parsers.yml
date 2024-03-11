@@ -67,7 +67,7 @@ jobs:
             echo "RELEASE_VERSION=${VERSION}" >> $GITHUB_ENV
             echo "GITHUB_REF_TYPE_OVERRIDE=tag" >> $GITHUB_ENV
             echo "GITHUB_REF_NAME_OVERRIDE=$TAG" >> $GITHUB_ENV
-            echo "GITHUB_REPOSITORY_OVERRIDE="$(echo "${{ env.REPO_URL }}" | awk -F/ '{print $4"/"$5}')" >> $GITHUB_ENV
+            echo "GITHUB_REPOSITORY_OVERRIDE=$(echo '${{ env.REPO_URL }}' | awk -F/ '{print $4"/"$5}')" >> $GITHUB_ENV
           else
             echo "PUBLISHED_COUNT=NOTHING" >> $GITHUB_ENV
           fi
