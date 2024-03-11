@@ -80,11 +80,9 @@ jobs:
 
       - name: Install tree-sitter parser
         uses: baptiste0928/cargo-install@v3
-        if: ${{ env.RELEASE_VERSION != '' }}
+        if: ${{ matrix.parsers.install_info.requires_generate_from_grammar == 'true' }}
         with:
-          crate: |
-            tree-sitter
-            askalono-cli
+          crate: tree-sitter
 
       - uses: actions/setup-node@v4
         if: ${{ matrix.parsers.install_info.requires_generate_from_grammar == 'true' || matrix.parsers.install_info.generate_requires_npm == 'true' }}
@@ -133,6 +131,12 @@ jobs:
         if: ${{ env.PUBLISHED_COUNT == '0' }}
         run: |
           luarocks --verbose --local --lua-version=5.1 install luarocks-build-treesitter-parser
+
+      - name: Install askalono-cli for license detection
+        uses: baptiste0928/cargo-install@v3
+        if: ${{ env.RELEASE_VERSION != '' }}
+        with:
+          crate: askalono-cli
 
       - name: Get SPDX license
         if: ${{ env.PUBLISHED_COUNT == '0' }}
