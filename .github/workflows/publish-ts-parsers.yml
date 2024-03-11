@@ -44,7 +44,7 @@ jobs:
           REPO_URL=$(echo "${{ matrix.parsers.install_info.url }}" | sed 's/\.git$//')
           git clone --filter=blob:none "$REPO_URL.git" 
           echo "PARSER_DIR=$(basename "$_" .git)" >> $GITHUB_ENV
-          cp resources/tree-sitter-parser-rockspec.template $PARSER_DIR/rockspec.template
+          cp resources/tree-sitter-parser-rockspec.template ${{ env.PARSER_DIR }}/rockspec.template
       - name: Get latest Tag and parser name
         id: get-release
         run: |
