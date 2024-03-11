@@ -89,7 +89,8 @@ jobs:
         if: ${{ env.RELEASE_VERSION != '' }}
         uses: actions/checkout@v4
         with: 
-          sparse-checkout: resources/tree-sitter-parser-rockspec.template
+          sparse-checkout: |
+            resources
           path: rockspec-template
 
       - name: Prepare Rockspec template
@@ -97,7 +98,6 @@ jobs:
         if: ${{ env.PUBLISHED_COUNT == '0' }}
         run: |
           mv rockspec-template/resources/tree-sitter-parser-rockspec.template rockspec.template
-          echo ${{ env.ROCKSPEC_TEMPLATE }} > rockspec.template
           sed -i 's/LANG/${{ matrix.parsers.lang }}/g' rockspec.template
           cat rockspec.template
 
