@@ -138,6 +138,7 @@ jobs:
           name: ${{ env.PARSER_NAME }}
           version: ${{ env.RELEASE_VERSION }}
           summary: tree-sitter parser for ${{ matrix.parser.lang }}
+          template: "rockspec.template"
           license: MIT # TODO
           labels: |
             neovim
