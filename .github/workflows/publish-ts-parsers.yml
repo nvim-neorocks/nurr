@@ -33,14 +33,22 @@ jobs:
       max-parallel: 10 # Don't DDOS the luarocks servers
       matrix: ${{ fromJson(needs.generate-matrix.outputs.matrix) }}
     steps:
+      - name: Checkout Rockspec template
+        uses: actions/checkout@v4
+        with: 
+          sparse-checkout: |
+            resources/tree-sitter-parser-rockspec.template
+
       - name: Clone parser repository
         run: |
           REPO_URL=$(echo "${{ matrix.parsers.install_info.url }}" | sed 's/\.git$//')
           git clone --filter=blob:none "$REPO_URL.git" 
           echo "PARSER_DIR=$(basename "$_" .git)" >> $GITHUB_ENV
-      - name: Get latest Tag
+          cp resources/tree-sitter-parser-rockspec.template $PARSER_DIR/rockspec.template
+      - name: Get latest Tag and parser name
         id: get-release
         run: |
+          echo "PARSER_NAME=tree-sitter-${{ matrix.parsers.lang }}" >> $GITHUB_ENV
           cd ${{ env.PARSER_DIR }}
           # Check for semver tags
           TAGS="$(git for-each-ref --sort=authordate --format '%(refname)' refs/tags )"
@@ -60,6 +68,7 @@ jobs:
           if [[ -n "$TAG" ]]; then
             echo "Found $TAG"
             git checkout $TAG
+            echo "TAG=$TAG" >> $GITHUB_ENV
             VERSION=$(echo "$TAG" | sed 's/v\(.*\)/\1/')
             echo "RELEASE_VERSION=${VERSION}" >> $GITHUB_ENV
             echo "GITHUB_REF_TYPE_OVERRIDE=tag" >> $GITHUB_ENV
@@ -68,4 +77,31 @@ jobs:
           else
             echo "PUBLISHED_COUNT=NOTHING" >> $GITHUB_ENV
           fi
+
+      - name: Install Lua
+        if: ${{ env.RELEASE_VERSION != '' }}
+        uses: leso-kn/gh-actions-lua@master
+        with:
+          luaVersion: "5.1"
+
+      - name: Install Luarocks
+        if: ${{ env.RELEASE_VERSION != '' }}
+        uses: hishamhm/gh-actions-luarocks@master
+
+      - if: ${{ env.RELEASE_VERSION != '' }}
+        run: |
+          echo "PUBLISHED_COUNT=$(luarocks --only-server=https://luarocks.org/manifests/neorocks search ${{ env.PARSER_NAME }} ${{ env.RELEASE_VERSION }} --porcelain | wc -l)" >> $GITHUB_ENV
+
+      - name: Prepare Rockspec template
+        # uses: nvim-neorocks/luarocks-tag-release@v5
+        if: ${{ env.PUBLISHED_COUNT == '0' }}
+        run: |
+          sed -i 's/LANG/${{ matrix.parsers.lang }}/g' rockspec.template
+          cat rockspec.template
+
+      - name: Publish LuaRock (TODO)
+        # uses: nvim-neorocks/luarocks-tag-release@v5
+        if: ${{ env.PUBLISHED_COUNT == '0' }}
+        run: echo ${{ env.PARSER_NAME }}
+
 
