@@ -160,7 +160,6 @@ jobs:
         if: ${{ env.PUBLISHED_COUNT == '0' }}
         env:
           LUAROCKS_API_KEY: ${{ secrets.LUAROCKS_API_KEY }}
-          LUAROCKS_TAG_RELEASE_DISABLE_UPLOAD: true
         with:
           name: ${{ env.PARSER_NAME }}
           version: ${{ env.RELEASE_VERSION }}
