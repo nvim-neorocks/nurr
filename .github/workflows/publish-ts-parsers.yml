@@ -129,8 +129,10 @@ jobs:
           cat rockspec.template
 
       - name: Install `luarocks-build-treesitter-parser` Package
+        if: ${{ env.PUBLISHED_COUNT == '0' }}
         run: |
           luarocks --verbose --local --lua-version=5.1 install luarocks-build-treesitter-parser
+
       - name: Publish LuaRock (TODO)
         uses: nvim-neorocks/luarocks-tag-release@v5
         if: ${{ env.PUBLISHED_COUNT == '0' }}
