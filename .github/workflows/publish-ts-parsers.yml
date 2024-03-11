@@ -128,6 +128,9 @@ jobs:
           fi
           cat rockspec.template
 
+      - name: Install `luarocks-build-treesitter-parser` Package
+        run: |
+          luarocks --verbose --local --lua-version=5.1 install luarocks-build-treesitter-parser
       - name: Publish LuaRock (TODO)
         uses: nvim-neorocks/luarocks-tag-release@v5
         if: ${{ env.PUBLISHED_COUNT == '0' }}
@@ -137,7 +140,7 @@ jobs:
         with:
           name: ${{ env.PARSER_NAME }}
           version: ${{ env.RELEASE_VERSION }}
-          summary: tree-sitter parser for ${{ matrix.parser.lang }}
+          summary: tree-sitter parser for ${{ matrix.parsers.lang }}
           template: "rockspec.template"
           license: MIT # TODO
           labels: |
