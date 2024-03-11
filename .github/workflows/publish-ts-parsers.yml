@@ -66,7 +66,8 @@ jobs:
             echo "RELEASE_VERSION=${VERSION}" >> $GITHUB_ENV
             echo "GITHUB_REF_TYPE_OVERRIDE=tag" >> $GITHUB_ENV
             echo "GITHUB_REF_NAME_OVERRIDE=$TAG" >> $GITHUB_ENV
-            echo "GITHUB_REPOSITORY_OVERRIDE=${{ matrix.plugin.name }}" >> $GITHUB_ENV
+            # TODO: Get repo from url
+            # echo "GITHUB_REPOSITORY_OVERRIDE=${{ matrix.parsers.name }}" >> $GITHUB_ENV
           else
             echo "PUBLISHED_COUNT=NOTHING" >> $GITHUB_ENV
           fi
@@ -99,6 +100,8 @@ jobs:
         run: |
           mv rockspec-template/resources/tree-sitter-parser-rockspec.template rockspec.template
           sed -i 's/LANG/${{ matrix.parsers.lang }}/g' rockspec.template
+          echo "REQUIRES_GENERATE: ${{ matrix.parsers.install_info.requires_generate_from_grammar }}"
+          echo "SOURCES: ${{ matrix.parsers.install_info.sources }}"
           if [[ "${{ matrix.parsers.install_info.requires_generate_from_grammar }}" == "true" ]]; 
           then
             sed -i 's/generate_from_grammar\s=\sfalse/generate_from_grammar = true/g' rockspec.template
