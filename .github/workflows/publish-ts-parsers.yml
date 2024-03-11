@@ -35,7 +35,8 @@ jobs:
     steps:
       - name: Clone parser repository
         run: |
-          git clone --filter=blob:none "${{ matrix.parsers.install_info.url }}.git" 
+          REPO_URL = echo "${{ matrix.parsers.install_info.url }}" | sed 's/\.git$//'
+          git clone --filter=blob:none "$REPO_URL.git" 
           echo "PARSER_DIR=$(basename "$_" .git)" >> $GITHUB_ENV
       - name: Get latest Tag
         id: get-release
