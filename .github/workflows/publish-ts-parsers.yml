@@ -80,9 +80,11 @@ jobs:
 
       - name: Install tree-sitter parser
         uses: baptiste0928/cargo-install@v3
-        if: ${{ matrix.parsers.install_info.requires_generate_from_grammar == 'true' }}
+        if: ${{ env.RELEASE_VERSION != '' }}
         with:
-          crate: tree-sitter
+          crate: |
+            tree-sitter
+            askalono
 
       - uses: actions/setup-node@v4
         if: ${{ matrix.parsers.install_info.requires_generate_from_grammar == 'true' || matrix.parsers.install_info.generate_requires_npm == 'true' }}
@@ -132,6 +134,23 @@ jobs:
         run: |
           luarocks --verbose --local --lua-version=5.1 install luarocks-build-treesitter-parser
 
+      - name: Get SPDX license
+        if: ${{ env.PUBLISHED_COUNT == '0' }}
+        run: |
+          LICENSE=$(askalono crawl . | sed -n 's/License: \([^ ]*\).*/\1/p')
+          LICENSE_COUNT=$(echo "$LICENSE" | grep -c .)
+          if [ "$LICENSE_COUNT" -eq 1 ]; then
+            echo "License identified: $LICENSE"
+            echo "LICENSE=$LICENSE" >> $GITHUB_ENV
+          else
+            if [ "$LICENSE_COUNT" -eq 0 ]; then
+              echo "Error: No license identified."
+            else
+              echo "Error: Multiple licenses identified."
+            fi
+            exit 1
+          fi
+
       - name: Publish LuaRock (TODO)
         uses: nvim-neorocks/luarocks-tag-release@v5
         if: ${{ env.PUBLISHED_COUNT == '0' }}
@@ -143,7 +162,7 @@ jobs:
           version: ${{ env.RELEASE_VERSION }}
           summary: tree-sitter parser for ${{ matrix.parsers.lang }}
           template: "rockspec.template"
-          license: MIT # TODO
+          license: ${{ env.LICENSE }}
           labels: |
             neovim
             tree-sitter
