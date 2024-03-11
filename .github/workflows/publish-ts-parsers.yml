@@ -105,7 +105,7 @@ jobs:
           echo "REQUIRES_GENERATE: ${{ matrix.parsers.install_info.requires_generate_from_grammar }}"
           # Conver sources to lua
           SOURCES_TBL=$(echo "$SOURCES_JSON" | jq -r '"{ " + (map("\"" + . + "\"") | join(", ")) + " }"')
-          sed -i 's/SOURCES/$SOURCES_TBL/g' rockspec.template
+          sed -i "s/SOURCES/$SOURCES_TBL/g" rockspec.template
           if [[ "${{ matrix.parsers.install_info.requires_generate_from_grammar }}" == "true" ]]; 
           then
             sed -i 's/generate_from_grammar\s=\sfalse/generate_from_grammar = true/g' rockspec.template
