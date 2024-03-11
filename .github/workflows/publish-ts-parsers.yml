@@ -99,17 +99,17 @@ jobs:
         run: |
           mv rockspec-template/resources/tree-sitter-parser-rockspec.template rockspec.template
           sed -i 's/LANG/${{ matrix.parsers.lang }}/g' rockspec.template
-          if [[ "${{ env.matrix.parsers.install_info_requires_generate_from_grammar }}" == "true" ]]; 
+          if [[ "${{ matrix.parsers.install_info.requires_generate_from_grammar }}" == "true" ]]; 
           then
-            sed -i 's/generate_from_grammar = false/generate_from_grammar = true/g' rockspec.template
+            sed -i 's/generate_from_grammar\s=\sfalse/generate_from_grammar = true/g' rockspec.template
           fi
-          if [[ "${{ env.matrix.parsers.install_info.generate_requires_npm }}" == "true" ]]; 
+          if [[ "${{ matrix.parsers.install_info.generate_requires_npm }}" == "true" ]]; 
           then
-            sed -i 's/generate_requires_npm = false/generate_requires_npm = true/g' rockspec.template
+            sed -i 's/generate_requires_npm\s=\sfalse/generate_requires_npm = true/g' rockspec.template
           fi
-          if [[ "${{ env.matrix.parsers.install_info.location }}" == "true" ]]; 
+          if [[ "${{ matrix.parsers.install_info.location }}" == "true" ]]; 
           then
-            sed -i 's/location = nil/location = ${{ env.matrix.parsers.install_info.location }}/g' rockspec.template
+            sed -i 's/location\s=\snil/location = ${{ env.matrix.parsers.install_info.location }}/g' rockspec.template
           fi
           cat rockspec.template
 
