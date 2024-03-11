@@ -27,7 +27,7 @@ jobs:
           echo "MATRIX=$(cat ./tree-sitter-parsers.json | tr -d '\n\r')" >> $GITHUB_OUTPUT
       - id: get-rockspec-template
         run: |
-          echo "ROCKSPEC_TEMPLATE=$(cat ./resources/tree-sitter-parser-rockspec.template)" >> $GITHUB_ENV
+          echo "ROCKSPEC_TEMPLATE='$(cat ./resources/tree-sitter-parser-rockspec.template)'" >> $GITHUB_ENV
 
   publish:
     runs-on: ubuntu-latest
