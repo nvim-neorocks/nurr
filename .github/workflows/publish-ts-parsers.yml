@@ -101,7 +101,7 @@ jobs:
           mv rockspec-template/resources/tree-sitter-parser-rockspec.template rockspec.template
           sed -i 's/LANG/${{ matrix.parsers.lang }}/g' rockspec.template
           echo "REQUIRES_GENERATE: ${{ matrix.parsers.install_info.requires_generate_from_grammar }}"
-          echo "SOURCES: ${{ matrix.parsers.install_info.sources }}"
+          echo "SOURCES: ${{ matrix.parsers.install_info.files }}"
           if [[ "${{ matrix.parsers.install_info.requires_generate_from_grammar }}" == "true" ]]; 
           then
             sed -i 's/generate_from_grammar\s=\sfalse/generate_from_grammar = true/g' rockspec.template
