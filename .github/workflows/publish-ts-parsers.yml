@@ -112,7 +112,7 @@ jobs:
           fi
           if [[ -n "${{ matrix.parsers.install_info.location }}" ]]; 
           then
-            sed -i 's/location\s=\snil/location = ${{ env.matrix.parsers.install_info.location }}/g' rockspec.template
+            sed -i 's/location\s=\snil/location = ${{ matrix.parsers.install_info.location }}/g' rockspec.template
           fi
           cat rockspec.template
 

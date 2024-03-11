@@ -34,7 +34,7 @@
         ],
         "url": "https://github.com/MDeiml/tree-sitter-markdown",
         "location": "tree-sitter-markdown-inline",
-        "generate_requires_npm": true,
+        "generate_requires_npm": true
       }
     }
   ]
