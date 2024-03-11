@@ -80,12 +80,12 @@ jobs:
 
       - name: Install tree-sitter parser
         uses: baptiste0928/cargo-install@v3
-        if: ${{ matrix.parsers.install_info.requires_generate_from_grammar == "true" }}
+        if: ${{ matrix.parsers.install_info.requires_generate_from_grammar == 'true' }}
         with:
           crate: tree-sitter
 
       - uses: actions/setup-node@v4
-        if: ${{ matrix.parsers.install_info.requires_generate_from_grammar == "true" || matrix.parsers.install_info.generate_requires_npm == "true" }}
+        if: ${{ matrix.parsers.install_info.requires_generate_from_grammar == 'true' || matrix.parsers.install_info.generate_requires_npm == 'true' }}
 
       - name: Install Luarocks
         if: ${{ env.RELEASE_VERSION != '' }}
