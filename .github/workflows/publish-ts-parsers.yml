@@ -41,16 +41,14 @@ jobs:
 
       - name: Clone parser repository
         run: |
+          mv resources/tree-sitter-parser-rockspec.template ./rockspec.template
+          rmdir resources
           REPO_URL=$(echo "${{ matrix.parsers.install_info.url }}" | sed 's/\.git$//')
-          git clone --filter=blob:none "$REPO_URL.git" 
-          PARSER_DIR=$(basename "$_" .git)
-          echo "PARSER_DIR=$PARSER_DIR" >> $GITHUB_ENV
-          cp resources/tree-sitter-parser-rockspec.template $PARSER_DIR/rockspec.template
+          git clone --filter=blob:none "$REPO_URL.git" .
       - name: Get latest Tag and parser name
         id: get-release
         run: |
           echo "PARSER_NAME=tree-sitter-${{ matrix.parsers.lang }}" >> $GITHUB_ENV
-          cd ${{ env.PARSER_DIR }}
           # Check for semver tags
           TAGS="$(git for-each-ref --sort=authordate --format '%(refname)' refs/tags )"
           if [[ -n "$TAGS" ]]; then
@@ -97,7 +95,6 @@ jobs:
         # uses: nvim-neorocks/luarocks-tag-release@v5
         if: ${{ env.PUBLISHED_COUNT == '0' }}
         run: |
-          cd ${{ env.PARSER_DIR }}
           sed -i 's/LANG/${{ matrix.parsers.lang }}/g' rockspec.template
           cat rockspec.template
 
