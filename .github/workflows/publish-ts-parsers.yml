@@ -10,7 +10,7 @@ on:
       - .github/workflows/publish-ts-parsers.yml
   workflow_dispatch:
 
-  # TODO: Remove
+  # TODO: Remove this if we need to introduce chunking
 concurrency:
   group: publish-tree-sitter-parsers
   cancel-in-progress: true
