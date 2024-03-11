@@ -1,0 +1,46 @@
+---
+name: Update tree-sitter parsers JSON
+
+# Prevent concurrent auto-commits
+concurrency:
+  group: update-tree-sitter-parsers-json
+  cancel-in-progress: true
+
+on:
+  push:
+    branches:
+      - 'main'
+    paths:
+      - 'scripts/generate-ts-json.lua'
+      - .github/workflows/update-ts-parsers-json.yml
+  schedule:
+    # Runs every 4 hours
+    - cron: "0 */4 * * *"
+  workflow_dispatch:
+
+jobs:
+  update-tree-sitter-parsers-json:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}
+      - name: Install Lua
+        uses: leso-kn/gh-actions-lua@master
+        with:
+          luaVersion: "5.1"
+      - name: Install Luarocks
+        uses: hishamhm/gh-actions-luarocks@master
+        with:
+          luarocksVersion: "3.11.0"
+      - uses: rhysd/action-setup-vim@v1
+        with:
+          neovim: true
+          version: nightly
+      - name: Update tree-sitter parsers JSON
+        run: ./scripts/generate-ts-json.lua | jq > tree-sitter-parsers.json
+      - name: commit
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update tree-sitter-parsers.json"
+          file_pattern: "tree-sitter-parsers.json"
