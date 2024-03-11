@@ -97,6 +97,7 @@ jobs:
         # uses: nvim-neorocks/luarocks-tag-release@v5
         if: ${{ env.PUBLISHED_COUNT == '0' }}
         run: |
+          cd ${{ env.PARSER_DIR }}
           sed -i 's/LANG/${{ matrix.parsers.lang }}/g' rockspec.template
           cat rockspec.template
 
