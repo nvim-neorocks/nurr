@@ -110,7 +110,6 @@ jobs:
         run: |
           mv rockspec-template/resources/tree-sitter-parser-rockspec.template rockspec.template
           sed -i 's/LANG/${{ matrix.parsers.lang }}/g' rockspec.template
-          echo "REQUIRES_GENERATE: ${{ matrix.parsers.install_info.requires_generate_from_grammar }}"
           # Conver sources to lua
           SOURCES_TBL=$(echo "$SOURCES_JSON" | jq -r '"{ " + (map("\"" + . + "\"") | join(", ")) + " }"')
           sed -i 's@SOURCES@'"$SOURCES_TBL"'@' rockspec.template
@@ -124,7 +123,7 @@ jobs:
           fi
           if [[ -n "${{ matrix.parsers.install_info.location }}" ]]; 
           then
-            sed -i 's/location\s=\snil/location = "${{ matrix.parsers.install_info.location }}"/g' rockspec.template
+            sed -i 's@location\s=\snil@location = "${{ matrix.parsers.install_info.location }}"@g' rockspec.template
           fi
           cat rockspec.template
 
