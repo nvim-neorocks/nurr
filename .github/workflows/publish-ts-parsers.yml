@@ -78,6 +78,15 @@ jobs:
         with:
           luaVersion: "5.1"
 
+      - name: Install tree-sitter parser
+        uses: baptiste0928/cargo-install@v3
+        if: ${{ matrix.parsers.install_info.requires_generate_from_grammar == "true" }}
+        with:
+          crate: tree-sitter
+
+      - uses: actions/setup-node@v4
+        if: ${{ matrix.parsers.install_info.requires_generate_from_grammar == "true" || matrix.parsers.install_info.generate_requires_npm == "true" }}
+
       - name: Install Luarocks
         if: ${{ env.RELEASE_VERSION != '' }}
         uses: hishamhm/gh-actions-luarocks@master
@@ -95,7 +104,6 @@ jobs:
           path: rockspec-template
 
       - name: Prepare Rockspec template
-        # uses: nvim-neorocks/luarocks-tag-release@v5
         if: ${{ env.PUBLISHED_COUNT == '0' }}
         env:
           SOURCES_JSON: ${{ toJson(matrix.parsers.install_info.files) }}
@@ -121,10 +129,20 @@ jobs:
           cat rockspec.template
 
       - name: Publish LuaRock (TODO)
-        # uses: nvim-neorocks/luarocks-tag-release@v5
+        uses: nvim-neorocks/luarocks-tag-release@v5
         if: ${{ env.PUBLISHED_COUNT == '0' }}
-        run: |
-          echo ${{ env.PARSER_NAME }}
-          echo "${{ env.GITHUB_REPOSITORY_OVERRIDE }}"
+        env:
+          LUAROCKS_API_KEY: ${{ secrets.LUAROCKS_API_KEY }}
+          LUAROCKS_TAG_RELEASE_DISABLE_UPLOAD: true
+        with:
+          name: ${{ env.PARSER_NAME }}
+          version: ${{ env.RELEASE_VERSION }}
+          summary: tree-sitter parser for ${{ matrix.parser.lang }}
+          license: MIT # TODO
+          labels: |
+            neovim
+            tree-sitter
+          extra_luarocks_args: |
+            --namespace=neorocks
 
 
