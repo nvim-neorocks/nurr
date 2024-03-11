@@ -84,7 +84,7 @@ jobs:
         with:
           crate: |
             tree-sitter
-            askalono
+            askalono-cli
 
       - uses: actions/setup-node@v4
         if: ${{ matrix.parsers.install_info.requires_generate_from_grammar == 'true' || matrix.parsers.install_info.generate_requires_npm == 'true' }}
