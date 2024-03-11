@@ -38,7 +38,10 @@ jobs:
           neovim: true
           version: nightly
       - name: Update tree-sitter parsers JSON
-        run: ./scripts/generate-ts-json.lua | jq > tree-sitter-parsers.json
+        run: |
+          ./scripts/generate-ts-json.lua \
+          | jq '{parsers: [to_entries[] | {lang: .key} + (.value | del(.maintainers))]}' \
+          > tree-sitter-parsers.json
       - name: commit
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
