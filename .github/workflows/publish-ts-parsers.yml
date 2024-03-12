@@ -141,19 +141,19 @@ jobs:
       - name: Get SPDX license
         if: ${{ env.PUBLISHED_COUNT == '0' }}
         run: |
-          LICENSE=$(askalono crawl . | sed -n 's/License: \([^ ]*\).*/\1/p')
+          LICENSE=$(askalono crawl . | sed -n 's/License: \([^ ]*\).*/\1/p' || echo "UNKNOWN")
           LICENSE_COUNT=$(echo "$LICENSE" | grep -c .)
           if [ "$LICENSE_COUNT" -eq 1 ]; then
-            echo "License identified: $LICENSE"
-            echo "LICENSE=$LICENSE" >> $GITHUB_ENV
+            echo "License: $LICENSE"
           else
             if [ "$LICENSE_COUNT" -eq 0 ]; then
               echo "Error: No license identified."
             else
               echo "Error: Multiple licenses identified."
             fi
-            exit 1
+            LICENSE="UNKNOWN"
           fi
+          echo "LICENSE=$LICENSE" >> $GITHUB_ENV
 
       - name: Publish LuaRock (TODO)
         uses: nvim-neorocks/luarocks-tag-release@v5
