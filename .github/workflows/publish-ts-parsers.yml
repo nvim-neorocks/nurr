@@ -40,10 +40,12 @@ jobs:
           echo "REPO_URL=$REPO_URL" >> $GITHUB_ENV
           git clone --filter=blob:none "$REPO_URL.git" .
 
-      - name: Get latest Tag and parser name
+      - name: Get repo and parser metadata
         id: get-release
         run: |
+          echo "GITHUB_SHA_OVERRIDE=$(git rev-parse HEAD)" >> $GITHUB_ENV
           echo "PARSER_NAME=tree-sitter-${{ matrix.parsers.lang }}" >> $GITHUB_ENV
+          echo "GITHUB_REPOSITORY_OVERRIDE=$(echo '${{ env.REPO_URL }}' | awk -F/ '{print $4"/"$5}')" >> $GITHUB_ENV
           # Check for semver tags
           TAGS="$(git for-each-ref --sort=authordate --format '%(refname)' refs/tags )"
           if [[ -n "$TAGS" ]]; then
@@ -61,25 +63,23 @@ jobs:
           fi
           if [[ -n "$TAG" ]]; then
             echo "Found $TAG"
-            git checkout $TAG
             echo "TAG=$TAG" >> $GITHUB_ENV
             VERSION=$(echo "$TAG" | sed 's/v\(.*\)/\1/')
             echo "RELEASE_VERSION=${VERSION}" >> $GITHUB_ENV
             echo "GITHUB_REF_TYPE_OVERRIDE=tag" >> $GITHUB_ENV
             echo "GITHUB_REF_NAME_OVERRIDE=$TAG" >> $GITHUB_ENV
-            echo "GITHUB_REPOSITORY_OVERRIDE=$(echo '${{ env.REPO_URL }}' | awk -F/ '{print $4"/"$5}')" >> $GITHUB_ENV
           else
             echo "PUBLISHED_COUNT=NOTHING" >> $GITHUB_ENV
           fi
 
       - name: Install tree-sitter parser
         uses: baptiste0928/cargo-install@v3
-        if: ${{ matrix.parsers.install_info.requires_generate_from_grammar == 'true' }}
+        if: ${{ matrix.parsers.install_info.requires_generate_from_grammar }}
         with:
           crate: tree-sitter-cli
 
       - uses: actions/setup-node@v4
-        if: ${{ matrix.parsers.install_info.requires_generate_from_grammar == 'true' || matrix.parsers.install_info.generate_requires_npm == 'true' }}
+        if: ${{ matrix.parsers.install_info.requires_generate_from_grammar }}
 
       - name: Install Lua
         if: ${{ env.RELEASE_VERSION != '' }}
@@ -96,7 +96,6 @@ jobs:
           echo "PUBLISHED_COUNT=$(luarocks --only-server=https://luarocks.org/manifests/neorocks search ${{ env.PARSER_NAME }} ${{ env.RELEASE_VERSION }} --porcelain | wc -l)" >> $GITHUB_ENV
 
       - name: Get Rockspec template
-        if: ${{ env.RELEASE_VERSION != '' }}
         uses: actions/checkout@v4
         with: 
           sparse-checkout: |
@@ -104,13 +103,12 @@ jobs:
           path: rockspec-template
 
       - name: Prepare Rockspec template
-        if: ${{ env.PUBLISHED_COUNT == '0' }}
         env:
           SOURCES_JSON: ${{ toJson(matrix.parsers.install_info.files) }}
         run: |
           mv rockspec-template/resources/tree-sitter-parser-rockspec.template rockspec.template
           sed -i 's/LANG/${{ matrix.parsers.lang }}/g' rockspec.template
-          # Conver sources to lua
+          # Convert sources to lua
           SOURCES_TBL=$(echo "$SOURCES_JSON" | jq -r '"{ " + (map("\"" + . + "\"") | join(", ")) + " }"')
           sed -i 's@SOURCES@'"$SOURCES_TBL"'@' rockspec.template
           if [[ "${{ matrix.parsers.install_info.requires_generate_from_grammar }}" == "true" ]]; 
@@ -128,18 +126,15 @@ jobs:
           cat rockspec.template
 
       - name: Install `luarocks-build-treesitter-parser` Package
-        if: ${{ env.PUBLISHED_COUNT == '0' }}
         run: |
           luarocks --verbose --local --lua-version=5.1 install luarocks-build-treesitter-parser
 
       - name: Install askalono-cli for license detection
         uses: baptiste0928/cargo-install@v3
-        if: ${{ env.RELEASE_VERSION != '' }}
         with:
           crate: askalono-cli
 
       - name: Get SPDX license
-        if: ${{ env.PUBLISHED_COUNT == '0' }}
         run: |
           LICENSE=$(askalono crawl . | sed -n 's/License: \([^ ]*\).*/\1/p' || echo "UNKNOWN")
           LICENSE_COUNT=$(echo "$LICENSE" | grep -c .)
@@ -155,7 +150,7 @@ jobs:
           fi
           echo "LICENSE=$LICENSE" >> $GITHUB_ENV
 
-      - name: Publish LuaRock (TODO)
+      - name: Publish LuaRock (release)
         uses: nvim-neorocks/luarocks-tag-release@v5
         if: ${{ env.PUBLISHED_COUNT == '0' }}
         env:
@@ -172,4 +167,24 @@ jobs:
           extra_luarocks_args: |
             --namespace=neorocks
 
+      - name: Remove generated rockspec
+        if: always()
+        run: rm "${{ env.PARSER_NAME }}-${{ env.RELEASE_VERSION }}-1.rockspec"
 
+      - name: Publish LuaRock (dev)
+        if: always()
+        uses: nvim-neorocks/luarocks-tag-release@v5
+        env:
+          LUAROCKS_API_KEY: ${{ secrets.LUAROCKS_API_KEY }}
+        with:
+          name: ${{ env.PARSER_NAME }}
+          version: 'scm'
+          summary: tree-sitter parser for ${{ matrix.parsers.lang }}
+          template: "rockspec.template"
+          license: ${{ env.LICENSE }}
+          labels: |
+            neovim
+            tree-sitter
+          extra_luarocks_args: |
+            --namespace=neorocks
+            --force
