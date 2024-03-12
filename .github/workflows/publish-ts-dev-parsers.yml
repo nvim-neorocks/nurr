@@ -59,15 +59,9 @@ jobs:
         if: ${{ matrix.parsers.install_info.requires_generate_from_grammar == 'true' || matrix.parsers.install_info.generate_requires_npm == 'true' }}
 
       - name: Install Luarocks
-        if: ${{ env.RELEASE_VERSION != '' }}
         uses: hishamhm/gh-actions-luarocks@master
 
-      - if: ${{ env.RELEASE_VERSION != '' }}
-        run: |
-          echo "PUBLISHED_COUNT=$(luarocks --only-server=https://luarocks.org/manifests/neorocks search ${{ env.PARSER_NAME }} ${{ env.RELEASE_VERSION }} --porcelain | wc -l)" >> $GITHUB_ENV
-
       - name: Get Rockspec template
-        if: ${{ env.RELEASE_VERSION != '' }}
         uses: actions/checkout@v4
         with: 
           sparse-checkout: |
@@ -75,7 +69,6 @@ jobs:
           path: rockspec-template
 
       - name: Prepare Rockspec template
-        if: ${{ env.PUBLISHED_COUNT == '0' }}
         env:
           SOURCES_JSON: ${{ toJson(matrix.parsers.install_info.files) }}
         run: |
@@ -99,18 +92,15 @@ jobs:
           cat rockspec.template
 
       - name: Install `luarocks-build-treesitter-parser` Package
-        if: ${{ env.PUBLISHED_COUNT == '0' }}
         run: |
           luarocks --verbose --local --lua-version=5.1 install luarocks-build-treesitter-parser
 
       - name: Install askalono-cli for license detection
         uses: baptiste0928/cargo-install@v3
-        if: ${{ env.RELEASE_VERSION != '' }}
         with:
           crate: askalono-cli
 
       - name: Get SPDX license
-        if: ${{ env.PUBLISHED_COUNT == '0' }}
         run: |
           LICENSE=$(askalono crawl . | sed -n 's/License: \([^ ]*\).*/\1/p')
           LICENSE_COUNT=$(echo "$LICENSE" | grep -c .)
@@ -128,7 +118,6 @@ jobs:
 
       - name: Publish LuaRock (TODO)
         uses: nvim-neorocks/luarocks-tag-release@v5
-        if: ${{ env.PUBLISHED_COUNT == '0' }}
         env:
           LUAROCKS_API_KEY: ${{ secrets.LUAROCKS_API_KEY }}
         with:
