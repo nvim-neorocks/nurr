@@ -59,7 +59,6 @@ jobs:
         if: ${{ matrix.parsers.install_info.requires_generate_from_grammar == 'true' || matrix.parsers.install_info.generate_requires_npm == 'true' }}
 
       - name: Install Lua
-        if: ${{ env.RELEASE_VERSION != '' }}
         uses: leso-kn/gh-actions-lua@master
         with:
           luaVersion: "5.1"
@@ -122,7 +121,7 @@ jobs:
           fi
           echo "LICENSE=$LICENSE" >> $GITHUB_ENV
 
-      - name: Publish LuaRock (TODO)
+      - name: Publish LuaRock
         uses: nvim-neorocks/luarocks-tag-release@v5
         env:
           LUAROCKS_API_KEY: ${{ secrets.LUAROCKS_API_KEY }}
