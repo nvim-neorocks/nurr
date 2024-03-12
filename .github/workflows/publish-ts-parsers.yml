@@ -82,13 +82,11 @@ jobs:
         if: ${{ matrix.parsers.install_info.requires_generate_from_grammar }}
 
       - name: Install Lua
-        if: ${{ env.RELEASE_VERSION != '' }}
         uses: leso-kn/gh-actions-lua@master
         with:
           luaVersion: "5.1"
 
       - name: Install Luarocks
-        if: ${{ env.RELEASE_VERSION != '' }}
         uses: hishamhm/gh-actions-luarocks@master
 
       - if: ${{ env.RELEASE_VERSION != '' }}
@@ -169,7 +167,9 @@ jobs:
 
       - name: Remove generated rockspec
         if: always()
-        run: rm "${{ env.PARSER_NAME }}-${{ env.RELEASE_VERSION }}-1.rockspec"
+        run: |
+          rm "${{ env.PARSER_NAME }}-${{ env.RELEASE_VERSION }}-1.rockspec" \
+           || echo "Nothing to remove."        
 
       - name: Publish LuaRock (dev)
         if: always()
