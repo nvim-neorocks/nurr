@@ -153,7 +153,7 @@ jobs:
 
       - name: Publish LuaRock (release)
         uses: nvim-neorocks/luarocks-tag-release@v5
-        if: ${{ env.PUBLISHED_COUNT == '0' }}
+        if: ${{ env.RELEASE_VERSION != '' }}
         env:
           LUAROCKS_API_KEY: ${{ secrets.LUAROCKS_API_KEY }}
         with:
@@ -167,6 +167,7 @@ jobs:
             tree-sitter
           extra_luarocks_args: |
             --namespace=neorocks
+            --force
 
       - name: Remove generated rockspec
         if: always()
