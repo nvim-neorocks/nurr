@@ -31,7 +31,7 @@ if modrev == 'scm' or modrev == 'dev' then
 end
 
 build = {
-  type = "tree-sitter",
+  type = "treesitter-parser",
   lang = "LANG",
   sources = SOURCES,
   generate_from_grammar = false,
