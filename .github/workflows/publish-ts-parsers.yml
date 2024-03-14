@@ -108,6 +108,7 @@ jobs:
           SOURCES_JSON: ${{ toJson(matrix.parsers.install_info.files) }}
         run: |
           mv rockspec-template/resources/tree-sitter-parser-rockspec.template rockspec.template
+          rm -r rockspec-template
           sed -i 's/LANG/${{ matrix.parsers.lang }}/g' rockspec.template
           # Convert sources to lua
           SOURCES_TBL=$(echo "$SOURCES_JSON" | jq -r '"{ " + (map("\"" + . + "\"") | join(", ")) + " }"')
