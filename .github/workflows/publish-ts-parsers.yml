@@ -108,7 +108,7 @@ jobs:
           git clone --branch main "https://github.com/nvim-treesitter/nvim-treesitter.git" nvim-treesitter
           pushd nvim-treesitter
           PARSER_REVISION=$(jq -r ".\"${{ matrix.parsers.lang }}\".revision" lockfile.json)
-          echo "$PARSER_REVISION" >> $GITHUB_ENV
+          echo "PARSER_REVISION=$PARSER_REVISION" >> $GITHUB_ENV
           popd
           git checkout $PARSER_REVISION
           rm -r queries || true
