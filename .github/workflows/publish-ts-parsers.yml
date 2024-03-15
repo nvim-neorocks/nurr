@@ -66,10 +66,6 @@ jobs:
       - name: Install Luarocks
         uses: hishamhm/gh-actions-luarocks@master
 
-      - if: ${{ env.RELEASE_VERSION != '' }}
-        run: |
-          echo "PUBLISHED_COUNT=$(luarocks --only-server=https://luarocks.org/manifests/neorocks search ${{ env.PARSER_NAME }} ${{ env.RELEASE_VERSION }} --porcelain | wc -l)" >> $GITHUB_ENV
-
       - name: Get Rockspec template
         uses: actions/checkout@v4
         with: 
@@ -91,7 +87,8 @@ jobs:
           cp -r "nvim-treesitter/runtime/queries/${{ matrix.parsers.lang }}" queries
           rm -r nvim-treesitter
           git add queries
-          git -C "$(git rev-parse --show-toplevel)" diff --cached --src-prefix='' --dst-prefix='' > queries.patch
+          git -C "$(git rev-parse --show-toplevel)" diff --cached --src-prefix='' --dst-prefix='' \
+            | awk '!/^new file mode/ && !/^index/' > queries.patch
 
       - name: Prepare Rockspec template
         env:
