@@ -73,8 +73,8 @@ jobs:
             resources
           path: rockspec-template
 
-      - name: Install diffutils (for filterdiff)
-        run: sudo apt-get install diffutils
+      - name: Install patchutils (for filterdiff)
+        run: sudo apt-get install patchutils
 
       - name: Prepare queries patch
         run: |
