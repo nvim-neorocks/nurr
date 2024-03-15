@@ -84,18 +84,16 @@ jobs:
           if [ -d "queries" ]; then
             echo "queries directory found"
             echo "REMOVE_ORIG_QUERIES=true" >> $GITHUB_ENV
-            mv queries orig_queries
+            mkdir orig_queries
+            mv queries/* orig_queries
             diff -Naur queries orig_queries > rm_queries.patch
-            rm -r orig_queries/*
           else
             echo "no queries directory found"
-            mkdir orig_queries
           fi
-          mkdir queries
+          mkdir -p orig_queries
+          mkdir -p queries
           cp -r "nvim-treesitter/runtime/queries/${{ matrix.parsers.lang }}" queries
-          rm -r nvim-treesitter
           diff -Naur orig_queries queries > add_queries.patch
-          rm git-diff.patch
 
       - name: Prepare Rockspec template
         env:
