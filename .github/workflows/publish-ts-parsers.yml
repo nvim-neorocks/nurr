@@ -83,7 +83,7 @@ jobs:
           git checkout "$PARSER_REVISION"
           if [ -d "queries" ]; then
             echo "queries directory found"
-            echo "REMOVE_ORIG_QUERIES=true" >> $GITHUB_ENV
+            echo "REMOVE_ORIG_QUERIES='true'" >> $GITHUB_ENV
             mkdir orig_queries
             mv queries/* orig_queries
             diff -Naur queries orig_queries > rm_queries.patch
