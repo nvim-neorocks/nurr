@@ -46,36 +46,10 @@ jobs:
       - name: Get repo and parser metadata
         id: get-release
         run: |
-          echo "GITHUB_SHA_OVERRIDE=$(git rev-parse HEAD)" >> $GITHUB_ENV
           echo "PARSER_NAME=tree-sitter-${{ matrix.parsers.lang }}" >> $GITHUB_ENV
           echo "GITHUB_REPOSITORY_OVERRIDE=$(echo '${{ env.REPO_URL }}' | awk -F/ '{print $4"/"$5}')" >> $GITHUB_ENV
-          # Check for semver tags
-          TAGS="$(git for-each-ref --sort=authordate --format '%(refname)' refs/tags )"
-          if [[ -n "$TAGS" ]]; then
-            echo "Found tags:"
-            echo "$TAGS"
-          fi
-          TAG="$(git for-each-ref --sort=authordate --format '%(refname)' refs/tags | sed 's/refs\/tags\/\(.*\)/\1/' | grep -P '^[v]*[0-9]{1,}.[0-9]{1,}.[0-9]{1,}' | tail -n1)"
-          if [[ -z "$TAG" ]]; then
-            # Try without patch
-            TAG="$(git for-each-ref --sort=authordate --format '%(refname)' refs/tags | sed 's/refs\/tags\/\(.*\)/\1/' | grep -P '^[v]*[0-9]{1,}.[0-9]{1,}' | tail -n1)"
-          fi
-          if [[ -z "$TAG" ]]; then
-            # Try without minor
-            TAG="$(git for-each-ref --sort=authordate --format '%(refname)' refs/tags | sed 's/refs\/tags\/\(.*\)/\1/' | grep -P '^[v]*[0-9]{1,}' | tail -n1)"
-          fi
-          if [[ -n "$TAG" ]]; then
-            echo "Found $TAG"
-            echo "TAG=$TAG" >> $GITHUB_ENV
-            VERSION=$(echo "$TAG" | sed 's/v\(.*\)/\1/')
-            echo "RELEASE_VERSION=${VERSION}" >> $GITHUB_ENV
-            echo "GITHUB_REF_TYPE_OVERRIDE=tag" >> $GITHUB_ENV
-            echo "GITHUB_REF_NAME_OVERRIDE=$TAG" >> $GITHUB_ENV
-          else
-            echo "PUBLISHED_COUNT=NOTHING" >> $GITHUB_ENV
-          fi
 
-      - name: Install tree-sitter parser
+      - name: Install tree-sitter CLI
         uses: baptiste0928/cargo-install@v3
         if: ${{ matrix.parsers.install_info.requires_generate_from_grammar }}
         with:
@@ -109,6 +83,7 @@ jobs:
           pushd nvim-treesitter
           PARSER_REVISION=$(jq -r ".\"${{ matrix.parsers.lang }}\".revision" lockfile.json)
           echo "PARSER_REVISION=$PARSER_REVISION" >> $GITHUB_ENV
+          echo "GITHUB_SHA_OVERRIDE=$PARSER_REVISION" >> $GITHUB_ENV
           popd
           git checkout $PARSER_REVISION
           rm -r queries || true
@@ -144,31 +119,48 @@ jobs:
           sed -i -e '/PATCH_CONTENT/ {' -e 'r queries.patch' -e 'd' -e '}' rockspec.template
           cat rockspec.template
 
-      # - name: Install `luarocks-build-treesitter-parser` Package
-      #   run: |
-      #     luarocks --verbose --local --lua-version=5.1 install luarocks-build-treesitter-parser
-      #
-      # - name: Install askalono-cli for license detection
-      #   uses: baptiste0928/cargo-install@v3
-      #   with:
-      #     crate: askalono-cli
-      #
-      # - name: Get SPDX license
-      #   run: |
-      #     LICENSE=$(askalono crawl . | sed -n 's/License: \([^ ]*\).*/\1/p' || echo "UNKNOWN")
-      #     LICENSE_COUNT=$(echo "$LICENSE" | grep -c .)
-      #     if [ "$LICENSE_COUNT" -eq 1 ]; then
-      #       echo "License: $LICENSE"
-      #     else
-      #       if [ "$LICENSE_COUNT" -eq 0 ]; then
-      #         echo "Error: No license identified."
-      #       else
-      #         echo "Error: Multiple licenses identified."
-      #       fi
-      #       LICENSE="UNKNOWN"
-      #     fi
-      #     echo "LICENSE=$LICENSE" >> $GITHUB_ENV
-      #
+      - name: Install `luarocks-build-treesitter-parser` Package
+        run: |
+          luarocks --verbose --local --lua-version=5.1 install luarocks-build-treesitter-parser
+
+      - name: Install askalono-cli for license detection
+        uses: baptiste0928/cargo-install@v3
+        with:
+          crate: askalono-cli
+
+      - name: Get SPDX license
+        run: |
+          LICENSE=$(askalono crawl . | sed -n 's/License: \([^ ]*\).*/\1/p' || echo "UNKNOWN")
+          LICENSE_COUNT=$(echo "$LICENSE" | grep -c .)
+          if [ "$LICENSE_COUNT" -eq 1 ]; then
+            echo "License: $LICENSE"
+          else
+            if [ "$LICENSE_COUNT" -eq 0 ]; then
+              echo "Error: No license identified."
+            else
+              echo "Error: Multiple licenses identified."
+            fi
+            LICENSE="UNKNOWN"
+          fi
+          echo "LICENSE=$LICENSE" >> $GITHUB_ENV
+
+      - name: Publish LuaRock (dev)
+        uses: nvim-neorocks/luarocks-tag-release@v5
+        env:
+          LUAROCKS_API_KEY: ${{ secrets.LUAROCKS_API_KEY }}
+        with:
+          name: ${{ env.PARSER_NAME }}
+          version: 'scm'
+          summary: tree-sitter parser for ${{ matrix.parsers.lang }}
+          template: "rockspec.template"
+          license: ${{ env.LICENSE }}
+          labels: |
+            neovim
+            tree-sitter
+          extra_luarocks_args: |
+            --namespace=neorocks
+            --force
+
       # - name: Publish LuaRock (release)
       #   uses: nvim-neorocks/luarocks-tag-release@v5
       #   if: ${{ env.RELEASE_VERSION != '' }}
@@ -193,20 +185,3 @@ jobs:
       #     rm "${{ env.PARSER_NAME }}-${{ env.RELEASE_VERSION }}-1.rockspec" \
       #      || echo "Nothing to remove."        
       #
-      # - name: Publish LuaRock (dev)
-      #   if: always()
-      #   uses: nvim-neorocks/luarocks-tag-release@v5
-      #   env:
-      #     LUAROCKS_API_KEY: ${{ secrets.LUAROCKS_API_KEY }}
-      #   with:
-      #     name: ${{ env.PARSER_NAME }}
-      #     version: 'scm'
-      #     summary: tree-sitter parser for ${{ matrix.parsers.lang }}
-      #     template: "rockspec.template"
-      #     license: ${{ env.LICENSE }}
-      #     labels: |
-      #       neovim
-      #       tree-sitter
-      #     extra_luarocks_args: |
-      #       --namespace=neorocks
-      #       --force
