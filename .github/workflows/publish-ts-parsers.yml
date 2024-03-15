@@ -87,7 +87,7 @@ jobs:
             echo "creating orig_queries"
             mkdir orig_queries
             echo "moving queries to orig_queries"
-            mv -r queries/* orig_queries
+            mv queries/* orig_queries/
             echo "creating remove queries patch"
             diff -Naur queries orig_queries > rm_queries.patch
             echo "done"
