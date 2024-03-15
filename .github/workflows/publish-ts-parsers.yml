@@ -107,7 +107,7 @@ jobs:
         run: |
           git clone --depth=1 "https://github.com/nvim-treesitter/nvim-treesitter.git" nvim-treesitter
           pushd nvim-treesitter
-          checkout main # TODO pin and checkout revision based on nvim-treesitter lockfile
+          git checkout main # TODO pin and checkout revision based on nvim-treesitter lockfile
           popd
           rm -r queries || true
           mkdir queries
