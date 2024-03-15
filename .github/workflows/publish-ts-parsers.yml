@@ -107,8 +107,10 @@ jobs:
         run: |
           git clone --branch main "https://github.com/nvim-treesitter/nvim-treesitter.git" nvim-treesitter
           pushd nvim-treesitter
+          PARSER_REVISION=$(jq -r ".\"${{ matrix.parsers.lang }}\".revision" lockfile.json)
+          echo "$PARSER_REVISION" >> $GITHUB_ENV
           popd
-          # TODO pin and checkout revision based on nvim-treesitter parsers lockfile
+          git checkout $PARSER_REVISION
           rm -r queries || true
           mkdir queries
           cp -r "nvim-treesitter/runtime/queries/${{ matrix.parsers.lang }}" queries
@@ -138,6 +140,7 @@ jobs:
           then
             sed -i 's@location\s=\snil@location = "${{ matrix.parsers.install_info.location }}"@g' rockspec.template
           fi
+          sed -i "s/PARSER_REVISION/$PARSER_REVISION/g" rockspec.template
           sed -i -e '/PATCH_CONTENT/ {' -e 'r queries.patch' -e 'd' -e '}' rockspec.template
           cat rockspec.template
 
