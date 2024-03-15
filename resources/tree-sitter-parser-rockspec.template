@@ -33,8 +33,11 @@ build = {
   location = nil,
   copy_directories = { "queries" },
   patches = {
-    ["queries.patch"] = [[
-PATCH_CONTENT
-]]
+    ["rm_queries.patch"] = [[
+RM_QUERIES_PATCH_CONTENT
+]],
+    ["add_queries.patch"] = [[
+ADD_QUERIES_PATCH_CONTENT
+]],
   },
 }

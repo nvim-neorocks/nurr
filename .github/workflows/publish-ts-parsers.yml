@@ -73,25 +73,26 @@ jobs:
             resources
           path: rockspec-template
 
-      - name: Install patchutils (for filterdiff)
-        run: sudo apt-get install patchutils
-
       - name: Prepare queries patch
         run: |
           git clone --branch main "https://github.com/nvim-treesitter/nvim-treesitter.git" nvim-treesitter
           pushd nvim-treesitter
           PARSER_REVISION=$(jq -r ".\"${{ matrix.parsers.lang }}\".revision" lockfile.json)
-          echo "PARSER_REVISION=$PARSER_REVISION" >> $GITHUB_ENV
           echo "GITHUB_SHA_OVERRIDE=$PARSER_REVISION" >> $GITHUB_ENV
           popd
           git checkout $PARSER_REVISION
-          rm -r queries || true
+          if [ -d "queries" ]; then
+            echo "REMOVE_ORIG_QUERIES=true" >> $GITHUB_ENV
+            mv queries orig_queries
+            diff -Naur queries orig_queries > rm_queries.patch
+            rm -r orig_queries/*
+          else
+            mkdir orig_queries
+          fi
           mkdir queries
           cp -r "nvim-treesitter/runtime/queries/${{ matrix.parsers.lang }}" queries
           rm -r nvim-treesitter
-          git add queries
-          git diff --cached > git-diff.patch
-          filterdiff --format unified < git-diff.patch > queries.patch
+          diff -Naur orig_queries queries > add_queries.patch
           rm git-diff.patch
 
       - name: Prepare Rockspec template
@@ -116,8 +117,12 @@ jobs:
           then
             sed -i 's@location\s=\snil@location = "${{ matrix.parsers.install_info.location }}"@g' rockspec.template
           fi
-          sed -i "s/PARSER_REVISION/$PARSER_REVISION/g" rockspec.template
-          sed -i -e '/PATCH_CONTENT/ {' -e 'r queries.patch' -e 'd' -e '}' rockspec.template
+          if [ "$REMOVE_ORIG_QUERIES" == "true" ]; then
+            sed -i -e '/RM_QUERIES_PATCH_CONTENT/ {' -e 'r rm_queries.patch' -e 'd' -e '}' rockspec.template
+          else
+            sed -i 's/RM_QUERIES_PATCH_CONTENT//g' rockspec.template
+          fi
+          sed -i -e '/ADD_QUERIES_PATCH_CONTENT/ {' -e 'r add_queries.patch' -e 'd' -e '}' rockspec.template
           cat rockspec.template
 
       - name: Install `luarocks-build-treesitter-parser` Package
