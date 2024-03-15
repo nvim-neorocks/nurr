@@ -90,7 +90,7 @@ jobs:
           cp -r "nvim-treesitter/runtime/queries/${{ matrix.parsers.lang }}" queries
           rm -r nvim-treesitter
           git add queries
-          git diff --cached > git-diff.patch
+          git -C "$(git rev-parse --show-toplevel)" diff --cached --src-prefix='' --dst-prefix='' > git-diff.patch
           filterdiff --format unified < git-diff.patch > queries.patch
           rm git-diff.patch
 
