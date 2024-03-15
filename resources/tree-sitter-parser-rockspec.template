@@ -26,7 +26,7 @@ source = {
 
 if modrev == 'scm' or modrev == 'dev' then
   source = {
-    url = repo_url:gsub('https', 'git')
+    url = repo_url:gsub('https', 'git'),
     branch = "PARSER_REVISION",
   }
 end
