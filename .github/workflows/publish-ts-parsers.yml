@@ -73,6 +73,9 @@ jobs:
             resources
           path: rockspec-template
 
+      - name: Install diffutils (for filterdiff)
+        run: sudo apt-get install diffutils
+
       - name: Prepare queries patch
         run: |
           git clone --branch main "https://github.com/nvim-treesitter/nvim-treesitter.git" nvim-treesitter
@@ -87,8 +90,9 @@ jobs:
           cp -r "nvim-treesitter/runtime/queries/${{ matrix.parsers.lang }}" queries
           rm -r nvim-treesitter
           git add queries
-          git -C "$(git rev-parse --show-toplevel)" diff --cached --src-prefix='' --dst-prefix='' \
-            | awk '!/^new file mode/ && !/^index/' > queries.patch
+          git diff --cached > git-diff.patch
+          filterdiff --format unified < git-diff.patch > queries.patch
+          rm git-diff.patch
 
       - name: Prepare Rockspec template
         env:
