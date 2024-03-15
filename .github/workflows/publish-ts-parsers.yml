@@ -90,6 +90,8 @@ jobs:
             mv queries/* orig_queries/
             echo "creating remove queries patch"
             diff -Naur queries/ orig_queries/ > rm_queries.patch || true # Diff returns 1 if files are different
+            echo "Removing original queries"
+            rm -r orig_queries
             echo "done"
           else
             echo "no queries directory found"
