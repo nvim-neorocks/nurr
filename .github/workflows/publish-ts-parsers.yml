@@ -89,7 +89,7 @@ jobs:
             echo "moving queries to orig_queries"
             mv queries/* orig_queries/
             echo "creating remove queries patch"
-            diff -Naur ./queries ./orig_queries > rm_queries.patch || echo "Failed to create rm_queries.patch"
+            diff -Naur queries orig_queries > rm_queries.patch || true # Diff returns 1 if files are different
             echo "done"
           else
             echo "no queries directory found"
@@ -98,7 +98,7 @@ jobs:
           mkdir -p queries
           cp -r "nvim-treesitter/runtime/queries/${{ matrix.parsers.lang }}" queries
             echo "creating add queries patch"
-          diff -Naur ./orig_queries ./queries > add_queries.patch
+          diff -Naur orig_queries queries > add_queries.patch || true
           echo "done"
 
       - name: Prepare Rockspec template
