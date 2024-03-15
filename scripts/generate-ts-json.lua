@@ -2,7 +2,7 @@
 
 local home = vim.uv.os_getenv('HOME')
 
-local sc = vim.system({ "luarocks", "install", "--local", "nvim-treesitter" }):wait()
+local sc = vim.system({ "luarocks", "install", "--local", "--server='https://luarocks.org/manifests/neorocks'", "nvim-treesitter", "scm"}):wait()
 
 if sc.code ~= 0 then
   error("Failed to install nvim-treesitter: " .. sc.stderr .. "\n" .. sc.stdout)
