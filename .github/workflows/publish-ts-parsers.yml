@@ -105,10 +105,10 @@ jobs:
 
       - name: Prepare queries patch
         run: |
-          git clone --depth=1 "https://github.com/nvim-treesitter/nvim-treesitter.git" nvim-treesitter
+          git clone --branch main "https://github.com/nvim-treesitter/nvim-treesitter.git" nvim-treesitter
           pushd nvim-treesitter
-          git checkout main # TODO pin and checkout revision based on nvim-treesitter lockfile
           popd
+          # TODO pin and checkout revision based on nvim-treesitter parsers lockfile
           rm -r queries || true
           mkdir queries
           cp -r "nvim-treesitter/parsers/queries/${{ matrix.parsers.lang }}" queries
