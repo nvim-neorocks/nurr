@@ -41,7 +41,7 @@ jobs:
         run: |
           REPO_URL=$(echo "${{ matrix.parsers.install_info.url }}" | sed 's/\.git$//')
           echo "REPO_URL=$REPO_URL" >> $GITHUB_ENV
-          git clone --filter=blob:none "$REPO_URL.git" .
+          git clone "$REPO_URL.git" .
 
       - name: Get repo and parser metadata
         id: get-release
@@ -80,13 +80,15 @@ jobs:
           PARSER_REVISION=$(jq -r ".\"${{ matrix.parsers.lang }}\".revision" lockfile.json)
           echo "GITHUB_SHA_OVERRIDE=$PARSER_REVISION" >> $GITHUB_ENV
           popd
-          git checkout $PARSER_REVISION
+          git checkout "$PARSER_REVISION"
           if [ -d "queries" ]; then
+            echo "queries directory found"
             echo "REMOVE_ORIG_QUERIES=true" >> $GITHUB_ENV
             mv queries orig_queries
             diff -Naur queries orig_queries > rm_queries.patch
             rm -r orig_queries/*
           else
+            echo "no queries directory found"
             mkdir orig_queries
           fi
           mkdir queries
