@@ -105,7 +105,7 @@ jobs:
 
       - name: Prepare queries patch
         run: |
-          git clone --depth=1 "git@github.com:nvim-treesitter/nvim-treesitter.git" nvim-treesitter
+          git clone --depth=1 "https://github.com/nvim-treesitter/nvim-treesitter.git" nvim-treesitter
           pushd nvim-treesitter
           checkout main # TODO pin and checkout revision based on nvim-treesitter lockfile
           popd
