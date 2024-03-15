@@ -111,7 +111,7 @@ jobs:
           # TODO pin and checkout revision based on nvim-treesitter parsers lockfile
           rm -r queries || true
           mkdir queries
-          cp -r "nvim-treesitter/parsers/queries/${{ matrix.parsers.lang }}" queries
+          cp -r "nvim-treesitter/runtime/queries/${{ matrix.parsers.lang }}" queries
           rm -r nvim-treesitter
           git add queries
           git -C "$(git rev-parse --show-toplevel)" diff --cached --src-prefix='' --dst-prefix='' > queries.patch
