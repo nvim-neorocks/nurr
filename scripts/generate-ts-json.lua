@@ -20,4 +20,4 @@ local luarocks_cpath = {
 }
 package.cpath = package.cpath .. ";" .. table.concat(luarocks_cpath, ";")
 
-io.write(vim.json.encode(require('nvim-treesitter.parsers').get_parser_configs()))
+io.write(vim.json.encode(require('nvim-treesitter.parsers').configs))
