@@ -80,14 +80,14 @@ jobs:
           PARSER_REVISION=$(jq -r ".\"${{ matrix.parsers.lang }}\".revision" lockfile.json)
           echo "GITHUB_SHA_OVERRIDE=$PARSER_REVISION" >> $GITHUB_ENV
           popd
-          git checkout "$PARSER_REVISION"
-          mkdir -p _nvim/queries
-          cp -r "nvim-treesitter/runtime/queries/${{ matrix.parsers.lang }}" _nvim/queries/
-          mkdir -p _parser
-          mv queries _parser/ || echo "No existing queries directory"
-          echo "creating queries patch"
-          diff -Naur _parser _nvim > queries.patch || true
-          echo "done"
+          # git checkout "$PARSER_REVISION"
+          # mkdir -p _nvim/queries
+          # cp -r "nvim-treesitter/runtime/queries/${{ matrix.parsers.lang }}" _nvim/queries/
+          # mkdir -p _parser
+          # mv queries _parser/ || echo "No existing queries directory"
+          # echo "creating queries patch"
+          # diff -Naur _parser _nvim > queries.patch || true
+          # echo "done"
 
       - name: Prepare Rockspec template
         env:
@@ -111,7 +111,7 @@ jobs:
           then
             sed -i 's@location\s=\snil@location = "${{ matrix.parsers.install_info.location }}"@g' rockspec.template
           fi
-          sed -i -e '/QUERIES_PATCH_CONTENT/ {' -e 'r queries.patch' -e 'd' -e '}' rockspec.template
+          # sed -i -e '/QUERIES_PATCH_CONTENT/ {' -e 'r queries.patch' -e 'd' -e '}' rockspec.template
           cat rockspec.template
 
       - name: Install `luarocks-build-treesitter-parser` Package

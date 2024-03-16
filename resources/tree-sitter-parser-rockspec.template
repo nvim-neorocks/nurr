@@ -31,10 +31,4 @@ build = {
   generate_from_grammar = false,
   generate_requires_npm = false,
   location = nil,
-  copy_directories = { "queries" },
-  patches = {
-    ["queries.patch"] = [[
-QUERIES_PATCH_CONTENT
-]],
-  },
 }
