@@ -1,0 +1,33 @@
+---
+
+on:
+  push:
+    branches:
+      - 'main'
+    paths:
+      - 'tree-sitter-parsers.json'
+      - .github/workflows/chunk-ts-parsers.yml
+      - .github/workflows/publish-ts-parsers.yml
+  schedule:
+    # Runs every 7 hours
+    - cron: "*/10 */7 * * *"
+  workflow_dispatch:
+
+jobs:
+  chunk-publish-workflows:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Trigger workflows for each chunk
+        run: |
+          jq '{parsers: .parsers | _nwise(256)}' tree-sitter-parsers.json | jq -s '{chunks: .}' > chunks.json
+          # The above command outputs a nested list
+          CHUNK_COUNT=$(jq '.chunks | length' chunks.json)
+          for ((i = 0 ; i < CHUNK_COUNT ; i++ )); do
+            PAYLOAD=$(jq -c --argjson e "$i" '.chunks[$e]' chunks.json)
+            JSON_PAYLOAD=$(jq -nc --argjson data "$PAYLOAD" '{"event_type":"chunked_publish_ts","client_payload":$data}')
+            curl -X POST -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+            -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/repos/nvim-neorocks/nurr/dispatches" \
+            -d "$JSON_PAYLOAD"
+          done

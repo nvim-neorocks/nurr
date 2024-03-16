@@ -2,40 +2,17 @@
 name: Publish tree-sitter parsers
 
 on:
-  push:
-    branches:
-      - 'main'
-    paths:
-      - ./tree-sitter-parsers.json
-      - .github/workflows/publish-ts-parsers.yml
-  schedule:
-    # Runs every 7 hours
-    - cron: "0 */7 * * *"
-  workflow_dispatch:
-
-  # TODO: Remove this if we need to introduce chunking
-concurrency:
-  group: publish-tree-sitter-parsers
-  cancel-in-progress: true
+  repository_dispatch:
+    types: [chunked_publish_ts]
 
 jobs:
-  generate-matrix:
-    runs-on: ubuntu-latest
-    outputs:
-      matrix: ${{ steps.set-matrix.outputs.matrix }}
-    steps:
-      - uses: actions/checkout@v4
-      - id: set-matrix
-        run: |
-          echo "MATRIX=$(cat ./tree-sitter-parsers.json | tr -d '\n\r')" >> $GITHUB_OUTPUT
-
   publish:
     runs-on: ubuntu-latest
-    needs: generate-matrix
     strategy:
       fail-fast: false
       max-parallel: 10 # Don't DDOS the luarocks servers
-      matrix: ${{ fromJson(needs.generate-matrix.outputs.matrix) }}
+      matrix: 
+        parsers: ${{ github.event.client_payload.parsers }}
     steps:
       - name: Clone parser repository
         run: |
