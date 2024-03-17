@@ -78,7 +78,7 @@ jobs:
           then
             sed -i 's@location\s=\snil@location = "${{ matrix.parsers.install_info.location }}"@g' rockspec.template
           fi
-          for QUERY_FILE in nvim-treesitter/runtime/queries/${{ matrix.parsers.lang }}/*.scm; do
+          for QUERY_FILE in "nvim-treesitter/runtime/queries/${{ matrix.parsers.lang }}/*"; do
             BASE_NAME="$(basename "$QUERY_FILE")"
             # Injection string with file name and placeholder for file content
             INJECTION="    [\"$BASE_NAME\"] = [[\nQUERY_CONTENT\n]],\nQUERY_PLACEHOLDER"
@@ -89,7 +89,7 @@ jobs:
             sed -i -e "/QUERY_CONTENT/ {" -e "r $QUERY_FILE" -e "d" -e "}" rockspec.template
           done
           # Remove the final placeholder
-          sed -i '/QUERY_PLACEHOLDER/d' "$rockspec"
+          sed -i '/QUERY_PLACEHOLDER/d' rockspec.template
           # Inject nvim-treesitter license
           echo "Injecting nvim-treesitter license"
           sed -i -e "/NVIM_TREESITTER_LICENSE_CONTENT/ {" -e "r nvim-treesitter/LICENSE" -e "d" -e "}" rockspec.template
