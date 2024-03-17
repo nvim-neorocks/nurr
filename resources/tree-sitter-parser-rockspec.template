@@ -41,4 +41,6 @@ The tree-sitter queries that are bundled with this package
 have been borrowed from nvim-treesitter.
 
 NVIM_TREESITTER_LICENSE_CONTENT
+]],
+  },
 }

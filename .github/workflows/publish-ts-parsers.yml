@@ -89,6 +89,8 @@ jobs:
           done
           # Remove the final placeholder
           sed -i '/QUERY_PLACEHOLDER/d' "$rockspec"
+          # Inject nvim-treesitter license
+          sed -i -e "/NVIM_TREESITTER_LICENSE_CONTENT/ {" -e "r nvim-treesitter/LICENSE" -e "d" -e "}" rockspec.template
           cat rockspec.template
 
       - name: Install `luarocks-build-treesitter-parser` Package
