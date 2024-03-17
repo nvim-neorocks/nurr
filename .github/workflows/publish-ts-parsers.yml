@@ -50,27 +50,11 @@ jobs:
             resources
           path: rockspec-template
 
-      - name: Prepare queries patch
+      - name: Clone nvim-treesitter and get revision
         run: |
           git clone --branch main "https://github.com/nvim-treesitter/nvim-treesitter.git" nvim-treesitter
-          pushd nvim-treesitter
-          PARSER_REVISION=$(jq -r ".\"${{ matrix.parsers.lang }}\".revision" lockfile.json)
+          PARSER_REVISION=$(jq -r ".\"${{ matrix.parsers.lang }}\".revision" nvim-treesitter/lockfile.json)
           echo "GITHUB_SHA_OVERRIDE=$PARSER_REVISION" >> $GITHUB_ENV
-          popd
-          git checkout "$PARSER_REVISION"
-          mkdir -p _parser
-          if [ -d "queries" ]; then
-            mv queries _parser/queries 
-            echo "_parser/queries content:"
-            ls _parser/queries
-          fi
-          mkdir -p _nvim/queries
-          cp -r "nvim-treesitter/runtime/queries/${{ matrix.parsers.lang }}" "_nvim/queries/${{ matrix.parsers.lang }}"
-          echo "_nvim/queries content:"
-          ls _nvim/queries
-          echo "creating queries patch"
-          diff -Naur _parser _nvim > queries.patch || true
-          cat queries.patch
 
       - name: Prepare Rockspec template
         env:
@@ -94,7 +78,17 @@ jobs:
           then
             sed -i 's@location\s=\snil@location = "${{ matrix.parsers.install_info.location }}"@g' rockspec.template
           fi
-          sed -i -e '/QUERIES_PATCH_CONTENT/ {' -e 'r queries.patch' -e 'd' -e '}' rockspec.template
+          for QUERY_FILE in nvim-treesitter/queries/${{ matrix.parsers.lang }}/*.scm; do
+            BASE_NAME="$(basename "$QUERY_FILE")"
+            # Injection string with file name and placeholder for file content
+            INJECTION="    [\"$BASE_NAME\"] = [[\nQUERY_CONTENT\n]],\nQUERY_PLACEHOLDER"
+
+            # Inject the prepared string at the placeholder's position
+            sed -i "s/QUERY_PLACEHOLDER/$INJECTION/" rockspec.template
+            sed -i -e "/QUERY_CONTENT/ {" -e "r $QUERY_FILE" -e "d" -e "}" rockspec.template
+          done
+          # Remove the final placeholder
+          sed -i '/QUERY_PLACEHOLDER/d' "$rockspec"
           cat rockspec.template
 
       - name: Install `luarocks-build-treesitter-parser` Package
@@ -122,22 +116,22 @@ jobs:
           fi
           echo "LICENSE=$LICENSE" >> $GITHUB_ENV
 
-      - name: Publish LuaRock (dev)
-        uses: nvim-neorocks/luarocks-tag-release@v5
-        env:
-          LUAROCKS_API_KEY: ${{ secrets.LUAROCKS_API_KEY }}
-        with:
-          name: ${{ env.PARSER_NAME }}
-          version: 'scm'
-          summary: tree-sitter parser for ${{ matrix.parsers.lang }}
-          template: "rockspec.template"
-          license: ${{ env.LICENSE }}
-          labels: |
-            neovim
-            tree-sitter
-          extra_luarocks_args: |
-            --namespace=neorocks
-            --force
+      # - name: Publish LuaRock (dev)
+      #   uses: nvim-neorocks/luarocks-tag-release@v5
+      #   env:
+      #     LUAROCKS_API_KEY: ${{ secrets.LUAROCKS_API_KEY }}
+      #   with:
+      #     name: ${{ env.PARSER_NAME }}
+      #     version: 'scm'
+      #     summary: tree-sitter parser for ${{ matrix.parsers.lang }}
+      #     template: "rockspec.template"
+      #     license: ${{ env.LICENSE }}
+      #     labels: |
+      #       neovim
+      #       tree-sitter
+      #     extra_luarocks_args: |
+      #       --namespace=neorocks
+      #       --force
 
       # - name: Publish LuaRock (release)
       #   uses: nvim-neorocks/luarocks-tag-release@v5

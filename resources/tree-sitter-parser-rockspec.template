@@ -16,7 +16,7 @@ description = {
 }
 
 dependencies = {
-  'luarocks-build-treesitter-parser',
+  'luarocks-build-treesitter-parser >= 1.1.1',
 }
 
 source = {
@@ -32,9 +32,13 @@ build = {
   generate_requires_npm = false,
   location = nil,
   copy_directories = { "queries" },
-  patches = {
-    ["queries.patch"] = [[
-QUERIES_PATCH_CONTENT
-]],
+  queries = {
+QUERY_PLACEHOLDER
   },
+  extra_files = {
+    ["nvim-treesitter-LICENSE"] = [[
+The tree-sitter queries that are bundled with this package
+have been borrowed from nvim-treesitter.
+
+NVIM_TREESITTER_LICENSE_CONTENT
 }
