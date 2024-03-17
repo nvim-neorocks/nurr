@@ -121,22 +121,22 @@ jobs:
           fi
           echo "LICENSE=$LICENSE" >> $GITHUB_ENV
 
-      # - name: Publish LuaRock (dev)
-      #   uses: nvim-neorocks/luarocks-tag-release@v5
-      #   env:
-      #     LUAROCKS_API_KEY: ${{ secrets.LUAROCKS_API_KEY }}
-      #   with:
-      #     name: ${{ env.PARSER_NAME }}
-      #     version: 'scm'
-      #     summary: tree-sitter parser for ${{ matrix.parsers.lang }}
-      #     template: "rockspec.template"
-      #     license: ${{ env.LICENSE }}
-      #     labels: |
-      #       neovim
-      #       tree-sitter
-      #     extra_luarocks_args: |
-      #       --namespace=neorocks
-      #       --force
+      - name: Publish LuaRock (dev)
+        uses: nvim-neorocks/luarocks-tag-release@v5
+        env:
+          LUAROCKS_API_KEY: ${{ secrets.LUAROCKS_API_KEY }}
+        with:
+          name: ${{ env.PARSER_NAME }}
+          version: 'scm'
+          summary: tree-sitter parser for ${{ matrix.parsers.lang }}
+          template: "rockspec.template"
+          license: ${{ env.LICENSE }}
+          labels: |
+            neovim
+            tree-sitter
+          extra_luarocks_args: |
+            --namespace=neorocks
+            --force
 
       # - name: Publish LuaRock (release)
       #   uses: nvim-neorocks/luarocks-tag-release@v5
