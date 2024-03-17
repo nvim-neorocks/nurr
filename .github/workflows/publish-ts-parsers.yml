@@ -78,7 +78,7 @@ jobs:
           then
             sed -i 's@location\s=\snil@location = "${{ matrix.parsers.install_info.location }}"@g' rockspec.template
           fi
-          for QUERY_FILE in nvim-treesitter/queries/${{ matrix.parsers.lang }}/*.scm; do
+          for QUERY_FILE in nvim-treesitter/runtime/queries/${{ matrix.parsers.lang }}/*.scm; do
             BASE_NAME="$(basename "$QUERY_FILE")"
             # Injection string with file name and placeholder for file content
             INJECTION="    [\"$BASE_NAME\"] = [[\nQUERY_CONTENT\n]],\nQUERY_PLACEHOLDER"
