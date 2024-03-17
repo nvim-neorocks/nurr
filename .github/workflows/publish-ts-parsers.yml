@@ -59,7 +59,7 @@ jobs:
           popd
           git checkout "$PARSER_REVISION"
           mkdir -p _parser
-          if [ -d "queries" ] then
+          if [ -d "queries" ]; then
             mv queries _parser/queries 
           fi
           mkdir -p _nvim/queries
