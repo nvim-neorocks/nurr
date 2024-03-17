@@ -83,13 +83,15 @@ jobs:
             # Injection string with file name and placeholder for file content
             INJECTION="    [\"$BASE_NAME\"] = [[\nQUERY_CONTENT\n]],\nQUERY_PLACEHOLDER"
 
-            # Inject the prepared string at the placeholder's position
+            echo "Injecting placeholder for $BASE_NAME"
             sed -i "s/QUERY_PLACEHOLDER/$INJECTION/" rockspec.template
+            echo "Injecting $BASE_NAME"
             sed -i -e "/QUERY_CONTENT/ {" -e "r $QUERY_FILE" -e "d" -e "}" rockspec.template
           done
           # Remove the final placeholder
           sed -i '/QUERY_PLACEHOLDER/d' "$rockspec"
           # Inject nvim-treesitter license
+          echo "Injecting nvim-treesitter license"
           sed -i -e "/NVIM_TREESITTER_LICENSE_CONTENT/ {" -e "r nvim-treesitter/LICENSE" -e "d" -e "}" rockspec.template
           cat rockspec.template
 
