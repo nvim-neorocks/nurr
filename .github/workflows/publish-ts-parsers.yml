@@ -43,7 +43,7 @@ jobs:
       - name: Install Luarocks
         uses: hishamhm/gh-actions-luarocks@master
 
-      - name: Get Rockspec template
+      - name: Get Rockspec template and nvim-treesitter lockfile
         uses: actions/checkout@v4
         with: 
           sparse-checkout: |
@@ -53,6 +53,9 @@ jobs:
       - name: Clone nvim-treesitter and get revision
         run: |
           git clone --branch main "https://github.com/nvim-treesitter/nvim-treesitter.git" nvim-treesitter
+          pushd nvim-treesitter
+          git checkout "$(cat ../resources/nvim-treesitter.lock)"
+          popd
           PARSER_REVISION=$(jq -r ".\"${{ matrix.parsers.lang }}\".revision" nvim-treesitter/lockfile.json)
           echo "GITHUB_SHA_OVERRIDE=$PARSER_REVISION" >> $GITHUB_ENV
 
