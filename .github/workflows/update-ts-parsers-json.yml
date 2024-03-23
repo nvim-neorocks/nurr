@@ -39,6 +39,9 @@ jobs:
           ./scripts/echo-ts-json.lua \
           | jq '{parsers: [to_entries[] | {lang: .key} + (.value | del(.maintainers))]}' \
           > tree-sitter-parsers.json
+      - name: Get nvim-treesitter commit SHA
+        run: |
+          cp nvim-treesitter/.git/refs/heads/main resources/nvim-treesitter.lock
       - name: commit
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
