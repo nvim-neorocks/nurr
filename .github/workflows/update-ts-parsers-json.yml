@@ -30,14 +30,6 @@ jobs:
           repository: nvim-treesitter/nvim-treesitter
           path: nvim-treesitter
           ref: main
-      - name: Install Lua
-        uses: leso-kn/gh-actions-lua@master
-        with:
-          luaVersion: "5.1"
-      - name: Install Luarocks
-        uses: hishamhm/gh-actions-luarocks@master
-        with:
-          luarocksVersion: "3.11.0"
       - uses: rhysd/action-setup-vim@v1
         with:
           neovim: true
