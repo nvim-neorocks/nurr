@@ -35,6 +35,11 @@ jobs:
       - uses: actions/setup-node@v4
         if: ${{ matrix.parsers.install_info.requires_generate_from_grammar }}
 
+      - name: Install C/C++ Compiler
+        uses: rlalik/setup-cpp-compiler@master
+        with:
+          compiler: clang-latest
+
       - name: Install Lua
         uses: leso-kn/gh-actions-lua@master
         with:
