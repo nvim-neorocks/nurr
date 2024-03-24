@@ -11,7 +11,7 @@ on:
     branches:
       - 'main'
     paths:
-      - 'scripts/generate-ts-json.lua'
+      - 'scripts/echo-ts-json.lua'
       - .github/workflows/update-ts-parsers-json.yml
   schedule:
     # Runs every 7 hours
