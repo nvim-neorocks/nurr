@@ -16,9 +16,13 @@ jobs:
     steps:
       - name: Clone parser repository
         run: |
-          REPO_URL=$(echo "${{ matrix.parsers.install_info.url }}" | sed 's/\.git$//')
-          echo "REPO_URL=$REPO_URL" >> $GITHUB_ENV
-          git clone "$REPO_URL.git" .
+          if [[ -n "${{ matrix.parsers.install_info.url }}" ]]; then
+            REPO_URL=$(echo "${{ matrix.parsers.install_info.url }}" | sed 's/\.git$//')
+            echo "REPO_URL=$REPO_URL" >> $GITHUB_ENV
+            git clone "$REPO_URL.git" .
+          else
+            echo "REPO_URL=https://github.com/nvim-neorocks/luarocks-stub" >> $GITHUB_ENV
+          fi
 
       - name: Get repo and parser metadata
         id: get-release
@@ -61,7 +65,12 @@ jobs:
           pushd nvim-treesitter
           git checkout "$(cat ../rockspec-template/resources/nvim-treesitter.lock)"
           popd
-          PARSER_REVISION=$(jq -r ".\"${{ matrix.parsers.lang }}\".revision" nvim-treesitter/lockfile.json)
+          if [[ -n "${{ matrix.parsers.install_info.url }}" ]]; then
+            PARSER_REVISION=$(jq -r ".\"${{ matrix.parsers.lang }}\".revision" nvim-treesitter/lockfile.json)
+          else
+            # Use stub
+            PARSER_REVISION="548853648d7cff7e0d959ff95209e8aa97a793bc"
+          fi
           echo "GITHUB_SHA_OVERRIDE=$PARSER_REVISION" >> $GITHUB_ENV
 
       - name: Prepare Rockspec template
@@ -71,8 +80,13 @@ jobs:
           mv rockspec-template/resources/tree-sitter-parser-rockspec.template rockspec.template
           rm -r rockspec-template
           sed -i 's/LANG/${{ matrix.parsers.lang }}/g' rockspec.template
-          # Convert sources to lua
-          SOURCES_TBL=$(echo "$SOURCES_JSON" | jq -r '"{ " + (map("\"" + . + "\"") | join(", ")) + " }"')
+          if [[ -n "${{ matrix.parsers.install_info.url }}" ]]; then
+            # Convert sources to lua
+            SOURCES_TBL=$(echo "$SOURCES_JSON" | jq -r '"{ " + (map("\"" + . + "\"") | join(", ")) + " }"')
+          else
+            # No sources. Use empty table
+            SOURCES_TBL="{}"
+          fi
           sed -i 's@SOURCES@'"$SOURCES_TBL"'@' rockspec.template
           if [[ "${{ matrix.parsers.install_info.requires_generate_from_grammar }}" == "true" ]]; 
           then
