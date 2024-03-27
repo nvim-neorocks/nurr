@@ -150,7 +150,7 @@ jobs:
         with:
           name: ${{ env.PARSER_NAME }}
           version: 'scm'
-          summary: tree-sitter parser for ${{ matrix.parsers.lang }}
+          summary: tree-sitter parser and Neovim queries for ${{ matrix.parsers.lang }}
           template: "rockspec.template"
           license: ${{ env.LICENSE }}
           labels: |
