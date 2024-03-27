@@ -24,7 +24,7 @@ jobs:
               GIT_SERVER_URL=$(echo "$REPO_URL" | sed -E 's/^(https?:\/\/[^\/]+).*/\1/')
               echo "GIT_SERVER_URL_OVERRIDE=$GIT_SERVER_URL" >> $GITHUB_ENV
             fi
-            git clone "$REPO_URL.git" .
+            git clone "$REPO_URL.git" . || git clone "$REPO_URL" .
           else
             echo "REPO_URL=https://github.com/nvim-neorocks/luarocks-stub" >> $GITHUB_ENV
           fi
