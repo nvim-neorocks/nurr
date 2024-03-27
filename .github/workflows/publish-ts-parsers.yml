@@ -109,6 +109,9 @@ jobs:
             # sourcehut uses tar archives
             sed -i "s/'\.zip'/'tar.gz'/g" rockspec.template
           fi
+          if [[ "$GIT_SERVER_OVERRIDE" =~ "^https?://gitlab.com/" ]]; then
+            sed -i "s/'\/archive\/'/'\/-\/archive\/'/g" rockspec.template
+          fi
           QUERIES_DIR="nvim-treesitter/runtime/queries/${{ matrix.parsers.lang }}"
           for QUERY_FILE in "$QUERIES_DIR"/*; do
             BASE_NAME="$(basename "$QUERY_FILE")"
