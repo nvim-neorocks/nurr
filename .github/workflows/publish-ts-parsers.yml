@@ -20,7 +20,7 @@ jobs:
             REPO_URL=$(echo "${{ matrix.parsers.install_info.url }}" | sed 's/\.git$//') \
               || REPO_URL="${{ matrix.parsers.install_info.url }}" 
             echo "REPO_URL=$REPO_URL" >> $GITHUB_ENV
-            if [[ ! "$REPO_URL"  =~ "^https?://github\.com/" ]]; then
+            if [[ ! "$REPO_URL" =~ ^https?://github\.com/ ]]; then
               GIT_SERVER_URL=$(echo "$REPO_URL" | sed -E 's/^(https?:\/\/[^\/]+).*/\1/')
               echo "GIT_SERVER_URL_OVERRIDE=$GIT_SERVER_URL" >> $GITHUB_ENV
             fi
@@ -105,12 +105,12 @@ jobs:
           then
             sed -i 's@location\s=\snil@location = "${{ matrix.parsers.install_info.location }}"@g' rockspec.template
           fi
-          if [[ "$GIT_SERVER_OVERRIDE" =~ "^https?://git\.sr\.ht/" ]]; then
-            # sourcehut uses tar archives
+          if [[ "${{ env.REPO_URL }}" =~ ^https:\/\/git\.sr\.ht\/ ]]; then
+            echo "fixing up template for sourcehut"
             sed -i "s/'\.zip'/'tar.gz'/g" rockspec.template
-          fi
-          if [[ "$GIT_SERVER_OVERRIDE" =~ "^https?://gitlab.com/" ]]; then
-            sed -i "s/'\/archive\/'/'\/-\/archive\/'/g" rockspec.template
+          elif [[ "${{ env.REPO_URL }}" =~ ^https:\/\/gitlab\.com\/ ]]; then
+            echo "fixing up template for gitlab"
+            sed -i "s@'/archive/'@'/-/archive/'@g" rockspec.template
           fi
           QUERIES_DIR="nvim-treesitter/runtime/queries/${{ matrix.parsers.lang }}"
           for QUERY_FILE in "$QUERIES_DIR"/*; do
