@@ -139,7 +139,10 @@ jobs:
         with:
           crate: askalono-cli
 
+      - name: Default to unknown license
+        run: echo "LICENSE=UNKNOWN" >> $GITHUB_ENV
       - name: Get SPDX license
+        continue-on-error: true
         run: |
           LICENSE=$(askalono crawl . | sed -n 's/License: \([^ ]*\).*/\1/p' || echo "UNKNOWN")
           LICENSE_COUNT=$(echo "$LICENSE" | grep -c .)
