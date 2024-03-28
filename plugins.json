@@ -225,6 +225,13 @@
             "license": "MIT"
         },
         {
+            "name": "echasnovski/mini.diff",
+            "shorthand": "mini.diff",
+            "dependencies": "",
+            "summary": "Work with diff hunks in Neovim. Part of the mini.nvim suite.",
+            "license": "MIT"
+        },
+        {
             "name": "echasnovski/mini.doc",
             "shorthand": "mini.doc",
             "dependencies": "",
