@@ -107,7 +107,7 @@ jobs:
           fi
           if [[ "${{ env.REPO_URL }}" =~ ^https:\/\/git\.sr\.ht\/ ]]; then
             echo "fixing up template for sourcehut"
-            sed -i "s/'\.zip'/'tar.gz'/g" rockspec.template
+            sed -i "s/'\.zip'/'.tar.gz'/g" rockspec.template
           elif [[ "${{ env.REPO_URL }}" =~ ^https:\/\/gitlab\.com\/ ]]; then
             echo "fixing up template for gitlab"
             sed -i "s@'/archive/'@'/-/archive/'@g" rockspec.template
