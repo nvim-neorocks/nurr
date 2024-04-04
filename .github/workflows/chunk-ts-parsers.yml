@@ -8,6 +8,7 @@ on:
       - 'tree-sitter-parsers.json'
       - .github/workflows/chunk-ts-parsers.yml
       - .github/workflows/publish-ts-parsers.yml
+      - resources/tree-sitter-parser-rockspec.template
   schedule:
     # Runs every 7 hours
     - cron: "*/10 */7 * * *"
