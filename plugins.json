@@ -1973,6 +1973,13 @@
             "license": "MIT",
             "summary": "Yode plugin for NeoVim",
             "dependencies": "plenary.nvim"
+        },
+        {
+            "name": "sindrets/diffview.nvim",
+            "shorthand": "diffview.nvim",
+            "license": "GPL-3.0",
+            "summary": "Single tabpage interface for easily cycling through diffs for all modified files for any git rev.",
+            "dependencies": "nvim-web-devicons"
         }
     ]
 }
