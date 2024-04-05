@@ -1,6 +1,134 @@
 {
   "parsers": [
     {
+      "lang": "luadoc",
+      "tier": 2,
+      "install_info": {
+        "url": "https://github.com/amaanq/tree-sitter-luadoc",
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "fortran",
+      "tier": 2,
+      "install_info": {
+        "url": "https://github.com/stadelmanma/tree-sitter-fortran",
+        "files": [
+          "src/parser.c",
+          "src/scanner.c"
+        ]
+      }
+    },
+    {
+      "lang": "luap",
+      "readme_note": "Lua patterns",
+      "tier": 2,
+      "install_info": {
+        "url": "https://github.com/amaanq/tree-sitter-luap",
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "fsh",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/mgramigna/tree-sitter-fsh",
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "luau",
+      "requires": [
+        "lua"
+      ],
+      "tier": 2,
+      "install_info": {
+        "url": "https://github.com/amaanq/tree-sitter-luau",
+        "files": [
+          "src/parser.c",
+          "src/scanner.c"
+        ]
+      }
+    },
+    {
+      "lang": "fusion",
+      "tier": 3,
+      "install_info": {
+        "url": "https://gitlab.com/jirgn/tree-sitter-fusion.git",
+        "files": [
+          "src/parser.c",
+          "src/scanner.c"
+        ]
+      }
+    },
+    {
+      "lang": "gdscript",
+      "readme_note": "Godot",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/PrestonKnopp/tree-sitter-gdscript",
+        "files": [
+          "src/parser.c",
+          "src/scanner.c"
+        ]
+      }
+    },
+    {
+      "lang": "markdown",
+      "tier": 1,
+      "requires": [
+        "markdown_inline"
+      ],
+      "readme_note": "basic highlighting",
+      "install_info": {
+        "url": "https://github.com/MDeiml/tree-sitter-markdown",
+        "files": [
+          "src/parser.c",
+          "src/scanner.c"
+        ],
+        "location": "tree-sitter-markdown"
+      }
+    },
+    {
+      "lang": "v",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/vlang/v-analyzer",
+        "files": [
+          "src/parser.c"
+        ],
+        "location": "tree_sitter_v"
+      }
+    },
+    {
+      "lang": "styled",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/mskelton/tree-sitter-styled",
+        "files": [
+          "src/parser.c",
+          "src/scanner.c"
+        ]
+      }
+    },
+    {
+      "lang": "supercollider",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/madskjeldgaard/tree-sitter-supercollider",
+        "files": [
+          "src/parser.c",
+          "src/scanner.c"
+        ]
+      }
+    },
+    {
       "lang": "surface",
       "tier": 3,
       "install_info": {
@@ -91,31 +219,40 @@
       }
     },
     {
-      "lang": "templ",
+      "lang": "turtle",
       "tier": 3,
       "install_info": {
-        "url": "https://github.com/vrischmann/tree-sitter-templ",
+        "url": "https://github.com/BonaBeavis/tree-sitter-turtle",
         "files": [
-          "src/parser.c",
-          "src/scanner.c"
+          "src/parser.c"
         ]
       }
     },
     {
-      "lang": "cpon",
+      "lang": "twig",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/gbprod/tree-sitter-twig",
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "typoscript",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/Teddytrombone/tree-sitter-typoscript",
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "tcl",
       "tier": 2,
       "install_info": {
-        "url": "https://github.com/amaanq/tree-sitter-cpon",
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "css",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/tree-sitter/tree-sitter-css",
+        "url": "https://github.com/tree-sitter-grammars/tree-sitter-tcl",
         "files": [
           "src/parser.c",
           "src/scanner.c"
@@ -123,601 +260,14 @@
       }
     },
     {
-      "lang": "csv",
-      "requires": [
-        "tsv"
-      ],
-      "tier": 2,
+      "lang": "typst",
+      "tier": 3,
       "install_info": {
-        "url": "https://github.com/amaanq/tree-sitter-csv",
-        "files": [
-          "src/parser.c"
-        ],
-        "location": "csv"
-      }
-    },
-    {
-      "lang": "tsv",
-      "tier": 2,
-      "install_info": {
-        "url": "https://github.com/amaanq/tree-sitter-csv",
-        "files": [
-          "src/parser.c"
-        ],
-        "location": "tsv"
-      }
-    },
-    {
-      "lang": "cuda",
-      "requires": [
-        "cpp"
-      ],
-      "tier": 2,
-      "install_info": {
-        "url": "https://github.com/theHamsta/tree-sitter-cuda",
-        "generate_requires_npm": true,
+        "url": "https://github.com/uben0/tree-sitter-typst",
         "files": [
           "src/parser.c",
           "src/scanner.c"
         ]
-      }
-    },
-    {
-      "lang": "cue",
-      "tier": 2,
-      "install_info": {
-        "url": "https://github.com/eonpatapon/tree-sitter-cue",
-        "files": [
-          "src/parser.c",
-          "src/scanner.c"
-        ]
-      }
-    },
-    {
-      "lang": "d",
-      "tier": 2,
-      "install_info": {
-        "url": "https://github.com/gdamore/tree-sitter-d",
-        "files": [
-          "src/parser.c",
-          "src/scanner.c"
-        ]
-      }
-    },
-    {
-      "lang": "dart",
-      "tier": 4,
-      "install_info": {
-        "url": "https://github.com/UserNobody14/tree-sitter-dart",
-        "files": [
-          "src/parser.c",
-          "src/scanner.c"
-        ]
-      }
-    },
-    {
-      "lang": "devicetree",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/joelspadin/tree-sitter-devicetree",
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "dhall",
-      "tier": 2,
-      "install_info": {
-        "url": "https://github.com/jbellerb/tree-sitter-dhall",
-        "files": [
-          "src/parser.c",
-          "src/scanner.c"
-        ]
-      }
-    },
-    {
-      "lang": "disassembly",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/ColinKennedy/tree-sitter-disassembly",
-        "files": [
-          "src/parser.c",
-          "src/scanner.c"
-        ]
-      }
-    },
-    {
-      "lang": "djot",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/treeman/tree-sitter-djot",
-        "files": [
-          "src/parser.c",
-          "src/scanner.c"
-        ]
-      }
-    },
-    {
-      "lang": "dockerfile",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/camdencheek/tree-sitter-dockerfile",
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "dot",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/rydesun/tree-sitter-dot",
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "doxygen",
-      "tier": 2,
-      "install_info": {
-        "url": "https://github.com/amaanq/tree-sitter-doxygen",
-        "files": [
-          "src/parser.c",
-          "src/scanner.c"
-        ]
-      }
-    },
-    {
-      "lang": "dtd",
-      "tier": 2,
-      "install_info": {
-        "url": "https://github.com/tree-sitter-grammars/tree-sitter-xml",
-        "files": [
-          "src/parser.c",
-          "src/scanner.c"
-        ],
-        "location": "dtd"
-      }
-    },
-    {
-      "lang": "ebnf",
-      "tier": 4,
-      "install_info": {
-        "url": "https://github.com/RubixDev/ebnf",
-        "files": [
-          "src/parser.c"
-        ],
-        "location": "crates/tree-sitter-ebnf"
-      }
-    },
-    {
-      "lang": "ecma",
-      "readme_note": "queries required by javascript, typescript, tsx, qmljs",
-      "tier": 2
-    },
-    {
-      "lang": "eds",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/uyha/tree-sitter-eds",
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "eex",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/connorlay/tree-sitter-eex",
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "elixir",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/elixir-lang/tree-sitter-elixir",
-        "files": [
-          "src/parser.c",
-          "src/scanner.c"
-        ]
-      }
-    },
-    {
-      "lang": "elm",
-      "tier": 4,
-      "install_info": {
-        "url": "https://github.com/elm-tooling/tree-sitter-elm",
-        "files": [
-          "src/parser.c",
-          "src/scanner.c"
-        ]
-      }
-    },
-    {
-      "lang": "elsa",
-      "tier": 2,
-      "install_info": {
-        "url": "https://github.com/glapa-grossklag/tree-sitter-elsa",
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "elvish",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/elves/tree-sitter-elvish",
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "embedded_template",
-      "tier": 4,
-      "install_info": {
-        "url": "https://github.com/tree-sitter/tree-sitter-embedded-template",
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "erlang",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/WhatsApp/tree-sitter-erlang",
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "facility",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/FacilityApi/tree-sitter-facility",
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "faust",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/khiner/tree-sitter-faust",
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "fennel",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/alexmozaidze/tree-sitter-fennel",
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "fidl",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/google/tree-sitter-fidl",
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "htmldjango",
-      "tier": 4,
-      "install_info": {
-        "url": "https://github.com/interdependence/tree-sitter-htmldjango",
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "firrtl",
-      "tier": 2,
-      "install_info": {
-        "url": "https://github.com/amaanq/tree-sitter-firrtl",
-        "files": [
-          "src/parser.c",
-          "src/scanner.c"
-        ]
-      }
-    },
-    {
-      "lang": "fish",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/ram02z/tree-sitter-fish",
-        "files": [
-          "src/parser.c",
-          "src/scanner.c"
-        ]
-      }
-    },
-    {
-      "lang": "hurl",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/pfeiferj/tree-sitter-hurl",
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "foam",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/FoamScience/tree-sitter-foam",
-        "files": [
-          "src/parser.c",
-          "src/scanner.c"
-        ]
-      }
-    },
-    {
-      "lang": "hyprlang",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/luckasRanarison/tree-sitter-hyprlang",
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "forth",
-      "tier": 2,
-      "install_info": {
-        "url": "https://github.com/AlexanderBrevig/tree-sitter-forth",
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "ini",
-      "tier": 4,
-      "install_info": {
-        "url": "https://github.com/justinmk/tree-sitter-ini",
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "fortran",
-      "tier": 2,
-      "install_info": {
-        "url": "https://github.com/stadelmanma/tree-sitter-fortran",
-        "files": [
-          "src/parser.c",
-          "src/scanner.c"
-        ]
-      }
-    },
-    {
-      "lang": "regex",
-      "tier": 1,
-      "install_info": {
-        "url": "https://github.com/tree-sitter/tree-sitter-regex",
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "proto",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/treywood/tree-sitter-proto",
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "janet_simple",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/sogaiu/tree-sitter-janet-simple",
-        "files": [
-          "src/parser.c",
-          "src/scanner.c"
-        ]
-      }
-    },
-    {
-      "lang": "fusion",
-      "tier": 3,
-      "install_info": {
-        "url": "https://gitlab.com/jirgn/tree-sitter-fusion.git",
-        "files": [
-          "src/parser.c",
-          "src/scanner.c"
-        ]
-      }
-    },
-    {
-      "lang": "java",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/tree-sitter/tree-sitter-java",
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "gdscript",
-      "readme_note": "Godot",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/PrestonKnopp/tree-sitter-gdscript",
-        "files": [
-          "src/parser.c",
-          "src/scanner.c"
-        ]
-      }
-    },
-    {
-      "lang": "javascript",
-      "requires": [
-        "ecma",
-        "jsx"
-      ],
-      "tier": 2,
-      "install_info": {
-        "url": "https://github.com/tree-sitter/tree-sitter-javascript",
-        "files": [
-          "src/parser.c",
-          "src/scanner.c"
-        ]
-      }
-    },
-    {
-      "lang": "jsx",
-      "readme_note": "queries required by javascript, tsx",
-      "tier": 2
-    },
-    {
-      "lang": "gdshader",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/GodOfAvacyn/tree-sitter-gdshader",
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "jsdoc",
-      "tier": 2,
-      "install_info": {
-        "url": "https://github.com/tree-sitter/tree-sitter-jsdoc",
-        "files": [
-          "src/parser.c",
-          "src/scanner.c"
-        ]
-      }
-    },
-    {
-      "lang": "git_rebase",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/the-mikedavis/tree-sitter-git-rebase",
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "json5",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/Joakker/tree-sitter-json5",
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "gitcommit",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/gbprod/tree-sitter-gitcommit",
-        "files": [
-          "src/parser.c",
-          "src/scanner.c"
-        ]
-      }
-    },
-    {
-      "lang": "jsonc",
-      "requires": [
-        "json"
-      ],
-      "tier": 3,
-      "install_info": {
-        "url": "https://gitlab.com/WhyNotHugo/tree-sitter-jsonc.git",
-        "generate_requires_npm": true,
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "git_config",
-      "tier": 2,
-      "install_info": {
-        "url": "https://github.com/the-mikedavis/tree-sitter-git-config",
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "gitignore",
-      "tier": 2,
-      "install_info": {
-        "url": "https://github.com/shunsambongi/tree-sitter-gitignore",
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "gleam",
-      "tier": 2,
-      "install_info": {
-        "url": "https://github.com/gleam-lang/tree-sitter-gleam",
-        "files": [
-          "src/parser.c",
-          "src/scanner.c"
-        ]
-      }
-    },
-    {
-      "lang": "v",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/vlang/v-analyzer",
-        "files": [
-          "src/parser.c"
-        ],
-        "location": "tree_sitter_v"
-      }
-    },
-    {
-      "lang": "terraform",
-      "requires": [
-        "hcl"
-      ],
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/MichaHoffmann/tree-sitter-hcl",
-        "files": [
-          "src/parser.c",
-          "src/scanner.c"
-        ],
-        "location": "dialects/terraform"
       }
     },
     {
@@ -731,86 +281,52 @@
       }
     },
     {
-      "lang": "kconfig",
+      "lang": "udev",
       "tier": 2,
       "install_info": {
-        "url": "https://github.com/amaanq/tree-sitter-kconfig",
-        "files": [
-          "src/parser.c",
-          "src/scanner.c"
-        ]
-      }
-    },
-    {
-      "lang": "gn",
-      "tier": 2,
-      "readme_name": "GN (Generate Ninja)",
-      "install_info": {
-        "url": "https://github.com/amaanq/tree-sitter-gn",
-        "files": [
-          "src/parser.c",
-          "src/scanner.c"
-        ]
-      }
-    },
-    {
-      "lang": "thrift",
-      "tier": 2,
-      "install_info": {
-        "url": "https://github.com/duskmoon314/tree-sitter-thrift",
+        "url": "https://github.com/ObserverOfTime/tree-sitter-udev",
         "files": [
           "src/parser.c"
         ]
       }
     },
     {
-      "lang": "kotlin",
+      "lang": "ungrammar",
       "tier": 3,
       "install_info": {
-        "url": "https://github.com/fwcd/tree-sitter-kotlin",
-        "files": [
-          "src/parser.c",
-          "src/scanner.c"
-        ]
-      }
-    },
-    {
-      "lang": "tiger",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/ambroisie/tree-sitter-tiger",
-        "files": [
-          "src/parser.c",
-          "src/scanner.c"
-        ]
-      }
-    },
-    {
-      "lang": "kusto",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/Willem-J-an/tree-sitter-kusto",
+        "url": "https://github.com/Philipp-M/tree-sitter-ungrammar",
         "files": [
           "src/parser.c"
         ]
       }
     },
     {
-      "lang": "tlaplus",
-      "tier": 3,
+      "lang": "unison",
+      "tier": 4,
       "install_info": {
-        "url": "https://github.com/tlaplus-community/tree-sitter-tlaplus",
+        "url": "https://github.com/kylegoetz/tree-sitter-unison",
         "files": [
           "src/parser.c",
           "src/scanner.c"
+        ],
+        "requires_generate_from_grammar": true
+      }
+    },
+    {
+      "lang": "usd",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/ColinKennedy/tree-sitter-usd",
+        "files": [
+          "src/parser.c"
         ]
       }
     },
     {
-      "lang": "lalrpop",
-      "tier": 3,
+      "lang": "uxntal",
+      "tier": 2,
       "install_info": {
-        "url": "https://github.com/traxys/tree-sitter-lalrpop",
+        "url": "https://github.com/amaanq/tree-sitter-uxntal",
         "files": [
           "src/parser.c",
           "src/scanner.c"
@@ -828,18 +344,6 @@
       }
     },
     {
-      "lang": "latex",
-      "tier": 2,
-      "install_info": {
-        "url": "https://github.com/latex-lsp/tree-sitter-latex",
-        "files": [
-          "src/parser.c",
-          "src/scanner.c"
-        ],
-        "requires_generate_from_grammar": true
-      }
-    },
-    {
       "lang": "todotxt",
       "tier": 4,
       "install_info": {
@@ -850,10 +354,10 @@
       }
     },
     {
-      "lang": "gosum",
-      "tier": 2,
+      "lang": "vala",
+      "tier": 3,
       "install_info": {
-        "url": "https://github.com/amaanq/tree-sitter-go-sum",
+        "url": "https://github.com/vala-lang/tree-sitter-vala",
         "files": [
           "src/parser.c"
         ]
@@ -872,12 +376,13 @@
       }
     },
     {
-      "lang": "gowork",
+      "lang": "vento",
       "tier": 3,
       "install_info": {
-        "url": "https://github.com/omertuc/tree-sitter-go-work",
+        "url": "https://github.com/ventojs/tree-sitter-vento",
         "files": [
-          "src/parser.c"
+          "src/parser.c",
+          "src/scanner.c"
         ]
       }
     },
@@ -916,442 +421,47 @@
       }
     },
     {
-      "lang": "turtle",
+      "lang": "verilog",
       "tier": 3,
       "install_info": {
-        "url": "https://github.com/BonaBeavis/tree-sitter-turtle",
+        "url": "https://github.com/tree-sitter/tree-sitter-verilog",
         "files": [
           "src/parser.c"
         ]
       }
     },
     {
-      "lang": "twig",
+      "lang": "vhs",
       "tier": 3,
       "install_info": {
-        "url": "https://github.com/gbprod/tree-sitter-twig",
+        "url": "https://github.com/charmbracelet/tree-sitter-vhs",
         "files": [
           "src/parser.c"
         ]
       }
     },
     {
-      "lang": "linkerscript",
-      "tier": 2,
-      "install_info": {
-        "url": "https://github.com/amaanq/tree-sitter-linkerscript",
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "liquid",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/hankthetank27/tree-sitter-liquid",
-        "files": [
-          "src/parser.c",
-          "src/scanner.c"
-        ]
-      }
-    },
-    {
-      "lang": "groovy",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/murtaza64/tree-sitter-groovy",
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "liquidsoap",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/savonet/tree-sitter-liquidsoap",
-        "files": [
-          "src/parser.c",
-          "src/scanner.c"
-        ]
-      }
-    },
-    {
-      "lang": "gstlaunch",
-      "tier": 2,
-      "install_info": {
-        "url": "https://github.com/theHamsta/tree-sitter-gstlaunch",
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "hack",
-      "tier": 4,
-      "install_info": {
-        "url": "https://github.com/slackhq/tree-sitter-hack",
-        "files": [
-          "src/parser.c",
-          "src/scanner.c"
-        ]
-      }
-    },
-    {
-      "lang": "luadoc",
-      "tier": 2,
-      "install_info": {
-        "url": "https://github.com/amaanq/tree-sitter-luadoc",
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "hare",
-      "tier": 2,
-      "install_info": {
-        "url": "https://github.com/amaanq/tree-sitter-hare",
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "luap",
-      "readme_note": "Lua patterns",
-      "tier": 2,
-      "install_info": {
-        "url": "https://github.com/amaanq/tree-sitter-luap",
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "haskell",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/tree-sitter/tree-sitter-haskell",
-        "files": [
-          "src/parser.c",
-          "src/scanner.c"
-        ]
-      }
-    },
-    {
-      "lang": "luau",
-      "requires": [
-        "lua"
-      ],
-      "tier": 2,
-      "install_info": {
-        "url": "https://github.com/amaanq/tree-sitter-luau",
-        "files": [
-          "src/parser.c",
-          "src/scanner.c"
-        ]
-      }
-    },
-    {
-      "lang": "haskell_persistent",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/MercuryTechnologies/tree-sitter-haskell-persistent",
-        "files": [
-          "src/parser.c",
-          "src/scanner.c"
-        ]
-      }
-    },
-    {
-      "lang": "m68k",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/grahambates/tree-sitter-m68k",
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "hcl",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/MichaHoffmann/tree-sitter-hcl",
-        "files": [
-          "src/parser.c",
-          "src/scanner.c"
-        ]
-      }
-    },
-    {
-      "lang": "make",
-      "tier": 2,
-      "install_info": {
-        "url": "https://github.com/alemuller/tree-sitter-make",
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "heex",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/connorlay/tree-sitter-heex",
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "markdown",
-      "tier": 1,
-      "requires": [
-        "markdown_inline"
-      ],
-      "readme_note": "basic highlighting",
-      "install_info": {
-        "url": "https://github.com/MDeiml/tree-sitter-markdown",
-        "files": [
-          "src/parser.c",
-          "src/scanner.c"
-        ],
-        "location": "tree-sitter-markdown"
-      }
-    },
-    {
-      "lang": "helm",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/ngalaiko/tree-sitter-go-template",
-        "files": [
-          "src/parser.c"
-        ],
-        "location": "dialects/helm"
-      }
-    },
-    {
-      "lang": "hjson",
-      "requires": [
-        "json"
-      ],
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/winston0410/tree-sitter-hjson",
-        "generate_requires_npm": true,
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "markdown_inline",
-      "readme_note": "needed for full highlighting",
+      "lang": "vimdoc",
       "tier": 1,
       "install_info": {
-        "url": "https://github.com/MDeiml/tree-sitter-markdown",
+        "url": "https://github.com/neovim/tree-sitter-vimdoc",
         "files": [
-          "src/parser.c",
-          "src/scanner.c"
-        ],
-        "location": "tree-sitter-markdown-inline"
+          "src/parser.c"
+        ]
       }
     },
     {
-      "lang": "hlsl",
+      "lang": "vue",
       "requires": [
-        "cpp"
+        "html_tags"
       ],
       "tier": 2,
       "install_info": {
-        "url": "https://github.com/theHamsta/tree-sitter-hlsl",
-        "generate_requires_npm": true,
+        "url": "https://github.com/tree-sitter-grammars/tree-sitter-vue",
+        "branch": "main",
         "files": [
           "src/parser.c",
           "src/scanner.c"
-        ]
-      }
-    },
-    {
-      "lang": "hlsplaylist",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/Freed-Wu/tree-sitter-hlsplaylist",
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "hocon",
-      "tier": 4,
-      "install_info": {
-        "url": "https://github.com/antosha417/tree-sitter-hocon",
-        "generate_requires_npm": true,
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "hoon",
-      "tier": 4,
-      "install_info": {
-        "url": "https://github.com/urbit-pilled/tree-sitter-hoon",
-        "files": [
-          "src/parser.c",
-          "src/scanner.c"
-        ]
-      }
-    },
-    {
-      "lang": "go",
-      "tier": 1,
-      "install_info": {
-        "url": "https://github.com/tree-sitter/tree-sitter-go",
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "func",
-      "tier": 2,
-      "install_info": {
-        "url": "https://github.com/amaanq/tree-sitter-func",
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "c",
-      "tier": 1,
-      "install_info": {
-        "url": "https://github.com/tree-sitter/tree-sitter-c",
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "matlab",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/acristoffers/tree-sitter-matlab",
-        "files": [
-          "src/parser.c",
-          "src/scanner.c"
-        ]
-      }
-    },
-    {
-      "lang": "menhir",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/Kerl13/tree-sitter-menhir",
-        "files": [
-          "src/parser.c",
-          "src/scanner.c"
-        ]
-      }
-    },
-    {
-      "lang": "mermaid",
-      "tier": 4,
-      "install_info": {
-        "url": "https://github.com/monaqa/tree-sitter-mermaid",
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "meson",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/Decodetalkers/tree-sitter-meson",
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "mlir",
-      "tier": 4,
-      "install_info": {
-        "url": "https://github.com/artagnon/tree-sitter-mlir",
-        "files": [
-          "src/parser.c"
-        ],
-        "requires_generate_from_grammar": true
-      }
-    },
-    {
-      "lang": "muttrc",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/neomutt/tree-sitter-muttrc",
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "nasm",
-      "tier": 2,
-      "install_info": {
-        "url": "https://github.com/naclsn/tree-sitter-nasm",
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "nickel",
-      "tier": 4,
-      "install_info": {
-        "url": "https://github.com/nickel-lang/tree-sitter-nickel",
-        "files": [
-          "src/parser.c",
-          "src/scanner.c"
-        ]
-      }
-    },
-    {
-      "lang": "nim",
-      "requires": [
-        "nim_format_string"
-      ],
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/alaviss/tree-sitter-nim",
-        "files": [
-          "src/parser.c",
-          "src/scanner.c"
-        ]
-      }
-    },
-    {
-      "lang": "nim_format_string",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/aMOPel/tree-sitter-nim-format-string",
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "ninja",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/alemuller/tree-sitter-ninja",
-        "files": [
-          "src/parser.c"
         ]
       }
     },
@@ -1401,6 +511,17 @@
       }
     },
     {
+      "lang": "wgsl",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/szebniok/tree-sitter-wgsl",
+        "files": [
+          "src/parser.c",
+          "src/scanner.c"
+        ]
+      }
+    },
+    {
       "lang": "ocaml",
       "tier": 3,
       "install_info": {
@@ -1413,10 +534,11 @@
       }
     },
     {
-      "lang": "bash",
-      "tier": 3,
+      "lang": "wgsl_bevy",
+      "tier": 2,
       "install_info": {
-        "url": "https://github.com/tree-sitter/tree-sitter-bash",
+        "url": "https://github.com/theHamsta/tree-sitter-wgsl-bevy",
+        "generate_requires_npm": true,
         "files": [
           "src/parser.c",
           "src/scanner.c"
@@ -1439,12 +561,25 @@
       }
     },
     {
-      "lang": "bass",
+      "lang": "ocamllex",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/atom-ocaml/tree-sitter-ocamllex",
+        "files": [
+          "src/parser.c",
+          "src/scanner.c"
+        ],
+        "requires_generate_from_grammar": true
+      }
+    },
+    {
+      "lang": "yaml",
       "tier": 2,
       "install_info": {
-        "url": "https://github.com/vito/tree-sitter-bass",
+        "url": "https://github.com/tree-sitter-grammars/tree-sitter-yaml",
         "files": [
-          "src/parser.c"
+          "src/parser.c",
+          "src/scanner.c"
         ]
       }
     },
@@ -1460,13 +595,12 @@
       }
     },
     {
-      "lang": "beancount",
+      "lang": "yang",
       "tier": 3,
       "install_info": {
-        "url": "https://github.com/polarmutex/tree-sitter-beancount",
+        "url": "https://github.com/Hubro/tree-sitter-yang",
         "files": [
-          "src/parser.c",
-          "src/scanner.c"
+          "src/parser.c"
         ]
       }
     },
@@ -1482,10 +616,31 @@
       }
     },
     {
-      "lang": "bibtex",
-      "tier": 2,
+      "lang": "yuck",
+      "tier": 3,
       "install_info": {
-        "url": "https://github.com/latex-lsp/tree-sitter-bibtex",
+        "url": "https://github.com/Philipp-M/tree-sitter-yuck",
+        "files": [
+          "src/parser.c",
+          "src/scanner.c"
+        ]
+      }
+    },
+    {
+      "lang": "pascal",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/Isopod/tree-sitter-pascal.git",
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "zathurarc",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/Freed-Wu/tree-sitter-zathurarc",
         "files": [
           "src/parser.c"
         ]
@@ -1502,17 +657,6 @@
       }
     },
     {
-      "lang": "bicep",
-      "tier": 2,
-      "install_info": {
-        "url": "https://github.com/amaanq/tree-sitter-bicep",
-        "files": [
-          "src/parser.c",
-          "src/scanner.c"
-        ]
-      }
-    },
-    {
       "lang": "pem",
       "tier": 2,
       "install_info": {
@@ -1523,43 +667,11 @@
       }
     },
     {
-      "lang": "bitbake",
-      "tier": 2,
-      "install_info": {
-        "url": "https://github.com/amaanq/tree-sitter-bitbake",
-        "files": [
-          "src/parser.c",
-          "src/scanner.c"
-        ]
-      }
-    },
-    {
       "lang": "perl",
       "tier": 3,
       "install_info": {
         "url": "https://github.com/tree-sitter-perl/tree-sitter-perl",
         "branch": "release",
-        "files": [
-          "src/parser.c",
-          "src/scanner.c"
-        ]
-      }
-    },
-    {
-      "lang": "blueprint",
-      "tier": 4,
-      "install_info": {
-        "url": "https://gitlab.com/gabmus/tree-sitter-blueprint.git",
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "c_sharp",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/tree-sitter/tree-sitter-c-sharp",
         "files": [
           "src/parser.c",
           "src/scanner.c"
@@ -1583,17 +695,6 @@
       }
     },
     {
-      "lang": "cairo",
-      "tier": 2,
-      "install_info": {
-        "url": "https://github.com/amaanq/tree-sitter-cairo",
-        "files": [
-          "src/parser.c",
-          "src/scanner.c"
-        ]
-      }
-    },
-    {
       "lang": "php_only",
       "readme_note": "PHP without embedded HTML",
       "tier": 3,
@@ -1607,32 +708,14 @@
       }
     },
     {
-      "lang": "capnp",
-      "tier": 2,
+      "lang": "phpdoc",
+      "tier": 4,
       "install_info": {
-        "url": "https://github.com/amaanq/tree-sitter-capnp",
+        "url": "https://github.com/claytonrcarter/tree-sitter-phpdoc",
+        "generate_requires_npm": true,
         "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "chatito",
-      "tier": 2,
-      "install_info": {
-        "url": "https://github.com/ObserverOfTime/tree-sitter-chatito",
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "clojure",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/sogaiu/tree-sitter-clojure",
-        "files": [
-          "src/parser.c"
+          "src/parser.c",
+          "src/scanner.c"
         ]
       }
     },
@@ -1648,13 +731,12 @@
       }
     },
     {
-      "lang": "cmake",
-      "tier": 4,
+      "lang": "po",
+      "tier": 2,
       "install_info": {
-        "url": "https://github.com/uyha/tree-sitter-cmake",
+        "url": "https://github.com/erasin/tree-sitter-po",
         "files": [
-          "src/parser.c",
-          "src/scanner.c"
+          "src/parser.c"
         ]
       }
     },
@@ -1664,17 +746,6 @@
       "install_info": {
         "url": "https://github.com/tree-sitter-perl/tree-sitter-pod",
         "branch": "release",
-        "files": [
-          "src/parser.c",
-          "src/scanner.c"
-        ]
-      }
-    },
-    {
-      "lang": "comment",
-      "tier": 2,
-      "install_info": {
-        "url": "https://github.com/stsewd/tree-sitter-comment",
         "files": [
           "src/parser.c",
           "src/scanner.c"
@@ -1693,17 +764,6 @@
       }
     },
     {
-      "lang": "commonlisp",
-      "tier": 2,
-      "install_info": {
-        "url": "https://github.com/theHamsta/tree-sitter-commonlisp",
-        "generate_requires_npm": true,
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
       "lang": "pony",
       "tier": 2,
       "install_info": {
@@ -1711,16 +771,6 @@
         "files": [
           "src/parser.c",
           "src/scanner.c"
-        ]
-      }
-    },
-    {
-      "lang": "typoscript",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/Teddytrombone/tree-sitter-typoscript",
-        "files": [
-          "src/parser.c"
         ]
       }
     },
@@ -1735,31 +785,10 @@
       }
     },
     {
-      "lang": "typst",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/uben0/tree-sitter-typst",
-        "files": [
-          "src/parser.c",
-          "src/scanner.c"
-        ]
-      }
-    },
-    {
       "lang": "prisma",
       "tier": 3,
       "install_info": {
         "url": "https://github.com/victorhqc/tree-sitter-prisma",
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "udev",
-      "tier": 2,
-      "install_info": {
-        "url": "https://github.com/ObserverOfTime/tree-sitter-udev",
         "files": [
           "src/parser.c"
         ]
@@ -1778,28 +807,6 @@
       }
     },
     {
-      "lang": "ungrammar",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/Philipp-M/tree-sitter-ungrammar",
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "unison",
-      "tier": 4,
-      "install_info": {
-        "url": "https://github.com/kylegoetz/tree-sitter-unison",
-        "files": [
-          "src/parser.c",
-          "src/scanner.c"
-        ],
-        "requires_generate_from_grammar": true
-      }
-    },
-    {
       "lang": "promql",
       "tier": 4,
       "install_info": {
@@ -1810,23 +817,12 @@
       }
     },
     {
-      "lang": "usd",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/ColinKennedy/tree-sitter-usd",
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "uxntal",
+      "lang": "prql",
       "tier": 2,
       "install_info": {
-        "url": "https://github.com/amaanq/tree-sitter-uxntal",
+        "url": "https://github.com/PRQL/tree-sitter-prql",
         "files": [
-          "src/parser.c",
-          "src/scanner.c"
+          "src/parser.c"
         ]
       }
     },
@@ -1866,21 +862,10 @@
       }
     },
     {
-      "lang": "agda",
+      "lang": "purescript",
       "tier": 3,
       "install_info": {
-        "url": "https://github.com/tree-sitter/tree-sitter-agda",
-        "files": [
-          "src/parser.c",
-          "src/scanner.c"
-        ]
-      }
-    },
-    {
-      "lang": "vento",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/ventojs/tree-sitter-vento",
+        "url": "https://github.com/postsolar/tree-sitter-purescript",
         "files": [
           "src/parser.c",
           "src/scanner.c"
@@ -1889,36 +874,10 @@
     },
     {
       "lang": "pymanifest",
-      "tier": 2,
       "readme_name": "PyPA manifest",
+      "tier": 2,
       "install_info": {
         "url": "https://github.com/ObserverOfTime/tree-sitter-pymanifest",
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "angular",
-      "requires": [
-        "html",
-        "html_tags"
-      ],
-      "tier": 4,
-      "install_info": {
-        "url": "https://github.com/dlvandenberg/tree-sitter-angular",
-        "generate_requires_npm": true,
-        "files": [
-          "src/parser.c",
-          "src/scanner.c"
-        ]
-      }
-    },
-    {
-      "lang": "verilog",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/tree-sitter/tree-sitter-verilog",
         "files": [
           "src/parser.c"
         ]
@@ -1946,39 +905,10 @@
       }
     },
     {
-      "lang": "html",
-      "requires": [
-        "html_tags"
-      ],
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/tree-sitter/tree-sitter-html",
-        "files": [
-          "src/parser.c",
-          "src/scanner.c"
-        ]
-      }
-    },
-    {
-      "lang": "html_tags",
-      "readme_note": "queries required by html, astro, vue, svelte",
-      "tier": 3
-    },
-    {
       "lang": "qmldir",
       "tier": 2,
       "install_info": {
         "url": "https://github.com/Decodetalkers/tree-sitter-qmldir",
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "vimdoc",
-      "tier": 1,
-      "install_info": {
-        "url": "https://github.com/neovim/tree-sitter-vimdoc",
         "files": [
           "src/parser.c"
         ]
@@ -1999,14 +929,459 @@
       }
     },
     {
-      "lang": "vue",
-      "requires": [
-        "html_tags"
-      ],
+      "lang": "query",
+      "readme_note": "Tree-sitter query language",
+      "tier": 1,
+      "install_info": {
+        "url": "https://github.com/nvim-treesitter/tree-sitter-query",
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "r",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/r-lib/tree-sitter-r",
+        "files": [
+          "src/parser.c",
+          "src/scanner.c"
+        ]
+      }
+    },
+    {
+      "lang": "racket",
+      "tier": 4,
+      "install_info": {
+        "url": "https://github.com/6cdh/tree-sitter-racket",
+        "files": [
+          "src/parser.c",
+          "src/scanner.c"
+        ]
+      }
+    },
+    {
+      "lang": "rasi",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/Fymyte/tree-sitter-rasi",
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "rbs",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/joker1007/tree-sitter-rbs",
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "re2c",
       "tier": 2,
       "install_info": {
-        "url": "https://github.com/tree-sitter-grammars/tree-sitter-vue",
-        "branch": "main",
+        "url": "https://github.com/amaanq/tree-sitter-re2c",
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "readline",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/ribru17/tree-sitter-readline",
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "go",
+      "tier": 1,
+      "install_info": {
+        "url": "https://github.com/tree-sitter/tree-sitter-go",
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "rego",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/FallenAngel97/tree-sitter-rego",
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "requirements",
+      "readme_name": "pip requirements",
+      "tier": 2,
+      "install_info": {
+        "url": "https://github.com/ObserverOfTime/tree-sitter-requirements",
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "c",
+      "tier": 1,
+      "install_info": {
+        "url": "https://github.com/tree-sitter/tree-sitter-c",
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "rnoweb",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/bamonroe/tree-sitter-rnoweb",
+        "files": [
+          "src/parser.c",
+          "src/scanner.c"
+        ]
+      }
+    },
+    {
+      "lang": "smithy",
+      "tier": 2,
+      "install_info": {
+        "url": "https://github.com/indoorvivants/tree-sitter-smithy",
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "robot",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/Hubro/tree-sitter-robot",
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "solidity",
+      "tier": 2,
+      "install_info": {
+        "url": "https://github.com/JoranHonig/tree-sitter-solidity",
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "soql",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/aheber/tree-sitter-sfapex",
+        "files": [
+          "src/parser.c"
+        ],
+        "location": "soql"
+      }
+    },
+    {
+      "lang": "ron",
+      "tier": 2,
+      "install_info": {
+        "url": "https://github.com/amaanq/tree-sitter-ron",
+        "files": [
+          "src/parser.c",
+          "src/scanner.c"
+        ]
+      }
+    },
+    {
+      "lang": "sourcepawn",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/nilshelmig/tree-sitter-sourcepawn",
+        "files": [
+          "src/parser.c",
+          "src/scanner.c"
+        ]
+      }
+    },
+    {
+      "lang": "rst",
+      "tier": 2,
+      "install_info": {
+        "url": "https://github.com/stsewd/tree-sitter-rst",
+        "files": [
+          "src/parser.c",
+          "src/scanner.c"
+        ]
+      }
+    },
+    {
+      "lang": "ruby",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/tree-sitter/tree-sitter-ruby",
+        "files": [
+          "src/parser.c",
+          "src/scanner.c"
+        ]
+      }
+    },
+    {
+      "lang": "rust",
+      "tier": 2,
+      "install_info": {
+        "url": "https://github.com/tree-sitter/tree-sitter-rust",
+        "files": [
+          "src/parser.c",
+          "src/scanner.c"
+        ]
+      }
+    },
+    {
+      "lang": "sql",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/derekstride/tree-sitter-sql",
+        "branch": "gh-pages",
+        "files": [
+          "src/parser.c",
+          "src/scanner.c"
+        ]
+      }
+    },
+    {
+      "lang": "scala",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/tree-sitter/tree-sitter-scala",
+        "files": [
+          "src/parser.c",
+          "src/scanner.c"
+        ]
+      }
+    },
+    {
+      "lang": "scfg",
+      "tier": 3,
+      "install_info": {
+        "url": "https://git.sr.ht/~rockorager/tree-sitter-scfg",
+        "files": [
+          "src/parser.c"
+        ],
+        "requires_generate_from_grammar": true
+      }
+    },
+    {
+      "lang": "ssh_config",
+      "tier": 2,
+      "install_info": {
+        "url": "https://github.com/ObserverOfTime/tree-sitter-ssh-config",
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "scss",
+      "requires": [
+        "css"
+      ],
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/serenadeai/tree-sitter-scss",
+        "files": [
+          "src/parser.c",
+          "src/scanner.c"
+        ]
+      }
+    },
+    {
+      "lang": "strace",
+      "tier": 2,
+      "install_info": {
+        "url": "https://github.com/sigmaSd/tree-sitter-strace",
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "slint",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/slint-ui/tree-sitter-slint",
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "smali",
+      "tier": 2,
+      "install_info": {
+        "url": "https://github.com/tree-sitter-grammars/tree-sitter-smali",
+        "files": [
+          "src/parser.c",
+          "src/scanner.c"
+        ]
+      }
+    },
+    {
+      "lang": "snakemake",
+      "maintainer": [
+        "@osthomas"
+      ],
+      "tier": 4,
+      "install_info": {
+        "url": "https://github.com/osthomas/tree-sitter-snakemake",
+        "files": [
+          "src/parser.c",
+          "src/scanner.c"
+        ]
+      }
+    },
+    {
+      "lang": "regex",
+      "tier": 1,
+      "install_info": {
+        "url": "https://github.com/tree-sitter/tree-sitter-regex",
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "ada",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/briot/tree-sitter-ada",
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "gdshader",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/GodOfAvacyn/tree-sitter-gdshader",
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "agda",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/tree-sitter/tree-sitter-agda",
+        "files": [
+          "src/parser.c",
+          "src/scanner.c"
+        ]
+      }
+    },
+    {
+      "lang": "git_rebase",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/the-mikedavis/tree-sitter-git-rebase",
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "gitattributes",
+      "tier": 2,
+      "install_info": {
+        "url": "https://github.com/ObserverOfTime/tree-sitter-gitattributes",
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "angular",
+      "requires": [
+        "html",
+        "html_tags"
+      ],
+      "tier": 4,
+      "install_info": {
+        "url": "https://github.com/dlvandenberg/tree-sitter-angular",
+        "generate_requires_npm": true,
+        "files": [
+          "src/parser.c",
+          "src/scanner.c"
+        ]
+      }
+    },
+    {
+      "lang": "gitcommit",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/gbprod/tree-sitter-gitcommit",
+        "files": [
+          "src/parser.c",
+          "src/scanner.c"
+        ]
+      }
+    },
+    {
+      "lang": "git_config",
+      "tier": 2,
+      "install_info": {
+        "url": "https://github.com/the-mikedavis/tree-sitter-git-config",
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "gitignore",
+      "tier": 2,
+      "install_info": {
+        "url": "https://github.com/shunsambongi/tree-sitter-gitignore",
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "html_tags",
+      "tier": 3,
+      "readme_note": "queries required by html, astro, vue, svelte"
+    },
+    {
+      "lang": "gleam",
+      "tier": 2,
+      "install_info": {
+        "url": "https://github.com/gleam-lang/tree-sitter-gleam",
+        "files": [
+          "src/parser.c",
+          "src/scanner.c"
+        ]
+      }
+    },
+    {
+      "lang": "glimmer",
+      "readme_note": "Glimmer and Ember",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/alexlafroscia/tree-sitter-glimmer",
         "files": [
           "src/parser.c",
           "src/scanner.c"
@@ -2028,560 +1403,6 @@
       }
     },
     {
-      "lang": "r",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/r-lib/tree-sitter-r",
-        "files": [
-          "src/parser.c",
-          "src/scanner.c"
-        ]
-      }
-    },
-    {
-      "lang": "asm",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/RubixDev/tree-sitter-asm",
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "racket",
-      "tier": 4,
-      "install_info": {
-        "url": "https://github.com/6cdh/tree-sitter-racket",
-        "files": [
-          "src/parser.c",
-          "src/scanner.c"
-        ]
-      }
-    },
-    {
-      "lang": "astro",
-      "requires": [
-        "html",
-        "html_tags"
-      ],
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/virchau13/tree-sitter-astro",
-        "files": [
-          "src/parser.c",
-          "src/scanner.c"
-        ]
-      }
-    },
-    {
-      "lang": "rasi",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/Fymyte/tree-sitter-rasi",
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "authzed",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/mleonidas/tree-sitter-authzed",
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "rbs",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/joker1007/tree-sitter-rbs",
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "wgsl_bevy",
-      "tier": 2,
-      "install_info": {
-        "url": "https://github.com/theHamsta/tree-sitter-wgsl-bevy",
-        "generate_requires_npm": true,
-        "files": [
-          "src/parser.c",
-          "src/scanner.c"
-        ]
-      }
-    },
-    {
-      "lang": "awk",
-      "tier": 4,
-      "install_info": {
-        "url": "https://github.com/Beaglefoot/tree-sitter-awk",
-        "files": [
-          "src/parser.c",
-          "src/scanner.c"
-        ]
-      }
-    },
-    {
-      "lang": "re2c",
-      "tier": 2,
-      "install_info": {
-        "url": "https://github.com/amaanq/tree-sitter-re2c",
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "xml",
-      "requires": [
-        "dtd"
-      ],
-      "tier": 2,
-      "install_info": {
-        "url": "https://github.com/tree-sitter-grammars/tree-sitter-xml",
-        "files": [
-          "src/parser.c",
-          "src/scanner.c"
-        ],
-        "location": "xml"
-      }
-    },
-    {
-      "lang": "readline",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/ribru17/tree-sitter-readline",
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "xcompose",
-      "tier": 2,
-      "install_info": {
-        "url": "https://github.com/ObserverOfTime/tree-sitter-xcompose",
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "yang",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/Hubro/tree-sitter-yang",
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "yuck",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/Philipp-M/tree-sitter-yuck",
-        "files": [
-          "src/parser.c",
-          "src/scanner.c"
-        ]
-      }
-    },
-    {
-      "lang": "rego",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/FallenAngel97/tree-sitter-rego",
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "yaml",
-      "tier": 2,
-      "install_info": {
-        "url": "https://github.com/tree-sitter-grammars/tree-sitter-yaml",
-        "files": [
-          "src/parser.c",
-          "src/scanner.c"
-        ]
-      }
-    },
-    {
-      "lang": "zathurarc",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/Freed-Wu/tree-sitter-zathurarc",
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "requirements",
-      "tier": 2,
-      "readme_name": "pip requirements",
-      "install_info": {
-        "url": "https://github.com/ObserverOfTime/tree-sitter-requirements",
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "zig",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/maxxnino/tree-sitter-zig",
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "wgsl",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/szebniok/tree-sitter-wgsl",
-        "files": [
-          "src/parser.c",
-          "src/scanner.c"
-        ]
-      }
-    },
-    {
-      "lang": "rnoweb",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/bamonroe/tree-sitter-rnoweb",
-        "files": [
-          "src/parser.c",
-          "src/scanner.c"
-        ]
-      }
-    },
-    {
-      "lang": "wing",
-      "tier": 4,
-      "install_info": {
-        "url": "https://github.com/winglang/wing",
-        "requires_generate_from_grammar": true,
-        "files": [
-          "src/parser.c",
-          "src/scanner.c"
-        ],
-        "location": "libs/tree-sitter-wing"
-      }
-    },
-    {
-      "lang": "vim",
-      "tier": 1,
-      "install_info": {
-        "url": "https://github.com/neovim/tree-sitter-vim",
-        "files": [
-          "src/parser.c",
-          "src/scanner.c"
-        ]
-      }
-    },
-    {
-      "lang": "robot",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/Hubro/tree-sitter-robot",
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "vhs",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/charmbracelet/tree-sitter-vhs",
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "roc",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/nat-418/tree-sitter-roc",
-        "files": [
-          "src/parser.c",
-          "src/scanner.c"
-        ]
-      }
-    },
-    {
-      "lang": "vala",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/vala-lang/tree-sitter-vala",
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "json",
-      "tier": 2,
-      "install_info": {
-        "url": "https://github.com/tree-sitter/tree-sitter-json",
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "ron",
-      "tier": 2,
-      "install_info": {
-        "url": "https://github.com/amaanq/tree-sitter-ron",
-        "files": [
-          "src/parser.c",
-          "src/scanner.c"
-        ]
-      }
-    },
-    {
-      "lang": "lua",
-      "tier": 1,
-      "install_info": {
-        "url": "https://github.com/MunifTanjim/tree-sitter-lua",
-        "files": [
-          "src/parser.c",
-          "src/scanner.c"
-        ]
-      }
-    },
-    {
-      "lang": "rst",
-      "tier": 2,
-      "install_info": {
-        "url": "https://github.com/stsewd/tree-sitter-rst",
-        "files": [
-          "src/parser.c",
-          "src/scanner.c"
-        ]
-      }
-    },
-    {
-      "lang": "query",
-      "readme_note": "Tree-sitter query language",
-      "tier": 1,
-      "install_info": {
-        "url": "https://github.com/nvim-treesitter/tree-sitter-query",
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "ruby",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/tree-sitter/tree-sitter-ruby",
-        "files": [
-          "src/parser.c",
-          "src/scanner.c"
-        ]
-      }
-    },
-    {
-      "lang": "apex",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/aheber/tree-sitter-sfapex",
-        "files": [
-          "src/parser.c"
-        ],
-        "location": "apex"
-      }
-    },
-    {
-      "lang": "rust",
-      "tier": 2,
-      "install_info": {
-        "url": "https://github.com/tree-sitter/tree-sitter-rust",
-        "files": [
-          "src/parser.c",
-          "src/scanner.c"
-        ]
-      }
-    },
-    {
-      "lang": "fsh",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/mgramigna/tree-sitter-fsh",
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "scala",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/tree-sitter/tree-sitter-scala",
-        "files": [
-          "src/parser.c",
-          "src/scanner.c"
-        ]
-      }
-    },
-    {
-      "lang": "diff",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/the-mikedavis/tree-sitter-diff",
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "gpg",
-      "tier": 2,
-      "install_info": {
-        "url": "https://github.com/ObserverOfTime/tree-sitter-gpg-config",
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "scfg",
-      "tier": 3,
-      "install_info": {
-        "url": "https://git.sr.ht/~rockorager/tree-sitter-scfg",
-        "files": [
-          "src/parser.c"
-        ],
-        "requires_generate_from_grammar": true
-      }
-    },
-    {
-      "lang": "gotmpl",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/ngalaiko/tree-sitter-go-template",
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "scheme",
-      "tier": 4,
-      "install_info": {
-        "url": "https://github.com/6cdh/tree-sitter-scheme",
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "godot_resource",
-      "readme_note": "Godot Resources",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/PrestonKnopp/tree-sitter-godot-resource",
-        "files": [
-          "src/parser.c",
-          "src/scanner.c"
-        ]
-      }
-    },
-    {
-      "lang": "scss",
-      "requires": [
-        "css"
-      ],
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/serenadeai/tree-sitter-scss",
-        "files": [
-          "src/parser.c",
-          "src/scanner.c"
-        ]
-      }
-    },
-    {
-      "lang": "llvm",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/benwilliamgraham/tree-sitter-llvm",
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "slang",
-      "readme_note": "Shader Slang",
-      "tier": 4,
-      "install_info": {
-        "url": "https://github.com/theHamsta/tree-sitter-slang",
-        "generate_requires_npm": true,
-        "files": [
-          "src/parser.c",
-          "src/scanner.c"
-        ]
-      }
-    },
-    {
-      "lang": "graphql",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/bkegley/tree-sitter-graphql",
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "julia",
-      "tier": 2,
-      "install_info": {
-        "url": "https://github.com/tree-sitter/tree-sitter-julia",
-        "files": [
-          "src/parser.c",
-          "src/scanner.c"
-        ]
-      }
-    },
-    {
-      "lang": "slint",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/slint-ui/tree-sitter-slint",
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "leo",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/r001/tree-sitter-leo",
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
       "lang": "glsl",
       "requires": [
         "c"
@@ -2590,61 +1411,6 @@
       "install_info": {
         "url": "https://github.com/theHamsta/tree-sitter-glsl",
         "generate_requires_npm": true,
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "smali",
-      "tier": 2,
-      "install_info": {
-        "url": "https://github.com/tree-sitter-grammars/tree-sitter-smali",
-        "files": [
-          "src/parser.c",
-          "src/scanner.c"
-        ]
-      }
-    },
-    {
-      "lang": "ledger",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/cbarrete/tree-sitter-ledger",
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "snakemake",
-      "install_info": {
-        "url": "https://github.com/osthomas/tree-sitter-snakemake",
-        "files": [
-          "src/parser.c",
-          "src/scanner.c"
-        ]
-      },
-      "tier": 4,
-      "maintainer": [
-        "@osthomas"
-      ]
-    },
-    {
-      "lang": "gitattributes",
-      "tier": 2,
-      "install_info": {
-        "url": "https://github.com/ObserverOfTime/tree-sitter-gitattributes",
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "gomod",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/camdencheek/tree-sitter-go-mod",
         "files": [
           "src/parser.c"
         ]
@@ -2666,12 +1432,37 @@
       }
     },
     {
-      "lang": "smithy",
-      "tier": 2,
+      "lang": "diff",
+      "tier": 3,
       "install_info": {
-        "url": "https://github.com/indoorvivants/tree-sitter-smithy",
+        "url": "https://github.com/the-mikedavis/tree-sitter-diff",
         "files": [
           "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "zig",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/maxxnino/tree-sitter-zig",
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "astro",
+      "requires": [
+        "html",
+        "html_tags"
+      ],
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/virchau13/tree-sitter-astro",
+        "files": [
+          "src/parser.c",
+          "src/scanner.c"
         ]
       }
     },
@@ -2686,10 +1477,55 @@
       }
     },
     {
-      "lang": "kdl",
+      "lang": "json",
       "tier": 2,
       "install_info": {
-        "url": "https://github.com/amaanq/tree-sitter-kdl",
+        "url": "https://github.com/tree-sitter/tree-sitter-json",
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "authzed",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/mleonidas/tree-sitter-authzed",
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "xml",
+      "requires": [
+        "dtd"
+      ],
+      "tier": 2,
+      "install_info": {
+        "url": "https://github.com/tree-sitter-grammars/tree-sitter-xml",
+        "files": [
+          "src/parser.c",
+          "src/scanner.c"
+        ],
+        "location": "xml"
+      }
+    },
+    {
+      "lang": "xcompose",
+      "tier": 2,
+      "install_info": {
+        "url": "https://github.com/ObserverOfTime/tree-sitter-xcompose",
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "awk",
+      "tier": 4,
+      "install_info": {
+        "url": "https://github.com/Beaglefoot/tree-sitter-awk",
         "files": [
           "src/parser.c",
           "src/scanner.c"
@@ -2697,20 +1533,23 @@
       }
     },
     {
-      "lang": "solidity",
-      "tier": 2,
+      "lang": "wing",
+      "tier": 4,
       "install_info": {
-        "url": "https://github.com/JoranHonig/tree-sitter-solidity",
+        "url": "https://github.com/winglang/wing",
+        "requires_generate_from_grammar": true,
         "files": [
-          "src/parser.c"
-        ]
+          "src/parser.c",
+          "src/scanner.c"
+        ],
+        "location": "libs/tree-sitter-wing"
       }
     },
     {
-      "lang": "just",
+      "lang": "bash",
       "tier": 3,
       "install_info": {
-        "url": "https://github.com/IndianBoy42/tree-sitter-just",
+        "url": "https://github.com/tree-sitter/tree-sitter-bash",
         "files": [
           "src/parser.c",
           "src/scanner.c"
@@ -2718,32 +1557,611 @@
       }
     },
     {
-      "lang": "soql",
-      "tier": 3,
+      "lang": "vim",
+      "tier": 1,
       "install_info": {
-        "url": "https://github.com/aheber/tree-sitter-sfapex",
+        "url": "https://github.com/neovim/tree-sitter-vim",
         "files": [
-          "src/parser.c"
-        ],
-        "location": "soql"
+          "src/parser.c",
+          "src/scanner.c"
+        ]
       }
     },
     {
-      "lang": "sosl",
+      "lang": "gomod",
       "tier": 3,
       "install_info": {
-        "url": "https://github.com/aheber/tree-sitter-sfapex",
+        "url": "https://github.com/camdencheek/tree-sitter-go-mod",
         "files": [
           "src/parser.c"
-        ],
-        "location": "sosl"
+        ]
       }
     },
     {
-      "lang": "sourcepawn",
+      "lang": "bass",
+      "tier": 2,
+      "install_info": {
+        "url": "https://github.com/vito/tree-sitter-bass",
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "gosum",
+      "tier": 2,
+      "install_info": {
+        "url": "https://github.com/amaanq/tree-sitter-go-sum",
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "tlaplus",
       "tier": 3,
       "install_info": {
-        "url": "https://github.com/nilshelmig/tree-sitter-sourcepawn",
+        "url": "https://github.com/tlaplus-community/tree-sitter-tlaplus",
+        "files": [
+          "src/parser.c",
+          "src/scanner.c"
+        ]
+      }
+    },
+    {
+      "lang": "beancount",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/polarmutex/tree-sitter-beancount",
+        "files": [
+          "src/parser.c",
+          "src/scanner.c"
+        ]
+      }
+    },
+    {
+      "lang": "gn",
+      "readme_name": "GN (Generate Ninja)",
+      "tier": 2,
+      "install_info": {
+        "url": "https://github.com/amaanq/tree-sitter-gn",
+        "files": [
+          "src/parser.c",
+          "src/scanner.c"
+        ]
+      }
+    },
+    {
+      "lang": "scheme",
+      "tier": 4,
+      "install_info": {
+        "url": "https://github.com/6cdh/tree-sitter-scheme",
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "bibtex",
+      "tier": 2,
+      "install_info": {
+        "url": "https://github.com/latex-lsp/tree-sitter-bibtex",
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "starlark",
+      "tier": 2,
+      "install_info": {
+        "url": "https://github.com/amaanq/tree-sitter-starlark",
+        "files": [
+          "src/parser.c",
+          "src/scanner.c"
+        ]
+      }
+    },
+    {
+      "lang": "liquidsoap",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/savonet/tree-sitter-liquidsoap",
+        "files": [
+          "src/parser.c",
+          "src/scanner.c"
+        ]
+      }
+    },
+    {
+      "lang": "gotmpl",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/ngalaiko/tree-sitter-go-template",
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "bicep",
+      "tier": 2,
+      "install_info": {
+        "url": "https://github.com/amaanq/tree-sitter-bicep",
+        "files": [
+          "src/parser.c",
+          "src/scanner.c"
+        ]
+      }
+    },
+    {
+      "lang": "hoon",
+      "tier": 4,
+      "install_info": {
+        "url": "https://github.com/urbit-pilled/tree-sitter-hoon",
+        "files": [
+          "src/parser.c",
+          "src/scanner.c"
+        ]
+      }
+    },
+    {
+      "lang": "gpg",
+      "tier": 2,
+      "install_info": {
+        "url": "https://github.com/ObserverOfTime/tree-sitter-gpg-config",
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "fish",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/ram02z/tree-sitter-fish",
+        "files": [
+          "src/parser.c",
+          "src/scanner.c"
+        ]
+      }
+    },
+    {
+      "lang": "blueprint",
+      "tier": 4,
+      "install_info": {
+        "url": "https://gitlab.com/gabmus/tree-sitter-blueprint.git",
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "roc",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/nat-418/tree-sitter-roc",
+        "files": [
+          "src/parser.c",
+          "src/scanner.c"
+        ]
+      }
+    },
+    {
+      "lang": "firrtl",
+      "tier": 2,
+      "install_info": {
+        "url": "https://github.com/amaanq/tree-sitter-firrtl",
+        "files": [
+          "src/parser.c",
+          "src/scanner.c"
+        ]
+      }
+    },
+    {
+      "lang": "gstlaunch",
+      "tier": 2,
+      "install_info": {
+        "url": "https://github.com/theHamsta/tree-sitter-gstlaunch",
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "c_sharp",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/tree-sitter/tree-sitter-c-sharp",
+        "files": [
+          "src/parser.c",
+          "src/scanner.c"
+        ]
+      }
+    },
+    {
+      "lang": "hack",
+      "tier": 4,
+      "install_info": {
+        "url": "https://github.com/slackhq/tree-sitter-hack",
+        "files": [
+          "src/parser.c",
+          "src/scanner.c"
+        ]
+      }
+    },
+    {
+      "lang": "terraform",
+      "requires": [
+        "hcl"
+      ],
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/MichaHoffmann/tree-sitter-hcl",
+        "files": [
+          "src/parser.c",
+          "src/scanner.c"
+        ],
+        "location": "dialects/terraform"
+      }
+    },
+    {
+      "lang": "hare",
+      "tier": 2,
+      "install_info": {
+        "url": "https://github.com/amaanq/tree-sitter-hare",
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "thrift",
+      "tier": 2,
+      "install_info": {
+        "url": "https://github.com/duskmoon314/tree-sitter-thrift",
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "capnp",
+      "tier": 2,
+      "install_info": {
+        "url": "https://github.com/amaanq/tree-sitter-capnp",
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "tiger",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/ambroisie/tree-sitter-tiger",
+        "files": [
+          "src/parser.c",
+          "src/scanner.c"
+        ]
+      }
+    },
+    {
+      "lang": "chatito",
+      "tier": 2,
+      "install_info": {
+        "url": "https://github.com/ObserverOfTime/tree-sitter-chatito",
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "haskell_persistent",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/MercuryTechnologies/tree-sitter-haskell-persistent",
+        "files": [
+          "src/parser.c",
+          "src/scanner.c"
+        ]
+      }
+    },
+    {
+      "lang": "clojure",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/sogaiu/tree-sitter-clojure",
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "proto",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/treywood/tree-sitter-proto",
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "hcl",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/MichaHoffmann/tree-sitter-hcl",
+        "files": [
+          "src/parser.c",
+          "src/scanner.c"
+        ]
+      }
+    },
+    {
+      "lang": "cmake",
+      "tier": 4,
+      "install_info": {
+        "url": "https://github.com/uyha/tree-sitter-cmake",
+        "files": [
+          "src/parser.c",
+          "src/scanner.c"
+        ]
+      }
+    },
+    {
+      "lang": "html",
+      "requires": [
+        "html_tags"
+      ],
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/tree-sitter/tree-sitter-html",
+        "files": [
+          "src/parser.c",
+          "src/scanner.c"
+        ]
+      }
+    },
+    {
+      "lang": "heex",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/connorlay/tree-sitter-heex",
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "comment",
+      "tier": 2,
+      "install_info": {
+        "url": "https://github.com/stsewd/tree-sitter-comment",
+        "files": [
+          "src/parser.c",
+          "src/scanner.c"
+        ]
+      }
+    },
+    {
+      "lang": "helm",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/ngalaiko/tree-sitter-go-template",
+        "files": [
+          "src/parser.c"
+        ],
+        "location": "dialects/helm"
+      }
+    },
+    {
+      "lang": "templ",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/vrischmann/tree-sitter-templ",
+        "files": [
+          "src/parser.c",
+          "src/scanner.c"
+        ]
+      }
+    },
+    {
+      "lang": "hjson",
+      "requires": [
+        "json"
+      ],
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/winston0410/tree-sitter-hjson",
+        "generate_requires_npm": true,
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "leo",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/r001/tree-sitter-leo",
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "cooklang",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/addcninblue/tree-sitter-cooklang",
+        "files": [
+          "src/parser.c",
+          "src/scanner.c"
+        ]
+      }
+    },
+    {
+      "lang": "hlsl",
+      "requires": [
+        "cpp"
+      ],
+      "tier": 2,
+      "install_info": {
+        "url": "https://github.com/theHamsta/tree-sitter-hlsl",
+        "generate_requires_npm": true,
+        "files": [
+          "src/parser.c",
+          "src/scanner.c"
+        ]
+      }
+    },
+    {
+      "lang": "faust",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/khiner/tree-sitter-faust",
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "corn",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/jakestanger/tree-sitter-corn",
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "ninja",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/alemuller/tree-sitter-ninja",
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "eex",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/connorlay/tree-sitter-eex",
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "hocon",
+      "tier": 4,
+      "install_info": {
+        "url": "https://github.com/antosha417/tree-sitter-hocon",
+        "generate_requires_npm": true,
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "facility",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/FacilityApi/tree-sitter-facility",
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "bitbake",
+      "tier": 2,
+      "install_info": {
+        "url": "https://github.com/amaanq/tree-sitter-bitbake",
+        "files": [
+          "src/parser.c",
+          "src/scanner.c"
+        ]
+      }
+    },
+    {
+      "lang": "css",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/tree-sitter/tree-sitter-css",
+        "files": [
+          "src/parser.c",
+          "src/scanner.c"
+        ]
+      }
+    },
+    {
+      "lang": "erlang",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/WhatsApp/tree-sitter-erlang",
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "csv",
+      "requires": [
+        "tsv"
+      ],
+      "tier": 2,
+      "install_info": {
+        "url": "https://github.com/amaanq/tree-sitter-csv",
+        "files": [
+          "src/parser.c"
+        ],
+        "location": "csv"
+      }
+    },
+    {
+      "lang": "commonlisp",
+      "tier": 2,
+      "install_info": {
+        "url": "https://github.com/theHamsta/tree-sitter-commonlisp",
+        "generate_requires_npm": true,
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "tsv",
+      "tier": 2,
+      "install_info": {
+        "url": "https://github.com/amaanq/tree-sitter-csv",
+        "files": [
+          "src/parser.c"
+        ],
+        "location": "tsv"
+      }
+    },
+    {
+      "lang": "htmldjango",
+      "tier": 4,
+      "install_info": {
+        "url": "https://github.com/interdependence/tree-sitter-htmldjango",
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "slang",
+      "readme_note": "Shader Slang",
+      "tier": 4,
+      "install_info": {
+        "url": "https://github.com/theHamsta/tree-sitter-slang",
+        "generate_requires_npm": true,
         "files": [
           "src/parser.c",
           "src/scanner.c"
@@ -2761,76 +2179,41 @@
       }
     },
     {
-      "lang": "jsonnet",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/sourcegraph/tree-sitter-jsonnet",
-        "files": [
-          "src/parser.c",
-          "src/scanner.c"
-        ]
-      }
-    },
-    {
-      "lang": "sparql",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/BonaBeavis/tree-sitter-sparql",
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "ocamllex",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/atom-ocaml/tree-sitter-ocamllex",
-        "files": [
-          "src/parser.c",
-          "src/scanner.c"
-        ],
-        "requires_generate_from_grammar": true
-      }
-    },
-    {
-      "lang": "pascal",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/Isopod/tree-sitter-pascal.git",
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "sql",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/derekstride/tree-sitter-sql",
-        "branch": "gh-pages",
-        "files": [
-          "src/parser.c",
-          "src/scanner.c"
-        ]
-      }
-    },
-    {
-      "lang": "jq",
+      "lang": "func",
       "tier": 2,
       "install_info": {
-        "url": "https://github.com/flurie/tree-sitter-jq",
+        "url": "https://github.com/amaanq/tree-sitter-func",
         "files": [
           "src/parser.c"
         ]
       }
     },
     {
-      "lang": "phpdoc",
+      "lang": "d",
+      "tier": 2,
+      "install_info": {
+        "url": "https://github.com/gdamore/tree-sitter-d",
+        "files": [
+          "src/parser.c",
+          "src/scanner.c"
+        ]
+      }
+    },
+    {
+      "lang": "hurl",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/pfeiferj/tree-sitter-hurl",
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "dart",
       "tier": 4,
       "install_info": {
-        "url": "https://github.com/claytonrcarter/tree-sitter-phpdoc",
-        "generate_requires_npm": true,
+        "url": "https://github.com/UserNobody14/tree-sitter-dart",
         "files": [
           "src/parser.c",
           "src/scanner.c"
@@ -2838,20 +2221,60 @@
       }
     },
     {
-      "lang": "po",
+      "lang": "cpon",
       "tier": 2,
       "install_info": {
-        "url": "https://github.com/erasin/tree-sitter-po",
+        "url": "https://github.com/amaanq/tree-sitter-cpon",
         "files": [
           "src/parser.c"
         ]
       }
     },
     {
-      "lang": "squirrel",
+      "lang": "hyprlang",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/luckasRanarison/tree-sitter-hyprlang",
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "devicetree",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/joelspadin/tree-sitter-devicetree",
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "asm",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/RubixDev/tree-sitter-asm",
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "ini",
+      "tier": 4,
+      "install_info": {
+        "url": "https://github.com/justinmk/tree-sitter-ini",
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "dhall",
       "tier": 2,
       "install_info": {
-        "url": "https://github.com/amaanq/tree-sitter-squirrel",
+        "url": "https://github.com/jbellerb/tree-sitter-dhall",
         "files": [
           "src/parser.c",
           "src/scanner.c"
@@ -2873,20 +2296,35 @@
       }
     },
     {
-      "lang": "ssh_config",
+      "lang": "cuda",
+      "requires": [
+        "cpp"
+      ],
       "tier": 2,
       "install_info": {
-        "url": "https://github.com/ObserverOfTime/tree-sitter-ssh-config",
+        "url": "https://github.com/theHamsta/tree-sitter-cuda",
+        "generate_requires_npm": true,
+        "files": [
+          "src/parser.c",
+          "src/scanner.c"
+        ]
+      }
+    },
+    {
+      "lang": "make",
+      "tier": 2,
+      "install_info": {
+        "url": "https://github.com/alemuller/tree-sitter-make",
         "files": [
           "src/parser.c"
         ]
       }
     },
     {
-      "lang": "purescript",
+      "lang": "disassembly",
       "tier": 3,
       "install_info": {
-        "url": "https://github.com/postsolar/tree-sitter-purescript",
+        "url": "https://github.com/ColinKennedy/tree-sitter-disassembly",
         "files": [
           "src/parser.c",
           "src/scanner.c"
@@ -2894,10 +2332,10 @@
       }
     },
     {
-      "lang": "starlark",
+      "lang": "cue",
       "tier": 2,
       "install_info": {
-        "url": "https://github.com/amaanq/tree-sitter-starlark",
+        "url": "https://github.com/eonpatapon/tree-sitter-cue",
         "files": [
           "src/parser.c",
           "src/scanner.c"
@@ -2905,98 +2343,660 @@
       }
     },
     {
-      "lang": "prql",
+      "lang": "kconfig",
       "tier": 2,
       "install_info": {
-        "url": "https://github.com/PRQL/tree-sitter-prql",
+        "url": "https://github.com/amaanq/tree-sitter-kconfig",
+        "files": [
+          "src/parser.c",
+          "src/scanner.c"
+        ]
+      }
+    },
+    {
+      "lang": "djot",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/treeman/tree-sitter-djot",
+        "files": [
+          "src/parser.c",
+          "src/scanner.c"
+        ]
+      }
+    },
+    {
+      "lang": "janet_simple",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/sogaiu/tree-sitter-janet-simple",
+        "files": [
+          "src/parser.c",
+          "src/scanner.c"
+        ]
+      }
+    },
+    {
+      "lang": "dockerfile",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/camdencheek/tree-sitter-dockerfile",
         "files": [
           "src/parser.c"
         ]
       }
     },
     {
-      "lang": "strace",
+      "lang": "javascript",
+      "requires": [
+        "ecma",
+        "jsx"
+      ],
       "tier": 2,
       "install_info": {
-        "url": "https://github.com/sigmaSd/tree-sitter-strace",
+        "url": "https://github.com/tree-sitter/tree-sitter-javascript",
+        "files": [
+          "src/parser.c",
+          "src/scanner.c"
+        ]
+      }
+    },
+    {
+      "lang": "groovy",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/murtaza64/tree-sitter-groovy",
         "files": [
           "src/parser.c"
         ]
       }
     },
     {
-      "lang": "ada",
+      "lang": "dot",
       "tier": 3,
       "install_info": {
-        "url": "https://github.com/briot/tree-sitter-ada",
+        "url": "https://github.com/rydesun/tree-sitter-dot",
         "files": [
           "src/parser.c"
         ]
       }
     },
     {
-      "lang": "styled",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/mskelton/tree-sitter-styled",
-        "files": [
-          "src/parser.c",
-          "src/scanner.c"
-        ]
-      }
-    },
-    {
-      "lang": "corn",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/jakestanger/tree-sitter-corn",
-        "files": [
-          "src/parser.c"
-        ]
-      }
-    },
-    {
-      "lang": "cooklang",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/addcninblue/tree-sitter-cooklang",
-        "files": [
-          "src/parser.c",
-          "src/scanner.c"
-        ]
-      }
-    },
-    {
-      "lang": "supercollider",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/madskjeldgaard/tree-sitter-supercollider",
-        "files": [
-          "src/parser.c",
-          "src/scanner.c"
-        ]
-      }
-    },
-    {
-      "lang": "glimmer",
-      "readme_note": "Glimmer and Ember",
-      "tier": 3,
-      "install_info": {
-        "url": "https://github.com/alexlafroscia/tree-sitter-glimmer",
-        "files": [
-          "src/parser.c",
-          "src/scanner.c"
-        ]
-      }
-    },
-    {
-      "lang": "tcl",
+      "lang": "jq",
       "tier": 2,
       "install_info": {
-        "url": "https://github.com/tree-sitter-grammars/tree-sitter-tcl",
+        "url": "https://github.com/flurie/tree-sitter-jq",
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "apex",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/aheber/tree-sitter-sfapex",
+        "files": [
+          "src/parser.c"
+        ],
+        "location": "apex"
+      }
+    },
+    {
+      "lang": "jsdoc",
+      "tier": 2,
+      "install_info": {
+        "url": "https://github.com/tree-sitter/tree-sitter-jsdoc",
         "files": [
           "src/parser.c",
           "src/scanner.c"
+        ]
+      }
+    },
+    {
+      "lang": "doxygen",
+      "tier": 2,
+      "install_info": {
+        "url": "https://github.com/amaanq/tree-sitter-doxygen",
+        "files": [
+          "src/parser.c",
+          "src/scanner.c"
+        ]
+      }
+    },
+    {
+      "lang": "dtd",
+      "tier": 2,
+      "install_info": {
+        "url": "https://github.com/tree-sitter-grammars/tree-sitter-xml",
+        "files": [
+          "src/parser.c",
+          "src/scanner.c"
+        ],
+        "location": "dtd"
+      }
+    },
+    {
+      "lang": "json5",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/Joakker/tree-sitter-json5",
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "ebnf",
+      "tier": 4,
+      "install_info": {
+        "url": "https://github.com/RubixDev/ebnf",
+        "files": [
+          "src/parser.c"
+        ],
+        "location": "crates/tree-sitter-ebnf"
+      }
+    },
+    {
+      "lang": "hlsplaylist",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/Freed-Wu/tree-sitter-hlsplaylist",
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "jsonc",
+      "requires": [
+        "json"
+      ],
+      "tier": 3,
+      "install_info": {
+        "url": "https://gitlab.com/WhyNotHugo/tree-sitter-jsonc.git",
+        "generate_requires_npm": true,
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "ecma",
+      "tier": 2,
+      "readme_note": "queries required by javascript, typescript, tsx, qmljs"
+    },
+    {
+      "lang": "graphql",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/bkegley/tree-sitter-graphql",
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "jsonnet",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/sourcegraph/tree-sitter-jsonnet",
+        "files": [
+          "src/parser.c",
+          "src/scanner.c"
+        ]
+      }
+    },
+    {
+      "lang": "haskell",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/tree-sitter/tree-sitter-haskell",
+        "files": [
+          "src/parser.c",
+          "src/scanner.c"
+        ]
+      }
+    },
+    {
+      "lang": "eds",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/uyha/tree-sitter-eds",
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "jsx",
+      "tier": 2,
+      "readme_note": "queries required by javascript, tsx"
+    },
+    {
+      "lang": "julia",
+      "tier": 2,
+      "install_info": {
+        "url": "https://github.com/tree-sitter/tree-sitter-julia",
+        "files": [
+          "src/parser.c",
+          "src/scanner.c"
+        ]
+      }
+    },
+    {
+      "lang": "java",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/tree-sitter/tree-sitter-java",
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "just",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/IndianBoy42/tree-sitter-just",
+        "files": [
+          "src/parser.c",
+          "src/scanner.c"
+        ]
+      }
+    },
+    {
+      "lang": "elixir",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/elixir-lang/tree-sitter-elixir",
+        "files": [
+          "src/parser.c",
+          "src/scanner.c"
+        ]
+      }
+    },
+    {
+      "lang": "lua",
+      "tier": 1,
+      "install_info": {
+        "url": "https://github.com/MunifTanjim/tree-sitter-lua",
+        "files": [
+          "src/parser.c",
+          "src/scanner.c"
+        ]
+      }
+    },
+    {
+      "lang": "elm",
+      "tier": 4,
+      "install_info": {
+        "url": "https://github.com/elm-tooling/tree-sitter-elm",
+        "files": [
+          "src/parser.c",
+          "src/scanner.c"
+        ]
+      }
+    },
+    {
+      "lang": "m68k",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/grahambates/tree-sitter-m68k",
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "kdl",
+      "tier": 2,
+      "install_info": {
+        "url": "https://github.com/amaanq/tree-sitter-kdl",
+        "files": [
+          "src/parser.c",
+          "src/scanner.c"
+        ]
+      }
+    },
+    {
+      "lang": "elsa",
+      "tier": 2,
+      "install_info": {
+        "url": "https://github.com/glapa-grossklag/tree-sitter-elsa",
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "kotlin",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/fwcd/tree-sitter-kotlin",
+        "files": [
+          "src/parser.c",
+          "src/scanner.c"
+        ]
+      }
+    },
+    {
+      "lang": "squirrel",
+      "tier": 2,
+      "install_info": {
+        "url": "https://github.com/amaanq/tree-sitter-squirrel",
+        "files": [
+          "src/parser.c",
+          "src/scanner.c"
+        ]
+      }
+    },
+    {
+      "lang": "elvish",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/elves/tree-sitter-elvish",
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "kusto",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/Willem-J-an/tree-sitter-kusto",
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "markdown_inline",
+      "readme_note": "needed for full highlighting",
+      "tier": 1,
+      "install_info": {
+        "url": "https://github.com/MDeiml/tree-sitter-markdown",
+        "files": [
+          "src/parser.c",
+          "src/scanner.c"
+        ],
+        "location": "tree-sitter-markdown-inline"
+      }
+    },
+    {
+      "lang": "embedded_template",
+      "tier": 4,
+      "install_info": {
+        "url": "https://github.com/tree-sitter/tree-sitter-embedded-template",
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "lalrpop",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/traxys/tree-sitter-lalrpop",
+        "files": [
+          "src/parser.c",
+          "src/scanner.c"
+        ]
+      }
+    },
+    {
+      "lang": "matlab",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/acristoffers/tree-sitter-matlab",
+        "files": [
+          "src/parser.c",
+          "src/scanner.c"
+        ]
+      }
+    },
+    {
+      "lang": "cairo",
+      "tier": 2,
+      "install_info": {
+        "url": "https://github.com/amaanq/tree-sitter-cairo",
+        "files": [
+          "src/parser.c",
+          "src/scanner.c"
+        ]
+      }
+    },
+    {
+      "lang": "latex",
+      "tier": 2,
+      "install_info": {
+        "url": "https://github.com/latex-lsp/tree-sitter-latex",
+        "files": [
+          "src/parser.c",
+          "src/scanner.c"
+        ],
+        "requires_generate_from_grammar": true
+      }
+    },
+    {
+      "lang": "menhir",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/Kerl13/tree-sitter-menhir",
+        "files": [
+          "src/parser.c",
+          "src/scanner.c"
+        ]
+      }
+    },
+    {
+      "lang": "gowork",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/omertuc/tree-sitter-go-work",
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "ledger",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/cbarrete/tree-sitter-ledger",
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "mermaid",
+      "tier": 4,
+      "install_info": {
+        "url": "https://github.com/monaqa/tree-sitter-mermaid",
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "godot_resource",
+      "readme_note": "Godot Resources",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/PrestonKnopp/tree-sitter-godot-resource",
+        "files": [
+          "src/parser.c",
+          "src/scanner.c"
+        ]
+      }
+    },
+    {
+      "lang": "meson",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/Decodetalkers/tree-sitter-meson",
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "fennel",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/alexmozaidze/tree-sitter-fennel",
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "mlir",
+      "tier": 4,
+      "install_info": {
+        "url": "https://github.com/artagnon/tree-sitter-mlir",
+        "files": [
+          "src/parser.c"
+        ],
+        "requires_generate_from_grammar": true
+      }
+    },
+    {
+      "lang": "llvm",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/benwilliamgraham/tree-sitter-llvm",
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "fidl",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/google/tree-sitter-fidl",
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "muttrc",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/neomutt/tree-sitter-muttrc",
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "linkerscript",
+      "tier": 2,
+      "install_info": {
+        "url": "https://github.com/amaanq/tree-sitter-linkerscript",
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "nasm",
+      "tier": 2,
+      "install_info": {
+        "url": "https://github.com/naclsn/tree-sitter-nasm",
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "liquid",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/hankthetank27/tree-sitter-liquid",
+        "files": [
+          "src/parser.c",
+          "src/scanner.c"
+        ]
+      }
+    },
+    {
+      "lang": "nickel",
+      "tier": 4,
+      "install_info": {
+        "url": "https://github.com/nickel-lang/tree-sitter-nickel",
+        "files": [
+          "src/parser.c",
+          "src/scanner.c"
+        ]
+      }
+    },
+    {
+      "lang": "sosl",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/aheber/tree-sitter-sfapex",
+        "files": [
+          "src/parser.c"
+        ],
+        "location": "sosl"
+      }
+    },
+    {
+      "lang": "nim",
+      "requires": [
+        "nim_format_string"
+      ],
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/alaviss/tree-sitter-nim",
+        "files": [
+          "src/parser.c",
+          "src/scanner.c"
+        ]
+      }
+    },
+    {
+      "lang": "foam",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/FoamScience/tree-sitter-foam",
+        "files": [
+          "src/parser.c",
+          "src/scanner.c"
+        ]
+      }
+    },
+    {
+      "lang": "sparql",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/BonaBeavis/tree-sitter-sparql",
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "nim_format_string",
+      "tier": 3,
+      "install_info": {
+        "url": "https://github.com/aMOPel/tree-sitter-nim-format-string",
+        "files": [
+          "src/parser.c"
+        ]
+      }
+    },
+    {
+      "lang": "forth",
+      "tier": 2,
+      "install_info": {
+        "url": "https://github.com/AlexanderBrevig/tree-sitter-forth",
+        "files": [
+          "src/parser.c"
         ]
       }
     }
