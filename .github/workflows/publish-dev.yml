@@ -39,3 +39,4 @@ jobs:
           extra_luarocks_args: |
             --namespace=neorocks
             --force
+            --dev
