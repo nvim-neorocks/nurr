@@ -1646,6 +1646,13 @@
             "dependencies": "nvim-treesitter"
         },
         {
+            "name": "nvim-treesitter/nvim-treesitter-textobjects",
+            "shorthand": "nvim-treesitter-textobjects",
+            "license": "MIT",
+            "summary": "Syntax aware text-objects, select, move, swap, and peek support.",
+            "ref": "main"
+        },
+        {
             "name": "windwp/nvim-ts-autotag",
             "shorthand": "nvim-ts-autotag",
             "license": "MIT",

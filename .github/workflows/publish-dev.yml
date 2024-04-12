@@ -18,6 +18,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: ${{ matrix.plugin.name }}
+          ref: ${{ matrix.plugin.ref }}
           path: .
 
       - run: |
