@@ -1708,13 +1708,6 @@
             "dependencies": ""
         },
         {
-            "name": "nvim-orgmode/orgmode",
-            "shorthand": "nvim-orgmode",
-            "license": "MIT",
-            "summary": "Orgmode clone written in Lua for Neovim 0.9+.",
-            "dependencies": "nvim-treesitter"
-        },
-        {
             "name": "rgroli/other.nvim",
             "shorthand": "other.nvim",
             "license": "MIT",
