@@ -1642,8 +1642,7 @@
             "name": "nvim-treesitter/nvim-treesitter-context",
             "shorthand": "nvim-treesitter-context",
             "license": "MIT",
-            "summary": "Show code context",
-            "dependencies": "nvim-treesitter"
+            "summary": "Show code context"
         },
         {
             "name": "nvim-treesitter/nvim-treesitter-textobjects",
