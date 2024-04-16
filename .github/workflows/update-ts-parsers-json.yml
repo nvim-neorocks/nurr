@@ -14,8 +14,8 @@ on:
       - 'scripts/echo-ts-json.lua'
       - .github/workflows/update-ts-parsers-json.yml
   schedule:
-    # Runs every 7 hours
-    - cron: "0 */7 * * *"
+    # Runs every 12 hours
+    - cron: "0 */12 * * *"
   workflow_dispatch:
 
 jobs:
