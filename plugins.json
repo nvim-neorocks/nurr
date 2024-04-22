@@ -803,7 +803,7 @@
             "shorthand": "tabout.nvim",
             "license": "Unlicense",
             "summary": "tabout plugin for neovim",
-            "dependencies": "nvim-treesitter"
+            "dependencies": ""
         },
         {
             "name": "ThemerCorp/themer.lua",
