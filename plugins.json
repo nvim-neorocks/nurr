@@ -1979,6 +1979,13 @@
             "license": "GPL-3.0",
             "summary": "Single tabpage interface for easily cycling through diffs for all modified files for any git rev.",
             "dependencies": "nvim-web-devicons"
+        },
+        {
+            "name": "gpanders/nvim-parinfer",
+            "shorthand": "nvim-parinfer",
+            "license": "GPL-3.0",
+            "summary": "Parinfer for Neovim.",
+            "dependencies": ""
         }
     ]
 }
