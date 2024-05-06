@@ -83,11 +83,13 @@ jobs:
           luarocks download --dev $PARSER_NAME || true
           specrev=1
           for existing_rockspec in $PARSER_NAME-*.rockspec; do
-            echo "Existing rockspec: $existing_rockspec"
-            specrev_ext="${existing_rockspec##*-}"
-            specrev="${specrev_ext%.*}"
-            if grep -q $PARSER_REVISION $existing_rockspec; then
-              specrev=$((specrev + 1))
+            if [[ -f $existing_rockspec ]]; then
+              echo "Existing rockspec: $existing_rockspec"
+              specrev_ext="${existing_rockspec##*-}"
+              specrev="${specrev_ext%.*}"
+              if grep -q $PARSER_REVISION $existing_rockspec; then
+                specrev=$((specrev + 1))
+              fi
             fi
           done
           echo "SPECREV=$specrev" >> $GITHUB_ENV
