@@ -78,6 +78,21 @@ jobs:
           fi
           echo "GITHUB_SHA_OVERRIDE=$PARSER_REVISION" >> $GITHUB_ENV
 
+      - name: Determine specrev
+        run: |
+          luarocks download --dev $PARSER_NAME || true
+          specrev=1
+          for existing_rockspec in $PARSER_NAME-*.rockspec; do
+            echo "Existing rockspec: $existing_rockspec"
+            specrev_ext="${existing_rockspec##*-}"
+            specrev="${specrev_ext%.*}"
+            if grep -q $PARSER_REVISION $existing_rockspec; then
+              specrev=$((specrev + 1))
+            fi
+          done
+          echo "SPECREV=$specrev" >> $GITHUB_ENV
+          echo "specrev is $specrev"
+
       - name: Prepare Rockspec template
         env:
           SOURCES_JSON: ${{ toJson(matrix.parsers.install_info.files) }}
@@ -165,6 +180,7 @@ jobs:
         with:
           name: ${{ env.PARSER_NAME }}
           version: 'scm'
+          specrev: ${{ env.SPECREV }}
           summary: tree-sitter parser and Neovim queries for ${{ matrix.parsers.lang }}
           template: "rockspec.template"
           license: ${{ env.LICENSE }}
