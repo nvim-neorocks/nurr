@@ -41,7 +41,7 @@ jobs:
           > tree-sitter-parsers.json
       - name: Get nvim-treesitter commit SHA
         run: |
-          echo $(git rev-parse HEAD) > resources/nvim-treesitter.lock
+          cp nvim-treesitter/.git/refs/heads/main resources/nvim-treesitter.lock
       - name: commit
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
