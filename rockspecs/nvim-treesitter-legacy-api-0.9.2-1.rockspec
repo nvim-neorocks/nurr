@@ -17,7 +17,6 @@ Many plugins have not updated yet, and this package serves as a dependency for t
 
 It does not include any of the following nvim-treesitter runtime directories:
 
-- plugin
 - autoload
 - queries
 - parser
