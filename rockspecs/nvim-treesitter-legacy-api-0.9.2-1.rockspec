@@ -50,4 +50,58 @@ build = {
     INST_LUADIR='$(LUADIR)',
     INST_CONFDIR='$(CONFDIR)',
   },
+  copy_directories = {
+    'plugin',
+  },
+  patches = {
+    ['nvim-treesitter.patch'] = [==[
+diff --git a/lua/nvim-treesitter.lua b/lua/nvim-treesitter.lua
+index 963fe730..fc69cdc2 100644
+--- a/lua/nvim-treesitter.lua
++++ b/lua/nvim-treesitter.lua
+@@ -10,9 +10,6 @@ require "nvim-treesitter.query_predicates"
+ local M = {}
+ 
+ function M.setup()
+-  utils.setup_commands("install", install.commands)
+-  utils.setup_commands("info", info.commands)
+-  utils.setup_commands("configs", configs.commands)
+   configs.init()
+ end
+ 
+diff --git a/plugin/nvim-treesitter.lua b/plugin/nvim-treesitter.lua
+index 4ea3925f..70290bd2 100644
+--- a/plugin/nvim-treesitter.lua
++++ b/plugin/nvim-treesitter.lua
+@@ -7,28 +7,3 @@ vim.g.loaded_nvim_treesitter = true
+ 
+ -- setup modules
+ require("nvim-treesitter").setup()
+-
+-local api = vim.api
+-
+--- define autocommands
+-local augroup = api.nvim_create_augroup("NvimTreesitter", {})
+-
+-api.nvim_create_autocmd("Filetype", {
+-  pattern = "query",
+-  group = augroup,
+-  callback = function()
+-    api.nvim_clear_autocmds {
+-      group = augroup,
+-      event = "BufWritePost",
+-    }
+-    api.nvim_create_autocmd("BufWritePost", {
+-      group = augroup,
+-      buffer = 0,
+-      callback = function(opts)
+-        require("nvim-treesitter.query").invalidate_query_file(opts.file)
+-      end,
+-      desc = "Invalidate query file",
+-    })
+-  end,
+-  desc = "Reload query",
+-})
+]==]
+  },
 }
