@@ -41,6 +41,7 @@ jobs:
           crate: tree-sitter-cli
 
       - uses: actions/setup-node@v4
+        if: ${{ matrix.parsers.install_info.generate }}
 
       - name: Install C/C++ Compiler
         uses: rlalik/setup-cpp-compiler@master
@@ -108,13 +109,13 @@ jobs:
             SOURCES_TBL="{}"
           fi
           sed -i 's@SOURCES@'"$SOURCES_TBL"'@' rockspec.template
-          if [[ "${{ matrix.parsers.install_info.generate_from_json }}" == "true" ]] || [[ "${{ matrix.parsers.install_info.generate }}" == "true" ]]; 
+          if [[ "${{ matrix.parsers.install_info.generate }}" == "true" ]];
           then
-            sed -i 's/generate_from_grammar\s=\sfalse/generate_from_grammar = true/g' rockspec.template
+            sed -i 's/generate\s=\sfalse/generate = true/g' rockspec.template
           fi
-          if [[ "${{ matrix.parsers.install_info.generate_requires_npm }}" == "true" ]]; 
+          if [[ "${{ matrix.parsers.install_info.generate_from_json }}" == "true" ]]; 
           then
-            sed -i 's/generate_requires_npm\s=\sfalse/generate_requires_npm = true/g' rockspec.template
+            sed -i 's/generate_from_json\s=\sfalse/generate_from_json = true/g' rockspec.template
           fi
           if [[ -n "${{ matrix.parsers.install_info.location }}" ]]; 
           then
