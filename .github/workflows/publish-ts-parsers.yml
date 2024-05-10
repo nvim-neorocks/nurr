@@ -67,6 +67,7 @@ jobs:
           git clone --branch main "https://github.com/nvim-treesitter/nvim-treesitter.git" nvim-treesitter
           pushd nvim-treesitter
           git checkout "$(cat ../rockspec-template/resources/nvim-treesitter.lock)"
+          popd
           if [[ -n "${{ matrix.parsers.install_info.url }}" ]]; then
             PARSER_REVISION=$(jq -r ".\"${{ matrix.parsers.lang }}\".revision" nvim-treesitter/lockfile.json)
           else
