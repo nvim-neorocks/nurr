@@ -109,7 +109,7 @@ jobs:
             SOURCES_TBL="{}"
           fi
           sed -i 's@SOURCES@'"$SOURCES_TBL"'@' rockspec.template
-          if [[ "${{ matrix.parsers.install_info.requires_generate_from_grammar }}" == "true" ]]; 
+          if [[ "${{ matrix.parsers.install_info.generate_from_json }}" == "true" ]] || [[ "${{ matrix.parsers.install_info.generate }}" == "true" ]]; 
           then
             sed -i 's/generate_from_grammar\s=\sfalse/generate_from_grammar = true/g' rockspec.template
           fi
