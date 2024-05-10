@@ -37,7 +37,7 @@ jobs:
 
       - name: Install tree-sitter CLI
         uses: baptiste0928/cargo-install@v3
-        if: ${{ matrix.parsers.install_info.requires_generate_from_grammar }}
+        # if: ${{ matrix.parsers.install_info.requires_generate_from_grammar }}
         with:
           crate: tree-sitter-cli
 
