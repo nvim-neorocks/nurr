@@ -68,8 +68,7 @@ jobs:
         run: |
           git clone --branch main "https://github.com/nvim-treesitter/nvim-treesitter.git" nvim-treesitter
           pushd nvim-treesitter
-          git checkout "$(cat ../rockspec-template/resources/nvim-treesitter.lock)" || echo "Failed to checkout nvim-treesitter lock. Packaging from HEAD..."
-          popd
+          git checkout "$(cat ../rockspec-template/resources/nvim-treesitter.lock)"
           if [[ -n "${{ matrix.parsers.install_info.url }}" ]]; then
             PARSER_REVISION=$(jq -r ".\"${{ matrix.parsers.lang }}\".revision" nvim-treesitter/lockfile.json)
           else
