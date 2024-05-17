@@ -95,20 +95,14 @@ jobs:
           echo "specrev is $specrev"
 
       - name: Prepare Rockspec template
-        env:
-          SOURCES_JSON: ${{ toJson(matrix.parsers.install_info.files) }}
         run: |
           mv rockspec-template/resources/tree-sitter-parser-rockspec.template rockspec.template
           rm -r rockspec-template
           sed -i 's/LANG/${{ matrix.parsers.lang }}/g' rockspec.template
-          if [[ -n "${{ matrix.parsers.install_info.url }}" ]]; then
-            # Convert sources to lua
-            SOURCES_TBL=$(echo "$SOURCES_JSON" | jq -r '"{ " + (map("\"" + . + "\"") | join(", ")) + " }"')
-          else
-            # No sources. Use empty table
-            SOURCES_TBL="{}"
+          if [[ -z "${{ matrix.parsers.install_info.url }}" ]];
+          then
+            sed -i 's/parser\s=\strue/parser = false/g' rockspec.template
           fi
-          sed -i 's@SOURCES@'"$SOURCES_TBL"'@' rockspec.template
           if [[ "${{ matrix.parsers.install_info.generate }}" == "true" ]];
           then
             sed -i 's/generate\s=\sfalse/generate = true/g' rockspec.template
