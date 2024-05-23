@@ -17,8 +17,7 @@ dependencies = {
 }
 
 source = {
-  url = 'https://github.com/romgrk/fzy-lua-native/archive/820f745b7c442176bcc243e8f38ef4b985febfaf.zip',
-  dir = 'fzy-lua-native-820f745b7c442176bcc243e8f38ef4b985febfaf',
+  url = 'git+https://github.com/romgrk/fzy-lua-native.git',
 }
 
 build = {
