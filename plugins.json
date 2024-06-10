@@ -1993,6 +1993,13 @@
             "license": "GPL-3.0",
             "summary": "Parinfer for Neovim.",
             "dependencies": ""
+        },
+        {
+            "name": "David-Kunz/gen.nvim",
+            "shorthand": "gen.nvim",
+            "license": "Unlicense",
+            "summary": "Neovim plugin to generate text using LLMs with customizable prompts.",
+            "dependencies": ""
         }
     ]
 }
