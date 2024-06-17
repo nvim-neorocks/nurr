@@ -1901,7 +1901,7 @@
             "shorthand": "treesj",
             "license": "MIT",
             "summary": "Neovim plugin for splitting/joining blocks of code",
-            "dependencies": "nvim-treesitter"
+            "dependencies": ""
         },
         {
             "name": "dmmulroy/tsc.nvim",
