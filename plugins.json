@@ -2007,6 +2007,41 @@
             "license": "vim-license",
             "summary": "enable repeating supported plugin maps with '.'",
             "dependencies": ""
+        },
+        {
+            "name": "tpope/vim-surround",
+            "shorthand": "surround.vim",
+            "license": "vim-license",
+            "summary": "Delete/change/add parentheses/quotes/XML-tags/much more with ease",
+            "dependencies": "repeat.vim"
+        },
+        {
+            "name": "tpope/vim-speeddating",
+            "shorthand": "speeddating.vim",
+            "license": "vim-license",
+            "summary": "use CTRL-A/CTRL-X to increment dates, times, and more",
+            "dependencies": "repeat.vim"
+        },
+        {
+            "name": "tpope/vim-unimpaired",
+            "shorthand": "unimpaired.vim",
+            "license": "vim-license",
+            "summary": "Pairs of handy bracket mappings",
+            "dependencies": "repeat.vim"
+        },
+        {
+            "name": "tpope/vim-easyclip",
+            "shorthand": "vim-easyclip",
+            "license": "vim-license",
+            "summary": "Simplified clipboard functionality for Vim",
+            "dependencies": "repeat.vim"
+        },
+        {
+            "name": "tpope/vim-radical",
+            "shorthand": "radical.vim",
+            "license": "vim-license",
+            "summary": "Convert decimal, hex, octal, binary number representations",
+            "dependencies": "repeat.vim"
         }
     ]
 }
