@@ -2030,14 +2030,14 @@
             "dependencies": "repeat.vim"
         },
         {
-            "name": "tpope/vim-easyclip",
+            "name": "svermeulen/vim-easyclip",
             "shorthand": "vim-easyclip",
             "license": "vim-license",
             "summary": "Simplified clipboard functionality for Vim",
             "dependencies": "repeat.vim"
         },
         {
-            "name": "tpope/vim-radical",
+            "name": "glts/vim-radical",
             "shorthand": "radical.vim",
             "license": "vim-license",
             "summary": "Convert decimal, hex, octal, binary number representations",
