@@ -1587,7 +1587,7 @@
             "shorthand": "nvim-dev-container",
             "license": "MIT",
             "summary": "Neovim dev container support - Mirror of https://codeberg.org/esensar/nvim-dev-container",
-            "dependencies": "nvim-treesitter-legacy-api"
+            "dependencies": ""
         },
         {
             "name": "gennaro-tedesco/nvim-jqx",
