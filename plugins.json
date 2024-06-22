@@ -1461,7 +1461,7 @@
             "shorthand": "nabla.nvim",
             "license": "MIT",
             "summary": "Take your scientific notes in Neovim",
-            "dependencies": "nvim-treesitter-legacy-api"
+            "dependencies": ""
         },
         {
             "name": "ray-x/navigator.lua",
