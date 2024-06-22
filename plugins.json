@@ -957,7 +957,7 @@
             "shorthand": "cellular-automaton.nvim",
             "license": "MIT",
             "summary": "Lets you execute aesthetically pleasing, cellular automaton animations based on the content of neovim buffer.",
-            "dependencies": "nvim-treesitter"
+            "dependencies": "nvim-treesitter-legacy-api"
         },
         {
             "name": "p00f/clangd_extensions.nvim",
@@ -1265,7 +1265,7 @@
             "shorthand": "headlines.nvim",
             "license": "MIT",
             "summary": "This plugin adds horizontal highlights for text filetypes, like markdown, orgmode, and neorg.",
-            "dependencies": "nvim-treesitter"
+            "dependencies": "nvim-treesitter-legacy-api"
         },
         {
             "name": "rebelot/heirline.nvim",
@@ -1342,7 +1342,7 @@
             "shorthand": "leetcode.nvim",
             "license": "MIT",
             "summary": "A Neovim plugin enabling you to solve LeetCode problems.",
-            "dependencies": "telescope.nvim\nnui.nvim\nnvim-treesitter"
+            "dependencies": "telescope.nvim\nnui.nvim\nnvim-treesitter-legacy-api"
         },
         {
             "name": "mrjones2014/legendary.nvim",
@@ -1461,7 +1461,7 @@
             "shorthand": "nabla.nvim",
             "license": "MIT",
             "summary": "Take your scientific notes in Neovim",
-            "dependencies": "nvim-treesitter"
+            "dependencies": "nvim-treesitter-legacy-api"
         },
         {
             "name": "ray-x/navigator.lua",
@@ -1587,7 +1587,7 @@
             "shorthand": "nvim-dev-container",
             "license": "MIT",
             "summary": "Neovim dev container support - Mirror of https://codeberg.org/esensar/nvim-dev-container",
-            "dependencies": "nvim-treesitter"
+            "dependencies": "nvim-treesitter-legacy-api"
         },
         {
             "name": "gennaro-tedesco/nvim-jqx",
@@ -1663,14 +1663,14 @@
             "shorthand": "nvim-ts-autotag",
             "license": "MIT",
             "summary": "Use treesitter to auto close and auto rename html tag",
-            "dependencies": "nvim-treesitter"
+            "dependencies": "nvim-treesitter-legacy-api"
         },
         {
             "name": "JoosepAlviste/nvim-ts-context-commentstring",
             "shorthand": "nvim-ts-context-commentstring",
             "license": "MIT",
             "summary": "Neovim treesitter plugin for setting the commentstring based on the cursor location in a file.",
-            "dependencies": "nvim-treesitter"
+            "dependencies": "nvim-treesitter-legacy-api"
         },
         {
             "name": "chrisgrieser/nvim-various-textobjs",
@@ -1684,7 +1684,7 @@
             "shorthand": "nvim_context_vt",
             "license": "MIT",
             "summary": "Virtual text context for neovim treesitter",
-            "dependencies": "nvim-treesitter"
+            "dependencies": "nvim-treesitter-legacy-api"
         },
         {
             "name": "pwntester/octo.nvim",
