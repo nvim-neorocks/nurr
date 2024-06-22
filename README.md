@@ -28,6 +28,16 @@ which uses the chunk it receives as the input for a matrix build.
 >
 > Neovim plugins are published every 4 hours.
 
+> [!IMPORTANT]
+>
+> When adding a plugin that claims it depends on nvim-treesitter,
+> check if it actually does. Many plugins only depend on the parsers.
+> If it does, we recommend:
+>
+> - Adding `nvim-treesitter-legacy-api` to the dependencies
+>   (this does not clash with the luarocks tree-sitter parsers' queries).
+> - Opening a PR or an issue to use Neovim's core API instead.
+
 ### Tree-sitter parsers [WIP]
 
 - One workflow periodically generates the [tree-sitter-parsers.json](./tree-sitter-parsers.json)
