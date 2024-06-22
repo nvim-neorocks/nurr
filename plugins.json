@@ -1663,7 +1663,7 @@
             "shorthand": "nvim-ts-autotag",
             "license": "MIT",
             "summary": "Use treesitter to auto close and auto rename html tag",
-            "dependencies": "nvim-treesitter-legacy-api"
+            "dependencies": ""
         },
         {
             "name": "JoosepAlviste/nvim-ts-context-commentstring",
