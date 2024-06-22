@@ -1684,7 +1684,7 @@
             "shorthand": "nvim_context_vt",
             "license": "MIT",
             "summary": "Virtual text context for neovim treesitter",
-            "dependencies": "nvim-treesitter-legacy-api"
+            "dependencies": ""
         },
         {
             "name": "pwntester/octo.nvim",
