@@ -677,7 +677,7 @@
             "shorthand": "nvim-dap-virtual-text",
             "license": "GPL-3.0",
             "summary": "Adds virtual text support to nvim-dap.",
-            "dependencies": "nvim-dap\nnvim-treesitter"
+            "dependencies": "nvim-dap\n"
         },
         {
             "name": "kndndrj/nvim-dbee",
