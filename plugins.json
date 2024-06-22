@@ -901,7 +901,7 @@
             "shorthand": "aerial.nvim",
             "license": "MIT",
             "summary": "Neovim plugin for a code outline window",
-            "dependencies": "nvim-web-devicons\nnvim-treesitter"
+            "dependencies": "nvim-web-devicons\n"
         },
         {
             "name": "goolord/alpha-nvim",
