@@ -1265,7 +1265,7 @@
             "shorthand": "headlines.nvim",
             "license": "MIT",
             "summary": "This plugin adds horizontal highlights for text filetypes, like markdown, orgmode, and neorg.",
-            "dependencies": "nvim-treesitter-legacy-api"
+            "dependencies": ""
         },
         {
             "name": "rebelot/heirline.nvim",
