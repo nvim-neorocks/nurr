@@ -1342,7 +1342,7 @@
             "shorthand": "leetcode.nvim",
             "license": "MIT",
             "summary": "A Neovim plugin enabling you to solve LeetCode problems.",
-            "dependencies": "telescope.nvim\nnui.nvim\nnvim-treesitter-legacy-api"
+            "dependencies": "telescope.nvim\nnui.nvim\nnvim-web-devicons"
         },
         {
             "name": "mrjones2014/legendary.nvim",
