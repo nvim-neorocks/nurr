@@ -2042,6 +2042,13 @@
             "license": "vim-license",
             "summary": "Convert decimal, hex, octal, binary number representations",
             "dependencies": "repeat.vim"
-        }
+        },
+        {
+            "name": "folke/lazydev.nvim",
+            "shorthand": "lazydev.nvim",
+            "dependencies": "",
+            "summary": "Faster LuaLS setup for Neovim",
+            "license": ""
+        },
     ]
 }
