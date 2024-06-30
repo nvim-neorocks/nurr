@@ -2049,6 +2049,27 @@
             "dependencies": "",
             "summary": "Faster LuaLS setup for Neovim",
             "license": ""
+        },
+        {
+            "name": "folke/ts-comments.nvim",
+            "shorthand": "ts-comments.nvim",
+            "dependencies": "",
+            "summary": "Tiny plugin to enhance Neovim's native comments",
+            "license": "Apache-2.0"
+        },
+        {
+            "name": "rafamadriz/friendly-snippets",
+            "shorthand": "friendly-snippets",
+            "dependencies": "",
+            "summary": "Neovim snippets collection for a set of different programming languages.",
+            "license": "MIT"
+        },
+        {
+            "name": "garymjr/nvim-snippets",
+            "shorthand": "nvim-snippets",
+            "dependencies": "",
+            "summary": "Snippet support using native neovim snippets",
+            "license": "MIT"
         }
     ]
 }
