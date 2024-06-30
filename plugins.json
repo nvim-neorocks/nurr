@@ -957,7 +957,7 @@
             "shorthand": "cellular-automaton.nvim",
             "license": "MIT",
             "summary": "Lets you execute aesthetically pleasing, cellular automaton animations based on the content of neovim buffer.",
-            "dependencies": "nvim-treesitter-legacy-api"
+            "dependencies": ""
         },
         {
             "name": "p00f/clangd_extensions.nvim",
