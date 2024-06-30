@@ -2070,6 +2070,13 @@
             "dependencies": "",
             "summary": "Snippet support using native neovim snippets",
             "license": "MIT"
+        },
+        {
+            "name": "rouge8/neotest-rust",
+            "shorthand": "neotest-rust",
+            "dependencies": "neotest",
+            "summary": "Neotest adapter for Rust, using cargo-nextest.",
+            "license": "MIT"
         }
     ]
 }
