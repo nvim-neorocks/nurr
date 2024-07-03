@@ -17,7 +17,7 @@ dependencies = {
 }
 
 source = {
-  url = 'git://github.com/nvim-treesitter/nvim-treesitter',
+  url = 'git+https://github.com/nvim-treesitter/nvim-treesitter',
   branch = 'main',
 }
 
