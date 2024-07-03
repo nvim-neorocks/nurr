@@ -38,6 +38,17 @@ which uses the chunk it receives as the input for a matrix build.
 >   (this does not clash with the luarocks tree-sitter parsers' queries).
 > - Opening a PR or an issue to use Neovim's core API instead.
 
+#### Schema
+
+- `name`: owner/repo (GitHub)
+- `shorthand`: The name of the plugin (will be the lua rock name)
+- `dependencies`: Plugin dependencies, separated with newline `\n` characters
+- `summary`: Short description of the plugin
+- `license`: The license SPDX
+- `copy_directories`: (optional) Override of the directories to copy, separated by `\n`.
+  If setting this, make sure to add `{{ neovim.plugin.dirs }}` to auto-detect runtime directories.
+  If not set, defaults to `{{ neovim.plugin.dirs }}`.
+
 ### Tree-sitter parsers [WIP]
 
 - One workflow periodically generates the [tree-sitter-parsers.json](./tree-sitter-parsers.json)
@@ -53,4 +64,5 @@ which uses the chunk it receives as the input for a matrix build.
 > [!IMPORTANT]
 >
 > Any tree-sitter parser rockspecs that cannot be built and installed by the workflow
+
 > are not uploaded to luarocks.org.
