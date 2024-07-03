@@ -93,7 +93,6 @@ jobs:
           summary: ${{ matrix.plugin.summary }}
           license: ${{ matrix.plugin.license }}
           labels: neovim
-          test_interpreters: "" # Don't try to run busted tests
           copy_directories: ${{ env.COPY_DIRECTORIES }}
           extra_luarocks_args: |
             --namespace=neorocks
