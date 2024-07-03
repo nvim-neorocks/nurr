@@ -2062,7 +2062,8 @@
             "shorthand": "friendly-snippets",
             "dependencies": "",
             "summary": "Neovim snippets collection for a set of different programming languages.",
-            "license": "MIT"
+            "license": "MIT",
+            "copy_directories": "snippets\n{{ neovim.plugin.dirs }}"
         },
         {
             "name": "garymjr/nvim-snippets",
