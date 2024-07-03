@@ -2070,7 +2070,7 @@
             "dependencies": "",
             "summary": "Neovim snippets collection for a set of different programming languages.",
             "license": "MIT",
-            "copy_directories": "snippets\n{{ neovim.plugin.dirs }}"
+            "extra_directories": "snippets"
         },
         {
             "name": "garymjr/nvim-snippets",

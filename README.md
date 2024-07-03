@@ -45,9 +45,8 @@ which uses the chunk it receives as the input for a matrix build.
 - `dependencies`: Plugin dependencies, separated with newline `\n` characters
 - `summary`: Short description of the plugin
 - `license`: The license SPDX
-- `copy_directories`: (optional) Override of the directories to copy, separated by `\n`.
-  If setting this, make sure to add `{{ neovim.plugin.dirs }}` to auto-detect runtime directories.
-  If not set, defaults to `{{ neovim.plugin.dirs }}`.
+- `extra_directories`: (optional) Extra directories to copy, separated by `\n`,
+  in addition to the standard Neovim runtime directories, which are auto-detected.
 
 ### Tree-sitter parsers [WIP]
 

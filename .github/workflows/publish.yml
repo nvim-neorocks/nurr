@@ -71,16 +71,6 @@ jobs:
         run: |
           echo "PUBLISHED_COUNT=$(luarocks --only-server=https://luarocks.org/manifests/neorocks search ${{ matrix.plugin.shorthand }} ${{ env.RELEASE_VERSION }} --porcelain | wc -l)" >> $GITHUB_ENV
 
-      - name: Get copy_directories from matrix
-        if: ${{ matrix.plugin.copy_directories }}
-        run: |
-          echo "COPY_DIRECTORIES=${{ matrix.plugin.copy_directories }}" >> $GITHUB_ENV
-
-      - name: Set copy_directories
-        if: ${{ env.COPY_DIRECTORIES == '' }}
-        run: |
-          echo "COPY_DIRECTORIES={{ neovim.plugin.dirs }}" >> $GITHUB_ENV
-
       - name: Publish LuaRock
         uses: nvim-neorocks/luarocks-tag-release@v7
         if: ${{ env.PUBLISHED_COUNT == '0' }}
@@ -93,6 +83,8 @@ jobs:
           summary: ${{ matrix.plugin.summary }}
           license: ${{ matrix.plugin.license }}
           labels: neovim
-          copy_directories: ${{ env.COPY_DIRECTORIES }}
+          copy_directories: |
+            {{ neovim.plugin.dirs }}
+            ${{ matrix.plugin.extra_directories }}
           extra_luarocks_args: |
             --namespace=neorocks
