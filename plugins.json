@@ -414,6 +414,13 @@
             "license": "MIT"
         },
         {
+            "name": "echasnovski/mini.icons",
+            "shorthand": "mini.icons",
+            "dependencies": "",
+            "summary": "Neovim Icon provider. Part of the mini.nvim suite.",
+            "license": "MIT"
+        },
+        {
             "name": "jackMort/ChatGPT.nvim",
             "shorthand": "ChatGPT.nvim",
             "license": "Apache-2.0",
