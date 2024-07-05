@@ -2065,6 +2065,14 @@
             "license": "Apache-2.0"
         },
         {
+            "name": "jellydn/hurl.nvim",
+            "shorthand": "hurl.nvim",
+            "dependencies": "nui.nvim\nplenary.nvim",
+            "summary": "Run HTTP requests directly from `.hurl` files.",
+            "license": "MIT",
+            "extra_directories": ""
+        },
+        {
             "name": "rafamadriz/friendly-snippets",
             "shorthand": "friendly-snippets",
             "dependencies": "",
