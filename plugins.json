@@ -2093,6 +2093,12 @@
             "dependencies": "neotest",
             "summary": "Neotest adapter for Rust, using cargo-nextest.",
             "license": "MIT"
+        },
+        {
+            "name": "mcauley-penney/visual-whitespace.nvim",
+            "shorthand": "visual-whitespace.nvim",
+            "summary": "A Neovim plugin to reveal whitespace characters in visual mode, like VSCode",
+            "license": "UNKNOWN"
         }
     ]
 }
