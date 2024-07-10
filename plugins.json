@@ -2088,6 +2088,13 @@
             "extra_directories": "snippets"
         },
         {
+            "name": "danielfalk/smart-open.nvim",
+            "shorthand": "smart-open.nvim",
+            "dependencies": ["telescope.nvim", "sqlite.lua"],
+            "summary": "Fast file-finding",
+            "license": "MIT"
+        },
+        {
             "name": "garymjr/nvim-snippets",
             "shorthand": "nvim-snippets",
             "dependencies": [],
