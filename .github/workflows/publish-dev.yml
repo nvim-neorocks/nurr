@@ -25,13 +25,23 @@ jobs:
           echo "GITHUB_REPOSITORY_OVERRIDE=${{ matrix.plugin.name }}" >> $GITHUB_ENV
           echo "GITHUB_SHA_OVERRIDE=$(git rev-parse HEAD)" >> $GITHUB_ENV
 
+      - name: Convert JSON list to multiline string
+        id: convert
+        run: |
+          # https://docs.github.com/en/actions/using-workflows/workflow-commands-for-github-actions#multiline-strings
+          {
+            echo "multiline<<EOF"
+            echo -e "${{ join(matrix.plugin.dependencies, '\n') }}"
+            echo EOF
+          } >> "$GITHUB_OUTPUT"
+
       - name: Publish Development LuaRock
         uses: nvim-neorocks/luarocks-tag-release@v7
         env:
           LUAROCKS_API_KEY: ${{ secrets.LUAROCKS_API_KEY }}
         with:
           name: ${{ matrix.plugin.shorthand }}
-          dependencies: ${{ join(matrix.plugin.dependencies, '\n') }}
+          dependencies: ${{ steps.convert.outputs.multiline }}
           version: "scm"
           summary: ${{ matrix.plugin.summary }}
           license: ${{ matrix.plugin.license }}

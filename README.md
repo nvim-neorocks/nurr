@@ -42,7 +42,7 @@ which uses the chunk it receives as the input for a matrix build.
 
 - `name`: owner/repo (GitHub)
 - `shorthand`: The name of the plugin (will be the lua rock name)
-- `dependencies`: Plugin dependencies, separated with newline `\n` characters
+- `dependencies`: Plugin dependencies, a list of luarocks plugins
 - `summary`: Short description of the plugin
 - `license`: The license SPDX
 - `extra_directories`: (optional) Extra directories to copy, separated by `\n`,
