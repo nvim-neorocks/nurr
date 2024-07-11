@@ -3,420 +3,420 @@
         {
             "name": "NeogitOrg/neogit",
             "shorthand": "neogit",
-            "dependencies": "plenary.nvim",
+            "dependencies": ["plenary.nvim"],
             "summary": "An interactive and powerful Git interface for Neovim, inspired by Magit",
             "license": "MIT"
         },
         {
             "name": "folke/flash.nvim",
             "shorthand": "flash.nvim",
-            "dependencies": "",
+            "dependencies": [],
             "summary": "Navigate your code with search labels, enhanced character motions and Treesitter integration",
             "license": "Apache-2.0"
         },
         {
             "name": "folke/tokyonight.nvim",
             "shorthand": "tokyonight.nvim",
-            "dependencies": "",
+            "dependencies": [],
             "summary": "A clean, dark Neovim theme written in Lua, with support for lsp, treesitter and lots of plugins",
             "license": "Apache-2.0"
         },
         {
             "name": "folke/which-key.nvim",
             "shorthand": "which-key.nvim",
-            "dependencies": "",
+            "dependencies": [],
             "summary": "WhichKey is a lua plugin for Neovim 0.5 that displays a popup with possible key bindings of the command you started typing",
             "license": "Apache-2.0"
         },
         {
             "name": "folke/zen-mode.nvim",
             "shorthand": "zen-mode.nvim",
-            "dependencies": "",
+            "dependencies": [],
             "summary": "Distraction-free coding for Neovim",
             "license": "Apache-2.0"
         },
         {
             "name": "folke/twilight.nvim",
             "shorthand": "twilight.nvim",
-            "dependencies": "",
+            "dependencies": [],
             "summary": "Twilight is a Lua plugin for Neovim 0.5 that dims inactive portions of the code you're editing",
             "license": "Apache-2.0"
         },
         {
             "name": "folke/neodev.nvim",
             "shorthand": "neodev.nvim",
-            "dependencies": "",
+            "dependencies": [],
             "summary": "Neovim setup for init.lua and plugin development with full signature help, docs and completion for the nvim lua API",
             "license": "Apache-2.0"
         },
         {
             "name": "folke/trouble.nvim",
             "shorthand": "trouble.nvim",
-            "dependencies": "nvim-web-devicons",
+            "dependencies": ["nvim-web-devicons"],
             "summary": "A pretty diagnostics, references, telescope results, quickfix and location list to help you solve all the trouble your code is causing",
             "license": "Apache-2.0"
         },
         {
             "name": "folke/todo-comments.nvim",
             "shorthand": "todo-comments.nvim",
-            "dependencies": "plenary.nvim",
+            "dependencies": ["plenary.nvim"],
             "summary": "Highlight, list and search todo comments in your projects",
             "license": "Apache-2.0"
         },
         {
             "name": "stevearc/oil.nvim",
             "shorthand": "oil.nvim",
-            "dependencies": "nvim-web-devicons",
+            "dependencies": ["nvim-web-devicons"],
             "summary": "Neovim file explorer: edit your filesystem like a buffer",
             "license": "MIT"
         },
         {
             "name": "rktjmp/paperplanes.nvim",
             "shorthand": "paperplanes.nvim",
-            "dependencies": "",
+            "dependencies": [],
             "summary": "Neovim pastebins",
             "license": "MIT"
         },
         {
             "name": "lewis6991/gitsigns.nvim",
             "shorthand": "gitsigns.nvim",
-            "dependencies": "",
+            "dependencies": [],
             "summary": "Super fast git decorations implemented purely in Lua",
             "license": "MIT"
         },
         {
             "name": "nacro90/numb.nvim",
             "shorthand": "numb.nvim",
-            "dependencies": "",
+            "dependencies": [],
             "summary": "Peek lines just when you intend",
             "license": "MIT"
         },
         {
             "name": "asiryk/auto-hlsearch.nvim",
             "shorthand": "auto-hlsearch.nvim",
-            "dependencies": "",
+            "dependencies": [],
             "summary": "Automatically manage hlsearch setting",
             "license": "Apache-2.0"
         },
         {
             "name": "nanozuki/tabby.nvim",
             "shorthand": "tabby.nvim",
-            "dependencies": "nvim-web-devicons",
+            "dependencies": ["nvim-web-devicons"],
             "summary": "A declarative, highly configurable, and neovim style tabline plugin. Use your nvim tabs as a workspace multiplexer",
             "license": "MIT"
         },
         {
             "name": "nvimtools/hydra.nvim",
             "shorthand": "hydra.nvim",
-            "dependencies": "",
+            "dependencies": [],
             "summary": "Create custom submodes and menus",
             "license": "MIT"
         },
         {
             "name": "rebelot/kanagawa.nvim",
             "shorthand": "kanagawa.nvim",
-            "dependencies": "",
+            "dependencies": [],
             "summary": "NeoVim dark colorscheme inspired by the colors of the famous painting by Katsushika Hokusai.",
             "license": "MIT"
         },
         {
             "name": "danymat/neogen",
             "shorthand": "neogen",
-            "dependencies": "",
+            "dependencies": [],
             "summary": "A better annotation generator. Supports multiple languages and annotation conventions.",
             "license": "GPL-3.0"
         },
         {
             "name": "echasnovski/mini.nvim",
             "shorthand": "mini.nvim",
-            "dependencies": "",
+            "dependencies": [],
             "summary": "Library of 35+ independent Lua modules improving overall Neovim (version 0.7 and higher) experience with minimal effort (full suite)",
             "license": "MIT"
         },
         {
             "name": "echasnovski/mini.ai",
             "shorthand": "mini.ai",
-            "dependencies": "",
+            "dependencies": [],
             "summary": "Extend and create a/i textobjects. Part of the mini.nvim suite.",
             "license": "MIT"
         },
         {
             "name": "echasnovski/mini.align",
             "shorthand": "mini.align",
-            "dependencies": "",
+            "dependencies": [],
             "summary": "A Neovim plugin to align text interactively. Part of the mini.nvim suite.",
             "license": "MIT"
         },
         {
             "name": "echasnovski/mini.animate",
             "shorthand": "mini.animate",
-            "dependencies": "",
+            "dependencies": [],
             "summary": "Animate common Neovim actions Part of the mini.nvim suite.",
             "license": "MIT"
         },
         {
             "name": "echasnovski/mini.base16",
             "shorthand": "mini.base16",
-            "dependencies": "",
+            "dependencies": [],
             "summary": "Base16 colorscheme creation for Neovim Part of the mini.nvim suite.",
             "license": "MIT"
         },
         {
             "name": "echasnovski/mini.basics",
             "shorthand": "mini.basics",
-            "dependencies": "",
+            "dependencies": [],
             "summary": "Common configuration presets for Neovim Part of the mini.nvim suite.",
             "license": "MIT"
         },
         {
             "name": "echasnovski/mini.bracketed",
             "shorthand": "mini.bracketed",
-            "dependencies": "",
+            "dependencies": [],
             "summary": "Go forward/backward in Neovim with square brackets Part of the mini.nvim suite.",
             "license": "MIT"
         },
         {
             "name": "echasnovski/mini.bufremove",
             "shorthand": "mini.bufremove",
-            "dependencies": "",
+            "dependencies": [],
             "summary": "Remove Neovim buffers. Part of the mini.nvim suite.",
             "license": "MIT"
         },
         {
             "name": "echasnovski/mini.clue",
             "shorthand": "mini.clue",
-            "dependencies": "",
+            "dependencies": [],
             "summary": "Show next key clues in Neovim. Part of the mini.nvim suite.",
             "license": "MIT"
         },
         {
             "name": "echasnovski/mini.colors",
             "shorthand": "mini.colors",
-            "dependencies": "",
+            "dependencies": [],
             "summary": "Tweak and save any Neovim colorscheme. Part of the mini.nvim suite.",
             "license": "MIT"
         },
         {
             "name": "echasnovski/mini.comment",
             "shorthand": "mini.comment",
-            "dependencies": "",
+            "dependencies": [],
             "summary": "Comment lines in Neovim. Part of the mini.nvim suite.",
             "license": "MIT"
         },
         {
             "name": "echasnovski/mini.completion",
             "shorthand": "mini.completion",
-            "dependencies": "",
+            "dependencies": [],
             "summary": "Completion and signature help for Neovim. Part of the mini.nvim suite.",
             "license": "MIT"
         },
         {
             "name": "echasnovski/mini.cursorword",
             "shorthand": "mini.cursorword",
-            "dependencies": "",
+            "dependencies": [],
             "summary": "Autohighlight word under cursor for Neovim. Part of the mini.nvim suite.",
             "license": "MIT"
         },
         {
             "name": "echasnovski/mini.deps",
             "shorthand": "mini.deps",
-            "dependencies": "",
+            "dependencies": [],
             "summary": "Git plugin manager for Neovim. Part of the mini.nvim suite.",
             "license": "MIT"
         },
         {
             "name": "echasnovski/mini.diff",
             "shorthand": "mini.diff",
-            "dependencies": "",
+            "dependencies": [],
             "summary": "Work with diff hunks in Neovim. Part of the mini.nvim suite.",
             "license": "MIT"
         },
         {
             "name": "echasnovski/mini.doc",
             "shorthand": "mini.doc",
-            "dependencies": "",
+            "dependencies": [],
             "summary": "Generate Neovim help files. Part of the mini.nvim suite.",
             "license": "MIT"
         },
         {
             "name": "echasnovski/mini.extra",
             "shorthand": "mini.extra",
-            "dependencies": "",
+            "dependencies": [],
             "summary": "Extra 'mini.nvim' functionality. Part of the mini.nvim suite.",
             "license": "MIT"
         },
         {
             "name": "echasnovski/mini.files",
             "shorthand": "mini.files",
-            "dependencies": "",
+            "dependencies": [],
             "summary": "Navigate and manipulate the file system in Neovim. Part of the mini.nvim suite.",
             "license": "MIT"
         },
         {
             "name": "echasnovski/mini.fuzzy",
             "shorthand": "mini.fuzzy",
-            "dependencies": "",
+            "dependencies": [],
             "summary": "Fuzzy matching for Neovim. Part of the mini.nvim suite.",
             "license": "MIT"
         },
         {
             "name": "echasnovski/mini.git",
             "shorthand": "mini.git",
-            "dependencies": "",
+            "dependencies": [],
             "summary": "Git integration for Neovim. Part of the mini.nvim suite.",
             "license": "MIT"
         },
         {
             "name": "echasnovski/mini.hipatterns",
             "shorthand": "mini.hipatterns",
-            "dependencies": "",
+            "dependencies": [],
             "summary": "Neovim: Highlight patterns in text. Part of the mini.nvim suite.",
             "license": "MIT"
         },
         {
             "name": "echasnovski/mini.hues",
             "shorthand": "mini.hues",
-            "dependencies": "",
+            "dependencies": [],
             "summary": "Neovim: Generate configurable color scheme. Part of the mini.nvim suite.",
             "license": "MIT"
         },
         {
             "name": "echasnovski/mini.indentscope",
             "shorthand": "mini.indentscope",
-            "dependencies": "",
+            "dependencies": [],
             "summary": "Neovim: Visualize and work with indent scope. Part of the mini.nvim suite.",
             "license": "MIT"
         },
         {
             "name": "echasnovski/mini.jump",
             "shorthand": "mini.jump",
-            "dependencies": "",
+            "dependencies": [],
             "summary": "Neovim: Jump to next/previous single character. Part of the mini.nvim suite.",
             "license": "MIT"
         },
         {
             "name": "echasnovski/mini.jump2d",
             "shorthand": "mini.jump2d",
-            "dependencies": "",
+            "dependencies": [],
             "summary": "Neovim: Jump within visible lines. Part of the mini.nvim suite.",
             "license": "MIT"
         },
         {
             "name": "echasnovski/mini.map",
             "shorthand": "mini.map",
-            "dependencies": "",
+            "dependencies": [],
             "summary": "Neovim: Window with buffer text overview. Part of the mini.nvim suite.",
             "license": "MIT"
         },
         {
             "name": "echasnovski/mini.misc",
             "shorthand": "mini.misc",
-            "dependencies": "",
+            "dependencies": [],
             "summary": "Neovim: Miscellaneous functions. Part of the mini.nvim suite.",
             "license": "MIT"
         },
         {
             "name": "echasnovski/mini.move",
             "shorthand": "mini.move",
-            "dependencies": "",
+            "dependencies": [],
             "summary": "Neovim: Move any selection in any direction. Part of the mini.nvim suite.",
             "license": "MIT"
         },
         {
             "name": "echasnovski/mini.notify",
             "shorthand": "mini.notify",
-            "dependencies": "",
+            "dependencies": [],
             "summary": "Neovim: Show notifications. Part of the mini.nvim suite.",
             "license": "MIT"
         },
         {
             "name": "echasnovski/mini.operators",
             "shorthand": "mini.operators",
-            "dependencies": "",
+            "dependencies": [],
             "summary": "Neovim: Text edit operators. Part of the mini.nvim suite.",
             "license": "MIT"
         },
         {
             "name": "echasnovski/mini.pairs",
             "shorthand": "mini.pairs",
-            "dependencies": "",
+            "dependencies": [],
             "summary": "Neovim autopairs. Part of the mini.nvim suite.",
             "license": "MIT"
         },
         {
             "name": "echasnovski/mini.pick",
             "shorthand": "mini.pick",
-            "dependencies": "",
+            "dependencies": [],
             "summary": "Neovim: Pick anything. Part of the mini.nvim suite.",
             "license": "MIT"
         },
         {
             "name": "echasnovski/mini.sessions",
             "shorthand": "mini.sessions",
-            "dependencies": "",
+            "dependencies": [],
             "summary": "Neovim: Session management. Part of the mini.nvim suite.",
             "license": "MIT"
         },
         {
             "name": "echasnovski/mini.splitjoin",
             "shorthand": "mini.splitjoin",
-            "dependencies": "",
+            "dependencies": [],
             "summary": "Neovim: Split and join arguments. Part of the mini.nvim suite.",
             "license": "MIT"
         },
         {
             "name": "echasnovski/mini.starter",
             "shorthand": "mini.starter",
-            "dependencies": "",
+            "dependencies": [],
             "summary": "Neovim start screen. Part of the mini.nvim suite.",
             "license": "MIT"
         },
         {
             "name": "echasnovski/mini.statusline",
             "shorthand": "mini.statusline",
-            "dependencies": "",
+            "dependencies": [],
             "summary": "Neovim statusline. Part of the mini.nvim suite.",
             "license": "MIT"
         },
         {
             "name": "echasnovski/mini.surround",
             "shorthand": "mini.surround",
-            "dependencies": "",
+            "dependencies": [],
             "summary": "Neovim surround actions. Part of the mini.nvim suite.",
             "license": "MIT"
         },
         {
             "name": "echasnovski/mini.tabline",
             "shorthand": "mini.tabline",
-            "dependencies": "",
+            "dependencies": [],
             "summary": "Neovim tabline. Part of the mini.nvim suite.",
             "license": "MIT"
         },
         {
             "name": "echasnovski/mini.test",
             "shorthand": "mini.test",
-            "dependencies": "",
+            "dependencies": [],
             "summary": "Test neovim plugins. Part of the mini.nvim suite.",
             "license": "MIT"
         },
         {
             "name": "echasnovski/mini.trailspace",
             "shorthand": "mini.trailspace",
-            "dependencies": "",
+            "dependencies": [],
             "summary": "Neovim: Trailspace (highlight and remove). Part of the mini.nvim suite.",
             "license": "MIT"
         },
         {
             "name": "echasnovski/mini.visits",
             "shorthand": "mini.visits",
-            "dependencies": "",
+            "dependencies": [],
             "summary": "Neovim: Track and reuse file system visits. Part of the mini.nvim suite.",
             "license": "MIT"
         },
         {
             "name": "echasnovski/mini.icons",
             "shorthand": "mini.icons",
-            "dependencies": "",
+            "dependencies": [],
             "summary": "Neovim Icon provider. Part of the mini.nvim suite.",
             "license": "MIT"
         },
@@ -425,1232 +425,1232 @@
             "shorthand": "ChatGPT.nvim",
             "license": "Apache-2.0",
             "summary": "ChatGPT Neovim Plugin: Effortless Natural Language Generation with OpenAI's ChatGPT API",
-            "dependencies": "nui.nvim\nplenary.nvim\ntrouble.nvim\ntelescope.nvim"
+            "dependencies": ["nui.nvim", "plenary.nvim", "trouble.nvim", "telescope.nvim"]
         },
         {
             "name": "dpayne/CodeGPT.nvim",
             "shorthand": "CodeGPT.nvim",
             "license": "GPL-3.0",
             "summary": "CodeGPT is a plugin for neovim that provides commands to interact with ChatGPT.",
-            "dependencies": "plenary.nvim\nnui.nvim"
+            "dependencies": ["plenary.nvim", "nui.nvim"]
         },
         {
             "name": "matbme/JABS.nvim",
             "shorthand": "JABS.nvim",
             "license": "GPL-3.0",
             "summary": "Just Another Buffer Switcher for Neovim",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "b0o/SchemaStore.nvim",
             "shorthand": "SchemaStore.nvim",
             "license": "Apache-2.0",
             "summary": "JSON schemas for Neovim",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "aznhe21/actions-preview.nvim",
             "shorthand": "actions-preview.nvim",
             "license": "GPL-3.0",
             "summary": "Fully customizable previewer for LSP code actions.",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "pocco81/auto-save.nvim",
             "shorthand": "auto-save.nvim",
             "license": "GPL-3.0",
             "summary": "Automatically save your changes in NeoVim",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "max397574/better-escape.nvim",
             "shorthand": "better-escape.nvim",
             "license": "GPL-3.0",
             "summary": "Escape from insert mode without delay when typing",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "famiu/bufdelete.nvim",
             "shorthand": "bufdelete.nvim",
             "license": "GPL-3.0",
             "summary": "Delete Neovim buffers without losing window layout",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "akinsho/bufferline.nvim",
             "shorthand": "bufferline.nvim",
             "license": "GPL-3.0",
             "summary": "A snazzy bufferline for Neovim",
-            "dependencies": "nvim-web-devicons"
+            "dependencies": ["nvim-web-devicons"]
         },
         {
             "name": "saadparwaiz1/cmp_luasnip",
             "shorthand": "cmp_luasnip",
             "license": "Apache-2.0",
             "summary": "luasnip completion source for nvim-cmp",
-            "dependencies": "nvim-cmp"
+            "dependencies": ["nvim-cmp"]
         },
         {
             "name": "nvim-colortils/colortils.nvim",
             "shorthand": "colortils.nvim",
             "license": "GPL-2.0",
             "summary": "Some color utils for neovim",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "xeluxee/competitest.nvim",
             "shorthand": "competitest.nvim",
             "license": "LGPL-3.0",
             "summary": "CompetiTest.nvim is a Neovim plugin for Competitive Programming: it can manage and check testcases, download problems and contests from online judges and much more",
-            "dependencies": "nui.nvim"
+            "dependencies": ["nui.nvim"]
         },
         {
             "name": "elihunter173/dirbuf.nvim",
             "shorthand": "dirbuf.nvim",
             "license": "AGPL-3.0",
             "summary": "A file manager for Neovim which lets you edit your filesystem like you edit text",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "chipsenkbeil/distant.nvim",
             "shorthand": "distant.nvim",
             "license": "Apache-2.0",
             "summary": "Edit files, run programs, and work with LSP on a remote machine from the comfort of your local environment",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "Bekaboo/dropbar.nvim",
             "shorthand": "dropbar.nvim",
             "license": "GPL-3.0",
             "summary": "IDE-like breadcrumbs, out of the box",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "folke/edgy.nvim",
             "shorthand": "edgy.nvim",
             "license": "Apache-2.0",
             "summary": "Easily create and manage predefined window layouts, bringing a new edge to your workflow",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "ibhagwan/fzf-lua",
             "shorthand": "fzf-lua",
             "license": "AGPL-3.0",
             "summary": "Improved fzf.vim written in lua",
-            "dependencies": "nvim-web-devicons"
+            "dependencies": ["nvim-web-devicons"]
         },
         {
             "name": "f-person/git-blame.nvim",
             "shorthand": "git-blame.nvim",
             "license": "GPL-3.0",
             "summary": "Git Blame plugin for Neovim written in Lua",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "ruifm/gitlinker.nvim",
             "shorthand": "gitlinker.nvim",
             "license": "GPL-3.0",
             "summary": "A lua neovim plugin to generate shareable file permalinks (with line ranges) for several git web frontend hosts. Inspired by tpope/vim-fugitive's :GBrowse",
-            "dependencies": "plenary.nvim"
+            "dependencies": ["plenary.nvim"]
         },
         {
             "name": "rmagatti/goto-preview",
             "shorthand": "goto-preview",
             "license": "Apache-2.0",
             "summary": "A small Neovim plugin for previewing definitions using floating windows.",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "pocco81/high-str.nvim",
             "shorthand": "high-str.nvim",
             "license": "GPL-3.0",
             "summary": "A NeoVim plugin for highlighting visual selections like in a normal document editor!",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "frabjous/knap",
             "shorthand": "knap",
             "license": "GPL-3.0",
             "summary": "Neovim plugin for creating live-updating-as-you-type previews of LaTeX, markdown, and other files in the viewer of your choice.",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "folke/lazy.nvim",
             "shorthand": "lazy.nvim",
             "license": "Apache-2.0",
             "summary": "A modern plugin manager for Neovim",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "huggingface/llm.nvim",
             "shorthand": "llm.nvim",
             "license": "Apache-2.0",
             "summary": "LLM powered development for Neovim",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "ray-x/lsp_signature.nvim",
             "shorthand": "lsp_signature.nvim",
             "license": "Apache-2.0",
             "summary": "LSP signature hint as you type",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "williamboman/mason-lspconfig.nvim",
             "shorthand": "mason-lspconfig.nvim",
             "license": "Apache-2.0",
             "summary": "Extension to mason.nvim that makes it easier to use lspconfig with mason.nvim.",
-            "dependencies": "mason.nvim\nnvim-lspconfig"
+            "dependencies": ["mason.nvim", "nvim-lspconfig"]
         },
         {
             "name": "jay-babu/mason-nvim-dap.nvim",
             "shorthand": "mason-nvim-dap.nvim",
             "license": "AGPL-3.0",
             "summary": "Bridges mason.nvim with the nvim-dap plugins - making it easier to use both plugins together.",
-            "dependencies": "mason.nvim\nnvim-dap"
+            "dependencies": ["mason.nvim", "nvim-dap"]
         },
         {
             "name": "williamboman/mason.nvim",
             "shorthand": "mason.nvim",
             "license": "Apache-2.0",
             "summary": "Portable package manager for Neovim that runs everywhere Neovim runs. Easily install and manage LSP servers, DAP servers, linters, and formatters.",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "marko-cerovac/material.nvim",
             "shorthand": "material.nvim",
             "license": "GPL-2.0",
             "summary": "Material colorscheme for NeoVim written in Lua with built-in support for native LSP, TreeSitter and many more plugins",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "jakewvincent/mkdnflow.nvim",
             "shorthand": "mkdnflow.nvim",
             "license": "GPL-3.0",
             "summary": "Fluent navigation and management of markdown notebooks",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "fedepujol/move.nvim",
             "shorthand": "move.nvim",
             "license": "GPL-3.0",
             "summary": "Gain the power to move lines and blocks and auto-indent them!",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "folke/neoconf.nvim",
             "shorthand": "neoconf.nvim",
             "license": "Apache-2.0",
             "summary": "Neovim plugin to manage global and project-local settings",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "Shatur/neovim-ayu",
             "shorthand": "neovim-ayu",
             "license": "GPL-3.0",
             "summary": "Ayu theme for Neovim.",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "Shatur/neovim-session-manager",
             "shorthand": "neovim-session-manager",
             "license": "GPL-3.0",
             "summary": "A simple wrapper around :mksession.",
-            "dependencies": "plenary.nvim"
+            "dependencies": ["plenary.nvim"]
         },
         {
             "name": "folke/noice.nvim",
             "shorthand": "noice.nvim",
             "license": "Apache-2.0",
             "summary": "Highly experimental plugin that completely replaces the UI for messages, cmdline and the popupmenu.",
-            "dependencies": "nui.nvim\nnvim-notify"
+            "dependencies": ["nui.nvim", "nvim-notify"]
         },
         {
             "name": "rcarriga/nvim-notify",
             "shorthand": "nvim-notify",
             "license": "MIT",
             "summary": "A fancy, configurable, notification manager for NeoVim",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "mfussenegger/nvim-dap-python",
             "shorthand": "nvim-dap-python",
             "license": "GPL-3.0",
             "summary": "An extension for nvim-dap, providing default configurations for python and methods to debug individual test methods or classes.",
-            "dependencies": "nvim-dap"
+            "dependencies": ["nvim-dap"]
         },
         {
             "name": "theHamsta/nvim-dap-virtual-text",
             "shorthand": "nvim-dap-virtual-text",
             "license": "GPL-3.0",
             "summary": "Adds virtual text support to nvim-dap.",
-            "dependencies": "nvim-dap\n"
+            "dependencies": ["nvim-dap"]
         },
         {
             "name": "kndndrj/nvim-dbee",
             "shorthand": "nvim-dbee",
             "license": "GPL-3.0",
             "summary": "Interactive database client for neovim",
-            "dependencies": "nui.nvim"
+            "dependencies": ["nui.nvim"]
         },
         {
             "name": "vijaymarupudi/nvim-fzf",
             "shorthand": "nvim-fzf",
             "license": "AGPL-3.0",
             "summary": "A Lua API for using fzf in neovim.",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "mfussenegger/nvim-jdtls",
             "shorthand": "nvim-jdtls",
             "license": "GPL-3.0",
             "summary": "Extensions for the built-in LSP support in Neovim for eclipse.jdt.ls",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "mfussenegger/nvim-lint",
             "shorthand": "nvim-lint",
             "license": "GPL-3.0",
             "summary": "An asynchronous linter plugin for Neovim complementary to the built-in Language Server Protocol support.",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "scalameta/nvim-metals",
             "shorthand": "nvim-metals",
             "license": "Apache-2.0",
             "summary": "A Metals plugin for Neovim",
-            "dependencies": "plenary.nvim"
+            "dependencies": ["plenary.nvim"]
         },
         {
             "name": "SmiteshP/nvim-navic",
             "shorthand": "nvim-navic",
             "license": "Apache-2.0",
             "summary": "Simple winbar/statusline plugin that shows your current code context",
-            "dependencies": "nvim-lspconfig"
+            "dependencies": ["nvim-lspconfig"]
         },
         {
             "name": "mfussenegger/nvim-treehopper",
             "shorthand": "nvim-treehopper",
             "license": "GPL-3.0",
             "summary": "Region selection with hints on the AST nodes of a document powered by treesitter",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "epwalsh/obsidian.nvim",
             "shorthand": "obsidian.nvim",
             "license": "Apache-2.0",
             "summary": "Obsidian + Neovim",
-            "dependencies": "plenary.nvim"
+            "dependencies": ["plenary.nvim"]
         },
         {
             "name": "vuki656/package-info.nvim",
             "shorthand": "package-info.nvim",
             "license": "GPL-3.0",
             "summary": "All the npm/yarn/pnpm commands I don't want to type",
-            "dependencies": "nui.nvim"
+            "dependencies": ["nui.nvim"]
         },
         {
             "name": "folke/persistence.nvim",
             "shorthand": "persistence.nvim",
             "license": "Apache-2.0",
             "summary": "Simple session management for Neovim",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "anuvyklack/pretty-fold.nvim",
             "shorthand": "pretty-fold.nvim",
             "license": "Apache-2.0",
             "summary": "Foldtext customization in Neovim",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "ahmedkhalf/project.nvim",
             "shorthand": "project.nvim",
             "license": "Apache-2.0",
             "summary": "The superior project management solution for neovim.",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "HiPhish/rainbow-delimiters.nvim",
             "shorthand": "rainbow-delimiters.nvim",
             "license": "Apache-2.0",
             "summary": "Rainbow delimiters for Neovim with Tree-sitter",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "filipdutescu/renamer.nvim",
             "shorthand": "renamer.nvim",
             "license": "Apache-2.0",
             "summary": "VS Code-like renaming UI for Neovim, writen in Lua.",
-            "dependencies": "plenary.nvim"
+            "dependencies": ["plenary.nvim"]
         },
         {
             "name": "Xuyuanp/scrollbar.nvim",
             "shorthand": "scrollbar.nvim",
             "license": "Apache-2.0",
             "summary": "scrollbar for neovim",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "sourcegraph/sg.nvim",
             "shorthand": "sg.nvim",
             "license": "Apache-2.0",
             "summary": "Experimental Sourcegraph + Cody plugin for Neovim",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "startup-nvim/startup.nvim",
             "shorthand": "startup.nvim",
             "license": "GPL-2.0",
             "summary": "A highly configurable neovim startup screen",
-            "dependencies": "telescope.nvim\nplenary.nvim"
+            "dependencies": ["telescope.nvim", "plenary.nvim"]
         },
         {
             "name": "gbprod/substitute.nvim",
             "shorthand": "substitute.nvim",
             "license": "WTFPL",
             "summary": "Neovim plugin introducing a new operators motions to quickly replace and exchange text.",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "abecodes/tabout.nvim",
             "shorthand": "tabout.nvim",
             "license": "Unlicense",
             "summary": "tabout plugin for neovim",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "ThemerCorp/themer.lua",
             "shorthand": "themer.lua",
             "license": "GPL-3.0",
             "summary": "A simple, minimal highlighter plugin for neovim",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "akinsho/toggleterm.nvim",
             "shorthand": "toggleterm.nvim",
             "license": "GPL-3.0",
             "summary": "A neovim lua plugin to help easily manage multiple terminal windows",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "pocco81/true-zen.nvim",
             "shorthand": "true-zen.nvim",
             "license": "GPL-3.0",
             "summary": "Clean and elegant distraction-free writing for NeoVim",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "gbprod/yanky.nvim",
             "shorthand": "yanky.nvim",
             "license": "WTFPL",
             "summary": "Improved Yank and Put functionalities for Neovim",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "folke/zen-mode.nvim",
             "shorthand": "zen-mode.nvim",
             "license": "Apache-2.0",
             "summary": "Distraction-free coding for Neovim",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "zk-org/zk-nvim",
             "shorthand": "zk-nvim",
             "license": "GPL-3.0",
             "summary": "Neovim extension for zk",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "numToStr/Comment.nvim",
             "shorthand": "Comment.nvim",
             "license": "MIT",
             "summary": "Smart and powerful comment plugin for neovim. Supports treesitter, dot repeat, left-right/up-down motions, hooks, and more",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "numToStr/FTerm.nvim",
             "shorthand": "FTerm.nvim",
             "license": "MIT",
             "summary": "No-nonsense floating terminal plugin for neovim",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "numToStr/Navigator.nvim",
             "shorthand": "Navigator.nvim",
             "license": "MIT",
             "summary": "Smoothly navigate between neovim and terminal multiplexer(s)",
-            "dependencies": "sqlite.lua"
+            "dependencies": ["sqlite.lua"]
         },
         {
             "name": "ecthelionvi/NeoComposer.nvim",
             "shorthand": "NeoComposer.nvim",
             "license": "MIT",
             "summary": "Neovim plugin that simplifies macros, enhancing productivity with harmony.",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "sunjon/Shade.nvim",
             "shorthand": "Shade.nvim",
             "license": "MIT",
             "summary": "An Nvim lua plugin that dims your inactive windows",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "gen740/SmoothCursor.nvim",
             "shorthand": "SmoothCursor.nvim",
             "license": "MIT",
             "summary": "Displays a sub-cursor to show scroll direction.",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "stevearc/aerial.nvim",
             "shorthand": "aerial.nvim",
             "license": "MIT",
             "summary": "Neovim plugin for a code outline window",
-            "dependencies": "nvim-web-devicons\n"
+            "dependencies": ["nvim-web-devicons"]
         },
         {
             "name": "goolord/alpha-nvim",
             "shorthand": "alpha-nvim",
             "license": "MIT",
             "summary": "A lua powered greeter like vim-startify / dashboard-nvim",
-            "dependencies": "nvim-web-devicons"
+            "dependencies": ["nvim-web-devicons"]
         },
         {
             "name": "ray-x/aurora",
             "shorthand": "aurora",
             "license": "MIT",
             "summary": "A vivid dark theme for (Neo)Vim. Optimized for treesitter, LSP.",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "rmagatti/auto-session",
             "shorthand": "auto-session",
             "license": "MIT",
             "summary": "A small automated session manager for Neovim",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "m4xshen/autoclose.nvim",
             "shorthand": "autoclose.nvim",
             "license": "MIT",
             "summary": "A minimalist Neovim plugin that auto pairs & closes brackets",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "utilyre/barbecue.nvim",
             "shorthand": "barbecue.nvim",
             "license": "MIT",
             "summary": "A VS Code like winbar for Neovim",
-            "dependencies": "nvim-navic\nnvim-web-devicons"
+            "dependencies": ["nvim-navic", "nvim-web-devicons"]
         },
         {
             "name": "RRethy/base16-nvim",
             "shorthand": "base16-nvim",
             "license": "MIT",
             "summary": "Neovim plugin for building a sync base16 colorscheme. Includes support for Treesitter and LSP highlight groups.",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "uga-rosa/ccc.nvim",
             "shorthand": "ccc.nvim",
             "license": "MIT",
             "summary": "Color picker and highlighter plugin for Neovim.",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "Eandrju/cellular-automaton.nvim",
             "shorthand": "cellular-automaton.nvim",
             "license": "MIT",
             "summary": "Lets you execute aesthetically pleasing, cellular automaton animations based on the content of neovim buffer.",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "p00f/clangd_extensions.nvim",
             "shorthand": "clangd_extensions.nvim",
             "license": "MIT",
             "summary": "Clangd's off-spec features for neovim's LSP client. Use https://sr.ht/~p00f/clangd_extensions.nvim instead",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "ekickx/clipboard-image.nvim",
             "shorthand": "clipboard-image.nvim",
             "license": "MIT",
             "summary": "Neovim Lua plugin to paste image from clipboard.",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "laytan/cloak.nvim",
             "shorthand": "cloak.nvim",
             "license": "MIT",
             "summary": "Cloak allows you to overlay *'s over defined patterns in defined files.",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "hrsh7th/cmp-buffer",
             "shorthand": "cmp-buffer",
             "license": "MIT",
             "summary": "nvim-cmp source for buffer words",
-            "dependencies": "nvim-cmp"
+            "dependencies": ["nvim-cmp"]
         },
         {
             "name": "hrsh7th/cmp-cmdline",
             "shorthand": "cmp-cmdline",
             "license": "MIT",
             "summary": "nvim-cmp source for vim's cmdline",
-            "dependencies": "nvim-cmp"
+            "dependencies": ["nvim-cmp"]
         },
         {
             "name": "petertriho/cmp-git",
             "shorthand": "cmp-git",
             "license": "MIT",
             "summary": "Git source for nvim-cmp",
-            "dependencies": "nvim-cmp"
+            "dependencies": ["nvim-cmp"]
         },
         {
             "name": "hrsh7th/cmp-nvim-lsp",
             "shorthand": "cmp-nvim-lsp",
             "license": "MIT",
             "summary": "nvim-cmp source for neovim builtin LSP client",
-            "dependencies": "nvim-cmp"
+            "dependencies": ["nvim-cmp"]
         },
         {
             "name": "hrsh7th/cmp-path",
             "shorthand": "cmp-path",
             "license": "MIT",
             "summary": "nvim-cmp source for path",
-            "dependencies": "nvim-cmp"
+            "dependencies": ["nvim-cmp"]
         },
         {
             "name": "lukas-reineke/cmp-rg",
             "shorthand": "cmp-rg",
             "license": "MIT",
             "summary": "ripgrep source for nvim-cmp",
-            "dependencies": "nvim-cmp"
+            "dependencies": ["nvim-cmp"]
         },
         {
             "name": "tzachar/cmp-tabnine",
             "shorthand": "cmp-tabnine",
             "license": "MIT",
             "summary": "TabNine plugin for hrsh7th/nvim-cmp",
-            "dependencies": "nvim-cmp"
+            "dependencies": ["nvim-cmp"]
         },
         {
             "name": "CRAG666/code_runner.nvim",
             "shorthand": "code_runner.nvim",
             "license": "MIT",
             "summary": "The best code runner you could have, it is like the one in vscode but with super powers, it manages projects like in intellij but without being slow.",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "Exafunction/codeium.nvim",
             "shorthand": "codeium.nvim",
             "license": "MIT",
             "summary": "A native neovim extension for Codeium",
-            "dependencies": "plenary.nvim\nnvim-cmp"
+            "dependencies": ["plenary.nvim", "nvim-cmp"]
         },
         {
             "name": "ziontee113/color-picker.nvim",
             "shorthand": "color-picker.nvim",
             "license": "MIT",
             "summary": "A powerful Neovim plugin that lets users choose & modify RGB/HSL/HEX colors. ",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "tjdevries/colorbuddy.nvim",
             "shorthand": "colorbuddy.nvim",
             "license": "MIT",
             "summary": "Your color buddy for making cool neovim color schemes",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "nvim-zh/colorful-winsep.nvim",
             "shorthand": "colorful-winsep.nvim",
             "license": "MIT",
             "summary": "Make your nvim window separators colorful",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "FeiyouG/commander.nvim",
             "shorthand": "commander.nvim",
             "license": "MIT",
             "summary": "Create and manage keybindings and commands in a more organized manner, and search them quickly through Telescope",
-            "dependencies": "telescope.nvim"
+            "dependencies": ["telescope.nvim"]
         },
         {
             "name": "LudoPinelli/comment-box.nvim",
             "shorthand": "comment-box.nvim",
             "license": "MIT",
             "summary": "Clarify and beautify your comments and plain text files using boxes and lines.",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "stevearc/conform.nvim",
             "shorthand": "conform.nvim",
             "license": "MIT",
             "summary": "Lightweight yet powerful formatter plugin for Neovim",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "zbirenbaum/copilot-cmp",
             "shorthand": "copilot-cmp",
             "license": "MIT",
             "summary": "Lua plugin to turn github copilot into a cmp source",
-            "dependencies": "copilot.lua"
+            "dependencies": ["copilot.lua"]
         },
         {
             "name": "zbirenbaum/copilot.lua",
             "shorthand": "copilot.lua",
             "license": "MIT",
             "summary": "Fully featured & enhanced replacement for copilot.vim complete with API for interacting with Github Copilot",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "ghillb/cybu.nvim",
             "shorthand": "cybu.nvim",
             "license": "MIT",
             "summary": "Neovim plugin that offers context when cycling buffers in the form of a customizable notification window.",
-            "dependencies": "nvim-web-devicons\nplenary.nvim"
+            "dependencies": ["nvim-web-devicons", "plenary.nvim"]
         },
         {
             "name": "nvimdev/dashboard-nvim",
             "shorthand": "dashboard-nvim",
             "license": "MIT",
             "summary": "vim dashboard",
-            "dependencies": "nvim-web-devicons"
+            "dependencies": ["nvim-web-devicons"]
         },
         {
             "name": "monaqa/dial.nvim",
             "shorthand": "dial.nvim",
             "license": "MIT",
             "summary": "enhanced increment/decrement plugin for Neovim.",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "Mofiqul/dracula.nvim",
             "shorthand": "dracula.nvim",
             "license": "MIT",
             "summary": "Dracula colorscheme for neovim written in Lua",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "stevearc/dressing.nvim",
             "shorthand": "dressing.nvim",
             "license": "MIT",
             "summary": "Neovim plugin to improve the default vim.ui interfaces",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "axkirillov/easypick.nvim",
             "shorthand": "easypick.nvim",
             "license": "MIT",
             "summary": "A neovim plugin that lets you easily create Telescope pickers from arbitrary console commands",
-            "dependencies": "telescope.nvim"
+            "dependencies": ["telescope.nvim"]
         },
         {
             "name": "elixir-tools/elixir-tools.nvim",
             "shorthand": "elixir-tools.nvim",
             "license": "MIT",
             "summary": "Neovim plugin for Elixir",
-            "dependencies": "plenary.nvim"
+            "dependencies": ["plenary.nvim"]
         },
         {
             "name": "tjdevries/express_line.nvim",
             "shorthand": "express_line.nvim",
             "license": "MIT",
             "summary": "WIP: Statusline written in pure lua. Supports co-routines, functions and jobs.",
-            "dependencies": "plenary.nvim"
+            "dependencies": ["plenary.nvim"]
         },
         {
             "name": "VonHeikemen/fine-cmdline.nvim",
             "shorthand": "fine-cmdline.nvim",
             "license": "MIT",
             "summary": "Enter ex-commands in a nice floating input.",
-            "dependencies": "nui.nvim"
+            "dependencies": ["nui.nvim"]
         },
         {
             "name": "akinsho/flutter-tools.nvim",
             "shorthand": "flutter-tools.nvim",
             "license": "MIT",
             "summary": "Tools to help create flutter apps in neovim using the native lsp",
-            "dependencies": "plenary.nvim"
+            "dependencies": ["plenary.nvim"]
         },
         {
             "name": "nvim-focus/focus.nvim",
             "shorthand": "focus.nvim",
             "license": "MIT",
             "summary": "Auto-Focusing and Auto-Resizing Splits/Windows for Neovim written in Lua. A full suite of window management enhancements. Vim splits on steroids!",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "mhartington/formatter.nvim",
             "shorthand": "formatter.nvim",
             "license": "MIT",
             "summary": "A formatter runner for Neovim.",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "notomo/gesture.nvim",
             "shorthand": "gesture.nvim",
             "license": "MIT",
             "summary": "Mouse gesture plugin for neovim",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "projekt0n/github-nvim-theme",
             "shorthand": "github-nvim-theme",
             "license": "MIT",
             "summary": "Github's Neovim themes ",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "DNLHC/glance.nvim",
             "shorthand": "glance.nvim",
             "license": "MIT",
             "summary": "A pretty window for previewing, navigating and editing your LSP locations",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "ellisonleao/glow.nvim",
             "shorthand": "glow.nvim",
             "license": "MIT",
             "summary": "A markdown preview directly in your neovim.",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "ray-x/go.nvim",
             "shorthand": "go.nvim",
             "license": "MIT",
             "summary": "A feature-rich Go development plugin, leveraging gopls, treesitter AST, Dap, and various Go tools to enhance the dev experience.",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "cbochs/grapple.nvim",
             "shorthand": "grapple.nvim",
             "license": "MIT",
             "summary": "Neovim plugin for tagging important files",
-            "dependencies": "nvim-web-devicons"
+            "dependencies": ["nvim-web-devicons"]
         },
         {
             "name": "luisiacc/gruvbox-baby",
             "shorthand": "gruvbox-baby",
             "license": "MIT",
             "summary": "Gruvbox theme for neovim with full TreeSitter support.",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "ellisonleao/gruvbox.nvim",
             "shorthand": "gruvbox.nvim",
             "license": "MIT",
             "summary": "Lua port of the most famous vim colorscheme",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "NMAC427/guess-indent.nvim",
             "shorthand": "guess-indent.nvim",
             "license": "MIT",
             "summary": "Automatic indentation style detection for Neovim",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "m4xshen/hardtime.nvim",
             "shorthand": "hardtime.nvim",
             "license": "MIT",
             "summary": "A Neovim plugin helping you establish good command workflow and habit",
-            "dependencies": "nui.nvim\nplenary.nvim"
+            "dependencies": ["nui.nvim", "plenary.nvim"]
         },
         {
             "name": "ThePrimeagen/harpoon",
             "shorthand": "harpoon",
             "license": "MIT",
             "summary": "Getting you where you want wit the fewest keystrokes.",
-            "dependencies": "plenary.nvim"
+            "dependencies": ["plenary.nvim"]
         },
         {
             "name": "lukas-reineke/headlines.nvim",
             "shorthand": "headlines.nvim",
             "license": "MIT",
             "summary": "This plugin adds horizontal highlights for text filetypes, like markdown, orgmode, and neorg.",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "rebelot/heirline.nvim",
             "shorthand": "heirline.nvim",
             "license": "MIT",
             "summary": "Heirline.nvim is a no-nonsense Neovim Statusline plugin designed around recursive inheritance to be exceptionally fast and versatile.",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "shellRaining/hlchunk.nvim",
             "shorthand": "hlchunk.nvim",
             "license": "MIT",
             "summary": "This is the lua implementation of nvim-hlchunk, you can use this neovim plugin to highlight your indent line and the current chunk (context) your cursor stayed",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "lewis6991/hover.nvim",
             "shorthand": "hover.nvim",
             "license": "MIT",
             "summary": "Hover plugin framework for Neovim",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "ziontee113/icon-picker.nvim",
             "shorthand": "icon-picker.nvim",
             "license": "MIT",
             "summary": "This is a Neovim plugin that helps you pick Nerd Font Icons, Symbols & Emojis",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "smjonas/inc-rename.nvim",
             "shorthand": "inc-rename.nvim",
             "license": "MIT",
             "summary": "Incremental LSP renaming based on Neovim's command-preview feature.",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "b0o/incline.nvim",
             "shorthand": "incline.nvim",
             "license": "MIT",
             "summary": "Floating statuslines for Neovim, winbar alternative",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "lukas-reineke/indent-blankline.nvim",
             "shorthand": "indent-blankline.nvim",
             "license": "MIT",
             "summary": "Indent guides for Neovim",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "jbyuki/instant.nvim",
             "shorthand": "instant.nvim",
             "license": "MIT",
             "summary": "Collaborative editing in Neovim using built-in capabilities",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "mizlan/iswap.nvim",
             "shorthand": "iswap.nvim",
             "license": "MIT",
             "summary": "Interactively select and swap function arguments, list elements, and much more. Powered by tree-sitter.",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "kdheepak/lazygit.nvim",
             "shorthand": "lazygit.nvim",
             "license": "MIT",
             "summary": "Plugin for calling lazygit from within neovim.",
-            "dependencies": "plenary.nvim"
+            "dependencies": ["plenary.nvim"]
         },
         {
             "name": "kawre/leetcode.nvim",
             "shorthand": "leetcode.nvim",
             "license": "MIT",
             "summary": "A Neovim plugin enabling you to solve LeetCode problems.",
-            "dependencies": "telescope.nvim\nnui.nvim\nnvim-web-devicons"
+            "dependencies": ["telescope.nvim", "nui.nvim", "nvim-web-devicons"]
         },
         {
             "name": "mrjones2014/legendary.nvim",
             "shorthand": "legendary.nvim",
             "license": "MIT",
             "summary": "A legend for your keymaps, commands, and autocmds, integrates with which-key.nvim, lazy.nvim, and more.",
-            "dependencies": "sqlite.lua"
+            "dependencies": ["sqlite.lua"]
         },
         {
             "name": "tamago324/lir.nvim",
             "shorthand": "lir.nvim",
             "license": "MIT",
             "summary": "Neovim file explorer",
-            "dependencies": "plenary.nvim\nnvim-web-devicons"
+            "dependencies": ["plenary.nvim", "nvim-web-devicons"]
         },
         {
             "name": "smjonas/live-command.nvim",
             "shorthand": "live-command.nvim",
             "license": "MIT",
             "summary": "Easily create previewable commands in Neovim.",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "nvim-lua/lsp-status.nvim",
             "shorthand": "lsp-status.nvim",
             "license": "MIT",
             "summary": "Utility functions for getting diagnostic status and progress messages from LSP servers, for use in the Neovim statusline",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "VonHeikemen/lsp-zero.nvim",
             "shorthand": "lsp-zero.nvim",
             "license": "MIT",
             "summary": "A starting point to setup some lsp related features in neovim.",
-            "dependencies": "nvim-lspconfig\ncmp-nvim-lsp\nnvim-cmp\nluasnip"
+            "dependencies": ["nvim-lspconfig", "cmp-nvim-lsp", "nvim-cmp", "luasnip"]
         },
         {
             "name": "onsails/lspkind.nvim",
             "shorthand": "lspkind.nvim",
             "license": "MIT",
             "summary": "Vscode-like pictograms for neovim lsp completion items",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "nvimdev/lspsaga.nvim",
             "shorthand": "lspsaga.nvim",
             "license": "MIT",
             "summary": "Improve neovim LSP experience.",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "nvim-lualine/lualine.nvim",
             "shorthand": "lualine.nvim",
             "license": "MIT",
             "summary": "A blazing fast and easy to configure neovim statusline plugin written in pure lua.",
-            "dependencies": "nvim-web-devicons"
+            "dependencies": ["nvim-web-devicons"]
         },
         {
             "name": "rktjmp/lush.nvim",
             "shorthand": "lush.nvim",
             "license": "MIT",
             "summary": "Create Neovim themes with real-time feedback, export anywhere.",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "b0o/mapx.nvim",
             "shorthand": "mapx.nvim",
             "license": "MIT",
             "summary": "A better way to create key mappings in Neovim",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "chentoast/marks.nvim",
             "shorthand": "marks.nvim",
             "license": "MIT",
             "summary": "A better user experience for viewing and interacting with Vim marks.",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "WhoIsSethDaniel/mason-tool-installer.nvim",
             "shorthand": "mason-tool-installer.nvim",
             "license": "MIT",
             "summary": "Install and upgrade third party tools automatically",
-            "dependencies": "mason.nvim"
+            "dependencies": ["mason.nvim"]
         },
         {
             "name": "savq/melange-nvim",
             "shorthand": "melange-nvim",
             "license": "MIT",
             "summary": "Warm color scheme for Neovim and beyond",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "mawkler/modicator.nvim",
             "shorthand": "modicator.nvim",
             "license": "MIT",
             "summary": "Cursor line number mode indicator plugin for Neovim",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "tanvirtin/monokai.nvim",
             "shorthand": "monokai.nvim",
             "license": "MIT",
             "summary": "Monokai theme for Neovim written in Lua.",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "smoka7/multicursors.nvim",
             "shorthand": "multicursors.nvim",
             "license": "MIT",
             "summary": "A multi cursor plugin for Neovim.",
-            "dependencies": "hydra.nvim"
+            "dependencies": ["hydra.nvim"]
         },
         {
             "name": "jbyuki/nabla.nvim",
             "shorthand": "nabla.nvim",
             "license": "MIT",
             "summary": "Take your scientific notes in Neovim",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "ray-x/navigator.lua",
             "shorthand": "navigator.lua",
             "license": "MIT",
             "summary": "Code analysis & navigation plugin for Neovim. Make exploring LSP and Treesitter symbols a piece of cake.",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "nvim-neo-tree/neo-tree.nvim",
             "shorthand": "neo-tree.nvim",
             "license": "MIT",
             "summary": "Neovim plugin to manage the file system and other tree like structures.",
-            "dependencies": "plenary.nvim\nnvim-web-devicons\nnui.nvim"
+            "dependencies": ["plenary.nvim", "nvim-web-devicons", "nui.nvim"]
         },
         {
             "name": "Bryley/neoai.nvim",
             "shorthand": "neoai.nvim",
             "license": "MIT",
             "summary": "Neovim plugin for intracting with GPT models from OpenAI",
-            "dependencies": "nui.nvim"
+            "dependencies": ["nui.nvim"]
         },
         {
             "name": "karb94/neoscroll.nvim",
             "shorthand": "neoscroll.nvim",
             "license": "MIT",
             "summary": "Smooth scrolling neovim plugin written in lua",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "rose-pine/neovim",
             "shorthand": "rose-pine",
             "license": "MIT",
             "summary": "Soho vibes for Neovim",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "miversen33/netman.nvim",
             "shorthand": "netman.nvim",
             "license": "MIT",
             "summary": "Neovim (Lua powered) Network Resource Manager",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "EdenEast/nightfox.nvim",
             "shorthand": "nightfox.nvim",
             "license": "MIT",
             "summary": "highly customizable theme for vim and neovim with support for lsp, treesitter and a variety of plugins.",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "tamago324/nlsp-settings.nvim",
             "shorthand": "nlsp-settings.nvim",
             "license": "MIT",
             "summary": "A plugin for setting Neovim LSP with JSON or YAML files",
-            "dependencies": "nvim-lspconfig"
+            "dependencies": ["nvim-lspconfig"]
         },
         {
             "name": "shortcuts/no-neck-pain.nvim",
             "shorthand": "no-neck-pain.nvim",
             "license": "MIT",
             "summary": "Dead simple yet super extensible plugin to center the currently focused buffer to the middle of the screen.",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "catppuccin/nvim",
             "shorthand": "catpuccin",
             "license": "MIT",
             "summary": "Soothing pastel theme for (Neo)vim",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "windwp/nvim-autopairs",
             "shorthand": "nvim-autopairs",
             "license": "MIT",
             "summary": "Autopairs for neovim written in Lua",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "hrsh7th/nvim-cmp",
             "shorthand": "nvim-cmp",
             "license": "MIT",
             "summary": "A completion plugin for neovim coded in Lua.",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "willothy/nvim-cokeline",
             "shorthand": "nvim-cokeline",
             "license": "MIT",
             "summary": "A Neovim bufferline for people with addictive personalities",
-            "dependencies": "plenary.nvim\nnvim-web-devicons"
+            "dependencies": ["plenary.nvim", "nvim-web-devicons"]
         },
         {
             "name": "terrortylor/nvim-comment",
             "shorthand": "nvim-comment",
             "license": "MIT",
             "summary": "A comment toggler for Neovim, written in Lua",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "yamatsum/nvim-cursorline",
             "shorthand": "nvim-cursorline",
             "license": "MIT",
             "summary": "A plugin for neovim that highlights cursor words and lines",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "leoluz/nvim-dap-go",
             "shorthand": "nvim-dap-go",
             "license": "MIT",
             "summary": "An extension for nvim-dap providing configurations for launching go debugger (delve) and debugging individual tests",
-            "dependencies": "nvim-dap"
+            "dependencies": ["nvim-dap"]
         },
         {
             "name": "rcarriga/nvim-dap-ui",
             "shorthand": "nvim-dap-ui",
             "license": "MIT",
             "summary": "A UI for nvim-dap",
-            "dependencies": "nvim-dap"
+            "dependencies": ["nvim-dap"]
         },
         {
             "name": "esensar/nvim-dev-container",
             "shorthand": "nvim-dev-container",
             "license": "MIT",
             "summary": "Neovim dev container support - Mirror of https://codeberg.org/esensar/nvim-dev-container",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "gennaro-tedesco/nvim-jqx",
             "shorthand": "nvim-jqx",
             "license": "MIT",
             "summary": "Populate the quickfix with json entries",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "kosayoda/nvim-lightbulb",
             "shorthand": "nvim-lightbulb",
             "license": "MIT",
             "summary": "VSCode's lightbulb for neovim's built-in LSP.",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "bfredl/nvim-luadev",
             "shorthand": "nvim-luadev",
             "license": "MIT",
             "summary": "REPL/debug console for nvim lua plugins",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "petertriho/nvim-scrollbar",
             "shorthand": "nvim-scrollbar",
             "license": "MIT",
             "summary": "Extensible Neovim Scrollbar",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "dstein64/nvim-scrollview",
             "shorthand": "nvim-scrollview",
             "license": "MIT",
             "summary": "A Neovim plugin that displays interactive vertical scrollbars and signs.",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "dcampos/nvim-snippy",
             "shorthand": "nvim-snippy",
             "license": "MIT",
             "summary": "Snippet plugin for Neovim written in Lua",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "nvim-pack/nvim-spectre",
             "shorthand": "nvim-spectre",
             "license": "MIT",
             "summary": "Find the enemy and replace them with dark power.",
-            "dependencies": "plenary.nvim"
+            "dependencies": ["plenary.nvim"]
         },
         {
             "name": "chrisgrieser/nvim-spider",
             "shorthand": "nvim-spider",
             "license": "MIT",
             "summary": "Use the w, e, b motions like a spider. Move by subwords and skip insignificant punctuation.",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "nvim-treesitter/nvim-treesitter-context",
@@ -1670,404 +1670,404 @@
             "shorthand": "nvim-ts-autotag",
             "license": "MIT",
             "summary": "Use treesitter to auto close and auto rename html tag",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "JoosepAlviste/nvim-ts-context-commentstring",
             "shorthand": "nvim-ts-context-commentstring",
             "license": "MIT",
             "summary": "Neovim treesitter plugin for setting the commentstring based on the cursor location in a file.",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "chrisgrieser/nvim-various-textobjs",
             "shorthand": "nvim-various-textobjs",
             "license": "MIT",
             "summary": "Bundle of more than 30 new text objects for Neovim.",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "andersevenrud/nvim_context_vt",
             "shorthand": "nvim_context_vt",
             "license": "MIT",
             "summary": "Virtual text context for neovim treesitter",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "pwntester/octo.nvim",
             "shorthand": "octo.nvim",
             "license": "MIT",
             "summary": "Edit and review GitHub issues and pull requests from the comfort of your favorite editor",
-            "dependencies": "plenary.nvim\nnvim-web-devicons"
+            "dependencies": ["plenary.nvim", "nvim-web-devicons"]
         },
         {
             "name": "jbyuki/one-small-step-for-vimkind",
             "shorthand": "one-small-step-for-vimkind",
             "license": "MIT",
             "summary": "Debug adapter for Neovim plugins",
-            "dependencies": "nvim-dap"
+            "dependencies": ["nvim-dap"]
         },
         {
             "name": "olimorris/onedarkpro.nvim",
             "shorthand": "onedarkpro.nvim",
             "license": "MIT",
             "summary": "Atom's iconic One Dark theme, for Neovim. Cacheable, fully customisable, Tree-sitter and LSP semantic token support. Comes with variants",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "rmehri01/onenord.nvim",
             "shorthand": "onenord.nvim",
             "license": "MIT",
             "summary": "A Neovim theme that combines the Nord and Atom One Dark color palettes for a more vibrant programming experience.",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "rgroli/other.nvim",
             "shorthand": "other.nvim",
             "license": "MIT",
             "summary": "Open alternative files for the current buffer",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "jmbuhr/otter.nvim",
             "shorthand": "otter.nvim",
             "license": "MIT",
             "summary": "Just ask an otter!",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "stevearc/overseer.nvim",
             "shorthand": "overseer.nvim",
             "license": "MIT",
             "summary": "A task runner and job management plugin for Neovim",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "potamides/pantran.nvim",
             "shorthand": "pantran.nvim",
             "license": "MIT",
             "summary": "Use your favorite machine translation engines without having to leave your favorite editor.",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "savq/paq-nvim",
             "shorthand": "paq-nvim",
             "license": "MIT",
             "summary": "Neovim package manager",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "olimorris/persisted.nvim",
             "shorthand": "persisted.nvim",
             "license": "MIT",
             "summary": "Simple session management for Neovim with git branching, autoloading and Telescope support",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "nvim-lua/popup.nvim",
             "shorthand": "popup.nvim",
             "license": "MIT",
             "summary": "[WIP] An implementation of the Popup API from vim in Neovim. Hope to upstream when complete",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "jedrzejboczar/possession.nvim",
             "shorthand": "possession.nvim",
             "license": "MIT",
             "summary": "Flexible session management for Neovim.",
-            "dependencies": "plenary.nvim"
+            "dependencies": ["plenary.nvim"]
         },
         {
             "name": "ThePrimeagen/refactoring.nvim",
             "shorthand": "refactoring.nvim",
             "license": "MIT",
             "summary": "The Refactoring library based off the Refactoring book by Martin Fowler",
-            "dependencies": "plenary.nvim"
+            "dependencies": ["plenary.nvim"]
         },
         {
             "name": "VonHeikemen/searchbox.nvim",
             "shorthand": "searchbox.nvim",
             "license": "MIT",
             "summary": "Start your search from a more comfortable place, say the upper right corner?",
-            "dependencies": "nui.nvim"
+            "dependencies": ["nui.nvim"]
         },
         {
             "name": "mrjones2014/smart-splits.nvim",
             "shorthand": "smart-splits.nvim",
             "license": "MIT",
             "summary": "Smart, seamless, directional navigation and resizing of Neovim + terminal multiplexer splits. Supports tmux, Wezterm, and Kitty. Think about splits in terms of \"up/down/left/right\".",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "kkharji/sqlite.lua",
             "shorthand": "sqlite.lua",
             "license": "MIT",
             "summary": "SQLite LuaJIT binding with a very simple api.",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "cshuaimin/ssr.nvim",
             "shorthand": "ssr.nvim",
             "license": "MIT",
             "summary": "Treesitter based structural search and replace plugin for Neovim.",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "tamton-aquib/staline.nvim",
             "shorthand": "staline.nvim",
             "license": "MIT",
             "summary": "A modern lightweight statusline and bufferline plugin for neovim in lua.",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "luukvbaal/statuscol.nvim",
             "shorthand": "statuscol.nvim",
             "license": "MIT",
             "summary": "Status column plugin that provides a configurable 'statuscolumn' and click handlers.",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "ziontee113/syntax-tree-surfer",
             "shorthand": "syntax-tree-surfer",
             "license": "MIT",
             "summary": "A plugin for Neovim that helps you surf through your document and move elements around using the nvim-treesitter API.",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "nanozuki/tabby.nvim",
             "shorthand": "tabby.nvim",
             "license": "MIT",
             "summary": "A declarative, highly configurable, and neovim style tabline plugin. Use your nvim tabs as a workspace multiplexer!",
-            "dependencies": "nvim-web-devicons"
+            "dependencies": ["nvim-web-devicons"]
         },
         {
             "name": "renerocksai/telekasten.nvim",
             "shorthand": "telekasten.nvim",
             "license": "MIT",
             "summary": "A Neovim (lua) plugin for working with a markdown zettelkasten / wiki and mixing it with a journal, based on telescope.nvim",
-            "dependencies": "telescope.nvim"
+            "dependencies": ["telescope.nvim"]
         },
         {
             "name": "nvim-telescope/telescope-dap.nvim",
             "shorthand": "telescope-dap.nvim",
             "license": "MIT",
             "summary": "Integration for nvim-dap with telescope.nvim",
-            "dependencies": "nvim-dap\ntelescope.nvim"
+            "dependencies": ["nvim-dap", "telescope.nvim"]
         },
         {
             "name": "nvim-telescope/telescope-file-browser.nvim",
             "shorthand": "telescope-file-browser.nvim",
             "license": "MIT",
             "summary": "File Browser extension for telescope.nvim",
-            "dependencies": "telescope.nvim\nplenary.nvim"
+            "dependencies": ["telescope.nvim", "plenary.nvim"]
         },
         {
             "name": "nvim-telescope/telescope-frecency.nvim",
             "shorthand": "telescope-frecency.nvim",
             "license": "MIT",
             "summary": "A telescope.nvim extension that offers intelligent prioritization when selecting files from your editing history.",
-            "dependencies": "telescope.nvim"
+            "dependencies": ["telescope.nvim"]
         },
         {
             "name": "nvim-telescope/telescope-project.nvim",
             "shorthand": "telescope-project.nvim",
             "license": "MIT",
             "summary": "An extension for telescope.nvim that allows you to switch between projects.",
-            "dependencies": "telescope.nvim"
+            "dependencies": ["telescope.nvim"]
         },
         {
             "name": "nvim-telescope/telescope-fzf-native.nvim",
             "shorthand": "telescope-fzf-native.nvim",
             "license": "MIT",
             "summary": "FZF sorter for telescope written in C",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "nvim-telescope/telescope-ui-select.nvim",
             "shorthand": "telescope-ui-select.nvim",
             "license": "MIT",
             "summary": "Overrides vim.ui.select to use telescope's picker.",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "debugloop/telescope-undo.nvim",
             "shorthand": "telescope-undo.nvim",
             "license": "MIT",
             "summary": "A telescope extension to view and search your undo tree",
-            "dependencies": "plenary.nvim\ntelescope.nvim"
+            "dependencies": ["plenary.nvim", "telescope.nvim"]
         },
         {
             "name": "levouh/tint.nvim",
             "shorthand": "tint.nvim",
             "license": "MIT",
             "summary": "Dim inactive windows in Neovim using window-local highlight namespaces.",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "aserowy/tmux.nvim",
             "shorthand": "tmux.nvim",
             "license": "MIT",
             "summary": "tmux integration for nvim features pane movement and resizing from within nvim.",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "Wansmer/treesj",
             "shorthand": "treesj",
             "license": "MIT",
             "summary": "Neovim plugin for splitting/joining blocks of code",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "dmmulroy/tsc.nvim",
             "shorthand": "tsc.nvim",
             "license": "MIT",
             "summary": "A Neovim plugin for seamless, asynchronous project-wide TypeScript type-checking using the TypeScript compiler (tsc)",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "pmizio/typescript-tools.nvim",
             "shorthand": "typescript-tools.nvim",
             "license": "MIT",
             "summary": "TypeScript integration NeoVim deserves",
-            "dependencies": "nvim-lspconfig\nplenary.nvim"
+            "dependencies": ["nvim-lspconfig", "plenary.nvim"]
         },
         {
             "name": "altermo/ultimate-autopair.nvim",
             "shorthand": "ultimate-autopair.nvim",
             "license": "MIT",
             "summary": "A treesitter supported autopairing plugin with extensions, and much more",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "jbyuki/venn.nvim",
             "shorthand": "venn.nvim",
             "license": "MIT",
             "summary": "Draw ASCII diagrams in Neovim",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "tanvirtin/vgit.nvim",
             "shorthand": "vgit.nvim",
             "license": "MIT",
             "summary": "Visual git plugin for Neovim",
-            "dependencies": "plenary.nvim"
+            "dependencies": ["plenary.nvim"]
         },
         {
             "name": "bluz71/vim-moonfly-colors",
             "shorthand": "vim-moonfly-colors",
             "license": "MIT",
             "summary": "A dark charcoal theme for modern Neovim & classic Vim",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "bluz71/vim-nightfly-colors",
             "shorthand": "vim-nightfly-colors",
             "license": "MIT",
             "summary": "A dark midnight theme for modern Neovim & classic Vim",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "svermeulen/vimpeccable",
             "shorthand": "vimpeccable",
             "license": "MIT",
             "summary": "Neovim plugin that allows you to easily map keys directly to lua code inside your init.lua",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "Mofiqul/vscode.nvim",
             "shorthand": "vscode.nvim",
             "license": "MIT",
             "summary": "Neovim/Vim color scheme inspired by Dark+ and Light+ theme in Visual Studio Code",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "windwp/windline.nvim",
             "shorthand": "windline.nvim",
             "license": "MIT",
             "summary": "Animation statusline, floating window statusline. Use lua + luv make some wind",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "hoschi/yode-nvim",
             "shorthand": "yode-nvim",
             "license": "MIT",
             "summary": "Yode plugin for NeoVim",
-            "dependencies": "plenary.nvim"
+            "dependencies": ["plenary.nvim"]
         },
         {
             "name": "sindrets/diffview.nvim",
             "shorthand": "diffview.nvim",
             "license": "GPL-3.0",
             "summary": "Single tabpage interface for easily cycling through diffs for all modified files for any git rev.",
-            "dependencies": "nvim-web-devicons"
+            "dependencies": ["nvim-web-devicons"]
         },
         {
             "name": "gpanders/nvim-parinfer",
             "shorthand": "nvim-parinfer",
             "license": "GPL-3.0",
             "summary": "Parinfer for Neovim.",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "David-Kunz/gen.nvim",
             "shorthand": "gen.nvim",
             "license": "Unlicense",
             "summary": "Neovim plugin to generate text using LLMs with customizable prompts.",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "tpope/vim-repeat",
             "shorthand": "repeat.vim",
             "license": "vim-license",
             "summary": "enable repeating supported plugin maps with '.'",
-            "dependencies": ""
+            "dependencies": []
         },
         {
             "name": "tpope/vim-surround",
             "shorthand": "surround.vim",
             "license": "vim-license",
             "summary": "Delete/change/add parentheses/quotes/XML-tags/much more with ease",
-            "dependencies": "repeat.vim"
+            "dependencies": ["repeat.vim"]
         },
         {
             "name": "tpope/vim-speeddating",
             "shorthand": "speeddating.vim",
             "license": "vim-license",
             "summary": "use CTRL-A/CTRL-X to increment dates, times, and more",
-            "dependencies": "repeat.vim"
+            "dependencies": ["repeat.vim"]
         },
         {
             "name": "tpope/vim-unimpaired",
             "shorthand": "unimpaired.vim",
             "license": "vim-license",
             "summary": "Pairs of handy bracket mappings",
-            "dependencies": "repeat.vim"
+            "dependencies": ["repeat.vim"]
         },
         {
             "name": "svermeulen/vim-easyclip",
             "shorthand": "vim-easyclip",
             "license": "vim-license",
             "summary": "Simplified clipboard functionality for Vim",
-            "dependencies": "repeat.vim"
+            "dependencies": ["repeat.vim"]
         },
         {
             "name": "glts/vim-radical",
             "shorthand": "radical.vim",
             "license": "vim-license",
             "summary": "Convert decimal, hex, octal, binary number representations",
-            "dependencies": "repeat.vim"
+            "dependencies": ["repeat.vim"]
         },
         {
             "name": "folke/lazydev.nvim",
             "shorthand": "lazydev.nvim",
-            "dependencies": "",
+            "dependencies": [],
             "summary": "Faster LuaLS setup for Neovim",
             "license": ""
         },
         {
             "name": "folke/ts-comments.nvim",
             "shorthand": "ts-comments.nvim",
-            "dependencies": "",
+            "dependencies": [],
             "summary": "Tiny plugin to enhance Neovim's native comments",
             "license": "Apache-2.0"
         },
@@ -2082,22 +2082,29 @@
         {
             "name": "rafamadriz/friendly-snippets",
             "shorthand": "friendly-snippets",
-            "dependencies": "",
+            "dependencies": [],
             "summary": "Neovim snippets collection for a set of different programming languages.",
             "license": "MIT",
             "extra_directories": "snippets"
         },
         {
+            "name": "danielfalk/smart-open.nvim",
+            "shorthand": "smart-open.nvim",
+            "dependencies": ["telescope.nvim", "sqlite.lua"],
+            "summary": "Fast file-finding",
+            "license": "MIT"
+        },
+        {
             "name": "garymjr/nvim-snippets",
             "shorthand": "nvim-snippets",
-            "dependencies": "",
+            "dependencies": [],
             "summary": "Snippet support using native neovim snippets",
             "license": "MIT"
         },
         {
             "name": "rouge8/neotest-rust",
             "shorthand": "neotest-rust",
-            "dependencies": "neotest",
+            "dependencies": ["neotest"],
             "summary": "Neotest adapter for Rust, using cargo-nextest.",
             "license": "MIT"
         },

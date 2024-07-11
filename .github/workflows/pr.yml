@@ -1,0 +1,23 @@
+name: test pr
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
+
+jobs:
+  test-pr:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        deps: [ [ "toto", "toto2" ], ["tata", "tata2" ] ]
+    # if: github.event.pull_request.draft == false
+
+    steps:
+    - name: Install Lua
+      if: ${{ env.RELEASE_VERSION != '' }}
+      uses: leso-kn/gh-actions-lua@master
+      with:
+        luaVersion: "5.1"
+
+    - name: test concat
+      run: |
+        echo ${{ join (matrix.deps, '\n')}}

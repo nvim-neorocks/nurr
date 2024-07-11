@@ -10,7 +10,7 @@ jobs:
     strategy:
       fail-fast: false
       max-parallel: 10 # Don't DDOS the luarocks servers
-      matrix: 
+      matrix:
         plugin: ${{ github.event.client_payload.plugins }}
 
     steps:
@@ -78,7 +78,7 @@ jobs:
           LUAROCKS_API_KEY: ${{ secrets.LUAROCKS_API_KEY }}
         with:
           name: ${{ matrix.plugin.shorthand }}
-          dependencies: ${{ matrix.plugin.dependencies }}
+          dependencies: ${{ join(matrix.plugin.dependencies, '\n') }}
           version: ${{ env.RELEASE_VERSION }}
           summary: ${{ matrix.plugin.summary }}
           license: ${{ matrix.plugin.license }}
