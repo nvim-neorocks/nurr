@@ -8,8 +8,15 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        deps: [ [ "toto", "toto2" ], ["tata", "tata2" ] ]
-    # if: github.event.pull_request.draft == false
+        plugin: [
+          {
+              "name": "startup-nvim/startup.nvim",
+              "shorthand": "startup.nvim",
+              "license": "GPL-2.0",
+              "summary": "A highly configurable neovim startup screen",
+              "dependencies": ["telescope.nvim", "plenary.nvim"]
+          }
+        ]
 
     steps:
     - name: Install Lua
@@ -21,3 +28,43 @@ jobs:
     - name: test concat
       run: |
         echo ${{ join (matrix.deps, '\n')}}
+
+    - name: Checkout plugin repository
+      uses: actions/checkout@v4
+      with:
+        repository: ${{ matrix.plugin.name }}
+        ref: ${{ matrix.plugin.ref }}
+        path: .
+
+    - run: |
+        echo "GITHUB_REPOSITORY_OVERRIDE=${{ matrix.plugin.name }}" >> $GITHUB_ENV
+        echo "GITHUB_SHA_OVERRIDE=$(git rev-parse HEAD)" >> $GITHUB_ENV
+
+    - name: Convert JSON list to multiline string
+      id: convert
+      run: |
+        # https://docs.github.com/en/actions/using-workflows/workflow-commands-for-github-actions#multiline-strings
+        {
+          echo "multiline<<EOF"
+          echo -e "${{ join(matrix.plugin.dependencies, '\n') }}"
+          echo EOF
+        } >> "$GITHUB_OUTPUT"
+
+    - name: Publish Development LuaRock
+      uses: nvim-neorocks/luarocks-tag-release@v7
+      env:
+        LUAROCKS_API_KEY: ${{ secrets.LUAROCKS_API_KEY }}
+      with:
+        name: ${{ matrix.plugin.shorthand }}
+        dependencies: ${{ steps.convert.outputs.multiline }}
+        version: "scm"
+        summary: ${{ matrix.plugin.summary }}
+        license: ${{ matrix.plugin.license }}
+        labels: neovim
+        copy_directories: |
+          {{ neovim.plugin.dirs }}
+          ${{ matrix.plugin.extra_directories }}
+        extra_luarocks_args: |
+          --namespace=neorocks
+          --force
+          --dev

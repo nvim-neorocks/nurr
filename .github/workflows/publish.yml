@@ -71,6 +71,16 @@ jobs:
         run: |
           echo "PUBLISHED_COUNT=$(luarocks --only-server=https://luarocks.org/manifests/neorocks search ${{ matrix.plugin.shorthand }} ${{ env.RELEASE_VERSION }} --porcelain | wc -l)" >> $GITHUB_ENV
 
+      - name: Convert JSON list to multiline string
+        id: convert
+        run: |
+          # https://docs.github.com/en/actions/using-workflows/workflow-commands-for-github-actions#multiline-strings
+          {
+            echo "multiline<<EOF"
+            echo -e "${{ join(matrix.plugin.dependencies, '\n') }}"
+            echo EOF
+          } >> "$GITHUB_OUTPUT"
+
       - name: Publish LuaRock
         uses: nvim-neorocks/luarocks-tag-release@v7
         if: ${{ env.PUBLISHED_COUNT == '0' }}
@@ -78,7 +88,7 @@ jobs:
           LUAROCKS_API_KEY: ${{ secrets.LUAROCKS_API_KEY }}
         with:
           name: ${{ matrix.plugin.shorthand }}
-          dependencies: ${{ join(matrix.plugin.dependencies, '\n') }}
+          dependencies: ${{ steps.convert.outputs.multiline }}
           version: ${{ env.RELEASE_VERSION }}
           summary: ${{ matrix.plugin.summary }}
           license: ${{ matrix.plugin.license }}
