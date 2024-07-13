@@ -12,6 +12,7 @@ jobs:
       max-parallel: 10 # Don't DDOS the luarocks servers
       matrix:
         plugin: ${{ github.event.client_payload.plugins }}
+    name: Pushing ${{ matrix.plugin.shorthand }}
 
     steps:
       - name: Checkout plugin repository
