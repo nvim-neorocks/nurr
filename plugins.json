@@ -2113,6 +2113,13 @@
             "shorthand": "visual-whitespace.nvim",
             "summary": "A Neovim plugin to reveal whitespace characters in visual mode, like VSCode",
             "license": "UNKNOWN"
+        },
+        {
+            "name": "antosha417/nvim-lsp-file-operations",
+            "shorthand": "nvim-lsp-file-operations",
+            "dependencies": ["plenary.nvim"],
+            "summary": "Neovim plugin that adds support for file operations using built-in LSP",
+            "license": "Apache-2.0"
         }
     ]
 }
