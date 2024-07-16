@@ -2062,7 +2062,7 @@
             "shorthand": "lazydev.nvim",
             "dependencies": [],
             "summary": "Faster LuaLS setup for Neovim",
-            "license": ""
+            "license": "Apache-2.0"
         },
         {
             "name": "folke/ts-comments.nvim",
