@@ -2062,7 +2062,7 @@
             "shorthand": "lazydev.nvim",
             "dependencies": [],
             "summary": "Faster LuaLS setup for Neovim",
-            "license": ""
+            "license": "Apache-2.0"
         },
         {
             "name": "folke/ts-comments.nvim",
@@ -2120,6 +2120,76 @@
             "dependencies": ["plenary.nvim"],
             "summary": "Neovim plugin that adds support for file operations using built-in LSP",
             "license": "Apache-2.0"
+        },
+        {
+            "name": "anuvyklack/animation.nvim",
+            "shorthand": "animation.nvim",
+            "dependencies": ["middleclass"],
+            "summary": "An OOP library to create animations in Neovim.",
+            "license": "MIT"
+        },
+        {
+            "name": "anuvyklack/windows.nvim",
+            "shorthand": "windows.nvim",
+            "dependencies": ["animation.nvim", "middleclass"],
+            "summary": "Automatically expand width of the current window. Maximizes and restore it. And all this with nice animations!",
+            "license": "MIT"
+        },
+        {
+            "name": "s1n7ax/nvim-window-picker",
+            "shorthand": "nvim-window-picker",
+            "dependencies": [],
+            "summary": "This plugins prompts the user to pick a window and returns the window id of the picked window.",
+            "license": "MIT"
+        },
+        {
+            "name": "kevinhwang91/nvim-bqf",
+            "shorthand": "nvim-bqf",
+            "dependencies": [],
+            "summary": "Better quickfix window in Neovim, polish old quickfix window.",
+            "license": "BSD-3-Clause"
+        },
+        {
+            "name": "vladdoster/remember.nvim",
+            "shorthand": "remember.nvim",
+            "dependencies": [],
+            "summary": "A port of the Vim plugin vim-lastplace. It uses the same logic as vim-lastplace, but leverages the Neovim Lua API.",
+            "license": "MIT"
+        },
+        {
+            "name": "norcalli/nvim-colorizer.lua",
+            "shorthand": "nvim-colorizer.lua",
+            "dependencies": [],
+            "summary": "The fastest Neovim colorizer.",
+            "license": "GPL-3.0"
+        },
+        {
+            "name": "nvimdev/guard-collection",
+            "shorthand": "guard-collection",
+            "dependencies": [],
+            "summary": "Collection of configuration for guard.nvim.",
+            "license": "MIT"
+        },
+        {
+            "name": "nvimdev/guard.nvim",
+            "shorthand": "guard.nvim",
+            "dependencies": ["guard-collection"],
+            "summary": "Async formatting and linting utility for neovim.",
+            "license": "MIT"
+        },
+        {
+            "name": "j-hui/fidget.nvim",
+            "shorthand": "fidget.nvim",
+            "dependencies": [],
+            "summary": "Extensible UI for Neovim notifications and LSP progress messages.",
+            "license": "MIT"
+        },
+        {
+            "name": "Hoffs/omnisharp-extended-lsp.nvim",
+            "shorthand": "omnisharp-extended-lsp.nvim",
+            "dependencies": [],
+            "summary": "Extended LSP handlers for OmniSharp, allows decompilation and looking at source generated documents.",
+            "license": "UNKNOWN"
         }
     ]
 }
