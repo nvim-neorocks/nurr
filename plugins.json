@@ -2189,7 +2189,7 @@
             "shorthand": "omnisharp-extended-lsp.nvim",
             "dependencies": [],
             "summary": "Extended LSP handlers for OmniSharp, allows decompilation and looking at source generated documents.",
-            "license": ""
+            "license": "UNKNOWN"
         }
     ]
 }
