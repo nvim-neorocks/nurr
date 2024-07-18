@@ -1,5 +1,5 @@
 ---
-name: Publish tree-sitter parsers
+name: Publish dev tree-sitter parsers
 
 on:
   repository_dispatch:
