@@ -200,8 +200,7 @@ jobs:
         uses: nvim-neorocks/luarocks-tag-release@v7
         if: ${{ env.PUBLISHED_COUNT == '0' }}
         env:
-          # LUAROCKS_API_KEY: ${{ secrets.LUAROCKS_API_KEY }}
-          LUAROCKS_API_KEY: DUMMY_KEY
+          LUAROCKS_API_KEY: ${{ secrets.LUAROCKS_API_KEY }}
         with:
           name: ${{ env.PARSER_NAME }}
           version: ${{ env.RELEASE_VERSION }}
