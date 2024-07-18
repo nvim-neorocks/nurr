@@ -152,8 +152,12 @@ jobs:
         run: |
           UPDATE_COUNT=$(jq -r --arg lang "${{ matrix.parsers.lang }}" '.update_counts[] | select(.key == $lang) | .value' ./nurr/resources/ts-update-counts.json)
           VERSION="0.0.$UPDATE_COUNT"
-          echo "PUBLISH_VERSION=$VERSION" >> $GITHUB_ENV
-          echo "${{ env.PUBLISH_VERSION }}"
+          echo "RELEASE_VERSION=$VERSION" >> $GITHUB_ENV
+          echo "RELEASE_VERSION = $VERSION"
+
+      - name: Check for published release
+        run: |
+          echo "PUBLISHED_COUNT=$(luarocks search ${{ env.PARSER_NAME }} ${{ env.RELEASE_VERSION }} --porcelain | wc -l)" >> $GITHUB_ENV
 
       - name: Default to unknown license
         run: echo "LICENSE=UNKNOWN" >> $GITHUB_ENV
@@ -192,28 +196,20 @@ jobs:
             --namespace=neorocks
             --force
 
-      # - name: Publish LuaRock (release)
-      #   uses: nvim-neorocks/luarocks-tag-release@v5
-      #   if: ${{ env.RELEASE_VERSION != '' }}
-      #   env:
-      #     # LUAROCKS_API_KEY: ${{ secrets.LUAROCKS_API_KEY }}
-      #     LUAROCKS_API_KEY: DUMMY_KEY
-      #   with:
-      #     name: ${{ env.PARSER_NAME }}
-      #     version: ${{ env.RELEASE_VERSION }}
-      #     summary: tree-sitter parser for ${{ matrix.parsers.lang }}
-      #     template: "rockspec.template"
-      #     license: ${{ env.LICENSE }}
-      #     labels: |
-      #       neovim
-      #       tree-sitter
-      #     extra_luarocks_args: |
-      #       --namespace=neorocks
-      #       --force
-      #
-      # - name: Remove generated rockspec
-      #   if: always()
-      #   run: |
-      #     rm "${{ env.PARSER_NAME }}-${{ env.RELEASE_VERSION }}-1.rockspec" \
-      #      || echo "Nothing to remove."        
-      #
+      - name: Publish LuaRock (release)
+        uses: nvim-neorocks/luarocks-tag-release@v7
+        if: ${{ env.PUBLISHED_COUNT == '0' }}
+        env:
+          # LUAROCKS_API_KEY: ${{ secrets.LUAROCKS_API_KEY }}
+          LUAROCKS_API_KEY: DUMMY_KEY
+        with:
+          name: ${{ env.PARSER_NAME }}
+          version: ${{ env.RELEASE_VERSION }}
+          summary: tree-sitter parser for ${{ matrix.parsers.lang }}
+          template: "rockspec.template"
+          license: ${{ env.LICENSE }}
+          labels: |
+            neovim
+            tree-sitter
+          extra_luarocks_args: |
+            --namespace=neorocks
