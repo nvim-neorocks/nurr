@@ -669,8 +669,8 @@
     },
     {
       "lang": "gn",
-      "readme_name": "GN (Generate Ninja)",
       "tier": 2,
+      "readme_name": "GN (Generate Ninja)",
       "install_info": {
         "revision": "bc06955bc1e3c9ff8e9b2b2a55b38b94da923c05",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-gn"
@@ -1224,16 +1224,16 @@
     },
     {
       "lang": "markdown",
-      "requires": [
-        "markdown_inline"
-      ],
-      "readme_note": "basic highlighting",
       "tier": 1,
       "install_info": {
         "location": "tree-sitter-markdown",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-markdown",
         "revision": "7fe453beacecf02c86f7736439f238f5bb8b5c9b"
-      }
+      },
+      "requires": [
+        "markdown_inline"
+      ],
+      "readme_note": "basic highlighting"
     },
     {
       "lang": "markdown_inline",
@@ -1457,23 +1457,23 @@
       "tier": 3,
       "install_info": {
         "generate_from_json": true,
+        "revision": "309cb8d33bcfd0a81050b21be08f9eb3f2fe2138",
         "url": "https://github.com/tree-sitter-perl/tree-sitter-perl",
-        "branch": "release",
-        "revision": "309cb8d33bcfd0a81050b21be08f9eb3f2fe2138"
+        "branch": "release"
       }
     },
     {
       "lang": "php",
-      "requires": [
-        "php_only"
-      ],
-      "readme_note": "PHP with embedded HTML",
       "tier": 2,
       "install_info": {
         "location": "php",
         "url": "https://github.com/tree-sitter/tree-sitter-php",
         "revision": "575a0801f430c8672db70b73493c033a9dcfc328"
-      }
+      },
+      "requires": [
+        "php_only"
+      ],
+      "readme_note": "PHP with embedded HTML"
     },
     {
       "lang": "php_only",
@@ -1515,9 +1515,9 @@
       "tier": 3,
       "install_info": {
         "generate_from_json": true,
+        "revision": "39da859947b94abdee43e431368e1ae975c0a424",
         "url": "https://github.com/tree-sitter-perl/tree-sitter-pod",
-        "branch": "release",
-        "revision": "39da859947b94abdee43e431368e1ae975c0a424"
+        "branch": "release"
       }
     },
     {
@@ -1645,8 +1645,8 @@
     },
     {
       "lang": "pymanifest",
-      "readme_name": "PyPA manifest",
       "tier": 2,
+      "readme_name": "PyPA manifest",
       "install_info": {
         "revision": "be062582956165019d3253794b4d712f66dfeaaa",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-pymanifest"
@@ -1771,8 +1771,8 @@
     },
     {
       "lang": "requirements",
-      "readme_name": "pip requirements",
       "tier": 2,
+      "readme_name": "pip requirements",
       "install_info": {
         "revision": "5ad9b7581b3334f6ad492847d007f2fac6e6e5f2",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-requirements"
@@ -1969,9 +1969,9 @@
       "tier": 3,
       "install_info": {
         "generate_from_json": true,
+        "revision": "89fd00d0aff3bc9985ac37caf362ec4fd9b2ba1d",
         "url": "https://github.com/derekstride/tree-sitter-sql",
-        "branch": "gh-pages",
-        "revision": "89fd00d0aff3bc9985ac37caf362ec4fd9b2ba1d"
+        "branch": "gh-pages"
       }
     },
     {
@@ -2387,9 +2387,9 @@
       "tier": 2,
       "install_info": {
         "generate_from_json": true,
+        "revision": "22bdfa6c9fc0f5ffa44c6e938ec46869ac8a99ff",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-vue",
-        "branch": "main",
-        "revision": "22bdfa6c9fc0f5ffa44c6e938ec46869ac8a99ff"
+        "branch": "main"
       }
     },
     {
