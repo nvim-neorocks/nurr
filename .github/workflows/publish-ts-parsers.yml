@@ -56,18 +56,18 @@ jobs:
       - name: Install Luarocks
         uses: hishamhm/gh-actions-luarocks@master
 
-      - name: Get Rockspec template and nvim-treesitter lockfile
+      - name: Get resources
         uses: actions/checkout@v4
         with: 
           sparse-checkout: |
             resources
-          path: rockspec-template
+          path: nurr
 
       - name: Clone nvim-treesitter and get revision
         run: |
           git clone --branch main "https://github.com/nvim-treesitter/nvim-treesitter.git" nvim-treesitter
           pushd nvim-treesitter
-          git checkout "$(cat ../rockspec-template/resources/nvim-treesitter.lock)"
+          git checkout "$(cat ../nurr/resources/nvim-treesitter.lock)"
           popd
           if [[ -n "${{ matrix.parsers.install_info.url }}" ]]; then
             PARSER_REVISION=$(jq -r ".\"${{ matrix.parsers.lang }}\".revision" nvim-treesitter/lockfile.json)
@@ -96,7 +96,7 @@ jobs:
 
       - name: Prepare Rockspec template
         run: |
-          mv rockspec-template/resources/tree-sitter-parser-rockspec.template rockspec.template
+          mv nurr/resources/tree-sitter-parser-rockspec.template rockspec.template
           rm -r rockspec-template
           sed -i 's/LANG/${{ matrix.parsers.lang }}/g' rockspec.template
           if [[ -z "${{ matrix.parsers.install_info.url }}" ]];
@@ -188,7 +188,7 @@ jobs:
 
       - name: Parser update count -> publish version
         run: |
-          UPDATE_COUNT=$(jq -r --arg lang "${{ matrix.parsers.lang }}" '.update_counts[] | select(.key == $lang) | .value' ./resources/ts-update-counts.json)
+          UPDATE_COUNT=$(jq -r --arg lang "${{ matrix.parsers.lang }}" '.update_counts[] | select(.key == $lang) | .value' ./nurr/resources/ts-update-counts.json)
           echo "PUBLISH_VERSION='0.0.$UPDATE_COUNT'" >> $GITHUB_ENV
           echo "${{ env.PUBLISH_VERSION }}
 
