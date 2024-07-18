@@ -148,6 +148,13 @@ jobs:
         with:
           crate: askalono-cli
 
+      - name: Parser update count -> publish version
+        run: |
+          UPDATE_COUNT=$(jq -r --arg lang "${{ matrix.parsers.lang }}" '.update_counts[] | select(.key == $lang) | .value' ./nurr/resources/ts-update-counts.json)
+          VERSION="0.0.$UPDATE_COUNT"
+          echo "PUBLISH_VERSION=$VERSION" >> $GITHUB_ENV
+          echo "${{ env.PUBLISH_VERSION }}"
+
       - name: Default to unknown license
         run: echo "LICENSE=UNKNOWN" >> $GITHUB_ENV
       - name: Get SPDX license
@@ -184,12 +191,6 @@ jobs:
           extra_luarocks_args: |
             --namespace=neorocks
             --force
-
-      - name: Parser update count -> publish version
-        run: |
-          UPDATE_COUNT=$(jq -r --arg lang "${{ matrix.parsers.lang }}" '.update_counts[] | select(.key == $lang) | .value' ./nurr/resources/ts-update-counts.json)
-          echo "PUBLISH_VERSION='0.0.$UPDATE_COUNT'" >> $GITHUB_ENV
-          echo "${{ env.PUBLISH_VERSION }}
 
       # - name: Publish LuaRock (release)
       #   uses: nvim-neorocks/luarocks-tag-release@v5
