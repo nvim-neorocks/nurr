@@ -97,7 +97,6 @@ jobs:
       - name: Prepare Rockspec template
         run: |
           mv nurr/resources/tree-sitter-parser-rockspec.template rockspec.template
-          rm -r rockspec-template
           sed -i 's/LANG/${{ matrix.parsers.lang }}/g' rockspec.template
           if [[ -z "${{ matrix.parsers.install_info.url }}" ]];
           then
