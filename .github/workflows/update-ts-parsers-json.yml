@@ -37,7 +37,7 @@ jobs:
       - name: Update tree-sitter parsers JSON
         run: |
           ./scripts/echo-ts-json.lua \
-          | jq '{parsers: [to_entries[] | {lang: .key} + (.value | del(.maintainers))]}' \
+          | jq '{parsers: [to_entries[] | {lang: .key} + (.value | del(.maintainers))] | sort_by(.lang)}' \
           > tree-sitter-parsers.json
       - name: Get nvim-treesitter commit SHA
         run: |
