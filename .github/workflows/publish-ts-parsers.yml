@@ -1,5 +1,5 @@
 ---
-name: Publish dev tree-sitter parsers
+name: Publish tree-sitter parsers
 
 on:
   repository_dispatch:
@@ -186,11 +186,18 @@ jobs:
             --namespace=neorocks
             --force
 
+      - name: Parser update count -> publish version
+        run: |
+          UPDATE_COUNT=$(jq -r --arg lang "${{ matrix.parsers.lang }}" '.update_counts[] | select(.key == $lang) | .value' ./resources/ts-update-counts.json)
+          echo "PUBLISH_VERSION='0.0.$UPDATE_COUNT'" >> $GITHUB_ENV
+          echo "${{ env.PUBLISH_VERSION }}
+
       # - name: Publish LuaRock (release)
       #   uses: nvim-neorocks/luarocks-tag-release@v5
       #   if: ${{ env.RELEASE_VERSION != '' }}
       #   env:
-      #     LUAROCKS_API_KEY: ${{ secrets.LUAROCKS_API_KEY }}
+      #     # LUAROCKS_API_KEY: ${{ secrets.LUAROCKS_API_KEY }}
+      #     LUAROCKS_API_KEY: DUMMY_KEY
       #   with:
       #     name: ${{ env.PARSER_NAME }}
       #     version: ${{ env.RELEASE_VERSION }}
