@@ -34,25 +34,23 @@ jobs:
         with:
           neovim: true
           version: nightly
-      - name: Update tree-sitter parsers JSON
+      - name: Update tree-sitter parsers JSON and parser update counts
         run: |
+          cp tree-sitter-parsers.json prev.json
           ./scripts/echo-ts-json.lua \
           | jq -S '{parsers: [to_entries[] | {lang: .key} + (.value | del(.maintainers))] | sort_by(.lang)}' \
           > tree-sitter-parsers.json
-      - name: Get nvim-treesitter commit SHA
+          ./scripts/ts-update-counts.sh
+      - name: Update nvim-treesitter.lock
         run: |
           if git diff --quiet tree-sitter-parsers.json; then
             echo "No parsers updated"
           else
             echo "Parsers updated"
             cp nvim-treesitter/.git/refs/heads/main resources/nvim-treesitter.lock
-            update_counter='resources/tree-sitter-parser-update-counter.txt'
-            current_update_count=$(cat $update_counter)
-            new_update_count=$((current_update_count + 1))
-            echo $new_update_count > $update_counter
           fi
       - name: commit
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: update tree-sitter-parsers.json"
-          file_pattern: "tree-sitter-parsers.json resources/nvim-treesitter.lock resources/tree-sitter-parser-update-counter.txt"
+          file_pattern: "tree-sitter-parsers.json resources/nvim-treesitter.lock resources/ts-update-counts.json"
