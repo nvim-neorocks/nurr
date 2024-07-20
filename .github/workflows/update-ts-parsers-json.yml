@@ -21,6 +21,7 @@ on:
 jobs:
   update-tree-sitter-parsers-json:
     runs-on: ubuntu-latest
+    if: false
     steps:
       - uses: actions/checkout@v4
         with:
