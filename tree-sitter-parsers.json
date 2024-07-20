@@ -105,7 +105,7 @@
     },
     {
       "install_info": {
-        "revision": "c25f8034c977681653a8acd541c8b4877a58f474",
+        "revision": "384c55ede2a1f13e83d8e18dbef8f11304c379c2",
         "url": "https://github.com/polarmutex/tree-sitter-beancount"
       },
       "lang": "beancount",
@@ -640,7 +640,7 @@
     },
     {
       "install_info": {
-        "revision": "02a17bf9d0553406268cdbf466d57808ae712bf3",
+        "revision": "84fa6b0d53b6dd9414797e659923719799e3b0a8",
         "url": "https://github.com/gleam-lang/tree-sitter-gleam"
       },
       "lang": "gleam",
@@ -929,7 +929,7 @@
     },
     {
       "install_info": {
-        "revision": "92bb2f3bb0514d56be61f2131e950da1c913c7f2",
+        "revision": "be067aa6146d88ac7b6276f72fc22a681f744ccb",
         "url": "https://github.com/cathaysia/tree-sitter-idl"
       },
       "lang": "idl",

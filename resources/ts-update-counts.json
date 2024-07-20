@@ -10,7 +10,7 @@
     },
     {
       "key": "angular",
-      "value": 2
+      "value": 1
     },
     {
       "key": "apex",
@@ -18,7 +18,7 @@
     },
     {
       "key": "arduino",
-      "value": 2
+      "value": 1
     },
     {
       "key": "asm",
@@ -26,7 +26,7 @@
     },
     {
       "key": "astro",
-      "value": 2
+      "value": 1
     },
     {
       "key": "authzed",
@@ -46,7 +46,7 @@
     },
     {
       "key": "beancount",
-      "value": 1
+      "value": 2
     },
     {
       "key": "bibtex",
@@ -118,7 +118,7 @@
     },
     {
       "key": "cpp",
-      "value": 2
+      "value": 1
     },
     {
       "key": "css",
@@ -126,11 +126,11 @@
     },
     {
       "key": "csv",
-      "value": 2
+      "value": 1
     },
     {
       "key": "cuda",
-      "value": 2
+      "value": 1
     },
     {
       "key": "cue",
@@ -306,7 +306,7 @@
     },
     {
       "key": "gleam",
-      "value": 1
+      "value": 2
     },
     {
       "key": "glimmer",
@@ -314,7 +314,7 @@
     },
     {
       "key": "glsl",
-      "value": 2
+      "value": 1
     },
     {
       "key": "gn",
@@ -398,11 +398,11 @@
     },
     {
       "key": "hjson",
-      "value": 2
+      "value": 1
     },
     {
       "key": "hlsl",
-      "value": 2
+      "value": 1
     },
     {
       "key": "hlsplaylist",
@@ -418,7 +418,7 @@
     },
     {
       "key": "html",
-      "value": 2
+      "value": 1
     },
     {
       "key": "html_tags",
@@ -442,7 +442,7 @@
     },
     {
       "key": "idl",
-      "value": 1
+      "value": 2
     },
     {
       "key": "ini",
@@ -454,7 +454,7 @@
     },
     {
       "key": "ispc",
-      "value": 2
+      "value": 1
     },
     {
       "key": "janet_simple",
@@ -466,7 +466,7 @@
     },
     {
       "key": "javascript",
-      "value": 2
+      "value": 1
     },
     {
       "key": "jq",
@@ -486,7 +486,7 @@
     },
     {
       "key": "jsonc",
-      "value": 2
+      "value": 1
     },
     {
       "key": "jsonnet",
@@ -570,7 +570,7 @@
     },
     {
       "key": "luau",
-      "value": 2
+      "value": 1
     },
     {
       "key": "m68k",
@@ -582,7 +582,7 @@
     },
     {
       "key": "markdown",
-      "value": 2
+      "value": 1
     },
     {
       "key": "markdown_inline",
@@ -626,7 +626,7 @@
     },
     {
       "key": "nim",
-      "value": 2
+      "value": 1
     },
     {
       "key": "nim_format_string",
@@ -646,7 +646,7 @@
     },
     {
       "key": "objc",
-      "value": 2
+      "value": 1
     },
     {
       "key": "objdump",
@@ -658,7 +658,7 @@
     },
     {
       "key": "ocaml_interface",
-      "value": 2
+      "value": 1
     },
     {
       "key": "ocamllex",
@@ -690,7 +690,7 @@
     },
     {
       "key": "php",
-      "value": 2
+      "value": 1
     },
     {
       "key": "php_only",
@@ -730,7 +730,7 @@
     },
     {
       "key": "problog",
-      "value": 2
+      "value": 1
     },
     {
       "key": "prolog",
@@ -754,7 +754,7 @@
     },
     {
       "key": "psv",
-      "value": 2
+      "value": 1
     },
     {
       "key": "pug",
@@ -786,7 +786,7 @@
     },
     {
       "key": "qmljs",
-      "value": 2
+      "value": 1
     },
     {
       "key": "query",
@@ -878,7 +878,7 @@
     },
     {
       "key": "scss",
-      "value": 2
+      "value": 1
     },
     {
       "key": "slang",
@@ -954,7 +954,7 @@
     },
     {
       "key": "svelte",
-      "value": 2
+      "value": 1
     },
     {
       "key": "swift",
@@ -998,7 +998,7 @@
     },
     {
       "key": "terraform",
-      "value": 2
+      "value": 1
     },
     {
       "key": "textproto",
@@ -1034,7 +1034,7 @@
     },
     {
       "key": "tsx",
-      "value": 2
+      "value": 1
     },
     {
       "key": "turtle",
@@ -1046,7 +1046,7 @@
     },
     {
       "key": "typescript",
-      "value": 2
+      "value": 1
     },
     {
       "key": "typespec",
@@ -1114,7 +1114,7 @@
     },
     {
       "key": "vue",
-      "value": 2
+      "value": 1
     },
     {
       "key": "wgsl",
@@ -1138,7 +1138,7 @@
     },
     {
       "key": "xml",
-      "value": 2
+      "value": 1
     },
     {
       "key": "yaml",
