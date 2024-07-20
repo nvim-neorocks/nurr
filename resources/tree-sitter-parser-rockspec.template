@@ -18,7 +18,7 @@ description = {
 dependencies = $dependencies
 
 build_dependencies = {
-  'luarocks-build-treesitter-parser >= 4.0.0',
+  'luarocks-build-treesitter-parser >= 5.0.0',
 }
 
 source = {
