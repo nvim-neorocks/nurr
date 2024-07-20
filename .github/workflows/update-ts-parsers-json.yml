@@ -40,7 +40,8 @@ jobs:
           ./scripts/echo-ts-json.lua \
           | jq -S '{parsers: [to_entries[] | {lang: .key} + (.value | del(.maintainers))] | sort_by(.lang)}' \
           > tree-sitter-parsers.json
-          ./scripts/ts-update-counts.sh
+          ./scripts/parser-update-counts.sh
+          ./scripts/queries-update-counts.sh
       - name: Update nvim-treesitter.lock
         run: |
           if git diff --quiet tree-sitter-parsers.json; then

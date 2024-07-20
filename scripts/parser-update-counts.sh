@@ -4,6 +4,8 @@
 # - Compares the revisions
 # - Updates modified entries in ts-update-counts.json
 
+echo "Checking for parser updates..."
+
 if [[ -f resources/ts-update-counts.json ]]; then
   existing_counts=$(jq '.update_counts | from_entries' resources/ts-update-counts.json)
 else
@@ -16,6 +18,8 @@ if ! echo "$existing_counts" | jq empty; then
   exit 1
 fi
 
-updates=$(jq -n -f scripts/ts-update-counts.jq --argjson existing_counts "$existing_counts" --slurpfile prev prev.json --slurpfile curr tree-sitter-parsers.json)
+updates=$(jq -n -f scripts/parser-update-counts.jq --argjson existing_counts "$existing_counts" --slurpfile prev prev.json --slurpfile curr tree-sitter-parsers.json)
 
 echo "$updates" | jq -S '{update_counts: .update_counts}' > resources/ts-update-counts.json
+
+echo "Done."
