@@ -209,19 +209,20 @@ jobs:
             --namespace=neorocks
             --force
 
-      # - name: Publish LuaRock (release)
-      #   uses: nvim-neorocks/luarocks-tag-release@v7
-      #   if: ${{ env.PUBLISHED_COUNT == '0' }}
-      #   env:
-      #     LUAROCKS_API_KEY: ${{ secrets.LUAROCKS_API_KEY }}
-      #   with:
-      #     name: ${{ env.PARSER_NAME }}
-      #     version: ${{ env.RELEASE_VERSION }}
-      #     summary: tree-sitter parser for ${{ matrix.parsers.lang }}
-      #     template: "rockspec.template"
-      #     license: ${{ env.LICENSE }}
-      #     labels: |
-      #       neovim
-      #       tree-sitter
-      #     extra_luarocks_args: |
-      #       --namespace=neorocks
+      - name: Publish LuaRock (release)
+        uses: nvim-neorocks/luarocks-tag-release@v7
+        if: ${{ env.PUBLISHED_COUNT == '0' }}
+        env:
+          LUAROCKS_API_KEY: ${{ secrets.LUAROCKS_API_KEY }}
+        with:
+          name: ${{ env.PARSER_NAME }}
+          version: ${{ env.RELEASE_VERSION }}
+          summary: tree-sitter parser for ${{ matrix.parsers.lang }}
+          template: "rockspec.template"
+          license: ${{ env.LICENSE }}
+          labels: |
+            neovim
+            tree-sitter
+          dependencies: ${{ env.DEPENDENCIES }}
+          extra_luarocks_args: |
+            --namespace=neorocks
