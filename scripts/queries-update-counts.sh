@@ -44,10 +44,6 @@ for key in $(echo "$existing_counts" | jq -r 'keys[]'); do
         updated_counts=$(echo "$updated_counts" | jq --arg key "$key" --argjson count "$new_count" '.[$key] = $count')
       fi
     fi
-  else
-    # Retain the existing count if the directory doesn't exist
-    current_count=$(echo "$existing_counts" | jq -r --arg key "$key" '.[$key]')
-    updated_counts=$(echo "$updated_counts" | jq --arg key "$key" --argjson count "$current_count" '.[$key] = $count')
   fi
 done
 
