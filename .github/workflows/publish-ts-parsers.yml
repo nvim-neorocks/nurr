@@ -169,7 +169,7 @@ jobs:
 
       - name: Check for published release
         run: |
-          echo "PUBLISHED_COUNT=$(luarocks search ${{ env.PARSER_NAME }} ${{ env.RELEASE_VERSION }} --porcelain | wc -l)" >> $GITHUB_ENV
+          echo "PUBLISHED_COUNT=$(luarocks search ${{ env.PARSER_NAME }} ${{ env.RELEASE_VERSION }} --porcelain | grep '${{ env.PARSER_NAME }}\s*' | wc -l)" >> $GITHUB_ENV
 
       - name: Default to unknown license
         run: echo "LICENSE=UNKNOWN" >> $GITHUB_ENV
