@@ -2197,6 +2197,13 @@
             "dependencies": [],
             "summary": "🌺 Flavored Fennel Macros for Neovim",
             "license": "MIT"
+        },
+        {
+            "name": "lukas-reineke/lsp-format.nvim",
+            "shorthand": "lsp-format.nvim",
+            "dependencies": [],
+            "summary": "A wrapper around Neovims native LSP formatting.",
+            "license": "UNKNOWN"
         }
     ]
 }
