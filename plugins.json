@@ -1876,13 +1876,6 @@
             "dependencies": ["telescope.nvim"]
         },
         {
-            "name": "nvim-telescope/telescope-fzf-native.nvim",
-            "shorthand": "telescope-fzf-native.nvim",
-            "license": "MIT",
-            "summary": "FZF sorter for telescope written in C",
-            "dependencies": []
-        },
-        {
             "name": "nvim-telescope/telescope-ui-select.nvim",
             "shorthand": "telescope-ui-select.nvim",
             "license": "MIT",
