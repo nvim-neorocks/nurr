@@ -2204,6 +2204,20 @@
             "dependencies": [],
             "summary": "A wrapper around Neovims native LSP formatting.",
             "license": "UNKNOWN"
+        },
+        {
+            "name": "ggandor/leap.nvim",
+            "shorthand": "leap.nvim",
+            "dependencies": ["repeat.vim"],
+            "summary": "Neovim's answer to the mouse 🦘",
+            "license": "MIT"
+        },
+        {
+            "name": "ggandor/flit.nvim",
+            "shorthand": "flit.nvim",
+            "dependencies": ["leap.vim"],
+            "summary": "Enhanced f/t motions for leap.nvim",
+            "license": "UNLICENSE"
         }
     ]
 }
