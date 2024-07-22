@@ -2215,7 +2215,7 @@
         {
             "name": "ggandor/flit.nvim",
             "shorthand": "flit.nvim",
-            "dependencies": ["leap.vim"],
+            "dependencies": ["leap.nvim"],
             "summary": "Enhanced f/t motions for leap.nvim",
             "license": "UNLICENSE"
         }
