@@ -929,7 +929,7 @@
     },
     {
       "install_info": {
-        "revision": "be067aa6146d88ac7b6276f72fc22a681f744ccb",
+        "revision": "3e6c8bbdb5b3485f8a50d951040a6d80c70a97b0",
         "url": "https://github.com/cathaysia/tree-sitter-idl"
       },
       "lang": "idl",
@@ -1115,7 +1115,7 @@
     {
       "install_info": {
         "generate": true,
-        "revision": "d018f2e6620bbaee229cb31fc8b67fabd713d770",
+        "revision": "12523bd1ffd2c428b2dad177e2b4555574d90973",
         "url": "https://github.com/latex-lsp/tree-sitter-latex"
       },
       "lang": "latex",
