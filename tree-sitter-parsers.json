@@ -414,7 +414,7 @@
     },
     {
       "install_info": {
-        "revision": "c5f83685a64117872ae750ce14333a7a1dddcf0b",
+        "revision": "fd0d64d2fc91eab903bed4c11ce280b62e46f16e",
         "url": "https://github.com/ValdezFOmar/tree-sitter-editorconfig"
       },
       "lang": "editorconfig",
@@ -608,7 +608,7 @@
     },
     {
       "install_info": {
-        "revision": "274e27ea0f09371122ab55b8a812a32d6ef644e8",
+        "revision": "bff4b66b44b020d918d67e2828eada1974a966aa",
         "url": "https://github.com/the-mikedavis/tree-sitter-git-rebase"
       },
       "lang": "git_rebase",
@@ -929,7 +929,7 @@
     },
     {
       "install_info": {
-        "revision": "3e6c8bbdb5b3485f8a50d951040a6d80c70a97b0",
+        "revision": "e0fb8591d0acbb195d190d644140f821671f0011",
         "url": "https://github.com/cathaysia/tree-sitter-idl"
       },
       "lang": "idl",
@@ -1115,7 +1115,7 @@
     {
       "install_info": {
         "generate": true,
-        "revision": "12523bd1ffd2c428b2dad177e2b4555574d90973",
+        "revision": "6706f88d5b563ed8aaf7babb45e5f85dab001db1",
         "url": "https://github.com/latex-lsp/tree-sitter-latex"
       },
       "lang": "latex",
@@ -1456,7 +1456,7 @@
       "install_info": {
         "branch": "release",
         "generate_from_json": true,
-        "revision": "309cb8d33bcfd0a81050b21be08f9eb3f2fe2138",
+        "revision": "7384aa0903f55b9a2247775b29f09df6c093cd1a",
         "url": "https://github.com/tree-sitter-perl/tree-sitter-perl"
       },
       "lang": "perl",
@@ -1536,6 +1536,15 @@
       },
       "lang": "pony",
       "tier": 2
+    },
+    {
+      "filetype": "ps1",
+      "install_info": {
+        "revision": "804d86fd4ad286bd0cc1c1f0f7b28bd7af6755ad",
+        "url": "https://github.com/airbus-cert/tree-sitter-powershell"
+      },
+      "lang": "powershell",
+      "tier": 3
     },
     {
       "install_info": {
@@ -1949,7 +1958,7 @@
     },
     {
       "install_info": {
-        "revision": "645d093763bcaaf7535edbdf6575a5c978b16491",
+        "revision": "6b9bf9cbab91443380d2ca8a2f6c491cc7fac5bf",
         "url": "https://github.com/nilshelmig/tree-sitter-sourcepawn"
       },
       "lang": "sourcepawn",
@@ -1968,7 +1977,7 @@
       "install_info": {
         "branch": "gh-pages",
         "generate_from_json": true,
-        "revision": "89fd00d0aff3bc9985ac37caf362ec4fd9b2ba1d",
+        "revision": "91c5ce054925728109f90d5c057cbf5b47f93fda",
         "url": "https://github.com/derekstride/tree-sitter-sql"
       },
       "lang": "sql",
@@ -2267,7 +2276,7 @@
     },
     {
       "install_info": {
-        "revision": "90f6af21271dee246a9cafe109e2b456c5bc10a6",
+        "revision": "abe60cbed7986ee475d93f816c1be287f220c5d8",
         "url": "https://github.com/uben0/tree-sitter-typst"
       },
       "lang": "typst",
