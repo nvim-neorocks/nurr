@@ -1548,13 +1548,6 @@
             "dependencies": []
         },
         {
-            "name": "hrsh7th/nvim-cmp",
-            "shorthand": "nvim-cmp",
-            "license": "MIT",
-            "summary": "A completion plugin for neovim coded in Lua.",
-            "dependencies": []
-        },
-        {
             "name": "willothy/nvim-cokeline",
             "shorthand": "nvim-cokeline",
             "license": "MIT",
