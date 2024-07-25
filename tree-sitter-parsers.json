@@ -478,7 +478,7 @@
     },
     {
       "install_info": {
-        "revision": "19ca500fa5a17ab58dc18aa03b50e2db305e7a8a",
+        "revision": "8f41b588fe38b981156651ef56b192ed3d158efd",
         "url": "https://github.com/WhatsApp/tree-sitter-erlang"
       },
       "lang": "erlang",
@@ -965,7 +965,7 @@
     },
     {
       "install_info": {
-        "revision": "3b08641373cb3e37bc531e6e3cdb85d02b454702",
+        "revision": "ea842cb57a90865c8f50bcb4499de1a94860f3a4",
         "url": "https://github.com/sogaiu/tree-sitter-janet-simple"
       },
       "lang": "janet_simple",
@@ -1115,7 +1115,7 @@
     {
       "install_info": {
         "generate": true,
-        "revision": "6706f88d5b563ed8aaf7babb45e5f85dab001db1",
+        "revision": "f567ce7863533f81b043e91801064f790645cb27",
         "url": "https://github.com/latex-lsp/tree-sitter-latex"
       },
       "lang": "latex",
@@ -1208,7 +1208,7 @@
     },
     {
       "install_info": {
-        "revision": "9e082a2253c50eb3d80e84bbd635e57cfb1476a2",
+        "revision": "e128454c2210c0e0c10b68fe45ddb8fee80182a3",
         "url": "https://github.com/grahambates/tree-sitter-m68k"
       },
       "lang": "m68k",
@@ -1247,7 +1247,7 @@
     },
     {
       "install_info": {
-        "revision": "2825fb578325ac308945318881445a89ea06e0f6",
+        "revision": "821f7bdf9d922822302a0170c2f157e36ffb7a94",
         "url": "https://github.com/acristoffers/tree-sitter-matlab"
       },
       "lang": "matlab",
