@@ -2144,6 +2144,13 @@
             "license": "MIT"
         },
         {
+            "name": "zidhuss/neotest-minitest",
+            "shorthand": "neotest-minitest",
+            "dependencies": ["neotest", "tree-sitter-ruby"],
+            "summary": "Neotest adapter for Minitest",
+            "license": "MIT"
+        },
+        {
             "name": "mcauley-penney/visual-whitespace.nvim",
             "shorthand": "visual-whitespace.nvim",
             "summary": "A Neovim plugin to reveal whitespace characters in visual mode, like VSCode",
