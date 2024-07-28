@@ -2109,6 +2109,20 @@
             "license": "MIT"
         },
         {
+            "name": "vim-test/vim-test",
+            "shorthand": "vim-test",
+            "dependencies": [],
+            "summary": "Run your tests at the speed of thought (Vim)",
+            "license": "vim-license"
+        },
+        {
+            "name": "nvim-neotest/neotest-vim-test",
+            "shorthand": "neotest-vim-test",
+            "dependencies": ["neotest", "plenary.nvim", "vim-test"],
+            "summary": "Neotest adapter for vim-test",
+            "license": "UNKNOWN"
+        },
+        {
             "name": "nvim-neotest/neotest-plenary",
             "shorthand": "neotest-plenary",
             "dependencies": ["neotest"],
