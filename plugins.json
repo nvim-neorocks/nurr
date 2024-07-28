@@ -2172,6 +2172,13 @@
             "license": "MIT"
         },
         {
+            "name": "stevanmilic/neotest-scala",
+            "shorthand": "neotest-scala",
+            "dependencies": ["neotest", "tree-sitter-scala"],
+            "summary": "🧪 Neotest adapter for Scala",
+            "license": "MIT"
+        },
+        {
             "name": "mcauley-penney/visual-whitespace.nvim",
             "shorthand": "visual-whitespace.nvim",
             "summary": "A Neovim plugin to reveal whitespace characters in visual mode, like VSCode",
