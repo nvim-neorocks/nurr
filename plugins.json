@@ -2179,6 +2179,13 @@
             "license": "MIT"
         },
         {
+            "name": "MarkEmmons/neotest-deno",
+            "shorthand": "neotest-deno",
+            "dependencies": ["neotest", "tree-sitter-typescript"],
+            "summary": "🧪 Neotest adapter for Deno",
+            "license": "MIT"
+        },
+        {
             "name": "mcauley-penney/visual-whitespace.nvim",
             "shorthand": "visual-whitespace.nvim",
             "summary": "A Neovim plugin to reveal whitespace characters in visual mode, like VSCode",
