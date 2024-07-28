@@ -2137,6 +2137,13 @@
             "license": "MIT"
         },
         {
+            "name": "olimorris/neotest-rspec",
+            "shorthand": "neotest-rspec",
+            "dependencies": ["neotest", "tree-sitter-ruby"],
+            "summary": "🧪 Neotest adapter for RSpec. Works in Docker containers too",
+            "license": "MIT"
+        },
+        {
             "name": "mcauley-penney/visual-whitespace.nvim",
             "shorthand": "visual-whitespace.nvim",
             "summary": "A Neovim plugin to reveal whitespace characters in visual mode, like VSCode",
