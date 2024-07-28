@@ -303,7 +303,7 @@
     },
     {
       "install_info": {
-        "revision": "750dde90ed9cdbd82493bc28478d8ab1976b0e9f",
+        "revision": "f0fb364270b1a5a086b2b6b8cb7eb1a3fb9d9a8e",
         "url": "https://github.com/gdamore/tree-sitter-d"
       },
       "lang": "d",
@@ -1115,7 +1115,7 @@
     {
       "install_info": {
         "generate": true,
-        "revision": "f074e142ade9cdc292346d0484be27f9ebdbc4ea",
+        "revision": "efe5afdbb59b70214e6d70db5197dc945d5b213e",
         "url": "https://github.com/latex-lsp/tree-sitter-latex"
       },
       "lang": "latex",
@@ -1785,6 +1785,14 @@
       },
       "lang": "requirements",
       "readme_name": "pip requirements",
+      "tier": 2
+    },
+    {
+      "install_info": {
+        "revision": "444c127686714b2358622427c3bdba7eb09021c6",
+        "url": "https://github.com/rescript-lang/tree-sitter-rescript"
+      },
+      "lang": "rescript",
       "tier": 2
     },
     {
