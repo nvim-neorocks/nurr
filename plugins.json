@@ -2151,6 +2151,13 @@
             "license": "MIT"
         },
         {
+            "name": "sidlatau/neotest-dart",
+            "shorthand": "neotest-dart",
+            "dependencies": ["neotest", "tree-sitter-dart"],
+            "summary": "Neotest adapter for Dart/Flutter.",
+            "license": "UNKNOW"
+        },
+        {
             "name": "mcauley-penney/visual-whitespace.nvim",
             "shorthand": "visual-whitespace.nvim",
             "summary": "A Neovim plugin to reveal whitespace characters in visual mode, like VSCode",
