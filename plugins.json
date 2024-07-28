@@ -2004,42 +2004,42 @@
         {
             "name": "tpope/vim-repeat",
             "shorthand": "repeat.vim",
-            "license": "vim-license",
+            "license": "VIM",
             "summary": "enable repeating supported plugin maps with '.'",
             "dependencies": []
         },
         {
             "name": "tpope/vim-surround",
             "shorthand": "surround.vim",
-            "license": "vim-license",
+            "license": "VIM",
             "summary": "Delete/change/add parentheses/quotes/XML-tags/much more with ease",
             "dependencies": ["repeat.vim"]
         },
         {
             "name": "tpope/vim-speeddating",
             "shorthand": "speeddating.vim",
-            "license": "vim-license",
+            "license": "VIM",
             "summary": "use CTRL-A/CTRL-X to increment dates, times, and more",
             "dependencies": ["repeat.vim"]
         },
         {
             "name": "tpope/vim-unimpaired",
             "shorthand": "unimpaired.vim",
-            "license": "vim-license",
+            "license": "VIM",
             "summary": "Pairs of handy bracket mappings",
             "dependencies": ["repeat.vim"]
         },
         {
             "name": "svermeulen/vim-easyclip",
             "shorthand": "vim-easyclip",
-            "license": "vim-license",
+            "license": "VIM",
             "summary": "Simplified clipboard functionality for Vim",
             "dependencies": ["repeat.vim"]
         },
         {
             "name": "glts/vim-radical",
             "shorthand": "radical.vim",
-            "license": "vim-license",
+            "license": "VIM",
             "summary": "Convert decimal, hex, octal, binary number representations",
             "dependencies": ["repeat.vim"]
         },
@@ -2113,7 +2113,7 @@
             "shorthand": "vim-test",
             "dependencies": [],
             "summary": "Run your tests at the speed of thought (Vim)",
-            "license": "vim-license"
+            "license": "VIM"
         },
         {
             "name": "nvim-neotest/neotest-vim-test",
