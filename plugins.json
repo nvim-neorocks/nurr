@@ -2130,6 +2130,13 @@
             "license": "MIT"
         },
         {
+            "name": "benelan/neotest-stenciljs",
+            "shorthand": "neotest-stenciljs",
+            "dependencies": ["neotest", "tree-sitter-typescript", "tree-sitter-javascript"],
+            "summary": "A StencilJS adapter for the Neotest framework",
+            "license": "MIT"
+        },
+        {
             "name": "mcauley-penney/visual-whitespace.nvim",
             "shorthand": "visual-whitespace.nvim",
             "summary": "A Neovim plugin to reveal whitespace characters in visual mode, like VSCode",
