@@ -2095,6 +2095,13 @@
             "license": "MIT"
         },
         {
+            "name": "nvim-neotest/neotest-python",
+            "shorthand": "neotest-python",
+            "dependencies": ["neotest", "tree-sitter-python"],
+            "summary": "Neotest adapter for python. Supports Pytest and unittest test files.",
+            "license": "MIT"
+        },
+        {
             "name": "mcauley-penney/visual-whitespace.nvim",
             "shorthand": "visual-whitespace.nvim",
             "summary": "A Neovim plugin to reveal whitespace characters in visual mode, like VSCode",
