@@ -2109,6 +2109,13 @@
             "license": "MIT"
         },
         {
+            "name": "nvim-neotest/neotest-plenary",
+            "shorthand": "neotest-plenary",
+            "dependencies": ["neotest"],
+            "summary": "A jest adapter for the Neotest framework",
+            "license": "MIT"
+        },
+        {
             "name": "mcauley-penney/visual-whitespace.nvim",
             "shorthand": "visual-whitespace.nvim",
             "summary": "A Neovim plugin to reveal whitespace characters in visual mode, like VSCode",
