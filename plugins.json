@@ -2102,6 +2102,13 @@
             "license": "MIT"
         },
         {
+            "name": "nvim-neotest/neotest-jest",
+            "shorthand": "neotest-jest",
+            "dependencies": ["neotest >= 4.0.0", "plenary.nvim", "tree-sitter-javascript"],
+            "summary": "A jest adapter for the Neotest framework",
+            "license": "MIT"
+        },
+        {
             "name": "mcauley-penney/visual-whitespace.nvim",
             "shorthand": "visual-whitespace.nvim",
             "summary": "A Neovim plugin to reveal whitespace characters in visual mode, like VSCode",
