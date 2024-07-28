@@ -1468,7 +1468,7 @@
             "shorthand": "nabla.nvim",
             "license": "MIT",
             "summary": "Take your scientific notes in Neovim",
-            "dependencies": []
+            "dependencies": ["tree-sitter-latex"]
         },
         {
             "name": "ray-x/navigator.lua",
@@ -2090,7 +2090,7 @@
         {
             "name": "rouge8/neotest-rust",
             "shorthand": "neotest-rust",
-            "dependencies": ["neotest"],
+            "dependencies": ["neotest", "tree-sitter-rust"],
             "summary": "Neotest adapter for Rust, using cargo-nextest.",
             "license": "MIT"
         },
