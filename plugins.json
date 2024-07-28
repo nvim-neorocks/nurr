@@ -2158,6 +2158,13 @@
             "license": "UNKNOW"
         },
         {
+            "name": "shunsambongi/neotest-testthat",
+            "shorthand": "neotest-testthat",
+            "dependencies": ["neotest", "tree-sitter-r"],
+            "summary": "Neotest adapter for R packages using testthat tests.",
+            "license": "UNKNOW"
+        },
+        {
             "name": "mcauley-penney/visual-whitespace.nvim",
             "shorthand": "visual-whitespace.nvim",
             "summary": "A Neovim plugin to reveal whitespace characters in visual mode, like VSCode",
