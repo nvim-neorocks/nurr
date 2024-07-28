@@ -2126,7 +2126,7 @@
             "name": "nvim-neotest/neotest-plenary",
             "shorthand": "neotest-plenary",
             "dependencies": ["neotest"],
-            "summary": "A jest adapter for the Neotest framework",
+            "summary": "A plenary.nvim adapter for the Neotest framework",
             "license": "MIT"
         },
         {
