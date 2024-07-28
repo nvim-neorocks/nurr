@@ -2165,6 +2165,13 @@
             "license": "UNKNOW"
         },
         {
+            "name": "olimorris/neotest-phpunit",
+            "shorthand": "neotest-phpunit",
+            "dependencies": ["neotest", "tree-sitter-php"],
+            "summary": "🧪 Neotest adapter for PHPUnit",
+            "license": "MIT"
+        },
+        {
             "name": "mcauley-penney/visual-whitespace.nvim",
             "shorthand": "visual-whitespace.nvim",
             "summary": "A Neovim plugin to reveal whitespace characters in visual mode, like VSCode",
