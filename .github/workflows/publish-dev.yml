@@ -15,6 +15,19 @@ jobs:
     name: Pushing ${{ matrix.plugin.shorthand }} (dev)
 
     steps:
+      - name: Install tree-sitter CLI
+        uses: baptiste0928/cargo-install@v3
+        with:
+          crate: tree-sitter-cli
+
+      - uses: actions/setup-node@v4
+        if: ${{ matrix.parsers.install_info.generate }}
+
+      - name: Install C/C++ Compiler
+        uses: rlalik/setup-cpp-compiler@master
+        with:
+          compiler: clang-latest
+          
       - name: Checkout plugin repository
         uses: actions/checkout@v4
         with:
