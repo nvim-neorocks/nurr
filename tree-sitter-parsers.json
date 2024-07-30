@@ -303,7 +303,7 @@
     },
     {
       "install_info": {
-        "revision": "c067ff38b84d860c993d8b8906124e96694593e4",
+        "revision": "ac584585a15c4cacd6cda8e6bfe7cb1ca7b3898e",
         "url": "https://github.com/gdamore/tree-sitter-d"
       },
       "lang": "d",
@@ -1058,7 +1058,7 @@
     },
     {
       "install_info": {
-        "revision": "379fbe36d1e441bc9414ea050ad0c85c9d6935ea",
+        "revision": "6648ac1c0cdadaec8ee8bcf9a4ca6ace5102cf21",
         "url": "https://github.com/IndianBoy42/tree-sitter-just"
       },
       "lang": "just",
@@ -1082,7 +1082,7 @@
     },
     {
       "install_info": {
-        "revision": "3d81f4dcb382be4a3ae9c807f00c722212474432",
+        "revision": "fe73604cca8cac5c8756b286e7eeb1821852b7dc",
         "url": "https://github.com/fwcd/tree-sitter-kotlin"
       },
       "lang": "kotlin",
@@ -2436,7 +2436,7 @@
     },
     {
       "install_info": {
-        "revision": "cd7e6534fd9a22e3e9a7a85feecf4e35461e47cb",
+        "revision": "c52f0b07786603df17ad0197f6cef680f312eb2c",
         "url": "https://github.com/liamwh/tree-sitter-wit"
       },
       "lang": "wit",
