@@ -905,7 +905,7 @@
     },
     {
       "install_info": {
-        "revision": "e061995f0caf2fa30f68fa1fdf2c08bcbd4629a8",
+        "revision": "5ae6c7cfa62a7d7325c26171a1de4f6b866702b5",
         "url": "https://github.com/rest-nvim/tree-sitter-http"
       },
       "lang": "http",
@@ -913,7 +913,7 @@
     },
     {
       "install_info": {
-        "revision": "ad705af8c44c737bdb965fc081329c50716d2d03",
+        "revision": "fba6ed8db3a009b9e7d656511931b181a3ee5b08",
         "url": "https://github.com/pfeiferj/tree-sitter-hurl"
       },
       "lang": "hurl",
@@ -1247,7 +1247,7 @@
     },
     {
       "install_info": {
-        "revision": "821f7bdf9d922822302a0170c2f157e36ffb7a94",
+        "revision": "0d5a05e543af2de60cdb5e71f0f5888c95ab936f",
         "url": "https://github.com/acristoffers/tree-sitter-matlab"
       },
       "lang": "matlab",
@@ -1985,7 +1985,7 @@
       "install_info": {
         "branch": "gh-pages",
         "generate_from_json": true,
-        "revision": "a9664463580473e92d8f5e29fa06fb1be88752af",
+        "revision": "b8175006d9c8120d41cf40a4ef3711bbbbc08973",
         "url": "https://github.com/derekstride/tree-sitter-sql"
       },
       "lang": "sql",
@@ -2064,7 +2064,7 @@
     {
       "install_info": {
         "generate": true,
-        "revision": "b3dc8cc5c266effd7bcfde01aa086b83927f2eda",
+        "revision": "769bb834feb2947f2c706d82830b0a05958727de",
         "url": "https://github.com/alex-pinkus/tree-sitter-swift"
       },
       "lang": "swift",
@@ -2395,6 +2395,14 @@
       },
       "lang": "vimdoc",
       "tier": 1
+    },
+    {
+      "install_info": {
+        "revision": "274b3ce63f72aa8ffea18e7fc280d3062d28f0ba",
+        "url": "https://github.com/belltoy/tree-sitter-vrl"
+      },
+      "lang": "vrl",
+      "tier": 3
     },
     {
       "install_info": {
