@@ -1082,7 +1082,7 @@
     },
     {
       "install_info": {
-        "revision": "fe73604cca8cac5c8756b286e7eeb1821852b7dc",
+        "revision": "754394c69811e5b586f16c462855d66dfc747a03",
         "url": "https://github.com/fwcd/tree-sitter-kotlin"
       },
       "lang": "kotlin",
@@ -1347,7 +1347,7 @@
     },
     {
       "install_info": {
-        "revision": "0fdada10f1f845ca9116e279ad8f5d0ca93e9949",
+        "revision": "68d3b7999ad89d31690461884270e5658e0a22c4",
         "url": "https://github.com/cstrahan/tree-sitter-nix"
       },
       "lang": "nix",
@@ -1456,7 +1456,7 @@
       "install_info": {
         "branch": "release",
         "generate_from_json": true,
-        "revision": "7581cbf8fb793bce94d0241c89fe49b01b1477f9",
+        "revision": "ccd3070e557516bf27c72d898d2bd3419356e51b",
         "url": "https://github.com/tree-sitter-perl/tree-sitter-perl"
       },
       "lang": "perl",
