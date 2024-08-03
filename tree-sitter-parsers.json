@@ -284,7 +284,7 @@
     {
       "install_info": {
         "generate_from_json": true,
-        "revision": "07f2f157d484a27dc91c04cc116f94f6fd4fc654",
+        "revision": "7c97acb8398734d790c86210c53c320df61ff66b",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-cuda"
       },
       "lang": "cuda",
@@ -845,7 +845,7 @@
     {
       "install_info": {
         "generate_from_json": true,
-        "revision": "80517ca13317fb8591503c0d99f2ad76e8979a72",
+        "revision": "81dbfa44a2e0f9e36d16f449fc792020e2f38426",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-hlsl"
       },
       "lang": "hlsl",
@@ -1082,7 +1082,7 @@
     },
     {
       "install_info": {
-        "revision": "754394c69811e5b586f16c462855d66dfc747a03",
+        "revision": "8d9d372b09fa4c3735657c5fc2ad03e53a5f05f5",
         "url": "https://github.com/fwcd/tree-sitter-kotlin"
       },
       "lang": "kotlin",
@@ -1898,7 +1898,7 @@
     {
       "install_info": {
         "generate_from_json": true,
-        "revision": "ea77a4d91dd93f4483965efcc41f3faebb9131c8",
+        "revision": "d84b43d75d65bbc4ba57166ce17555f32c0b8983",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-slang"
       },
       "lang": "slang",
@@ -2268,7 +2268,7 @@
     },
     {
       "install_info": {
-        "revision": "28821d0d6da5f0a6b5eb02b9bad953fecafd7248",
+        "revision": "af7a97eea5d4c62473b29655a238d4f4e055798b",
         "url": "https://github.com/happenslol/tree-sitter-typespec"
       },
       "lang": "typespec",
@@ -2382,7 +2382,7 @@
     },
     {
       "install_info": {
-        "revision": "b448ca63f972ade12c373c808acdd2bf972937db",
+        "revision": "f3cd62d8bd043ef20507e84bb6b4b53731ccf3a7",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-vim"
       },
       "lang": "vim",
