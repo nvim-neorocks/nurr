@@ -1456,7 +1456,7 @@
       "install_info": {
         "branch": "release",
         "generate_from_json": true,
-        "revision": "ccd3070e557516bf27c72d898d2bd3419356e51b",
+        "revision": "3a21d9cb2a20a062c17f8f53d5983fd473c4673c",
         "url": "https://github.com/tree-sitter-perl/tree-sitter-perl"
       },
       "lang": "perl",
@@ -2268,7 +2268,7 @@
     },
     {
       "install_info": {
-        "revision": "af7a97eea5d4c62473b29655a238d4f4e055798b",
+        "revision": "0ee05546d73d8eb64635ed8125de6f35c77759fe",
         "url": "https://github.com/happenslol/tree-sitter-typespec"
       },
       "lang": "typespec",
