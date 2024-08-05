@@ -32,7 +32,7 @@
     {
       "install_info": {
         "location": "apex",
-        "revision": "c99ad4b16d112fea91745e3f1b769754239fdaba",
+        "revision": "c7518e9289241d7e9f3d522da994b9bdbea99b33",
         "url": "https://github.com/aheber/tree-sitter-sfapex"
       },
       "lang": "apex",
@@ -856,7 +856,7 @@
     },
     {
       "install_info": {
-        "revision": "64f19029339e75d6762feae39e7878595860c980",
+        "revision": "3bfda9271e3adb08d35f47a2102fe957009e1c55",
         "url": "https://github.com/Freed-Wu/tree-sitter-hlsplaylist"
       },
       "lang": "hlsplaylist",
@@ -1288,7 +1288,7 @@
     },
     {
       "install_info": {
-        "revision": "90ef60852c410bd964cd3b954366e4c403c17314",
+        "revision": "173b0ab53a9c07962c9777189c4c70e90f1c1837",
         "url": "https://github.com/neomutt/tree-sitter-muttrc"
       },
       "lang": "muttrc",
@@ -1347,7 +1347,7 @@
     },
     {
       "install_info": {
-        "revision": "68d3b7999ad89d31690461884270e5658e0a22c4",
+        "revision": "919613dcff7bdc38b946ea5f767dec25ee1ed129",
         "url": "https://github.com/cstrahan/tree-sitter-nix"
       },
       "lang": "nix",
@@ -1949,7 +1949,7 @@
     {
       "install_info": {
         "location": "soql",
-        "revision": "c99ad4b16d112fea91745e3f1b769754239fdaba",
+        "revision": "c7518e9289241d7e9f3d522da994b9bdbea99b33",
         "url": "https://github.com/aheber/tree-sitter-sfapex"
       },
       "lang": "soql",
@@ -1958,7 +1958,7 @@
     {
       "install_info": {
         "location": "sosl",
-        "revision": "c99ad4b16d112fea91745e3f1b769754239fdaba",
+        "revision": "c7518e9289241d7e9f3d522da994b9bdbea99b33",
         "url": "https://github.com/aheber/tree-sitter-sfapex"
       },
       "lang": "sosl",
@@ -2190,7 +2190,7 @@
     },
     {
       "install_info": {
-        "revision": "9138ea508410e0f34da2666609f600f65e944f22",
+        "revision": "0252ecd080016e45e6305ef1a943388f5ae2f4b4",
         "url": "https://github.com/Freed-Wu/tree-sitter-tmux"
       },
       "lang": "tmux",
@@ -2496,7 +2496,7 @@
     },
     {
       "install_info": {
-        "revision": "6e7c8edfcd6f5f7c12b2fa9ffc6d042f1b6d7068",
+        "revision": "0554b4a5d313244b7fc000cbb41c04afae4f4e31",
         "url": "https://github.com/Freed-Wu/tree-sitter-zathurarc"
       },
       "lang": "zathurarc",
