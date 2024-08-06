@@ -32,7 +32,7 @@
     {
       "install_info": {
         "location": "apex",
-        "revision": "c7518e9289241d7e9f3d522da994b9bdbea99b33",
+        "revision": "caffc6ebd1ab16ba4d4dec367cebb03ca2411872",
         "url": "https://github.com/aheber/tree-sitter-sfapex"
       },
       "lang": "apex",
@@ -105,7 +105,7 @@
     },
     {
       "install_info": {
-        "revision": "384c55ede2a1f13e83d8e18dbef8f11304c379c2",
+        "revision": "01c0da29e0fc7130420a09d939ecc524e09b6ba6",
         "url": "https://github.com/polarmutex/tree-sitter-beancount"
       },
       "lang": "beancount",
@@ -929,7 +929,7 @@
     },
     {
       "install_info": {
-        "revision": "1a6683f6809f7bc630f10fcad7d9ac6471deb706",
+        "revision": "4eb0e642c02420ba32e9435c1038080a6b5b6877",
         "url": "https://github.com/cathaysia/tree-sitter-idl"
       },
       "lang": "idl",
@@ -1932,7 +1932,7 @@
     {
       "install_info": {
         "generate_from_json": true,
-        "revision": "46d4de8e6cfca8a97c0489aea936bb15beeaf666",
+        "revision": "e909815acdbe37e69440261ebb1091ed52e1dec6",
         "url": "https://github.com/osthomas/tree-sitter-snakemake"
       },
       "lang": "snakemake",
@@ -1949,7 +1949,7 @@
     {
       "install_info": {
         "location": "soql",
-        "revision": "c7518e9289241d7e9f3d522da994b9bdbea99b33",
+        "revision": "caffc6ebd1ab16ba4d4dec367cebb03ca2411872",
         "url": "https://github.com/aheber/tree-sitter-sfapex"
       },
       "lang": "soql",
@@ -1958,7 +1958,7 @@
     {
       "install_info": {
         "location": "sosl",
-        "revision": "c7518e9289241d7e9f3d522da994b9bdbea99b33",
+        "revision": "caffc6ebd1ab16ba4d4dec367cebb03ca2411872",
         "url": "https://github.com/aheber/tree-sitter-sfapex"
       },
       "lang": "sosl",
