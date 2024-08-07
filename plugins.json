@@ -2250,14 +2250,14 @@
         {
             "name": "nvimdev/guard-collection",
             "shorthand": "guard-collection",
-            "dependencies": [],
+            "dependencies": ["guard.nvim"],
             "summary": "Collection of configuration for guard.nvim.",
             "license": "MIT"
         },
         {
             "name": "nvimdev/guard.nvim",
             "shorthand": "guard.nvim",
-            "dependencies": ["guard-collection"],
+            "dependencies": [],
             "summary": "Async formatting and linting utility for neovim.",
             "license": "MIT"
         },
