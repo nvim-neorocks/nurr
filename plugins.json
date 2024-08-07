@@ -2262,6 +2262,13 @@
             "license": "MIT"
         },
         {
+            "name": "nvimdev/indentmini.nvim",
+            "shorthand": "indentmini.nvim",
+            "dependencies": [],
+            "summary": "A minimal and blazing fast indentline plugin",
+            "license": "MIT"
+        },
+        {
             "name": "Hoffs/omnisharp-extended-lsp.nvim",
             "shorthand": "omnisharp-extended-lsp.nvim",
             "dependencies": [],
