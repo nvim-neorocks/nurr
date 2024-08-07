@@ -929,7 +929,7 @@
     },
     {
       "install_info": {
-        "revision": "4eb0e642c02420ba32e9435c1038080a6b5b6877",
+        "revision": "1ad1289813e237cb98cf8e5c3e792c8d2353acc6",
         "url": "https://github.com/cathaysia/tree-sitter-idl"
       },
       "lang": "idl",
@@ -1861,7 +1861,7 @@
     },
     {
       "install_info": {
-        "revision": "a13f2d1ee9609cc5c4c8ffce9640c353b77a24d8",
+        "revision": "c694c1b623fa11a6b4f901b4ec713cc2265bebcc",
         "url": "https://github.com/tree-sitter/tree-sitter-scala"
       },
       "lang": "scala",
