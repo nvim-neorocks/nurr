@@ -845,7 +845,7 @@
     {
       "install_info": {
         "generate_from_json": true,
-        "revision": "81dbfa44a2e0f9e36d16f449fc792020e2f38426",
+        "revision": "5d788a46727c8199a7c63a3c849092e0364375b6",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-hlsl"
       },
       "lang": "hlsl",
@@ -929,7 +929,7 @@
     },
     {
       "install_info": {
-        "revision": "1ad1289813e237cb98cf8e5c3e792c8d2353acc6",
+        "revision": "e2fa5d23a3f1854d5608454ac8773feb181aa0e7",
         "url": "https://github.com/cathaysia/tree-sitter-idl"
       },
       "lang": "idl",
@@ -1347,7 +1347,7 @@
     },
     {
       "install_info": {
-        "revision": "919613dcff7bdc38b946ea5f767dec25ee1ed129",
+        "revision": "486bb0337ee94575f53367b53bffeaea99063f2c",
         "url": "https://github.com/cstrahan/tree-sitter-nix"
       },
       "lang": "nix",
@@ -1430,7 +1430,7 @@
     },
     {
       "install_info": {
-        "revision": "a9ee969dec5b2e3b2ccccc5954fec04100c7619e",
+        "revision": "d0ebabefaea9ac3f6fc3004cf08cd121b66da9e4",
         "url": "https://github.com/Isopod/tree-sitter-pascal"
       },
       "lang": "pascal",
@@ -1861,7 +1861,7 @@
     },
     {
       "install_info": {
-        "revision": "c694c1b623fa11a6b4f901b4ec713cc2265bebcc",
+        "revision": "999f21869645d2b19465adc912caf83d95f82be0",
         "url": "https://github.com/tree-sitter/tree-sitter-scala"
       },
       "lang": "scala",
@@ -1985,7 +1985,7 @@
       "install_info": {
         "branch": "gh-pages",
         "generate_from_json": true,
-        "revision": "b8175006d9c8120d41cf40a4ef3711bbbbc08973",
+        "revision": "3f51da54347f4561541c71b0d384ca3ef3b38d9d",
         "url": "https://github.com/derekstride/tree-sitter-sql"
       },
       "lang": "sql",
@@ -2080,7 +2080,7 @@
     },
     {
       "install_info": {
-        "revision": "1af543a96d060b1f808982037bfc54cc02218edd",
+        "revision": "f2b378a9af0b7e1192cff67a5fb45508c927205d",
         "url": "https://github.com/ok-ryoko/tree-sitter-systemtap"
       },
       "lang": "systemtap",
