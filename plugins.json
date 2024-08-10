@@ -1580,7 +1580,7 @@
             "shorthand": "nvim-dap-ui",
             "license": "MIT",
             "summary": "A UI for nvim-dap",
-            "dependencies": ["nvim-dap"]
+            "dependencies": ["nvim-dap", "nvim-nio"]
         },
         {
             "name": "esensar/nvim-dev-container",
