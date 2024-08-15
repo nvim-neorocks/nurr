@@ -19,7 +19,7 @@
     {
       "install_info": {
         "generate_from_json": true,
-        "revision": "31182d43b062a350d4bd2449f2fc0d5654972be9",
+        "revision": "660e6c4d0d533da8a1d4faa1bb0870f8ccbdbf92",
         "url": "https://github.com/dlvandenberg/tree-sitter-angular"
       },
       "lang": "angular",
@@ -759,7 +759,7 @@
     },
     {
       "install_info": {
-        "revision": "105ee343682b7eee86b38ec6858a269e16474a72",
+        "revision": "6b91d508bee2e7679fcdac5312644fc5e5cfacb8",
         "url": "https://github.com/murtaza64/tree-sitter-groovy"
       },
       "lang": "groovy",
@@ -1147,7 +1147,7 @@
     },
     {
       "install_info": {
-        "revision": "7862a3424832c3a9d45eb21143b375837bd6573b",
+        "revision": "f84c94a4c0e93fe1231f6cda9c3a14df9c839ab2",
         "url": "https://github.com/hankthetank27/tree-sitter-liquid"
       },
       "lang": "liquid",
@@ -1861,7 +1861,7 @@
     },
     {
       "install_info": {
-        "revision": "be7184df70dd3b5790becfb2c93ba796b2797781",
+        "revision": "ae9db4bdea5f90751718f4f9a90551c809d180f7",
         "url": "https://github.com/tree-sitter/tree-sitter-scala"
       },
       "lang": "scala",
@@ -2148,7 +2148,7 @@
     {
       "install_info": {
         "generate_from_json": true,
-        "revision": "de0d0ee129cf643872e8e0d5c4a6589b5a3aae23",
+        "revision": "4dc2c5e2b5469dc35afc3cfae4c3783d971fd51b",
         "url": "https://github.com/vrischmann/tree-sitter-templ"
       },
       "lang": "templ",
