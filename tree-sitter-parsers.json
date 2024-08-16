@@ -1037,7 +1037,7 @@
     },
     {
       "install_info": {
-        "revision": "d34615fa12cc1d1cfc1f1f1a80acc9db80ee4596",
+        "revision": "ddd075f1939aed8147b7aa67f042eda3fce22790",
         "url": "https://github.com/sourcegraph/tree-sitter-jsonnet"
       },
       "lang": "jsonnet",
@@ -1147,7 +1147,7 @@
     },
     {
       "install_info": {
-        "revision": "5be130ef4308d65bdd3d323dbb8a93e2bd16d623",
+        "revision": "4c19cc5b2b408de590f83497a90cc941ed59ea06",
         "url": "https://github.com/hankthetank27/tree-sitter-liquid"
       },
       "lang": "liquid",
@@ -1247,7 +1247,7 @@
     },
     {
       "install_info": {
-        "revision": "0d5a05e543af2de60cdb5e71f0f5888c95ab936f",
+        "revision": "ad1c471f30ba754578d4b2e27a4c4ec662a10e6f",
         "url": "https://github.com/acristoffers/tree-sitter-matlab"
       },
       "lang": "matlab",
@@ -1312,7 +1312,7 @@
     },
     {
       "install_info": {
-        "revision": "3039ad9e9af3c1ffe049a04ee83a2b489915b0b9",
+        "revision": "88d836a24b3b11c8720874a1a9286b8ae838d30a",
         "url": "https://github.com/nickel-lang/tree-sitter-nickel"
       },
       "lang": "nickel",
@@ -1347,7 +1347,7 @@
     },
     {
       "install_info": {
-        "revision": "c00de3108b4f868e83ba67e78550e4829b3de27e",
+        "revision": "306a0f70a8f398fac921c3b53c15fe3b7304fff3",
         "url": "https://github.com/cstrahan/tree-sitter-nix"
       },
       "lang": "nix",

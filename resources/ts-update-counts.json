@@ -226,7 +226,7 @@
     },
     {
       "key": "erlang",
-      "value": 3
+      "value": 2
     },
     {
       "key": "facility",
@@ -330,7 +330,7 @@
     },
     {
       "key": "goctl",
-      "value": 3
+      "value": 2
     },
     {
       "key": "godot_resource",
@@ -490,7 +490,7 @@
     },
     {
       "key": "jsonnet",
-      "value": 2
+      "value": 4
     },
     {
       "key": "jsx",
@@ -546,7 +546,7 @@
     },
     {
       "key": "liquid",
-      "value": 3
+      "value": 5
     },
     {
       "key": "liquidsoap",
@@ -590,7 +590,7 @@
     },
     {
       "key": "matlab",
-      "value": 2
+      "value": 4
     },
     {
       "key": "menhir",
@@ -622,7 +622,7 @@
     },
     {
       "key": "nickel",
-      "value": 2
+      "value": 4
     },
     {
       "key": "nim",
@@ -638,7 +638,7 @@
     },
     {
       "key": "nix",
-      "value": 3
+      "value": 5
     },
     {
       "key": "nqc",
