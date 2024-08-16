@@ -478,7 +478,7 @@
     },
     {
       "install_info": {
-        "revision": "8f41b588fe38b981156651ef56b192ed3d158efd",
+        "revision": "0b5a0dcfcedd9b397252cb5568cc55ab1905b1a9",
         "url": "https://github.com/WhatsApp/tree-sitter-erlang"
       },
       "lang": "erlang",
@@ -694,7 +694,7 @@
     },
     {
       "install_info": {
-        "revision": "f107937259c7ec4bb05f7e3d2c24b89ac36d4cc3",
+        "revision": "49c43532689fe1f53e8b9e009d0521cab02c432b",
         "url": "https://github.com/chaozwn/tree-sitter-goctl"
       },
       "lang": "goctl",
@@ -1147,7 +1147,7 @@
     },
     {
       "install_info": {
-        "revision": "f84c94a4c0e93fe1231f6cda9c3a14df9c839ab2",
+        "revision": "5be130ef4308d65bdd3d323dbb8a93e2bd16d623",
         "url": "https://github.com/hankthetank27/tree-sitter-liquid"
       },
       "lang": "liquid",
@@ -1347,7 +1347,7 @@
     },
     {
       "install_info": {
-        "revision": "80b9318aa0e05d9539c7adb74f4aee5cf650a25e",
+        "revision": "c00de3108b4f868e83ba67e78550e4829b3de27e",
         "url": "https://github.com/cstrahan/tree-sitter-nix"
       },
       "lang": "nix",
