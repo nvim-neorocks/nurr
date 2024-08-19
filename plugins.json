@@ -71,6 +71,13 @@
             "license": "MIT"
         },
         {
+            "name": "stevearc/quicker.nvim",
+            "shorthand": "quicker.nvim",
+            "dependencies": [],
+            "summary": "Improved UI and workflow for the Neovim quickfix",
+            "license": "MIT"
+        },
+        {
             "name": "rktjmp/paperplanes.nvim",
             "shorthand": "paperplanes.nvim",
             "dependencies": [],
