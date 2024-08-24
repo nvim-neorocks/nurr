@@ -973,7 +973,7 @@
     },
     {
       "install_info": {
-        "revision": "953abfc8bb3eb2f578e1f461edba4a9885f974b8",
+        "revision": "576d8097e495b411f31daaee28cb34c1752ac702",
         "url": "https://github.com/tree-sitter/tree-sitter-java"
       },
       "lang": "java",
@@ -1347,7 +1347,7 @@
     },
     {
       "install_info": {
-        "revision": "c8a24d3ce7fc773eafe7d30f3c7131f33f110c50",
+        "revision": "0553955c53f564e5205f4f187d94973078c05ee7",
         "url": "https://github.com/cstrahan/tree-sitter-nix"
       },
       "lang": "nix",
@@ -1456,7 +1456,7 @@
       "install_info": {
         "branch": "release",
         "generate_from_json": true,
-        "revision": "18f855fcac9a2aa055ffb9f1a0b29d2db3e2f514",
+        "revision": "e78a161d5b1f3d0c7ebe439bfc6b2dff6f530ea8",
         "url": "https://github.com/tree-sitter-perl/tree-sitter-perl"
       },
       "lang": "perl",
@@ -1514,7 +1514,7 @@
       "install_info": {
         "branch": "release",
         "generate_from_json": true,
-        "revision": "39da859947b94abdee43e431368e1ae975c0a424",
+        "revision": "0bf8387987c21bf2f8ed41d2575a8f22b139687f",
         "url": "https://github.com/tree-sitter-perl/tree-sitter-pod"
       },
       "lang": "pod",
