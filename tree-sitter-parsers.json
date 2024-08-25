@@ -210,7 +210,7 @@
     },
     {
       "install_info": {
-        "revision": "ca6ef6c8ae0f1970d7e691d47f75ccca884a6060",
+        "revision": "3555706cef8b98d3e4c7379d7260548ff03ad363",
         "url": "https://github.com/stsewd/tree-sitter-comment"
       },
       "lang": "comment",
@@ -1456,7 +1456,7 @@
       "install_info": {
         "branch": "release",
         "generate_from_json": true,
-        "revision": "e78a161d5b1f3d0c7ebe439bfc6b2dff6f530ea8",
+        "revision": "ad69b44c32dc099e8dc90322fe52fe1d0206ce5f",
         "url": "https://github.com/tree-sitter-perl/tree-sitter-perl"
       },
       "lang": "perl",
@@ -1688,7 +1688,7 @@
     {
       "install_info": {
         "generate_from_json": true,
-        "revision": "febf48a5b6928600cd8fb2a01254743af550780d",
+        "revision": "cc4186f15e2829385be33440561fdd17b1c40cf7",
         "url": "https://github.com/yuja/tree-sitter-qmljs"
       },
       "lang": "qmljs",
@@ -2074,7 +2074,7 @@
     {
       "install_info": {
         "generate": true,
-        "revision": "261d880b081def748da113262a96279ff4fffeb1",
+        "revision": "d627a54d7266f0a8ee61b447b34d0ad07dadf1d6",
         "url": "https://github.com/alex-pinkus/tree-sitter-swift"
       },
       "lang": "swift",
@@ -2122,7 +2122,7 @@
     },
     {
       "install_info": {
-        "revision": "91cc49a83f4f0b3a756bf7d0e65403a9cf757003",
+        "revision": "b3710fe2723bd9b285de7f3d0c0717bebf3f17bd",
         "url": "https://github.com/tact-lang/tree-sitter-tact"
       },
       "lang": "tact",
@@ -2384,7 +2384,7 @@
     },
     {
       "install_info": {
-        "revision": "780a8a21e8e8d85bf2f33f1fef06951b47ccd8ca",
+        "revision": "09f8fbfe40a3a699b200daca7d92e65fbbe9f9e6",
         "url": "https://github.com/charmbracelet/tree-sitter-vhs"
       },
       "lang": "vhs",
