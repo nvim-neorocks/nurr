@@ -52,7 +52,7 @@
     },
     {
       "install_info": {
-        "revision": "2a35fccebcc08aa8b6c7bb3cff1f07cf0f8cff83",
+        "revision": "55b2b913f1e71136027d6fce8212e760c64f3532",
         "url": "https://github.com/RubixDev/tree-sitter-asm"
       },
       "lang": "asm",
@@ -727,7 +727,7 @@
     },
     {
       "install_info": {
-        "revision": "9d3f6e526dd074b9edae9070b7bb778f00e87a5b",
+        "revision": "fd9e1c6647e5e9b23918d00d1e48710d0f703e19",
         "url": "https://github.com/ngalaiko/tree-sitter-go-template"
       },
       "lang": "gotmpl",
@@ -824,7 +824,7 @@
     {
       "install_info": {
         "location": "dialects/helm",
-        "revision": "9d3f6e526dd074b9edae9070b7bb778f00e87a5b",
+        "revision": "fd9e1c6647e5e9b23918d00d1e48710d0f703e19",
         "url": "https://github.com/ngalaiko/tree-sitter-go-template"
       },
       "lang": "helm",
@@ -1131,7 +1131,7 @@
     },
     {
       "install_info": {
-        "revision": "304611b5eaf53aca07459a0a03803b83b6dfd3b3",
+        "revision": "f5ecaaa869a845e689399092cb9a61feca66cf12",
         "url": "https://github.com/r001/tree-sitter-leo"
       },
       "lang": "leo",
@@ -1456,7 +1456,7 @@
       "install_info": {
         "branch": "release",
         "generate_from_json": true,
-        "revision": "ad69b44c32dc099e8dc90322fe52fe1d0206ce5f",
+        "revision": "55fb764e6a94512ceeaa1b9e4d53f6103e0610b2",
         "url": "https://github.com/tree-sitter-perl/tree-sitter-perl"
       },
       "lang": "perl",
