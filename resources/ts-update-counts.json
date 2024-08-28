@@ -326,7 +326,7 @@
     },
     {
       "key": "go",
-      "value": 3
+      "value": 2
     },
     {
       "key": "goctl",
@@ -458,7 +458,7 @@
     },
     {
       "key": "janet_simple",
-      "value": 3
+      "value": 2
     },
     {
       "key": "java",
@@ -606,7 +606,7 @@
     },
     {
       "key": "mlir",
-      "value": 3
+      "value": 2
     },
     {
       "key": "muttrc",
@@ -638,7 +638,7 @@
     },
     {
       "key": "nix",
-      "value": 3
+      "value": 2
     },
     {
       "key": "nqc",
@@ -774,7 +774,7 @@
     },
     {
       "key": "python",
-      "value": 3
+      "value": 2
     },
     {
       "key": "ql",
@@ -886,7 +886,7 @@
     },
     {
       "key": "slint",
-      "value": 3
+      "value": 2
     },
     {
       "key": "smali",
@@ -922,7 +922,7 @@
     },
     {
       "key": "sql",
-      "value": 3
+      "value": 2
     },
     {
       "key": "squirrel",
@@ -1082,7 +1082,7 @@
     },
     {
       "key": "v",
-      "value": 3
+      "value": 2
     },
     {
       "key": "vala",
