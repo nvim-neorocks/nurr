@@ -194,7 +194,7 @@
     },
     {
       "key": "editorconfig",
-      "value": 2
+      "value": 4
     },
     {
       "key": "eds",
@@ -262,7 +262,7 @@
     },
     {
       "key": "fortran",
-      "value": 2
+      "value": 4
     },
     {
       "key": "fsh",
@@ -538,7 +538,7 @@
     },
     {
       "key": "leo",
-      "value": 2
+      "value": 4
     },
     {
       "key": "linkerscript",
@@ -690,11 +690,11 @@
     },
     {
       "key": "php",
-      "value": 2
+      "value": 4
     },
     {
       "key": "php_only",
-      "value": 2
+      "value": 4
     },
     {
       "key": "phpdoc",
