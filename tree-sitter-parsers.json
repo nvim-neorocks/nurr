@@ -19,7 +19,7 @@
     {
       "install_info": {
         "generate_from_json": true,
-        "revision": "c2d1f6d4c5f1993afce7f984ca2675af8d67457c",
+        "revision": "c473dbc54ca27f95d8928cfdb2a1a79300e16951",
         "url": "https://github.com/dlvandenberg/tree-sitter-angular"
       },
       "lang": "angular",
@@ -1280,7 +1280,7 @@
     {
       "install_info": {
         "generate": true,
-        "revision": "fd8cbd544bdff4acdfe1da63b403b5c591059aeb",
+        "revision": "02af5a1a1cfa69a094e3136b10dfb602f968232e",
         "url": "https://github.com/artagnon/tree-sitter-mlir"
       },
       "lang": "mlir",
