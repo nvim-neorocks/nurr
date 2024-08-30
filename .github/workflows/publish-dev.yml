@@ -67,3 +67,4 @@ jobs:
             --namespace=neorocks
             --force
             --dev
+          template: ${{ matrix.plugin.rockspec_template }}

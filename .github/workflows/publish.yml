@@ -112,3 +112,4 @@ jobs:
             ${{ matrix.plugin.extra_directories }}
           extra_luarocks_args: |
             --namespace=neorocks
+          template: ${{ matrix.plugin.rockspec_template }}

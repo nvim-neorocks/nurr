@@ -2330,6 +2330,21 @@
             "dependencies": ["leap.nvim"],
             "summary": "Enhanced f/t motions for leap.nvim",
             "license": "UNLICENSE"
+        },
+        {
+            "name": "voldikss/vim-floaterm",
+            "shorthand": "vim-floatterm",
+            "dependencies": [],
+            "summary": "💻 Terminal manager for (neo)vim",
+            "license": "MIT"
+        },
+        {
+            "name": "nushell/tree-sitter-nu",
+            "shorthand": "tree-sitter-nu",
+            "dependencies": [],
+            "summary": "A tree-sitter grammar for nu-lang, the language of nushell",
+            "license": "MIT",
+            "rockspec_template": "resources/tree-sitter-nu.template",
         }
     ]
 }

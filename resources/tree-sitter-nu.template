@@ -1,0 +1,36 @@
+local git_ref = '$git_ref'
+local modrev = '$modrev'
+local specrev = '$specrev'
+
+local repo_url = '$repo_url'
+
+rockspec_format = '3.0'
+package = '$package'
+version = modrev ..'-'.. specrev
+
+description = {
+  summary = '$summary',
+  labels = $labels,
+  homepage = '$homepage',
+  $license
+}
+
+dependencies = $dependencies
+
+build_dependencies = {
+  'luarocks-build-treesitter-parser >= 5.0.0',
+}
+
+source = {
+  url = repo_url .. '/archive/' .. git_ref .. '.zip',
+  dir = '$repo_name-' .. '$archive_dir_suffix',
+}
+
+build = {
+  type = "treesitter-parser",
+  lang = "nu",
+  parser = true,
+  copy_directories = { 
+    "queries",
+  },
+}
