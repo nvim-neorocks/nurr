@@ -2344,7 +2344,7 @@
             "dependencies": [],
             "summary": "A tree-sitter grammar for nu-lang, the language of nushell",
             "license": "MIT",
-            "rockspec_template": "resources/tree-sitter-nu.template"
+            "rockspec_template": "nurr/resources/tree-sitter-nu.template"
         }
     ]
 }

@@ -95,6 +95,13 @@ jobs:
             echo EOF
           } >> "$GITHUB_OUTPUT"
 
+      - name: Get resources
+        uses: actions/checkout@v4
+        with: 
+          sparse-checkout: |
+            resources
+          path: nurr
+
       - name: Publish LuaRock
         uses: nvim-neorocks/luarocks-tag-release@v7
         if: ${{ env.PUBLISHED_COUNT == '0' }}
