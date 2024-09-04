@@ -18,7 +18,7 @@
     },
     {
       "key": "arduino",
-      "value": 2
+      "value": 1
     },
     {
       "key": "asm",
@@ -74,7 +74,7 @@
     },
     {
       "key": "c_sharp",
-      "value": 2
+      "value": 1
     },
     {
       "key": "cairo",
@@ -142,7 +142,7 @@
     },
     {
       "key": "dart",
-      "value": 2
+      "value": 1
     },
     {
       "key": "devicetree",
@@ -222,7 +222,7 @@
     },
     {
       "key": "embedded_template",
-      "value": 2
+      "value": 1
     },
     {
       "key": "erlang",
@@ -306,7 +306,7 @@
     },
     {
       "key": "gleam",
-      "value": 2
+      "value": 1
     },
     {
       "key": "glimmer",
@@ -430,7 +430,7 @@
     },
     {
       "key": "http",
-      "value": 2
+      "value": 1
     },
     {
       "key": "hurl",
@@ -446,7 +446,7 @@
     },
     {
       "key": "ini",
-      "value": 2
+      "value": 1
     },
     {
       "key": "inko",
@@ -462,11 +462,11 @@
     },
     {
       "key": "java",
-      "value": 2
+      "value": 1
     },
     {
       "key": "javascript",
-      "value": 2
+      "value": 1
     },
     {
       "key": "jq",
@@ -514,7 +514,7 @@
     },
     {
       "key": "kotlin",
-      "value": 2
+      "value": 1
     },
     {
       "key": "koto",
@@ -538,7 +538,7 @@
     },
     {
       "key": "leo",
-      "value": 2
+      "value": 1
     },
     {
       "key": "linkerscript",
@@ -686,7 +686,7 @@
     },
     {
       "key": "perl",
-      "value": 2
+      "value": 1
     },
     {
       "key": "php",
@@ -798,7 +798,7 @@
     },
     {
       "key": "racket",
-      "value": 2
+      "value": 1
     },
     {
       "key": "ralph",
@@ -874,7 +874,7 @@
     },
     {
       "key": "scheme",
-      "value": 2
+      "value": 1
     },
     {
       "key": "scss",
@@ -942,7 +942,7 @@
     },
     {
       "key": "styled",
-      "value": 2
+      "value": 1
     },
     {
       "key": "supercollider",
@@ -958,7 +958,7 @@
     },
     {
       "key": "swift",
-      "value": 2
+      "value": 1
     },
     {
       "key": "sxhkdrc",
@@ -994,7 +994,7 @@
     },
     {
       "key": "templ",
-      "value": 2
+      "value": 1
     },
     {
       "key": "terraform",
@@ -1098,7 +1098,7 @@
     },
     {
       "key": "vhdl",
-      "value": 2
+      "value": 1
     },
     {
       "key": "vhs",
@@ -1158,7 +1158,7 @@
     },
     {
       "key": "zig",
-      "value": 2
+      "value": 1
     },
     {
       "key": "powershell",
