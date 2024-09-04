@@ -41,7 +41,7 @@
     {
       "install_info": {
         "generate_from_json": true,
-        "revision": "afb34b2c65f507932c5c6ddbf0d5a9ca6a772f2f",
+        "revision": "1db90b2b54c995ee8ff8e64dabeb4a5971287c16",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-arduino"
       },
       "lang": "arduino",
@@ -162,7 +162,7 @@
     },
     {
       "install_info": {
-        "revision": "31a64b28292aac6adf44071e449fa03fb80eaf4e",
+        "revision": "fd7f7402db6e66afd70b402fb2e367b2d71c10d6",
         "url": "https://github.com/tree-sitter/tree-sitter-c-sharp"
       },
       "lang": "c_sharp",
@@ -311,7 +311,7 @@
     },
     {
       "install_info": {
-        "revision": "cf72df5d4a623ca705e81bf9e9d264e1fe9d5da0",
+        "revision": "9ac03bb2154316624fb4c41fe0f372a5f1597b43",
         "url": "https://github.com/UserNobody14/tree-sitter-dart"
       },
       "lang": "dart",
@@ -470,7 +470,7 @@
     },
     {
       "install_info": {
-        "revision": "ffbf64942c334933ee7982e144557b6efb76d0b9",
+        "revision": "62b0a6e45900a7dff7c37da95fec20a09968ba52",
         "url": "https://github.com/tree-sitter/tree-sitter-embedded-template"
       },
       "lang": "embedded_template",
@@ -583,6 +583,27 @@
     },
     {
       "install_info": {
+        "revision": "141b063335e85299bde3f61b4888d02d674a1abc",
+        "url": "https://github.com/gap-system/tree-sitter-gap"
+      },
+      "lang": "gap",
+      "readme_note": "GAP system",
+      "tier": 3
+    },
+    {
+      "install_info": {
+        "revision": "e0723dc6136309b3d5904dad2c73ef71267428c1",
+        "url": "https://github.com/gap-system/tree-sitter-gaptst"
+      },
+      "lang": "gaptst",
+      "readme_note": "GAP system test files",
+      "requires": [
+        "gap"
+      ],
+      "tier": 3
+    },
+    {
+      "install_info": {
         "revision": "1f1e782fe2600f50ae57b53876505b8282388d77",
         "url": "https://github.com/PrestonKnopp/tree-sitter-gdscript"
       },
@@ -640,7 +661,7 @@
     },
     {
       "install_info": {
-        "revision": "426e67087fd62be5f4533581b5916b2cf010fb5b",
+        "revision": "0d38bfdc04cc90d7541c21e39089e35e40c429d3",
         "url": "https://github.com/gleam-lang/tree-sitter-gleam"
       },
       "lang": "gleam",
@@ -649,10 +670,34 @@
     {
       "install_info": {
         "revision": "da605af8c5999b43e6839b575eae5e6cafabb06f",
-        "url": "https://github.com/alexlafroscia/tree-sitter-glimmer"
+        "url": "https://github.com/ember-tooling/tree-sitter-glimmer"
       },
       "lang": "glimmer",
       "readme_note": "Glimmer and Ember",
+      "tier": 3
+    },
+    {
+      "install_info": {
+        "generate_from_json": true,
+        "revision": "a260911201684f80cf815418b3771e6c39309f81",
+        "url": "https://github.com/NullVoxPopuli/tree-sitter-glimmer-javascript"
+      },
+      "lang": "glimmer_javascript",
+      "requires": [
+        "ecma"
+      ],
+      "tier": 3
+    },
+    {
+      "install_info": {
+        "generate_from_json": true,
+        "revision": "9d018a0f93417e6951264a26093b89ee63df7315",
+        "url": "https://github.com/NullVoxPopuli/tree-sitter-glimmer-typescript"
+      },
+      "lang": "glimmer_typescript",
+      "requires": [
+        "typescript"
+      ],
       "tier": 3
     },
     {
@@ -905,7 +950,7 @@
     },
     {
       "install_info": {
-        "revision": "bbcd67642e5749b90277c353b72e762f3be16993",
+        "revision": "49e1ceefcdcf89abfd4d8f013359cf90c615b1cd",
         "url": "https://github.com/rest-nvim/tree-sitter-http"
       },
       "lang": "http",
@@ -937,7 +982,7 @@
     },
     {
       "install_info": {
-        "revision": "87176e524f0a98f5be75fa44f4f0ff5c6eac069c",
+        "revision": "962568c9efa71d25720ab42c5d36e222626ef3a6",
         "url": "https://github.com/justinmk/tree-sitter-ini"
       },
       "lang": "ini",
@@ -973,7 +1018,7 @@
     },
     {
       "install_info": {
-        "revision": "576d8097e495b411f31daaee28cb34c1752ac702",
+        "revision": "245b05c6ba900fa708242835f6168ef76f9d951e",
         "url": "https://github.com/tree-sitter/tree-sitter-java"
       },
       "lang": "java",
@@ -981,7 +1026,7 @@
     },
     {
       "install_info": {
-        "revision": "15887341e5b57ffdb423aff840aef142b8f53d6d",
+        "revision": "463fec0831011cab830429fbe1da2796cfc1cfb4",
         "url": "https://github.com/tree-sitter/tree-sitter-javascript"
       },
       "lang": "javascript",
@@ -1082,7 +1127,7 @@
     },
     {
       "install_info": {
-        "revision": "dc5e8a14cb1f45582a8c221a270a199a5f8bdb63",
+        "revision": "7276b93ca6754c21f9630757e753f1b6aec500c1",
         "url": "https://github.com/fwcd/tree-sitter-kotlin"
       },
       "lang": "kotlin",
@@ -1131,7 +1176,7 @@
     },
     {
       "install_info": {
-        "revision": "07fbb1d1dd193cf9995945e5412aff61c95c67e0",
+        "revision": "6ca11a96fc2cab51217e0cf4a2f9ed3ea63e28fb",
         "url": "https://github.com/r001/tree-sitter-leo"
       },
       "lang": "leo",
@@ -1456,7 +1501,7 @@
       "install_info": {
         "branch": "release",
         "generate_from_json": true,
-        "revision": "55fb764e6a94512ceeaa1b9e4d53f6103e0610b2",
+        "revision": "05d6a22c903ab7d12e93a039332ad6687c8c7b7d",
         "url": "https://github.com/tree-sitter-perl/tree-sitter-perl"
       },
       "lang": "perl",
@@ -1716,7 +1761,7 @@
     },
     {
       "install_info": {
-        "revision": "171f52a8c0ed635b85cd42d1e36d82f1066a03b4",
+        "revision": "24dbb1dfc08e0f99dfbd0eddc5e73ef307f538dc",
         "url": "https://github.com/6cdh/tree-sitter-racket"
       },
       "lang": "racket",
@@ -1878,7 +1923,7 @@
     },
     {
       "install_info": {
-        "revision": "8f9dff3d038f09934db5ea113cebc59c74447743",
+        "revision": "432c338093c69222efbeb124feb90715da306cc7",
         "url": "https://github.com/6cdh/tree-sitter-scheme"
       },
       "lang": "scheme",
@@ -2037,7 +2082,7 @@
     {
       "install_info": {
         "generate_from_json": true,
-        "revision": "e8bf912db4996b32515639d42fe2b258517f135e",
+        "revision": "b729198642b3058d4ea0f864d86efb271d594595",
         "url": "https://github.com/mskelton/tree-sitter-styled"
       },
       "lang": "styled",
@@ -2074,7 +2119,7 @@
     {
       "install_info": {
         "generate": true,
-        "revision": "d627a54d7266f0a8ee61b447b34d0ad07dadf1d6",
+        "revision": "5254a12fae5ddcb62ca8cbf57eca83c1c41cd884",
         "url": "https://github.com/alex-pinkus/tree-sitter-swift"
       },
       "lang": "swift",
@@ -2148,7 +2193,7 @@
     {
       "install_info": {
         "generate_from_json": true,
-        "revision": "58aed18580c476d7bc211f187e7b07a6cd12bb1f",
+        "revision": "5c19fba6dc99315d02160ed928bbc5cd8ac9ffe1",
         "url": "https://github.com/vrischmann/tree-sitter-templ"
       },
       "lang": "templ",
@@ -2376,7 +2421,7 @@
     },
     {
       "install_info": {
-        "revision": "4ab3e251eae8890a020d083d00acd1b8c2653c07",
+        "revision": "3f13cd14952b39ccf6817f58880834b84565ca54",
         "url": "https://github.com/jpt13653903/tree-sitter-vhdl"
       },
       "lang": "vhdl",
@@ -2514,11 +2559,11 @@
     },
     {
       "install_info": {
-        "revision": "2bac4cc6c697d46a193905fef6d003bfa0bfabfd",
-        "url": "https://github.com/maxxnino/tree-sitter-zig"
+        "revision": "21e2218e0ec7f4e3c0640d16bf8c67e6f0a61e18",
+        "url": "https://github.com/tree-sitter-grammars/tree-sitter-zig"
       },
       "lang": "zig",
-      "tier": 3
+      "tier": 1
     }
   ]
 }
