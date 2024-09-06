@@ -1095,7 +1095,7 @@
     },
     {
       "install_info": {
-        "revision": "78b05f3506ecbb0cef10b228a2edeb73bf966e5f",
+        "revision": "3520b57e418f734f582215181ecd926a6178c90f",
         "url": "https://github.com/tree-sitter/tree-sitter-julia"
       },
       "lang": "julia",
@@ -1127,7 +1127,7 @@
     },
     {
       "install_info": {
-        "revision": "7276b93ca6754c21f9630757e753f1b6aec500c1",
+        "revision": "ec985672ff21f7fd7f835869d8021e8f87304bb4",
         "url": "https://github.com/fwcd/tree-sitter-kotlin"
       },
       "lang": "kotlin",
@@ -2175,7 +2175,7 @@
     },
     {
       "install_info": {
-        "revision": "46e6acd5c5376047338dd64d955b743f90d8e772",
+        "revision": "cdba4ab96a9896492d0d5219b70300c8783ca4e7",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-tcl"
       },
       "lang": "tcl",
