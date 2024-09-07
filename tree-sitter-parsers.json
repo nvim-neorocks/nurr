@@ -438,7 +438,7 @@
     },
     {
       "install_info": {
-        "revision": "c7ae8b77e2749826dcf23df6514f08fdd68c66a3",
+        "revision": "27efab52e7c955ccd68e0fd82a1c6d83002bc7c8",
         "url": "https://github.com/elixir-lang/tree-sitter-elixir"
       },
       "lang": "elixir",
@@ -478,7 +478,7 @@
     },
     {
       "install_info": {
-        "revision": "0b5a0dcfcedd9b397252cb5568cc55ab1905b1a9",
+        "revision": "0dfcdf18b35dd9cfcf92be42659794d07d819d88",
         "url": "https://github.com/WhatsApp/tree-sitter-erlang"
       },
       "lang": "erlang",
@@ -804,7 +804,7 @@
     },
     {
       "install_info": {
-        "revision": "84077d93f8267f8374476f8ef636bf21c43f679f",
+        "revision": "0d8884514fe10c4fa47527d9a0284d207f38ddea",
         "url": "https://github.com/murtaza64/tree-sitter-groovy"
       },
       "lang": "groovy",
@@ -1753,7 +1753,7 @@
     },
     {
       "install_info": {
-        "revision": "b1e211f52ad8f8e1e182bbbcc16dcd5e3688eb7d",
+        "revision": "c8b6e5f3f3c055cfc76471ebc912286e9e73d7d2",
         "url": "https://github.com/r-lib/tree-sitter-r"
       },
       "lang": "r",
@@ -2107,7 +2107,7 @@
     {
       "install_info": {
         "generate_from_json": true,
-        "revision": "7ab8221e3f378a3b04b4b488f07c1f408c5bd0d8",
+        "revision": "6fe714f0c9026a986b916bf39c1021ffcb1e995b",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-svelte"
       },
       "lang": "svelte",
@@ -2119,7 +2119,7 @@
     {
       "install_info": {
         "generate": true,
-        "revision": "5254a12fae5ddcb62ca8cbf57eca83c1c41cd884",
+        "revision": "caa953d26c9479d18a373873125733f01342c40a",
         "url": "https://github.com/alex-pinkus/tree-sitter-swift"
       },
       "lang": "swift",
