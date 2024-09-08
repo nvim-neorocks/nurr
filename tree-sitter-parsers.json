@@ -392,7 +392,7 @@
     },
     {
       "install_info": {
-        "revision": "b0a9bc5737340a9b80b489fe9ae93d7b2fe78cd7",
+        "revision": "1d637f2002bb8b22d4c08d26ad2bfbc22916f3ce",
         "url": "https://github.com/glehmann/tree-sitter-earthfile"
       },
       "lang": "earthfile",
@@ -1761,7 +1761,7 @@
     },
     {
       "install_info": {
-        "revision": "24dbb1dfc08e0f99dfbd0eddc5e73ef307f538dc",
+        "revision": "5b211bf93021d1c45f39aa96898be9f794f087e4",
         "url": "https://github.com/6cdh/tree-sitter-racket"
       },
       "lang": "racket",
@@ -1923,7 +1923,7 @@
     },
     {
       "install_info": {
-        "revision": "432c338093c69222efbeb124feb90715da306cc7",
+        "revision": "63e25a4a84142ae7ee0ee01fe3a32c985ca16745",
         "url": "https://github.com/6cdh/tree-sitter-scheme"
       },
       "lang": "scheme",
@@ -2107,7 +2107,7 @@
     {
       "install_info": {
         "generate_from_json": true,
-        "revision": "6fe714f0c9026a986b916bf39c1021ffcb1e995b",
+        "revision": "774a65aea563accc35f5d45fafa4d96ec5761f57",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-svelte"
       },
       "lang": "svelte",

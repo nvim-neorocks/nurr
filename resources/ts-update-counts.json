@@ -182,7 +182,7 @@
     },
     {
       "key": "earthfile",
-      "value": 2
+      "value": 4
     },
     {
       "key": "ebnf",
@@ -798,7 +798,7 @@
     },
     {
       "key": "racket",
-      "value": 2
+      "value": 4
     },
     {
       "key": "ralph",
@@ -874,7 +874,7 @@
     },
     {
       "key": "scheme",
-      "value": 2
+      "value": 4
     },
     {
       "key": "scss",
@@ -954,7 +954,7 @@
     },
     {
       "key": "svelte",
-      "value": 2
+      "value": 4
     },
     {
       "key": "swift",
