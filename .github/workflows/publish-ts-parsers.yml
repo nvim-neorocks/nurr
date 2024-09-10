@@ -163,7 +163,7 @@ jobs:
             if [[ -n "$count" ]]; then
               # If VERSIONED_DEPENDENCIES is not empty, append a newline before adding the next dependency
               [[ -n "$VERSIONED_DEPENDENCIES" ]] && VERSIONED_DEPENDENCIES+=$'\n'
-              VERSIONED_DEPENDENCIES+="tree-sitter-$lang = 0.0.$count"
+              VERSIONED_DEPENDENCIES+="tree-sitter-$lang == 0.0.$count"
             else
               # Append the unchanged dependency
               [[ -n "$VERSIONED_DEPENDENCIES" ]] && VERSIONED_DEPENDENCIES+=$'\n'
