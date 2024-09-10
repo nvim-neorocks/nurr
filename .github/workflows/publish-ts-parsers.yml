@@ -161,10 +161,13 @@ jobs:
             # Fetch the update count from the JSON file
             count=$(jq -r --arg lang "$lang" '.update_counts[] | select(.key == $lang) | .value' nurr/resources/ts-update-counts.json)
             if [[ -n "$count" ]]; then
-              VERSIONED_DEPENDENCIES+=$(echo "tree-sitter-$lang == 0.0.$count\n")
+              # If VERSIONED_DEPENDENCIES is not empty, append a newline before adding the next dependency
+              [[ -n "$VERSIONED_DEPENDENCIES" ]] && VERSIONED_DEPENDENCIES+=$'\n'
+              VERSIONED_DEPENDENCIES+="tree-sitter-$lang = 0.0.$count"
             else
               # Append the unchanged dependency
-              VERSIONED_DEPENDENCIES+=$(echo "$dep\n")
+              [[ -n "$VERSIONED_DEPENDENCIES" ]] && VERSIONED_DEPENDENCIES+=$'\n'
+              VERSIONED_DEPENDENCIES+="$dep"
             fi
           done <<< "$DEPENDENCIES"  # Using <<< to pass the dependencies as input to the loop
           {
