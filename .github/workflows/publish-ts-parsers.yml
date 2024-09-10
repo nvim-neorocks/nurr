@@ -159,7 +159,7 @@ jobs:
           while read -r dep; do
             lang="${dep#tree-sitter-}"
             # Fetch the update count from the JSON file
-            count=$(jq -r --arg lang "$lang" '.update_counts[] | select(.key == $lang) | .value' resources/ts-update-counts.json)
+            count=$(jq -r --arg lang "$lang" '.update_counts[] | select(.key == $lang) | .value' nurr/resources/ts-update-counts.json)
             if [[ -n "$count" ]]; then
               VERSIONED_DEPENDENCIES+=$(echo "tree-sitter-$lang == 0.0.$count\n")
             else
