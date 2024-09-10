@@ -10,8 +10,12 @@ on:
       - .github/workflows/publish-ts-parsers.yml
       - resources/tree-sitter-parser-rockspec.template
   schedule:
-    # Runs every 12 h
+    # Runs 10 min past every 12 h
     - cron: "10 */12 * * *"
+    # And 40 min past every 12 h (in case of dependency updates)
+    - cron: "40 */12 * * *"
+    # And 10 min past every 13 h
+    - cron: "10 */13 * * *"
   workflow_dispatch:
 
 jobs:
