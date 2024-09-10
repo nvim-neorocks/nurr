@@ -141,13 +141,35 @@ jobs:
           sed -i -e "/NVIM_TREESITTER_LICENSE_CONTENT/ {" -e "r nvim-treesitter/LICENSE" -e "d" -e "}" rockspec.template
           cat rockspec.template
 
-      - name: Prepare dependencies
+      - name: Prepare dev dependencies
+        if: ${{ matrix.parsers.requires != null }}
+        run: |
+          DEV_DEPENDENCIES=$(echo -e "${{ join(matrix.parsers.requires, '\n') }}" | sed 's/^/tree-sitter-/')
+          {
+            echo 'DEV_DEPENDENCIES<<EOF'
+            echo "$DEV_DEPENDENCIES"
+            echo EOF
+          } >> $GITHUB_ENV
+
+      - name: Prepare versioned dependencies
         if: ${{ matrix.parsers.requires != null }}
         run: |
           DEPENDENCIES=$(echo -e "${{ join(matrix.parsers.requires, '\n') }}" | sed 's/^/tree-sitter-/')
+          VERSIONED_DEPENDENCIES=""
+          while read -r dep; do
+            lang="${dep#tree-sitter-}"
+            # Fetch the update count from the JSON file
+            count=$(jq -r --arg lang "$lang" '.update_counts[] | select(.key == $lang) | .value' resources/ts-update-counts.json)
+            if [[ -n "$count" ]]; then
+              VERSIONED_DEPENDENCIES+=$(echo "tree-sitter-$lang == 0.0.$count\n")
+            else
+              # Append the unchanged dependency
+              VERSIONED_DEPENDENCIES+=$(echo "$dep\n")
+            fi
+          done <<< "$DEPENDENCIES"  # Using <<< to pass the dependencies as input to the loop
           {
-            echo 'DEPENDENCIES<<EOF'
-            echo "$DEPENDENCIES"
+            echo 'VERSIONED_DEPENDENCIES<<EOF'
+            echo "$VERSIONED_DEPENDENCIES"
             echo EOF
           } >> $GITHUB_ENV
 
@@ -204,7 +226,7 @@ jobs:
           labels: |
             neovim
             tree-sitter
-          dependencies: ${{ env.DEPENDENCIES }}
+          dependencies: ${{ env.DEV_DEPENDENCIES }}
           extra_luarocks_args: |
             --namespace=neorocks
             --force
@@ -223,6 +245,6 @@ jobs:
           labels: |
             neovim
             tree-sitter
-          dependencies: ${{ env.DEPENDENCIES }}
+          dependencies: ${{ env.VERSIONED_DEPENDENCIES }}
           extra_luarocks_args: |
             --namespace=neorocks
