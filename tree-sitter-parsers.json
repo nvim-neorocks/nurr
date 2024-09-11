@@ -1270,7 +1270,7 @@
     {
       "install_info": {
         "location": "tree-sitter-markdown",
-        "revision": "a3481e1db0b5f9aecfa7124d362a6485286a8e72",
+        "revision": "c25b6354120182f1e0d5caa52f717b097a7e46a3",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-markdown"
       },
       "lang": "markdown",
@@ -1283,7 +1283,7 @@
     {
       "install_info": {
         "location": "tree-sitter-markdown-inline",
-        "revision": "a3481e1db0b5f9aecfa7124d362a6485286a8e72",
+        "revision": "c25b6354120182f1e0d5caa52f717b097a7e46a3",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-markdown"
       },
       "lang": "markdown_inline",
