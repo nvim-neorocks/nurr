@@ -756,7 +756,7 @@
     },
     {
       "install_info": {
-        "revision": "1f55029bacd0a6a11f6eb894c4312d429dcf735c",
+        "revision": "3b01edce2b9ea6766ca19328d1850e456fde3103",
         "url": "https://github.com/camdencheek/tree-sitter-go-mod"
       },
       "lang": "gomod",
@@ -1160,7 +1160,7 @@
     {
       "install_info": {
         "generate": true,
-        "revision": "90fd9894bebddce79f5b8041e7f82523364a619b",
+        "revision": "1e4e30342b7a3b3a24886a632fbac53035d98871",
         "url": "https://github.com/latex-lsp/tree-sitter-latex"
       },
       "lang": "latex",
@@ -1270,7 +1270,7 @@
     {
       "install_info": {
         "location": "tree-sitter-markdown",
-        "revision": "c25b6354120182f1e0d5caa52f717b097a7e46a3",
+        "revision": "d9287a6f36347064e55c36858e9e522eb652c1ad",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-markdown"
       },
       "lang": "markdown",
@@ -1283,7 +1283,7 @@
     {
       "install_info": {
         "location": "tree-sitter-markdown-inline",
-        "revision": "c25b6354120182f1e0d5caa52f717b097a7e46a3",
+        "revision": "d9287a6f36347064e55c36858e9e522eb652c1ad",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-markdown"
       },
       "lang": "markdown_inline",
@@ -1501,7 +1501,7 @@
       "install_info": {
         "branch": "release",
         "generate_from_json": true,
-        "revision": "70db420b20885ecd7268e5a710ebb3aeaef3a293",
+        "revision": "465983954cae2d2f984eae82de5ed5f11ca291dc",
         "url": "https://github.com/tree-sitter-perl/tree-sitter-perl"
       },
       "lang": "perl",
@@ -1906,7 +1906,7 @@
     },
     {
       "install_info": {
-        "revision": "b02af60518ae1633d552ae2d0f25ca5e05f274f7",
+        "revision": "42c065ca40760884301b887c56e344ca4d6feab3",
         "url": "https://github.com/tree-sitter/tree-sitter-scala"
       },
       "lang": "scala",
