@@ -703,7 +703,7 @@
     {
       "install_info": {
         "generate_from_json": true,
-        "revision": "ddc3137a2d775aca93084ff997fa13cc1691058a",
+        "revision": "66aec57f7119c7e8e40665b723cd7af5594f15ee",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-glsl"
       },
       "lang": "glsl",
@@ -890,7 +890,7 @@
     {
       "install_info": {
         "generate_from_json": true,
-        "revision": "cf432a7420eb71e9b40954aa829dcb8a9bf6b546",
+        "revision": "543930235970a04c2f0d549c9e88815847c7a74a",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-hlsl"
       },
       "lang": "hlsl",
@@ -1906,7 +1906,7 @@
     },
     {
       "install_info": {
-        "revision": "42c065ca40760884301b887c56e344ca4d6feab3",
+        "revision": "ec13dd674bb8dd89213e0d6b1fe45efb68d5878f",
         "url": "https://github.com/tree-sitter/tree-sitter-scala"
       },
       "lang": "scala",
@@ -1953,7 +1953,7 @@
     {
       "install_info": {
         "generate_from_json": true,
-        "revision": "4a3fabd26b09efd7431ea4899e5f2d81b568a4b9",
+        "revision": "dd991eb3b6957a33d9044e0f5914588f7f449a78",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-slang"
       },
       "lang": "slang",
