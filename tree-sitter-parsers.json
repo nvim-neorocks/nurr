@@ -958,7 +958,7 @@
     },
     {
       "install_info": {
-        "revision": "fba6ed8db3a009b9e7d656511931b181a3ee5b08",
+        "revision": "ff07a42d9ec95443b5c1b57ed793414bf7b79be5",
         "url": "https://github.com/pfeiferj/tree-sitter-hurl"
       },
       "lang": "hurl",
@@ -2389,7 +2389,7 @@
     {
       "install_info": {
         "location": "tree_sitter_v",
-        "revision": "d63bc6c08a88715c89f4b1b06642e130dd899aba",
+        "revision": "83b7286d8f4f33c88dff102bad22149d8e29d9eb",
         "url": "https://github.com/vlang/v-analyzer"
       },
       "lang": "v",
