@@ -32,7 +32,7 @@
     {
       "install_info": {
         "location": "apex",
-        "revision": "602cc4b050ef1e14a69acc2ea094968bf928fa59",
+        "revision": "45994a30c6e421995ebc61f8c4c61cf75d249e27",
         "url": "https://github.com/aheber/tree-sitter-sfapex"
       },
       "lang": "apex",
@@ -1943,7 +1943,7 @@
     {
       "install_info": {
         "location": "sflog",
-        "revision": "602cc4b050ef1e14a69acc2ea094968bf928fa59",
+        "revision": "45994a30c6e421995ebc61f8c4c61cf75d249e27",
         "url": "https://github.com/aheber/tree-sitter-sfapex"
       },
       "lang": "sflog",
@@ -2004,7 +2004,7 @@
     {
       "install_info": {
         "location": "soql",
-        "revision": "602cc4b050ef1e14a69acc2ea094968bf928fa59",
+        "revision": "45994a30c6e421995ebc61f8c4c61cf75d249e27",
         "url": "https://github.com/aheber/tree-sitter-sfapex"
       },
       "lang": "soql",
@@ -2013,7 +2013,7 @@
     {
       "install_info": {
         "location": "sosl",
-        "revision": "602cc4b050ef1e14a69acc2ea094968bf928fa59",
+        "revision": "45994a30c6e421995ebc61f8c4c61cf75d249e27",
         "url": "https://github.com/aheber/tree-sitter-sfapex"
       },
       "lang": "sosl",
@@ -2119,7 +2119,7 @@
     {
       "install_info": {
         "generate": true,
-        "revision": "7d303df70012edb7385a6a3b3938e0e7b89ecfbd",
+        "revision": "032930d6218d8ae23bde074cf29ce8d276b87533",
         "url": "https://github.com/alex-pinkus/tree-sitter-swift"
       },
       "lang": "swift",
