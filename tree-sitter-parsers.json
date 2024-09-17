@@ -303,7 +303,7 @@
     },
     {
       "install_info": {
-        "revision": "ac584585a15c4cacd6cda8e6bfe7cb1ca7b3898e",
+        "revision": "c0dc93c0268c61567a1c9325137c5f107f12e3fb",
         "url": "https://github.com/gdamore/tree-sitter-d"
       },
       "lang": "d",
@@ -950,7 +950,7 @@
     },
     {
       "install_info": {
-        "revision": "7c68e1c8ce6eeef6bc4b749330c540dbbda5ba44",
+        "revision": "a2865ebbe419da8ecb0f42cc4d3c53b14d9ea039",
         "url": "https://github.com/rest-nvim/tree-sitter-http"
       },
       "lang": "http",
@@ -1392,7 +1392,7 @@
     },
     {
       "install_info": {
-        "revision": "537095ddc80cf610fa75a2a0149fe9799b011014",
+        "revision": "ceaf10eb2ae877175d58e6304f83ec6f4d704295",
         "url": "https://github.com/cstrahan/tree-sitter-nix"
       },
       "lang": "nix",
