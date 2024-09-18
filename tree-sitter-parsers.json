@@ -303,7 +303,7 @@
     },
     {
       "install_info": {
-        "revision": "c0dc93c0268c61567a1c9325137c5f107f12e3fb",
+        "revision": "b0edd520697f7ea849fae0514490f5e094cfb680",
         "url": "https://github.com/gdamore/tree-sitter-d"
       },
       "lang": "d",
@@ -551,7 +551,7 @@
     },
     {
       "install_info": {
-        "revision": "8f842945abefb76b9a68c0835619b37060b8f098",
+        "revision": "7cdd245093c92fc9c5c80fa62d08ed46bcd98d04",
         "url": "https://github.com/stadelmanma/tree-sitter-fortran"
       },
       "lang": "fortran",
@@ -731,7 +731,7 @@
     },
     {
       "install_info": {
-        "revision": "81a11f8252998ee6b98d59e6da91fc307491e53d",
+        "revision": "ecc20866d1bd4d80f3aef06456ed3014d4d598e6",
         "url": "https://github.com/tree-sitter/tree-sitter-go"
       },
       "lang": "go",
@@ -990,7 +990,7 @@
     },
     {
       "install_info": {
-        "revision": "234c87be1dac20f766ddf6f486a7bde2a4bc5594",
+        "revision": "3a8887ca16dd8add3905216ce63796d4097c7a6f",
         "url": "https://github.com/inko-lang/tree-sitter-inko"
       },
       "lang": "inko",
@@ -1392,7 +1392,7 @@
     },
     {
       "install_info": {
-        "revision": "ceaf10eb2ae877175d58e6304f83ec6f4d704295",
+        "revision": "637ea4b4748bd4dae62976cccbff031198e688fc",
         "url": "https://github.com/cstrahan/tree-sitter-nix"
       },
       "lang": "nix",
@@ -1753,7 +1753,7 @@
     },
     {
       "install_info": {
-        "revision": "4279b699c47fa87956045980c46c7d30f8c0121b",
+        "revision": "2097fa502efa21349d26af0ffee55d773015e481",
         "url": "https://github.com/r-lib/tree-sitter-r"
       },
       "lang": "r",
@@ -2237,7 +2237,7 @@
     },
     {
       "install_info": {
-        "revision": "bba02e79f85e335f310fc95e21c677e49f2c4439",
+        "revision": "a9f9c136baa9b73c63850be92301fb5f1fc9b2fd",
         "url": "https://github.com/tlaplus-community/tree-sitter-tlaplus"
       },
       "lang": "tlaplus",
