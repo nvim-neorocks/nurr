@@ -414,7 +414,7 @@
     },
     {
       "install_info": {
-        "revision": "faf014c607f912ff666b20183d32a03dcfc3111d",
+        "revision": "a761198025448c77ea11bcf22505b395a77fc0d0",
         "url": "https://github.com/ValdezFOmar/tree-sitter-editorconfig"
       },
       "lang": "editorconfig",
@@ -551,7 +551,7 @@
     },
     {
       "install_info": {
-        "revision": "7cdd245093c92fc9c5c80fa62d08ed46bcd98d04",
+        "revision": "c52e978afadf3faed52bb3c8082cc472c915f4e7",
         "url": "https://github.com/stadelmanma/tree-sitter-fortran"
       },
       "lang": "fortran",
@@ -1392,7 +1392,7 @@
     },
     {
       "install_info": {
-        "revision": "637ea4b4748bd4dae62976cccbff031198e688fc",
+        "revision": "01bc5b18693055aab7a863d7608f4b3f85843cf8",
         "url": "https://github.com/cstrahan/tree-sitter-nix"
       },
       "lang": "nix",
@@ -1501,7 +1501,7 @@
       "install_info": {
         "branch": "release",
         "generate_from_json": true,
-        "revision": "465983954cae2d2f984eae82de5ed5f11ca291dc",
+        "revision": "458e694f63d59edc72a9fb321443f70f740e04e8",
         "url": "https://github.com/tree-sitter-perl/tree-sitter-perl"
       },
       "lang": "perl",
