@@ -446,7 +446,7 @@
     },
     {
       "install_info": {
-        "revision": "09dbf221d7491dc8d8839616b27c21b9c025c457",
+        "revision": "27f502ed0a1cbd3c5912d284cc7934ee0d4cdddc",
         "url": "https://github.com/elm-tooling/tree-sitter-elm"
       },
       "lang": "elm",
@@ -1151,7 +1151,7 @@
     },
     {
       "install_info": {
-        "revision": "854a40e99f7c70258e522bdb8ab584ede6196e2e",
+        "revision": "194c25539f435de415ee0551a5f07058833da915",
         "url": "https://github.com/traxys/tree-sitter-lalrpop"
       },
       "lang": "lalrpop",
@@ -2389,7 +2389,7 @@
     {
       "install_info": {
         "location": "tree_sitter_v",
-        "revision": "83b7286d8f4f33c88dff102bad22149d8e29d9eb",
+        "revision": "60f2bc0e6ffae43e96a45f26db80c27196e079d3",
         "url": "https://github.com/vlang/v-analyzer"
       },
       "lang": "v",
