@@ -252,7 +252,7 @@
     {
       "install_info": {
         "generate_from_json": true,
-        "revision": "30f973c2244f0bff444186185f475c3bd76bc3a5",
+        "revision": "b53713a1194daf625fca185d1e54e6988d97ea1e",
         "url": "https://github.com/tree-sitter/tree-sitter-cpp"
       },
       "lang": "cpp",
@@ -303,7 +303,7 @@
     },
     {
       "install_info": {
-        "revision": "b0edd520697f7ea849fae0514490f5e094cfb680",
+        "revision": "345206d1c4eb0ec70903d025d8bbb9e97379ccd1",
         "url": "https://github.com/gdamore/tree-sitter-d"
       },
       "lang": "d",
@@ -950,7 +950,7 @@
     },
     {
       "install_info": {
-        "revision": "a2865ebbe419da8ecb0f42cc4d3c53b14d9ea039",
+        "revision": "231f1b1bafd12e46c8ed8c21dbbdd940d9f15e94",
         "url": "https://github.com/rest-nvim/tree-sitter-http"
       },
       "lang": "http",
@@ -2389,7 +2389,7 @@
     {
       "install_info": {
         "location": "tree_sitter_v",
-        "revision": "60f2bc0e6ffae43e96a45f26db80c27196e079d3",
+        "revision": "4f93826aeb31066eb241f4ccbca61f052239803f",
         "url": "https://github.com/vlang/v-analyzer"
       },
       "lang": "v",
