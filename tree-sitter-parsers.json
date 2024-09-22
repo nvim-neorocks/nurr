@@ -303,7 +303,7 @@
     },
     {
       "install_info": {
-        "revision": "345206d1c4eb0ec70903d025d8bbb9e97379ccd1",
+        "revision": "45e5f1e9d6de2c68591bc8e5ec662cf18e950b4a",
         "url": "https://github.com/gdamore/tree-sitter-d"
       },
       "lang": "d",
@@ -1430,7 +1430,7 @@
     {
       "install_info": {
         "location": "grammars/ocaml",
-        "revision": "14beb5ef0e7488bf1d93b8c67f69942324fee557",
+        "revision": "19639e5dcd68a34f7704ea2e39a5730308c2234c",
         "url": "https://github.com/tree-sitter/tree-sitter-ocaml"
       },
       "lang": "ocaml",
@@ -1439,7 +1439,7 @@
     {
       "install_info": {
         "location": "grammars/interface",
-        "revision": "14beb5ef0e7488bf1d93b8c67f69942324fee557",
+        "revision": "19639e5dcd68a34f7704ea2e39a5730308c2234c",
         "url": "https://github.com/tree-sitter/tree-sitter-ocaml"
       },
       "lang": "ocaml_interface",
@@ -2090,7 +2090,7 @@
     },
     {
       "install_info": {
-        "revision": "affa4389186b6939d89673e1e9d2b28364f5ca6f",
+        "revision": "1a8ee0da9a4f2df5a8a22f4d637ac863623a78a7",
         "url": "https://github.com/madskjeldgaard/tree-sitter-supercollider"
       },
       "lang": "supercollider",
