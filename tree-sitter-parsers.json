@@ -32,7 +32,7 @@
     {
       "install_info": {
         "location": "apex",
-        "revision": "45994a30c6e421995ebc61f8c4c61cf75d249e27",
+        "revision": "69330ef89fb6b7b2dd16b639d86811e9262c7369",
         "url": "https://github.com/aheber/tree-sitter-sfapex"
       },
       "lang": "apex",
@@ -154,7 +154,7 @@
     },
     {
       "install_info": {
-        "revision": "bc85948c0bec746ebe921f72d2296d47e17d4ea7",
+        "revision": "f4c21152f1952a99f4744e8c41d3ffb8038ae78c",
         "url": "https://github.com/tree-sitter/tree-sitter-c"
       },
       "lang": "c",
@@ -252,7 +252,7 @@
     {
       "install_info": {
         "generate_from_json": true,
-        "revision": "b53713a1194daf625fca185d1e54e6988d97ea1e",
+        "revision": "30d2fa385735378388a55917e2910965fce19748",
         "url": "https://github.com/tree-sitter/tree-sitter-cpp"
       },
       "lang": "cpp",
@@ -1430,7 +1430,7 @@
     {
       "install_info": {
         "location": "grammars/ocaml",
-        "revision": "19639e5dcd68a34f7704ea2e39a5730308c2234c",
+        "revision": "45ddc92d18fa11b2ca1a18cd94de4e63feea0806",
         "url": "https://github.com/tree-sitter/tree-sitter-ocaml"
       },
       "lang": "ocaml",
@@ -1439,7 +1439,7 @@
     {
       "install_info": {
         "location": "grammars/interface",
-        "revision": "19639e5dcd68a34f7704ea2e39a5730308c2234c",
+        "revision": "45ddc92d18fa11b2ca1a18cd94de4e63feea0806",
         "url": "https://github.com/tree-sitter/tree-sitter-ocaml"
       },
       "lang": "ocaml_interface",
@@ -1501,7 +1501,7 @@
       "install_info": {
         "branch": "release",
         "generate_from_json": true,
-        "revision": "458e694f63d59edc72a9fb321443f70f740e04e8",
+        "revision": "81c57e274c541c30d6c204c8dbceb90ec647ed8d",
         "url": "https://github.com/tree-sitter-perl/tree-sitter-perl"
       },
       "lang": "perl",
@@ -1943,7 +1943,7 @@
     {
       "install_info": {
         "location": "sflog",
-        "revision": "45994a30c6e421995ebc61f8c4c61cf75d249e27",
+        "revision": "69330ef89fb6b7b2dd16b639d86811e9262c7369",
         "url": "https://github.com/aheber/tree-sitter-sfapex"
       },
       "lang": "sflog",
@@ -2004,7 +2004,7 @@
     {
       "install_info": {
         "location": "soql",
-        "revision": "45994a30c6e421995ebc61f8c4c61cf75d249e27",
+        "revision": "69330ef89fb6b7b2dd16b639d86811e9262c7369",
         "url": "https://github.com/aheber/tree-sitter-sfapex"
       },
       "lang": "soql",
@@ -2013,7 +2013,7 @@
     {
       "install_info": {
         "location": "sosl",
-        "revision": "45994a30c6e421995ebc61f8c4c61cf75d249e27",
+        "revision": "69330ef89fb6b7b2dd16b639d86811e9262c7369",
         "url": "https://github.com/aheber/tree-sitter-sfapex"
       },
       "lang": "sosl",
@@ -2559,7 +2559,7 @@
     },
     {
       "install_info": {
-        "revision": "21e2218e0ec7f4e3c0640d16bf8c67e6f0a61e18",
+        "revision": "eb7d58c2dc4fbeea4745019dee8df013034ae66b",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-zig"
       },
       "lang": "zig",
