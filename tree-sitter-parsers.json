@@ -19,7 +19,7 @@
     {
       "install_info": {
         "generate_from_json": true,
-        "revision": "c473dbc54ca27f95d8928cfdb2a1a79300e16951",
+        "revision": "745d3c65c2294aca1110b6b6ad6805124be605c9",
         "url": "https://github.com/dlvandenberg/tree-sitter-angular"
       },
       "lang": "angular",
@@ -1585,7 +1585,7 @@
     {
       "filetype": "ps1",
       "install_info": {
-        "revision": "fc15514b2f1dbba9c58528d15a3708f89eda6a01",
+        "revision": "ebe2ab2f642eda2072c68c8de02e83973c26f33c",
         "url": "https://github.com/airbus-cert/tree-sitter-powershell"
       },
       "lang": "powershell",
