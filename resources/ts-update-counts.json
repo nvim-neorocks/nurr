@@ -2,671 +2,671 @@
   "update_counts": [
     {
       "key": "ada",
-      "value": 20
+      "value": 21
     },
     {
       "key": "agda",
-      "value": 20
+      "value": 21
     },
     {
       "key": "angular",
-      "value": 21
+      "value": 22
     },
     {
       "key": "apex",
-      "value": 22
+      "value": 23
     },
     {
       "key": "arduino",
-      "value": 20
+      "value": 21
     },
     {
       "key": "asm",
-      "value": 20
+      "value": 21
     },
     {
       "key": "astro",
-      "value": 20
+      "value": 21
     },
     {
       "key": "authzed",
-      "value": 20
+      "value": 21
     },
     {
       "key": "awk",
-      "value": 20
+      "value": 21
     },
     {
       "key": "bash",
-      "value": 20
+      "value": 21
     },
     {
       "key": "bass",
-      "value": 20
+      "value": 21
     },
     {
       "key": "beancount",
-      "value": 20
+      "value": 21
     },
     {
       "key": "bibtex",
-      "value": 20
+      "value": 21
     },
     {
       "key": "bicep",
-      "value": 20
+      "value": 21
     },
     {
       "key": "bitbake",
-      "value": 20
+      "value": 21
     },
     {
       "key": "blueprint",
-      "value": 20
+      "value": 21
     },
     {
       "key": "bp",
-      "value": 20
+      "value": 21
     },
     {
       "key": "c",
-      "value": 21
+      "value": 22
     },
     {
       "key": "c_sharp",
-      "value": 20
+      "value": 21
     },
     {
       "key": "cairo",
-      "value": 20
+      "value": 21
     },
     {
       "key": "capnp",
-      "value": 20
+      "value": 21
     },
     {
       "key": "chatito",
-      "value": 20
+      "value": 21
     },
     {
       "key": "clojure",
-      "value": 20
+      "value": 21
     },
     {
       "key": "cmake",
-      "value": 20
+      "value": 21
     },
     {
       "key": "comment",
-      "value": 20
+      "value": 21
     },
     {
       "key": "commonlisp",
-      "value": 20
+      "value": 21
     },
     {
       "key": "cooklang",
-      "value": 20
+      "value": 21
     },
     {
       "key": "corn",
-      "value": 20
+      "value": 21
     },
     {
       "key": "cpon",
-      "value": 20
+      "value": 21
     },
     {
       "key": "cpp",
-      "value": 22
+      "value": 23
     },
     {
       "key": "css",
-      "value": 20
+      "value": 21
     },
     {
       "key": "csv",
-      "value": 20
+      "value": 21
     },
     {
       "key": "cuda",
-      "value": 20
+      "value": 21
     },
     {
       "key": "cue",
-      "value": 20
+      "value": 21
     },
     {
       "key": "d",
-      "value": 24
+      "value": 25
     },
     {
       "key": "dart",
-      "value": 20
+      "value": 21
     },
     {
       "key": "devicetree",
-      "value": 20
+      "value": 21
     },
     {
       "key": "dhall",
-      "value": 20
+      "value": 21
     },
     {
       "key": "diff",
-      "value": 20
+      "value": 21
     },
     {
       "key": "disassembly",
-      "value": 20
+      "value": 21
     },
     {
       "key": "djot",
-      "value": 20
+      "value": 21
     },
     {
       "key": "dockerfile",
-      "value": 20
+      "value": 21
     },
     {
       "key": "dot",
-      "value": 20
+      "value": 21
     },
     {
       "key": "doxygen",
-      "value": 20
+      "value": 21
     },
     {
       "key": "dtd",
-      "value": 20
+      "value": 21
     },
     {
       "key": "earthfile",
-      "value": 22
+      "value": 23
     },
     {
       "key": "ebnf",
-      "value": 20
+      "value": 21
     },
     {
       "key": "ecma",
-      "value": 20
+      "value": 21
     },
     {
       "key": "editorconfig",
-      "value": 21
+      "value": 22
     },
     {
       "key": "eds",
-      "value": 20
+      "value": 21
     },
     {
       "key": "eex",
-      "value": 20
+      "value": 21
     },
     {
       "key": "elixir",
-      "value": 21
+      "value": 22
     },
     {
       "key": "elm",
-      "value": 21
+      "value": 22
     },
     {
       "key": "elsa",
-      "value": 20
+      "value": 21
     },
     {
       "key": "elvish",
-      "value": 20
+      "value": 21
     },
     {
       "key": "embedded_template",
-      "value": 20
+      "value": 21
     },
     {
       "key": "erlang",
-      "value": 20
+      "value": 21
     },
     {
       "key": "facility",
-      "value": 20
+      "value": 21
     },
     {
       "key": "faust",
-      "value": 20
+      "value": 21
     },
     {
       "key": "fennel",
-      "value": 20
+      "value": 21
     },
     {
       "key": "fidl",
-      "value": 20
+      "value": 21
     },
     {
       "key": "firrtl",
-      "value": 20
+      "value": 21
     },
     {
       "key": "fish",
-      "value": 20
+      "value": 21
     },
     {
       "key": "foam",
-      "value": 20
+      "value": 21
     },
     {
       "key": "forth",
-      "value": 20
+      "value": 21
     },
     {
       "key": "fortran",
-      "value": 22
+      "value": 23
     },
     {
       "key": "fsh",
-      "value": 20
+      "value": 21
     },
     {
       "key": "func",
-      "value": 20
+      "value": 21
     },
     {
       "key": "fusion",
-      "value": 20
+      "value": 21
     },
     {
       "key": "gdscript",
-      "value": 20
+      "value": 21
     },
     {
       "key": "gdshader",
-      "value": 20
+      "value": 21
     },
     {
       "key": "git_config",
-      "value": 20
+      "value": 21
     },
     {
       "key": "git_rebase",
-      "value": 20
+      "value": 21
     },
     {
       "key": "gitattributes",
-      "value": 20
+      "value": 21
     },
     {
       "key": "gitcommit",
-      "value": 20
+      "value": 21
     },
     {
       "key": "gitignore",
-      "value": 20
+      "value": 21
     },
     {
       "key": "gleam",
-      "value": 21
+      "value": 22
     },
     {
       "key": "glimmer",
-      "value": 20
+      "value": 21
     },
     {
       "key": "glsl",
-      "value": 21
+      "value": 22
     },
     {
       "key": "gn",
-      "value": 20
+      "value": 21
     },
     {
       "key": "gnuplot",
-      "value": 20
+      "value": 21
     },
     {
       "key": "go",
-      "value": 21
+      "value": 22
     },
     {
       "key": "goctl",
-      "value": 20
+      "value": 21
     },
     {
       "key": "godot_resource",
-      "value": 20
+      "value": 21
     },
     {
       "key": "gomod",
-      "value": 21
+      "value": 22
     },
     {
       "key": "gosum",
-      "value": 20
+      "value": 21
     },
     {
       "key": "gotmpl",
-      "value": 20
+      "value": 21
     },
     {
       "key": "gowork",
-      "value": 20
+      "value": 21
     },
     {
       "key": "gpg",
-      "value": 20
+      "value": 21
     },
     {
       "key": "graphql",
-      "value": 20
+      "value": 21
     },
     {
       "key": "groovy",
-      "value": 20
+      "value": 21
     },
     {
       "key": "gstlaunch",
-      "value": 20
+      "value": 21
     },
     {
       "key": "hack",
-      "value": 20
+      "value": 21
     },
     {
       "key": "hare",
-      "value": 20
+      "value": 21
     },
     {
       "key": "haskell",
-      "value": 20
+      "value": 21
     },
     {
       "key": "haskell_persistent",
-      "value": 20
+      "value": 21
     },
     {
       "key": "hcl",
-      "value": 20
+      "value": 21
     },
     {
       "key": "heex",
-      "value": 20
+      "value": 21
     },
     {
       "key": "helm",
-      "value": 20
+      "value": 21
     },
     {
       "key": "hjson",
-      "value": 20
+      "value": 21
     },
     {
       "key": "hlsl",
-      "value": 21
+      "value": 22
     },
     {
       "key": "hlsplaylist",
-      "value": 20
+      "value": 21
     },
     {
       "key": "hocon",
-      "value": 20
+      "value": 21
     },
     {
       "key": "hoon",
-      "value": 20
+      "value": 21
     },
     {
       "key": "html",
-      "value": 20
+      "value": 21
     },
     {
       "key": "html_tags",
-      "value": 20
+      "value": 21
     },
     {
       "key": "htmldjango",
-      "value": 20
+      "value": 21
     },
     {
       "key": "http",
-      "value": 22
+      "value": 23
     },
     {
       "key": "hurl",
-      "value": 21
+      "value": 22
     },
     {
       "key": "hyprlang",
-      "value": 20
+      "value": 21
     },
     {
       "key": "idl",
-      "value": 20
+      "value": 21
     },
     {
       "key": "ini",
-      "value": 20
+      "value": 21
     },
     {
       "key": "inko",
-      "value": 21
+      "value": 22
     },
     {
       "key": "ispc",
-      "value": 20
+      "value": 21
     },
     {
       "key": "janet_simple",
-      "value": 20
+      "value": 21
     },
     {
       "key": "java",
-      "value": 20
+      "value": 21
     },
     {
       "key": "javascript",
-      "value": 20
+      "value": 21
     },
     {
       "key": "jq",
-      "value": 20
+      "value": 21
     },
     {
       "key": "jsdoc",
-      "value": 20
+      "value": 21
     },
     {
       "key": "json",
-      "value": 20
+      "value": 21
     },
     {
       "key": "json5",
-      "value": 20
+      "value": 21
     },
     {
       "key": "jsonc",
-      "value": 20
+      "value": 21
     },
     {
       "key": "jsonnet",
-      "value": 20
+      "value": 21
     },
     {
       "key": "jsx",
-      "value": 20
+      "value": 21
     },
     {
       "key": "julia",
-      "value": 20
+      "value": 21
     },
     {
       "key": "just",
-      "value": 20
+      "value": 21
     },
     {
       "key": "kconfig",
-      "value": 20
+      "value": 21
     },
     {
       "key": "kdl",
-      "value": 20
+      "value": 21
     },
     {
       "key": "kotlin",
-      "value": 20
+      "value": 21
     },
     {
       "key": "koto",
-      "value": 20
+      "value": 21
     },
     {
       "key": "kusto",
-      "value": 20
+      "value": 21
     },
     {
       "key": "lalrpop",
-      "value": 21
+      "value": 22
     },
     {
       "key": "latex",
-      "value": 21
+      "value": 22
     },
     {
       "key": "ledger",
-      "value": 20
+      "value": 21
     },
     {
       "key": "leo",
-      "value": 20
+      "value": 21
     },
     {
       "key": "linkerscript",
-      "value": 20
+      "value": 21
     },
     {
       "key": "liquid",
-      "value": 20
+      "value": 21
     },
     {
       "key": "liquidsoap",
-      "value": 20
+      "value": 21
     },
     {
       "key": "llvm",
-      "value": 20
+      "value": 21
     },
     {
       "key": "lua",
-      "value": 21
+      "value": 22
     },
     {
       "key": "luadoc",
-      "value": 20
+      "value": 21
     },
     {
       "key": "luap",
-      "value": 20
+      "value": 21
     },
     {
       "key": "luau",
-      "value": 20
+      "value": 21
     },
     {
       "key": "m68k",
-      "value": 20
+      "value": 21
     },
     {
       "key": "make",
-      "value": 20
+      "value": 21
     },
     {
       "key": "markdown",
-      "value": 23
+      "value": 24
     },
     {
       "key": "markdown_inline",
-      "value": 23
+      "value": 24
     },
     {
       "key": "matlab",
-      "value": 20
+      "value": 21
     },
     {
       "key": "menhir",
-      "value": 20
+      "value": 21
     },
     {
       "key": "mermaid",
-      "value": 20
+      "value": 21
     },
     {
       "key": "meson",
-      "value": 20
+      "value": 21
     },
     {
       "key": "mlir",
-      "value": 20
+      "value": 21
     },
     {
       "key": "muttrc",
-      "value": 20
+      "value": 21
     },
     {
       "key": "nasm",
-      "value": 20
+      "value": 21
     },
     {
       "key": "nginx",
-      "value": 20
+      "value": 21
     },
     {
       "key": "nickel",
-      "value": 20
+      "value": 21
     },
     {
       "key": "nim",
-      "value": 20
+      "value": 21
     },
     {
       "key": "nim_format_string",
-      "value": 20
+      "value": 21
     },
     {
       "key": "ninja",
-      "value": 20
+      "value": 21
     },
     {
       "key": "nix",
-      "value": 23
+      "value": 24
     },
     {
       "key": "nqc",
-      "value": 20
+      "value": 21
     },
     {
       "key": "objc",
-      "value": 20
+      "value": 21
     },
     {
       "key": "objdump",
-      "value": 20
+      "value": 21
     },
     {
       "key": "ocaml",
-      "value": 22
+      "value": 23
     },
     {
       "key": "ocaml_interface",
-      "value": 22
+      "value": 23
     },
     {
       "key": "ocamllex",
-      "value": 20
+      "value": 21
     },
     {
       "key": "odin",
-      "value": 21
+      "value": 22
     },
     {
       "key": "org",
@@ -674,523 +674,523 @@
     },
     {
       "key": "pascal",
-      "value": 20
+      "value": 21
     },
     {
       "key": "passwd",
-      "value": 20
+      "value": 21
     },
     {
       "key": "pem",
-      "value": 20
+      "value": 21
     },
     {
       "key": "perl",
-      "value": 24
+      "value": 25
     },
     {
       "key": "php",
-      "value": 20
+      "value": 21
     },
     {
       "key": "php_only",
-      "value": 20
+      "value": 21
     },
     {
       "key": "phpdoc",
-      "value": 20
+      "value": 21
     },
     {
       "key": "pioasm",
-      "value": 20
+      "value": 21
     },
     {
       "key": "po",
-      "value": 20
+      "value": 21
     },
     {
       "key": "pod",
-      "value": 20
+      "value": 21
     },
     {
       "key": "poe_filter",
-      "value": 20
+      "value": 21
     },
     {
       "key": "pony",
-      "value": 20
+      "value": 21
     },
     {
       "key": "printf",
-      "value": 20
+      "value": 21
     },
     {
       "key": "prisma",
-      "value": 20
+      "value": 21
     },
     {
       "key": "problog",
-      "value": 20
+      "value": 21
     },
     {
       "key": "prolog",
-      "value": 20
+      "value": 21
     },
     {
       "key": "promql",
-      "value": 20
+      "value": 21
     },
     {
       "key": "properties",
-      "value": 20
+      "value": 21
     },
     {
       "key": "proto",
-      "value": 20
+      "value": 21
     },
     {
       "key": "prql",
-      "value": 20
+      "value": 21
     },
     {
       "key": "psv",
-      "value": 20
+      "value": 21
     },
     {
       "key": "pug",
-      "value": 20
+      "value": 21
     },
     {
       "key": "puppet",
-      "value": 20
+      "value": 21
     },
     {
       "key": "purescript",
-      "value": 20
+      "value": 21
     },
     {
       "key": "pymanifest",
-      "value": 20
+      "value": 21
     },
     {
       "key": "python",
-      "value": 20
+      "value": 21
     },
     {
       "key": "ql",
-      "value": 20
+      "value": 21
     },
     {
       "key": "qmldir",
-      "value": 20
+      "value": 21
     },
     {
       "key": "qmljs",
-      "value": 20
+      "value": 21
     },
     {
       "key": "query",
-      "value": 20
+      "value": 21
     },
     {
       "key": "r",
-      "value": 22
+      "value": 23
     },
     {
       "key": "racket",
-      "value": 22
+      "value": 23
     },
     {
       "key": "ralph",
-      "value": 20
+      "value": 21
     },
     {
       "key": "rasi",
-      "value": 20
+      "value": 21
     },
     {
       "key": "rbs",
-      "value": 20
+      "value": 21
     },
     {
       "key": "re2c",
-      "value": 20
+      "value": 22
     },
     {
       "key": "readline",
-      "value": 20
+      "value": 21
     },
     {
       "key": "regex",
-      "value": 20
+      "value": 21
     },
     {
       "key": "rego",
-      "value": 20
+      "value": 21
     },
     {
       "key": "requirements",
-      "value": 20
+      "value": 21
     },
     {
       "key": "rnoweb",
-      "value": 20
+      "value": 21
     },
     {
       "key": "robot",
-      "value": 20
+      "value": 21
     },
     {
       "key": "robots",
-      "value": 20
+      "value": 21
     },
     {
       "key": "roc",
-      "value": 20
+      "value": 21
     },
     {
       "key": "ron",
-      "value": 20
+      "value": 21
     },
     {
       "key": "rst",
-      "value": 20
+      "value": 21
     },
     {
       "key": "ruby",
-      "value": 20
+      "value": 21
     },
     {
       "key": "rust",
-      "value": 20
+      "value": 21
     },
     {
       "key": "scala",
-      "value": 23
+      "value": 24
     },
     {
       "key": "scfg",
-      "value": 20
+      "value": 21
     },
     {
       "key": "scheme",
-      "value": 22
-    },
-    {
-      "key": "scss",
-      "value": 20
-    },
-    {
-      "key": "slang",
-      "value": 21
-    },
-    {
-      "key": "slint",
-      "value": 20
-    },
-    {
-      "key": "smali",
-      "value": 20
-    },
-    {
-      "key": "smithy",
-      "value": 20
-    },
-    {
-      "key": "snakemake",
-      "value": 20
-    },
-    {
-      "key": "solidity",
-      "value": 20
-    },
-    {
-      "key": "soql",
-      "value": 22
-    },
-    {
-      "key": "sosl",
-      "value": 22
-    },
-    {
-      "key": "sourcepawn",
-      "value": 20
-    },
-    {
-      "key": "sparql",
-      "value": 20
-    },
-    {
-      "key": "sql",
-      "value": 20
-    },
-    {
-      "key": "squirrel",
-      "value": 20
-    },
-    {
-      "key": "ssh_config",
-      "value": 20
-    },
-    {
-      "key": "starlark",
-      "value": 20
-    },
-    {
-      "key": "strace",
-      "value": 20
-    },
-    {
-      "key": "styled",
-      "value": 20
-    },
-    {
-      "key": "supercollider",
-      "value": 21
-    },
-    {
-      "key": "surface",
-      "value": 20
-    },
-    {
-      "key": "svelte",
-      "value": 22
-    },
-    {
-      "key": "swift",
-      "value": 22
-    },
-    {
-      "key": "sxhkdrc",
-      "value": 20
-    },
-    {
-      "key": "systemtap",
-      "value": 20
-    },
-    {
-      "key": "systemverilog",
-      "value": 20
-    },
-    {
-      "key": "t32",
-      "value": 20
-    },
-    {
-      "key": "tablegen",
-      "value": 20
-    },
-    {
-      "key": "tact",
-      "value": 20
-    },
-    {
-      "key": "tcl",
-      "value": 20
-    },
-    {
-      "key": "teal",
-      "value": 20
-    },
-    {
-      "key": "templ",
-      "value": 20
-    },
-    {
-      "key": "terraform",
-      "value": 20
-    },
-    {
-      "key": "textproto",
-      "value": 20
-    },
-    {
-      "key": "thrift",
-      "value": 20
-    },
-    {
-      "key": "tiger",
-      "value": 20
-    },
-    {
-      "key": "tlaplus",
-      "value": 21
-    },
-    {
-      "key": "tmux",
-      "value": 20
-    },
-    {
-      "key": "todotxt",
-      "value": 20
-    },
-    {
-      "key": "toml",
-      "value": 20
-    },
-    {
-      "key": "tsv",
-      "value": 20
-    },
-    {
-      "key": "tsx",
-      "value": 20
-    },
-    {
-      "key": "turtle",
-      "value": 20
-    },
-    {
-      "key": "twig",
-      "value": 20
-    },
-    {
-      "key": "typescript",
-      "value": 20
-    },
-    {
-      "key": "typespec",
-      "value": 20
-    },
-    {
-      "key": "typoscript",
-      "value": 20
-    },
-    {
-      "key": "typst",
-      "value": 20
-    },
-    {
-      "key": "udev",
-      "value": 20
-    },
-    {
-      "key": "ungrammar",
-      "value": 20
-    },
-    {
-      "key": "unison",
-      "value": 20
-    },
-    {
-      "key": "usd",
-      "value": 20
-    },
-    {
-      "key": "uxntal",
-      "value": 20
-    },
-    {
-      "key": "v",
       "value": 23
     },
     {
-      "key": "vala",
-      "value": 20
-    },
-    {
-      "key": "vento",
-      "value": 20
-    },
-    {
-      "key": "verilog",
-      "value": 20
-    },
-    {
-      "key": "vhdl",
-      "value": 20
-    },
-    {
-      "key": "vhs",
-      "value": 20
-    },
-    {
-      "key": "vim",
-      "value": 20
-    },
-    {
-      "key": "vimdoc",
-      "value": 20
-    },
-    {
-      "key": "vue",
-      "value": 20
-    },
-    {
-      "key": "wgsl",
-      "value": 20
-    },
-    {
-      "key": "wgsl_bevy",
-      "value": 20
-    },
-    {
-      "key": "wing",
-      "value": 20
-    },
-    {
-      "key": "wit",
-      "value": 20
-    },
-    {
-      "key": "xcompose",
-      "value": 20
-    },
-    {
-      "key": "xml",
-      "value": 20
-    },
-    {
-      "key": "yaml",
-      "value": 20
-    },
-    {
-      "key": "yang",
-      "value": 20
-    },
-    {
-      "key": "yuck",
-      "value": 20
-    },
-    {
-      "key": "zathurarc",
-      "value": 20
-    },
-    {
-      "key": "zig",
+      "key": "scss",
       "value": 21
     },
     {
-      "key": "powershell",
-      "value": 21
-    },
-    {
-      "key": "rescript",
-      "value": 20
-    },
-    {
-      "key": "vrl",
-      "value": 20
-    },
-    {
-      "key": "sflog",
+      "key": "slang",
       "value": 22
     },
     {
+      "key": "slint",
+      "value": 21
+    },
+    {
+      "key": "smali",
+      "value": 21
+    },
+    {
+      "key": "smithy",
+      "value": 21
+    },
+    {
+      "key": "snakemake",
+      "value": 21
+    },
+    {
+      "key": "solidity",
+      "value": 21
+    },
+    {
+      "key": "soql",
+      "value": 23
+    },
+    {
+      "key": "sosl",
+      "value": 23
+    },
+    {
+      "key": "sourcepawn",
+      "value": 21
+    },
+    {
+      "key": "sparql",
+      "value": 21
+    },
+    {
+      "key": "sql",
+      "value": 21
+    },
+    {
+      "key": "squirrel",
+      "value": 21
+    },
+    {
+      "key": "ssh_config",
+      "value": 21
+    },
+    {
+      "key": "starlark",
+      "value": 21
+    },
+    {
+      "key": "strace",
+      "value": 21
+    },
+    {
+      "key": "styled",
+      "value": 21
+    },
+    {
+      "key": "supercollider",
+      "value": 22
+    },
+    {
+      "key": "surface",
+      "value": 21
+    },
+    {
+      "key": "svelte",
+      "value": 23
+    },
+    {
+      "key": "swift",
+      "value": 23
+    },
+    {
+      "key": "sxhkdrc",
+      "value": 21
+    },
+    {
+      "key": "systemtap",
+      "value": 21
+    },
+    {
+      "key": "systemverilog",
+      "value": 21
+    },
+    {
+      "key": "t32",
+      "value": 21
+    },
+    {
+      "key": "tablegen",
+      "value": 21
+    },
+    {
+      "key": "tact",
+      "value": 21
+    },
+    {
+      "key": "tcl",
+      "value": 21
+    },
+    {
+      "key": "teal",
+      "value": 21
+    },
+    {
+      "key": "templ",
+      "value": 21
+    },
+    {
+      "key": "terraform",
+      "value": 21
+    },
+    {
+      "key": "textproto",
+      "value": 21
+    },
+    {
+      "key": "thrift",
+      "value": 21
+    },
+    {
+      "key": "tiger",
+      "value": 21
+    },
+    {
+      "key": "tlaplus",
+      "value": 22
+    },
+    {
+      "key": "tmux",
+      "value": 21
+    },
+    {
+      "key": "todotxt",
+      "value": 21
+    },
+    {
+      "key": "toml",
+      "value": 21
+    },
+    {
+      "key": "tsv",
+      "value": 21
+    },
+    {
+      "key": "tsx",
+      "value": 21
+    },
+    {
+      "key": "turtle",
+      "value": 21
+    },
+    {
+      "key": "twig",
+      "value": 21
+    },
+    {
+      "key": "typescript",
+      "value": 21
+    },
+    {
+      "key": "typespec",
+      "value": 21
+    },
+    {
+      "key": "typoscript",
+      "value": 21
+    },
+    {
+      "key": "typst",
+      "value": 21
+    },
+    {
+      "key": "udev",
+      "value": 21
+    },
+    {
+      "key": "ungrammar",
+      "value": 21
+    },
+    {
+      "key": "unison",
+      "value": 21
+    },
+    {
+      "key": "usd",
+      "value": 21
+    },
+    {
+      "key": "uxntal",
+      "value": 21
+    },
+    {
+      "key": "v",
+      "value": 24
+    },
+    {
+      "key": "vala",
+      "value": 21
+    },
+    {
+      "key": "vento",
+      "value": 21
+    },
+    {
+      "key": "verilog",
+      "value": 21
+    },
+    {
+      "key": "vhdl",
+      "value": 21
+    },
+    {
+      "key": "vhs",
+      "value": 21
+    },
+    {
+      "key": "vim",
+      "value": 21
+    },
+    {
+      "key": "vimdoc",
+      "value": 21
+    },
+    {
+      "key": "vue",
+      "value": 21
+    },
+    {
+      "key": "wgsl",
+      "value": 21
+    },
+    {
+      "key": "wgsl_bevy",
+      "value": 21
+    },
+    {
+      "key": "wing",
+      "value": 21
+    },
+    {
+      "key": "wit",
+      "value": 21
+    },
+    {
+      "key": "xcompose",
+      "value": 21
+    },
+    {
+      "key": "xml",
+      "value": 21
+    },
+    {
+      "key": "yaml",
+      "value": 21
+    },
+    {
+      "key": "yang",
+      "value": 21
+    },
+    {
+      "key": "yuck",
+      "value": 21
+    },
+    {
+      "key": "zathurarc",
+      "value": 21
+    },
+    {
+      "key": "zig",
+      "value": 22
+    },
+    {
+      "key": "powershell",
+      "value": 22
+    },
+    {
+      "key": "rescript",
+      "value": 21
+    },
+    {
+      "key": "vrl",
+      "value": 21
+    },
+    {
+      "key": "sflog",
+      "value": 23
+    },
+    {
       "key": "gap",
-      "value": 20
+      "value": 21
     },
     {
       "key": "gaptst",
-      "value": 20
+      "value": 21
     },
     {
       "key": "glimmer_javascript",
-      "value": 20
+      "value": 21
     },
     {
       "key": "glimmer_typescript",
-      "value": 20
+      "value": 21
     }
   ]
 }
