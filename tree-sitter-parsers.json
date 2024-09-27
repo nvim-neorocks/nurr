@@ -319,7 +319,7 @@
     },
     {
       "install_info": {
-        "revision": "296b3c294a8bcfca6673296d99f9cd37049b8026",
+        "revision": "07a647c8fb70e6b06379a60526721e3141aa2fd2",
         "url": "https://github.com/joelspadin/tree-sitter-devicetree"
       },
       "lang": "devicetree",
@@ -551,7 +551,7 @@
     },
     {
       "install_info": {
-        "revision": "c52e978afadf3faed52bb3c8082cc472c915f4e7",
+        "revision": "4a593dda9cbc050a6686187249f8350ceea292ce",
         "url": "https://github.com/stadelmanma/tree-sitter-fortran"
       },
       "lang": "fortran",
@@ -661,7 +661,7 @@
     },
     {
       "install_info": {
-        "revision": "9586f38658da115c90e2d01099c83479eb0eea99",
+        "revision": "57c9951b290c8084d7c60b0aee7a2b30986ea031",
         "url": "https://github.com/gleam-lang/tree-sitter-gleam"
       },
       "lang": "gleam",
@@ -990,7 +990,7 @@
     },
     {
       "install_info": {
-        "revision": "3a8887ca16dd8add3905216ce63796d4097c7a6f",
+        "revision": "6f9c072d023c3886aabcd8012274461b35d2d0a9",
         "url": "https://github.com/inko-lang/tree-sitter-inko"
       },
       "lang": "inko",
@@ -1270,7 +1270,7 @@
     {
       "install_info": {
         "location": "tree-sitter-markdown",
-        "revision": "d9287a6f36347064e55c36858e9e522eb652c1ad",
+        "revision": "b7eba93e6a3e588e259e831416ac11abdaa8616a",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-markdown"
       },
       "lang": "markdown",
@@ -1283,7 +1283,7 @@
     {
       "install_info": {
         "location": "tree-sitter-markdown-inline",
-        "revision": "d9287a6f36347064e55c36858e9e522eb652c1ad",
+        "revision": "b7eba93e6a3e588e259e831416ac11abdaa8616a",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-markdown"
       },
       "lang": "markdown_inline",
@@ -1392,7 +1392,7 @@
     },
     {
       "install_info": {
-        "revision": "01bc5b18693055aab7a863d7608f4b3f85843cf8",
+        "revision": "e68105245140008bd83ef4c28299f018fa876194",
         "url": "https://github.com/cstrahan/tree-sitter-nix"
       },
       "lang": "nix",
@@ -1430,7 +1430,7 @@
     {
       "install_info": {
         "location": "grammars/ocaml",
-        "revision": "45ddc92d18fa11b2ca1a18cd94de4e63feea0806",
+        "revision": "5f7a97e9757d8afe6c0b0b5dd8734cf59f35456e",
         "url": "https://github.com/tree-sitter/tree-sitter-ocaml"
       },
       "lang": "ocaml",
@@ -1439,7 +1439,7 @@
     {
       "install_info": {
         "location": "grammars/interface",
-        "revision": "45ddc92d18fa11b2ca1a18cd94de4e63feea0806",
+        "revision": "5f7a97e9757d8afe6c0b0b5dd8734cf59f35456e",
         "url": "https://github.com/tree-sitter/tree-sitter-ocaml"
       },
       "lang": "ocaml_interface",
@@ -2167,7 +2167,7 @@
     },
     {
       "install_info": {
-        "revision": "b3710fe2723bd9b285de7f3d0c0717bebf3f17bd",
+        "revision": "d16804029968f53f26f5afc695166a55bb0b68b2",
         "url": "https://github.com/tact-lang/tree-sitter-tact"
       },
       "lang": "tact",
@@ -2193,7 +2193,7 @@
     {
       "install_info": {
         "generate_from_json": true,
-        "revision": "0524da9e1f14b9b7d7d6d36608293f85a550b263",
+        "revision": "2b0c7b5848309567693fc6c86f654003e820ca1d",
         "url": "https://github.com/vrischmann/tree-sitter-templ"
       },
       "lang": "templ",
