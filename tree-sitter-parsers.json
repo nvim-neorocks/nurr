@@ -1135,7 +1135,7 @@
     },
     {
       "install_info": {
-        "revision": "d4109879ba1387d19095269a7473bd7d274ab848",
+        "revision": "cbf637e5163065934c827d254b293f4d2f08f523",
         "url": "https://github.com/koto-lang/tree-sitter-koto"
       },
       "lang": "koto",
@@ -1392,7 +1392,7 @@
     },
     {
       "install_info": {
-        "revision": "e68105245140008bd83ef4c28299f018fa876194",
+        "revision": "fcf1857e254ab654e0fb73fe9706e33c52e79a5c",
         "url": "https://github.com/cstrahan/tree-sitter-nix"
       },
       "lang": "nix",
