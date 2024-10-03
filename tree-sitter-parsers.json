@@ -478,7 +478,7 @@
     },
     {
       "install_info": {
-        "revision": "0dfcdf18b35dd9cfcf92be42659794d07d819d88",
+        "revision": "b079ba57a7918a85e0780df29e7f45f51d622200",
         "url": "https://github.com/WhatsApp/tree-sitter-erlang"
       },
       "lang": "erlang",
@@ -568,7 +568,7 @@
     {
       "install_info": {
         "location": "fsharp",
-        "revision": "f920105eec2d574eb911d7a25c81cdaa079a3f72",
+        "revision": "5202637c203fcf8876affbd18b04ff43256d4c4a",
         "url": "https://github.com/ionide/tree-sitter-fsharp"
       },
       "lang": "fsharp",
@@ -1027,7 +1027,7 @@
     },
     {
       "install_info": {
-        "revision": "245b05c6ba900fa708242835f6168ef76f9d951e",
+        "revision": "490d878cf33b0ad5ae7a7253ff30597a5bdc348e",
         "url": "https://github.com/tree-sitter/tree-sitter-java"
       },
       "lang": "java",
@@ -1334,7 +1334,7 @@
     {
       "install_info": {
         "generate": true,
-        "revision": "02af5a1a1cfa69a094e3136b10dfb602f968232e",
+        "revision": "612a71d978d9d3e8edaece497845ce8708b44b2d",
         "url": "https://github.com/artagnon/tree-sitter-mlir"
       },
       "lang": "mlir",
@@ -1366,7 +1366,7 @@
     },
     {
       "install_info": {
-        "revision": "88d836a24b3b11c8720874a1a9286b8ae838d30a",
+        "revision": "ddaa2bc22355effd97c0d6b09ff5962705c6368d",
         "url": "https://github.com/nickel-lang/tree-sitter-nickel"
       },
       "lang": "nickel",
@@ -1401,7 +1401,7 @@
     },
     {
       "install_info": {
-        "revision": "fcf1857e254ab654e0fb73fe9706e33c52e79a5c",
+        "revision": "49adb0f7656fe1737bb11aff593692157905d1b1",
         "url": "https://github.com/cstrahan/tree-sitter-nix"
       },
       "lang": "nix",
@@ -1519,7 +1519,7 @@
     {
       "install_info": {
         "location": "php",
-        "revision": "74c6b0d560c2660db4d9e8c76b681f538d494160",
+        "revision": "a342f7c0ad1db48afc6d2420cdd87b55b51a0644",
         "url": "https://github.com/tree-sitter/tree-sitter-php"
       },
       "lang": "php",
@@ -1532,7 +1532,7 @@
     {
       "install_info": {
         "location": "php_only",
-        "revision": "74c6b0d560c2660db4d9e8c76b681f538d494160",
+        "revision": "a342f7c0ad1db48afc6d2420cdd87b55b51a0644",
         "url": "https://github.com/tree-sitter/tree-sitter-php"
       },
       "lang": "php_only",
@@ -1810,7 +1810,7 @@
     },
     {
       "install_info": {
-        "revision": "3d4768b04d7cfaf40533e12b28672603428b8f31",
+        "revision": "74addc90fc539d31d413c0c7cf7581997a7fa46e",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-readline"
       },
       "lang": "readline",
@@ -1915,7 +1915,7 @@
     },
     {
       "install_info": {
-        "revision": "ec13dd674bb8dd89213e0d6b1fe45efb68d5878f",
+        "revision": "2cfbb6e3fcdfd51e0d477a43cc37ae8c6f87dc2e",
         "url": "https://github.com/tree-sitter/tree-sitter-scala"
       },
       "lang": "scala",
@@ -1971,7 +1971,7 @@
     },
     {
       "install_info": {
-        "revision": "34ccfd58d3baee7636f62d9326f32092264e8407",
+        "revision": "37c8e12ee1198f41d4eb5cc58d21a9c21196224f",
         "url": "https://github.com/slint-ui/tree-sitter-slint"
       },
       "lang": "slint",
@@ -2091,7 +2091,7 @@
     {
       "install_info": {
         "generate_from_json": true,
-        "revision": "b729198642b3058d4ea0f864d86efb271d594595",
+        "revision": "764af55fc6b8e5ae177eb272f5c5de6238db23e6",
         "url": "https://github.com/mskelton/tree-sitter-styled"
       },
       "lang": "styled",
@@ -2128,7 +2128,7 @@
     {
       "install_info": {
         "generate": true,
-        "revision": "032930d6218d8ae23bde074cf29ce8d276b87533",
+        "revision": "4bff50b78b4d3c0517e4d0f0a344aca165f00146",
         "url": "https://github.com/alex-pinkus/tree-sitter-swift"
       },
       "lang": "swift",
@@ -2176,7 +2176,7 @@
     },
     {
       "install_info": {
-        "revision": "d16804029968f53f26f5afc695166a55bb0b68b2",
+        "revision": "09c57b6b9759560b4d067e0546c9953ee0e065da",
         "url": "https://github.com/tact-lang/tree-sitter-tact"
       },
       "lang": "tact",
@@ -2222,7 +2222,7 @@
     },
     {
       "install_info": {
-        "revision": "8dacf02aa402892c91079f8577998ed5148c0496",
+        "revision": "d900077aef9f5dcb0d47c86be33585013ed5db9a",
         "url": "https://github.com/PorterAtGoogle/tree-sitter-textproto"
       },
       "lang": "textproto",
@@ -2246,7 +2246,7 @@
     },
     {
       "install_info": {
-        "revision": "b9e3978f363b3f8884c886a01d15e41bd14d30bd",
+        "revision": "da9cf9793686e236327aadfbad449414c895bf84",
         "url": "https://github.com/tlaplus-community/tree-sitter-tlaplus"
       },
       "lang": "tlaplus",
@@ -2398,7 +2398,7 @@
     {
       "install_info": {
         "location": "tree_sitter_v",
-        "revision": "4f93826aeb31066eb241f4ccbca61f052239803f",
+        "revision": "bc5b3caa85f7a8d4597f51aeaf92b83162ed6b33",
         "url": "https://github.com/vlang/v-analyzer"
       },
       "lang": "v",
@@ -2508,7 +2508,7 @@
     },
     {
       "install_info": {
-        "revision": "c52f0b07786603df17ad0197f6cef680f312eb2c",
+        "revision": "81490b4e74c792369e005f72b0d46fe082d3fed2",
         "url": "https://github.com/liamwh/tree-sitter-wit"
       },
       "lang": "wit",
@@ -2573,6 +2573,24 @@
       },
       "lang": "zig",
       "tier": 1
+    },
+    {
+      "install_info": {
+        "location": "tree-sitter-ziggy",
+        "revision": "42b6f5d7320340bc5903c4c29d34065e8517a549",
+        "url": "https://github.com/kristoff-it/ziggy"
+      },
+      "lang": "ziggy",
+      "tier": 3
+    },
+    {
+      "install_info": {
+        "location": "tree-sitter-ziggy-schema",
+        "revision": "42b6f5d7320340bc5903c4c29d34065e8517a549",
+        "url": "https://github.com/kristoff-it/ziggy"
+      },
+      "lang": "ziggy_schema",
+      "tier": 3
     }
   ]
 }
