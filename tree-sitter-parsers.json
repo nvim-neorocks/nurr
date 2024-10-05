@@ -478,7 +478,7 @@
     },
     {
       "install_info": {
-        "revision": "b079ba57a7918a85e0780df29e7f45f51d622200",
+        "revision": "f1919a34af3a9c79402c4a3d6c52986e9c2ea949",
         "url": "https://github.com/WhatsApp/tree-sitter-erlang"
       },
       "lang": "erlang",
@@ -1334,7 +1334,7 @@
     {
       "install_info": {
         "generate": true,
-        "revision": "612a71d978d9d3e8edaece497845ce8708b44b2d",
+        "revision": "5da32586f41659cc566d6f8145f9aaff3b842c96",
         "url": "https://github.com/artagnon/tree-sitter-mlir"
       },
       "lang": "mlir",
@@ -1401,7 +1401,7 @@
     },
     {
       "install_info": {
-        "revision": "588539bf3ff2560c57b4ee847f95688bc701eaad",
+        "revision": "42b5c693e7cd8f2309661438e956d947de30080e",
         "url": "https://github.com/cstrahan/tree-sitter-nix"
       },
       "lang": "nix",
@@ -2373,7 +2373,7 @@
     {
       "install_info": {
         "generate": true,
-        "revision": "985aaf5857a61fad3aeb262e64816105b746ad30",
+        "revision": "bc06e1eb100e1c0fab9bd89a9ca55d646ac80fc4",
         "url": "https://github.com/kylegoetz/tree-sitter-unison"
       },
       "lang": "unison",
