@@ -2262,20 +2262,6 @@
             "license": "GPL-3.0"
         },
         {
-            "name": "nvimdev/guard-collection",
-            "shorthand": "guard-collection",
-            "dependencies": [],
-            "summary": "Collection of configuration for guard.nvim.",
-            "license": "MIT"
-        },
-        {
-            "name": "nvimdev/guard.nvim",
-            "shorthand": "guard.nvim",
-            "dependencies": ["guard-collection"],
-            "summary": "Async formatting and linting utility for neovim.",
-            "license": "MIT"
-        },
-        {
             "name": "nvimdev/indentmini.nvim",
             "shorthand": "indentmini.nvim",
             "dependencies": [],
