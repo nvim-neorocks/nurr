@@ -32,7 +32,7 @@
     {
       "install_info": {
         "location": "apex",
-        "revision": "69330ef89fb6b7b2dd16b639d86811e9262c7369",
+        "revision": "779684231107cef4d86ac16f74320e9324680da3",
         "url": "https://github.com/aheber/tree-sitter-sfapex"
       },
       "lang": "apex",
@@ -1169,7 +1169,7 @@
     {
       "install_info": {
         "generate": true,
-        "revision": "1e4e30342b7a3b3a24886a632fbac53035d98871",
+        "revision": "87e4059f01bed363230dc349f794ce4cc580e862",
         "url": "https://github.com/latex-lsp/tree-sitter-latex"
       },
       "lang": "latex",
@@ -1401,7 +1401,7 @@
     },
     {
       "install_info": {
-        "revision": "42b5c693e7cd8f2309661438e956d947de30080e",
+        "revision": "8be0e516904650a868639aa8d3923ebe84f62627",
         "url": "https://github.com/cstrahan/tree-sitter-nix"
       },
       "lang": "nix",
@@ -1899,7 +1899,7 @@
     },
     {
       "install_info": {
-        "revision": "a66579f70d6f50ffd81a16fc3d3358e2ac173c88",
+        "revision": "0b4729672f9aec4810c01a0f971541dcb433fef5",
         "url": "https://github.com/tree-sitter/tree-sitter-ruby"
       },
       "lang": "ruby",
@@ -1952,7 +1952,7 @@
     {
       "install_info": {
         "location": "sflog",
-        "revision": "69330ef89fb6b7b2dd16b639d86811e9262c7369",
+        "revision": "779684231107cef4d86ac16f74320e9324680da3",
         "url": "https://github.com/aheber/tree-sitter-sfapex"
       },
       "lang": "sflog",
@@ -2013,7 +2013,7 @@
     {
       "install_info": {
         "location": "soql",
-        "revision": "69330ef89fb6b7b2dd16b639d86811e9262c7369",
+        "revision": "779684231107cef4d86ac16f74320e9324680da3",
         "url": "https://github.com/aheber/tree-sitter-sfapex"
       },
       "lang": "soql",
@@ -2022,7 +2022,7 @@
     {
       "install_info": {
         "location": "sosl",
-        "revision": "69330ef89fb6b7b2dd16b639d86811e9262c7369",
+        "revision": "779684231107cef4d86ac16f74320e9324680da3",
         "url": "https://github.com/aheber/tree-sitter-sfapex"
       },
       "lang": "sosl",
@@ -2103,6 +2103,15 @@
         "url": "https://github.com/madskjeldgaard/tree-sitter-supercollider"
       },
       "lang": "supercollider",
+      "tier": 3
+    },
+    {
+      "install_info": {
+        "location": "tree-sitter-superhtml",
+        "revision": "3edb67236291d45ba97a79cdac3b91692487a352",
+        "url": "https://github.com/kristoff-it/superhtml"
+      },
+      "lang": "superhtml",
       "tier": 3
     },
     {
