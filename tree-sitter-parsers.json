@@ -202,7 +202,7 @@
     },
     {
       "install_info": {
-        "revision": "69d7a8b0f7493b0dbb07d54e8fea96c5421e8a71",
+        "revision": "f2569dd1fce0f252097a25bcbcb9ed8898840310",
         "url": "https://github.com/uyha/tree-sitter-cmake"
       },
       "lang": "cmake",
@@ -1217,7 +1217,7 @@
     },
     {
       "install_info": {
-        "revision": "1b96e58faf558ce057d4dc664b904528aee743cb",
+        "revision": "c14cb839003348692158b845db9edda201374548",
         "url": "https://github.com/benwilliamgraham/tree-sitter-llvm"
       },
       "lang": "llvm",
@@ -1510,7 +1510,7 @@
       "install_info": {
         "branch": "release",
         "generate_from_json": true,
-        "revision": "81c57e274c541c30d6c204c8dbceb90ec647ed8d",
+        "revision": "72a08a496a23212f23802490ef6f4700d68cfd0e",
         "url": "https://github.com/tree-sitter-perl/tree-sitter-perl"
       },
       "lang": "perl",
@@ -2439,7 +2439,7 @@
     },
     {
       "install_info": {
-        "revision": "3f13cd14952b39ccf6817f58880834b84565ca54",
+        "revision": "d6e8301999336b47d663052d43f983c3edeb01dd",
         "url": "https://github.com/jpt13653903/tree-sitter-vhdl"
       },
       "lang": "vhdl",

@@ -94,7 +94,7 @@
     },
     {
       "key": "cmake",
-      "value": 29
+      "value": 30
     },
     {
       "key": "comment",
@@ -142,7 +142,7 @@
     },
     {
       "key": "dart",
-      "value": 30
+      "value": 31
     },
     {
       "key": "devicetree",
@@ -554,7 +554,7 @@
     },
     {
       "key": "llvm",
-      "value": 29
+      "value": 30
     },
     {
       "key": "lua",
@@ -686,7 +686,7 @@
     },
     {
       "key": "perl",
-      "value": 33
+      "value": 34
     },
     {
       "key": "php",
@@ -1098,7 +1098,7 @@
     },
     {
       "key": "vhdl",
-      "value": 29
+      "value": 30
     },
     {
       "key": "vhs",
