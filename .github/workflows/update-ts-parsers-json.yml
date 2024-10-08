@@ -12,6 +12,9 @@ on:
       - 'main'
     paths:
       - 'scripts/echo-ts-json.lua'
+      - 'scripts/parser-update-counts.jq'
+      - 'scripts/parser-update-counts.sh'
+      - 'scripts/queries-update-counts.sh'
       - .github/workflows/update-ts-parsers-json.yml
   schedule:
     # Runs every 12 hours
@@ -41,6 +44,11 @@ jobs:
           | jq -S '{parsers: [to_entries[] | {lang: .key} + (.value | del(.maintainers))] | sort_by(.lang)}' \
           > tree-sitter-parsers.json
           ./scripts/parser-update-counts.sh
+          pushd nvim-treesitter
+          # XXX: Because the main branch is currently rebased a lot,
+          # we use master as the reference for query updates
+          git checkout master
+          popd
           ./scripts/queries-update-counts.sh
       - name: Update nvim-treesitter.lock
         run: |
