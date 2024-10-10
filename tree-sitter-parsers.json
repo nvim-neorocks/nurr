@@ -414,7 +414,7 @@
     },
     {
       "install_info": {
-        "revision": "a761198025448c77ea11bcf22505b395a77fc0d0",
+        "revision": "d710520b712afa2c74d57cc3cb6093a77916c08b",
         "url": "https://github.com/ValdezFOmar/tree-sitter-editorconfig"
       },
       "lang": "editorconfig",
@@ -1136,7 +1136,7 @@
     },
     {
       "install_info": {
-        "revision": "ec985672ff21f7fd7f835869d8021e8f87304bb4",
+        "revision": "76f53c48d29e8588934fb55b0240d7bdfe00bfe5",
         "url": "https://github.com/fwcd/tree-sitter-kotlin"
       },
       "lang": "kotlin",
@@ -1334,7 +1334,7 @@
     {
       "install_info": {
         "generate": true,
-        "revision": "ccf732d3dbe6ca415a29b9be887c783111b297c7",
+        "revision": "a6727f883344079383faaf768065d2f5fea285a5",
         "url": "https://github.com/artagnon/tree-sitter-mlir"
       },
       "lang": "mlir",
@@ -1401,7 +1401,7 @@
     },
     {
       "install_info": {
-        "revision": "9ef77ceefff61d31a63133d8d697f219ab62c841",
+        "revision": "d240e9a525aa5963eda0704c899037c0ea305e7e",
         "url": "https://github.com/cstrahan/tree-sitter-nix"
       },
       "lang": "nix",
@@ -2137,7 +2137,7 @@
     {
       "install_info": {
         "generate": true,
-        "revision": "14668554259c5a82fc0c8ca825aa3bb895034c67",
+        "revision": "a6ec57ad4d12c68d952ba1f869bd373a7ac95832",
         "url": "https://github.com/alex-pinkus/tree-sitter-swift"
       },
       "lang": "swift",
@@ -2185,7 +2185,7 @@
     },
     {
       "install_info": {
-        "revision": "09c57b6b9759560b4d067e0546c9953ee0e065da",
+        "revision": "83e264928fa194b7283428527259e88e54205264",
         "url": "https://github.com/tact-lang/tree-sitter-tact"
       },
       "lang": "tact",

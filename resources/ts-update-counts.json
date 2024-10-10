@@ -194,7 +194,7 @@
     },
     {
       "key": "editorconfig",
-      "value": 30
+      "value": 31
     },
     {
       "key": "eds",
@@ -514,7 +514,7 @@
     },
     {
       "key": "kotlin",
-      "value": 29
+      "value": 30
     },
     {
       "key": "koto",
@@ -606,7 +606,7 @@
     },
     {
       "key": "mlir",
-      "value": 32
+      "value": 33
     },
     {
       "key": "muttrc",
@@ -638,7 +638,7 @@
     },
     {
       "key": "nix",
-      "value": 39
+      "value": 40
     },
     {
       "key": "nqc",
@@ -958,7 +958,7 @@
     },
     {
       "key": "swift",
-      "value": 33
+      "value": 34
     },
     {
       "key": "sxhkdrc",
@@ -982,7 +982,7 @@
     },
     {
       "key": "tact",
-      "value": 32
+      "value": 33
     },
     {
       "key": "tcl",
