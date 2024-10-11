@@ -14,7 +14,7 @@
     },
     {
       "key": "apex",
-      "value": 34
+      "value": 35
     },
     {
       "key": "arduino",
@@ -194,7 +194,7 @@
     },
     {
       "key": "editorconfig",
-      "value": 31
+      "value": 32
     },
     {
       "key": "eds",
@@ -602,7 +602,7 @@
     },
     {
       "key": "meson",
-      "value": 29
+      "value": 30
     },
     {
       "key": "mlir",
@@ -638,7 +638,7 @@
     },
     {
       "key": "nix",
-      "value": 40
+      "value": 41
     },
     {
       "key": "nqc",
@@ -698,7 +698,7 @@
     },
     {
       "key": "phpdoc",
-      "value": 29
+      "value": 30
     },
     {
       "key": "pioasm",
@@ -906,11 +906,11 @@
     },
     {
       "key": "soql",
-      "value": 33
+      "value": 34
     },
     {
       "key": "sosl",
-      "value": 33
+      "value": 34
     },
     {
       "key": "sourcepawn",
@@ -990,7 +990,7 @@
     },
     {
       "key": "teal",
-      "value": 29
+      "value": 30
     },
     {
       "key": "templ",
@@ -1174,7 +1174,7 @@
     },
     {
       "key": "sflog",
-      "value": 33
+      "value": 34
     },
     {
       "key": "gap",
