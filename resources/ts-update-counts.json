@@ -6,7 +6,7 @@
     },
     {
       "key": "agda",
-      "value": 29
+      "value": 30
     },
     {
       "key": "angular",
@@ -38,7 +38,7 @@
     },
     {
       "key": "bash",
-      "value": 29
+      "value": 30
     },
     {
       "key": "bass",
@@ -70,11 +70,11 @@
     },
     {
       "key": "c",
-      "value": 30
+      "value": 31
     },
     {
       "key": "c_sharp",
-      "value": 29
+      "value": 30
     },
     {
       "key": "cairo",
@@ -94,7 +94,7 @@
     },
     {
       "key": "cmake",
-      "value": 30
+      "value": 31
     },
     {
       "key": "comment",
@@ -118,11 +118,11 @@
     },
     {
       "key": "cpp",
-      "value": 31
+      "value": 32
     },
     {
       "key": "css",
-      "value": 29
+      "value": 30
     },
     {
       "key": "csv",
@@ -154,7 +154,7 @@
     },
     {
       "key": "diff",
-      "value": 29
+      "value": 31
     },
     {
       "key": "disassembly",
@@ -194,11 +194,11 @@
     },
     {
       "key": "editorconfig",
-      "value": 32
+      "value": 33
     },
     {
       "key": "eds",
-      "value": 29
+      "value": 30
     },
     {
       "key": "eex",
@@ -206,7 +206,7 @@
     },
     {
       "key": "elixir",
-      "value": 31
+      "value": 32
     },
     {
       "key": "elm",
@@ -222,7 +222,7 @@
     },
     {
       "key": "embedded_template",
-      "value": 29
+      "value": 30
     },
     {
       "key": "erlang",
@@ -298,7 +298,7 @@
     },
     {
       "key": "gitcommit",
-      "value": 29
+      "value": 30
     },
     {
       "key": "gitignore",
@@ -326,7 +326,7 @@
     },
     {
       "key": "go",
-      "value": 30
+      "value": 31
     },
     {
       "key": "goctl",
@@ -346,7 +346,7 @@
     },
     {
       "key": "gotmpl",
-      "value": 29
+      "value": 30
     },
     {
       "key": "gowork",
@@ -378,7 +378,7 @@
     },
     {
       "key": "haskell",
-      "value": 29
+      "value": 30
     },
     {
       "key": "haskell_persistent",
@@ -394,7 +394,7 @@
     },
     {
       "key": "helm",
-      "value": 29
+      "value": 30
     },
     {
       "key": "hjson",
@@ -402,7 +402,7 @@
     },
     {
       "key": "hlsl",
-      "value": 30
+      "value": 31
     },
     {
       "key": "hlsplaylist",
@@ -418,7 +418,7 @@
     },
     {
       "key": "html",
-      "value": 29
+      "value": 30
     },
     {
       "key": "html_tags",
@@ -462,11 +462,11 @@
     },
     {
       "key": "java",
-      "value": 30
+      "value": 31
     },
     {
       "key": "javascript",
-      "value": 29
+      "value": 30
     },
     {
       "key": "jq",
@@ -474,7 +474,7 @@
     },
     {
       "key": "jsdoc",
-      "value": 29
+      "value": 30
     },
     {
       "key": "json",
@@ -498,11 +498,11 @@
     },
     {
       "key": "julia",
-      "value": 29
+      "value": 30
     },
     {
       "key": "just",
-      "value": 29
+      "value": 30
     },
     {
       "key": "kconfig",
@@ -534,7 +534,7 @@
     },
     {
       "key": "ledger",
-      "value": 29
+      "value": 30
     },
     {
       "key": "leo",
@@ -690,11 +690,11 @@
     },
     {
       "key": "php",
-      "value": 31
+      "value": 32
     },
     {
       "key": "php_only",
-      "value": 31
+      "value": 32
     },
     {
       "key": "phpdoc",
@@ -774,11 +774,11 @@
     },
     {
       "key": "python",
-      "value": 29
+      "value": 30
     },
     {
       "key": "ql",
-      "value": 29
+      "value": 30
     },
     {
       "key": "qmldir",
@@ -786,7 +786,7 @@
     },
     {
       "key": "qmljs",
-      "value": 29
+      "value": 30
     },
     {
       "key": "query",
@@ -822,7 +822,7 @@
     },
     {
       "key": "regex",
-      "value": 29
+      "value": 31
     },
     {
       "key": "rego",
@@ -858,11 +858,11 @@
     },
     {
       "key": "ruby",
-      "value": 30
+      "value": 31
     },
     {
       "key": "rust",
-      "value": 29
+      "value": 30
     },
     {
       "key": "scala",
@@ -882,7 +882,7 @@
     },
     {
       "key": "slang",
-      "value": 31
+      "value": 32
     },
     {
       "key": "slint",
@@ -994,7 +994,7 @@
     },
     {
       "key": "templ",
-      "value": 32
+      "value": 33
     },
     {
       "key": "terraform",
@@ -1026,7 +1026,7 @@
     },
     {
       "key": "toml",
-      "value": 29
+      "value": 30
     },
     {
       "key": "tsv",
@@ -1034,7 +1034,7 @@
     },
     {
       "key": "tsx",
-      "value": 29
+      "value": 30
     },
     {
       "key": "turtle",
@@ -1046,7 +1046,7 @@
     },
     {
       "key": "typescript",
-      "value": 29
+      "value": 30
     },
     {
       "key": "typespec",
@@ -1094,7 +1094,7 @@
     },
     {
       "key": "verilog",
-      "value": 29
+      "value": 31
     },
     {
       "key": "vhdl",
