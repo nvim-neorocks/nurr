@@ -14,7 +14,7 @@
     },
     {
       "key": "apex",
-      "value": 35
+      "value": 36
     },
     {
       "key": "arduino",
@@ -26,7 +26,7 @@
     },
     {
       "key": "astro",
-      "value": 29
+      "value": 30
     },
     {
       "key": "authzed",
@@ -58,7 +58,7 @@
     },
     {
       "key": "bitbake",
-      "value": 29
+      "value": 30
     },
     {
       "key": "blueprint",
@@ -142,7 +142,7 @@
     },
     {
       "key": "dart",
-      "value": 31
+      "value": 32
     },
     {
       "key": "devicetree",
@@ -206,7 +206,7 @@
     },
     {
       "key": "elixir",
-      "value": 32
+      "value": 33
     },
     {
       "key": "elm",
@@ -462,7 +462,7 @@
     },
     {
       "key": "java",
-      "value": 31
+      "value": 32
     },
     {
       "key": "javascript",
@@ -642,7 +642,7 @@
     },
     {
       "key": "nqc",
-      "value": 29
+      "value": 30
     },
     {
       "key": "objc",
@@ -658,7 +658,7 @@
     },
     {
       "key": "ocaml_interface",
-      "value": 32
+      "value": 33
     },
     {
       "key": "ocamllex",
@@ -690,11 +690,11 @@
     },
     {
       "key": "php",
-      "value": 32
+      "value": 33
     },
     {
       "key": "php_only",
-      "value": 32
+      "value": 33
     },
     {
       "key": "phpdoc",
@@ -750,7 +750,7 @@
     },
     {
       "key": "prql",
-      "value": 29
+      "value": 30
     },
     {
       "key": "psv",
@@ -814,7 +814,7 @@
     },
     {
       "key": "re2c",
-      "value": 30
+      "value": 31
     },
     {
       "key": "readline",
@@ -866,7 +866,7 @@
     },
     {
       "key": "scala",
-      "value": 33
+      "value": 35
     },
     {
       "key": "scfg",
@@ -906,7 +906,7 @@
     },
     {
       "key": "soql",
-      "value": 34
+      "value": 35
     },
     {
       "key": "sosl",
@@ -922,7 +922,7 @@
     },
     {
       "key": "sql",
-      "value": 29
+      "value": 30
     },
     {
       "key": "squirrel",
@@ -934,7 +934,7 @@
     },
     {
       "key": "starlark",
-      "value": 29
+      "value": 30
     },
     {
       "key": "strace",
@@ -970,11 +970,11 @@
     },
     {
       "key": "systemverilog",
-      "value": 29
+      "value": 30
     },
     {
       "key": "t32",
-      "value": 29
+      "value": 30
     },
     {
       "key": "tablegen",
@@ -1014,7 +1014,7 @@
     },
     {
       "key": "tlaplus",
-      "value": 32
+      "value": 33
     },
     {
       "key": "tmux",
@@ -1094,7 +1094,7 @@
     },
     {
       "key": "verilog",
-      "value": 31
+      "value": 33
     },
     {
       "key": "vhdl",
@@ -1138,7 +1138,7 @@
     },
     {
       "key": "xml",
-      "value": 29
+      "value": 30
     },
     {
       "key": "yaml",
@@ -1186,15 +1186,15 @@
     },
     {
       "key": "glimmer_javascript",
-      "value": 29
+      "value": 30
     },
     {
       "key": "glimmer_typescript",
-      "value": 29
+      "value": 30
     },
     {
       "key": "fsharp",
-      "value": 8
+      "value": 9
     },
     {
       "key": "ziggy",
@@ -1207,6 +1207,10 @@
     {
       "key": "superhtml",
       "value": 5
+    },
+    {
+      "key": "gren",
+      "value": 2
     }
   ]
 }
