@@ -654,7 +654,7 @@
     },
     {
       "install_info": {
-        "revision": "79fdc5de52d0e2c6854db924525196af22100dad",
+        "revision": "66e2585f4a3e73e768d42ef1223a5fb0a447bae6",
         "url": "https://github.com/gbprod/tree-sitter-gitcommit"
       },
       "lang": "gitcommit",
@@ -1923,7 +1923,7 @@
     },
     {
       "install_info": {
-        "revision": "18ee845787b040d56e9c03408deda296da23163d",
+        "revision": "a9af6356f8e31f04e870587bca79bc2b15808ff5",
         "url": "https://github.com/tree-sitter/tree-sitter-scala"
       },
       "lang": "scala",
@@ -2116,7 +2116,7 @@
     {
       "install_info": {
         "location": "tree-sitter-superhtml",
-        "revision": "36f37aa5aa440805f27d4a9f5203e616a303c6a1",
+        "revision": "3325bbb2dda260131a8db0cae1f1f557d17ebced",
         "url": "https://github.com/kristoff-it/superhtml"
       },
       "lang": "superhtml",
@@ -2231,7 +2231,7 @@
     },
     {
       "install_info": {
-        "revision": "d900077aef9f5dcb0d47c86be33585013ed5db9a",
+        "revision": "568471b80fd8793d37ed01865d8c2208a9fefd1b",
         "url": "https://github.com/PorterAtGoogle/tree-sitter-textproto"
       },
       "lang": "textproto",
