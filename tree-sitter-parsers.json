@@ -2501,7 +2501,7 @@
     {
       "install_info": {
         "generate_from_json": true,
-        "revision": "0f06f24e259ac725045956436b9025dab008ff9f",
+        "revision": "47c1818d245a6156a488c4c4d06e9336714bae9b",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-wgsl-bevy"
       },
       "lang": "wgsl_bevy",
