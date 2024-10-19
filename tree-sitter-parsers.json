@@ -654,7 +654,7 @@
     },
     {
       "install_info": {
-        "revision": "66e2585f4a3e73e768d42ef1223a5fb0a447bae6",
+        "revision": "67ab180883ba5ce3f5b0a5f4288cc6d9f9d83a5d",
         "url": "https://github.com/gbprod/tree-sitter-gitcommit"
       },
       "lang": "gitcommit",
@@ -1826,7 +1826,7 @@
     },
     {
       "install_info": {
-        "revision": "123552e5849fae9a7c536eac84d471579c7f3328",
+        "revision": "58f4caf9db12db3b38b81c77d274aa73c9e85aca",
         "url": "https://github.com/tree-sitter/tree-sitter-regex"
       },
       "lang": "regex",
