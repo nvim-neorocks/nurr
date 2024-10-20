@@ -146,7 +146,7 @@
     },
     {
       "key": "devicetree",
-      "value": 30
+      "value": 31
     },
     {
       "key": "dhall",
@@ -194,7 +194,7 @@
     },
     {
       "key": "editorconfig",
-      "value": 33
+      "value": 34
     },
     {
       "key": "eds",
@@ -478,7 +478,7 @@
     },
     {
       "key": "json",
-      "value": 29
+      "value": 30
     },
     {
       "key": "json5",
@@ -582,11 +582,11 @@
     },
     {
       "key": "markdown",
-      "value": 33
+      "value": 34
     },
     {
       "key": "markdown_inline",
-      "value": 33
+      "value": 34
     },
     {
       "key": "matlab",
@@ -954,7 +954,7 @@
     },
     {
       "key": "svelte",
-      "value": 31
+      "value": 32
     },
     {
       "key": "swift",
@@ -1210,6 +1210,10 @@
     },
     {
       "key": "gren",
+      "value": 2
+    },
+    {
+      "key": "xresources",
       "value": 2
     }
   ]

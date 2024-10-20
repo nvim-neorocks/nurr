@@ -319,7 +319,7 @@
     },
     {
       "install_info": {
-        "revision": "07a647c8fb70e6b06379a60526721e3141aa2fd2",
+        "revision": "16c9cb959675bc9bc4f4e5bebe473d511a12a06d",
         "url": "https://github.com/joelspadin/tree-sitter-devicetree"
       },
       "lang": "devicetree",
@@ -414,7 +414,7 @@
     },
     {
       "install_info": {
-        "revision": "79bb1dc197d0eb7499843b19d3dd0f9a2ee34d3c",
+        "revision": "f5b5ac3f718523fe9d5ee926f64eb177306afdb6",
         "url": "https://github.com/ValdezFOmar/tree-sitter-editorconfig"
       },
       "lang": "editorconfig",
@@ -1071,7 +1071,7 @@
     },
     {
       "install_info": {
-        "revision": "8bfdb43f47ad805bb1ce093203cfcbaa8ed2c571",
+        "revision": "f2503f1c437fe24560876557868ac94c9cfd3216",
         "url": "https://github.com/tree-sitter/tree-sitter-json"
       },
       "lang": "json",
@@ -1287,7 +1287,7 @@
     {
       "install_info": {
         "location": "tree-sitter-markdown",
-        "revision": "b7eba93e6a3e588e259e831416ac11abdaa8616a",
+        "revision": "be81c59efc552bd875650fe078bf6b78d57330ca",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-markdown"
       },
       "lang": "markdown",
@@ -1300,7 +1300,7 @@
     {
       "install_info": {
         "location": "tree-sitter-markdown-inline",
-        "revision": "b7eba93e6a3e588e259e831416ac11abdaa8616a",
+        "revision": "be81c59efc552bd875650fe078bf6b78d57330ca",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-markdown"
       },
       "lang": "markdown_inline",
@@ -2133,7 +2133,7 @@
     {
       "install_info": {
         "generate_from_json": true,
-        "revision": "774a65aea563accc35f5d45fafa4d96ec5761f57",
+        "revision": "ae5199db47757f785e43a14b332118a5474de1a2",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-svelte"
       },
       "lang": "svelte",
@@ -2542,6 +2542,14 @@
         "dtd"
       ],
       "tier": 2
+    },
+    {
+      "install_info": {
+        "revision": "702e1e64ae14635346ffeb945d16f42d009c147a",
+        "url": "https://github.com/ValdezFOmar/tree-sitter-xresources"
+      },
+      "lang": "xresources",
+      "tier": 3
     },
     {
       "install_info": {
