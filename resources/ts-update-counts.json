@@ -958,7 +958,7 @@
     },
     {
       "key": "swift",
-      "value": 34
+      "value": 35
     },
     {
       "key": "sxhkdrc",
@@ -1014,7 +1014,7 @@
     },
     {
       "key": "tlaplus",
-      "value": 33
+      "value": 34
     },
     {
       "key": "tmux",
@@ -1110,7 +1110,7 @@
     },
     {
       "key": "vimdoc",
-      "value": 29
+      "value": 30
     },
     {
       "key": "vue",
@@ -1214,7 +1214,7 @@
     },
     {
       "key": "xresources",
-      "value": 2
+      "value": 3
     }
   ]
 }
