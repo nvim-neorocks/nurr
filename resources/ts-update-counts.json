@@ -178,7 +178,7 @@
     },
     {
       "key": "dtd",
-      "value": 29
+      "value": 31
     },
     {
       "key": "earthfile",
@@ -226,7 +226,7 @@
     },
     {
       "key": "erlang",
-      "value": 31
+      "value": 32
     },
     {
       "key": "facility",
@@ -298,7 +298,7 @@
     },
     {
       "key": "gitcommit",
-      "value": 32
+      "value": 33
     },
     {
       "key": "gitignore",
@@ -558,7 +558,7 @@
     },
     {
       "key": "lua",
-      "value": 30
+      "value": 31
     },
     {
       "key": "luadoc",
@@ -582,11 +582,11 @@
     },
     {
       "key": "markdown",
-      "value": 34
+      "value": 35
     },
     {
       "key": "markdown_inline",
-      "value": 34
+      "value": 35
     },
     {
       "key": "matlab",
@@ -1138,7 +1138,7 @@
     },
     {
       "key": "xml",
-      "value": 30
+      "value": 32
     },
     {
       "key": "yaml",

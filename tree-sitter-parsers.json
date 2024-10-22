@@ -384,7 +384,7 @@
     {
       "install_info": {
         "location": "dtd",
-        "revision": "809266ed1694d64dedc168a18893cc254e3edf7e",
+        "revision": "cd1316e476ec40da6ce1fb5749c9d7e6b4f1090c",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-xml"
       },
       "lang": "dtd",
@@ -478,7 +478,7 @@
     },
     {
       "install_info": {
-        "revision": "f1919a34af3a9c79402c4a3d6c52986e9c2ea949",
+        "revision": "b4ddbbd277532b2df50d4c87242d650789a5e124",
         "url": "https://github.com/WhatsApp/tree-sitter-erlang"
       },
       "lang": "erlang",
@@ -654,7 +654,7 @@
     },
     {
       "install_info": {
-        "revision": "67ab180883ba5ce3f5b0a5f4288cc6d9f9d83a5d",
+        "revision": "db0e0c4fb9095fdc42a7af34019c0616c071e9eb",
         "url": "https://github.com/gbprod/tree-sitter-gitcommit"
       },
       "lang": "gitcommit",
@@ -1233,7 +1233,7 @@
     },
     {
       "install_info": {
-        "revision": "99fc677e6971c425e8d407f59c77ab897e585c92",
+        "revision": "34e60e7f45fc313463c68090d88d742a55d1bd7a",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-lua"
       },
       "lang": "lua",
@@ -1287,7 +1287,7 @@
     {
       "install_info": {
         "location": "tree-sitter-markdown",
-        "revision": "be81c59efc552bd875650fe078bf6b78d57330ca",
+        "revision": "5cdc549ab8f461aff876c5be9741027189299cec",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-markdown"
       },
       "lang": "markdown",
@@ -1300,7 +1300,7 @@
     {
       "install_info": {
         "location": "tree-sitter-markdown-inline",
-        "revision": "be81c59efc552bd875650fe078bf6b78d57330ca",
+        "revision": "5cdc549ab8f461aff876c5be9741027189299cec",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-markdown"
       },
       "lang": "markdown_inline",
@@ -2534,7 +2534,7 @@
     {
       "install_info": {
         "location": "xml",
-        "revision": "809266ed1694d64dedc168a18893cc254e3edf7e",
+        "revision": "cd1316e476ec40da6ce1fb5749c9d7e6b4f1090c",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-xml"
       },
       "lang": "xml",
