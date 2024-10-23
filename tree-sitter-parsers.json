@@ -414,7 +414,7 @@
     },
     {
       "install_info": {
-        "revision": "f5b5ac3f718523fe9d5ee926f64eb177306afdb6",
+        "revision": "777f774d6381f1bb84adffa02a4e476fb61486ae",
         "url": "https://github.com/ValdezFOmar/tree-sitter-editorconfig"
       },
       "lang": "editorconfig",
@@ -478,7 +478,7 @@
     },
     {
       "install_info": {
-        "revision": "b4ddbbd277532b2df50d4c87242d650789a5e124",
+        "revision": "4095e9993acc89cb311ab1be8614c21b1cf768a4",
         "url": "https://github.com/WhatsApp/tree-sitter-erlang"
       },
       "lang": "erlang",
@@ -2057,7 +2057,7 @@
       "install_info": {
         "branch": "gh-pages",
         "generate_from_json": true,
-        "revision": "a8b10c76759a372d0f92bb070b4f5c993e0ce5f9",
+        "revision": "f551a8fa69dc9aea479b93fae34c3ea7be15f931",
         "url": "https://github.com/derekstride/tree-sitter-sql"
       },
       "lang": "sql",
