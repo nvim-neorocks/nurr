@@ -1152,7 +1152,7 @@
     },
     {
       "install_info": {
-        "revision": "adf8fabfffc13a51a105be38c9776744291c9eeb",
+        "revision": "9e5ab09710b9f035efdcef1eecaadbf261af7ec3",
         "url": "https://github.com/koto-lang/tree-sitter-koto"
       },
       "lang": "koto",
@@ -2169,7 +2169,7 @@
     },
     {
       "install_info": {
-        "revision": "0f6a5b1e031c97ebf58d3c76eadb2c6bf1e4f780",
+        "revision": "e455373021812abf4a0b5170caa0d882a9578bab",
         "url": "https://gitlab.com/xasc/tree-sitter-t32"
       },
       "lang": "t32",
