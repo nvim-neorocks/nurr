@@ -278,7 +278,7 @@
     },
     {
       "key": "gdscript",
-      "value": 29
+      "value": 30
     },
     {
       "key": "gdshader",
@@ -394,7 +394,7 @@
     },
     {
       "key": "helm",
-      "value": 30
+      "value": 31
     },
     {
       "key": "hjson",
@@ -454,7 +454,7 @@
     },
     {
       "key": "ispc",
-      "value": 29
+      "value": 30
     },
     {
       "key": "janet_simple",
@@ -638,7 +638,7 @@
     },
     {
       "key": "nix",
-      "value": 42
+      "value": 43
     },
     {
       "key": "nqc",
@@ -1162,7 +1162,7 @@
     },
     {
       "key": "powershell",
-      "value": 30
+      "value": 31
     },
     {
       "key": "rescript",
@@ -1206,7 +1206,7 @@
     },
     {
       "key": "superhtml",
-      "value": 6
+      "value": 7
     },
     {
       "key": "gren",
@@ -1215,6 +1215,10 @@
     {
       "key": "xresources",
       "value": 3
+    },
+    {
+      "key": "desktop",
+      "value": 2
     }
   ]
 }

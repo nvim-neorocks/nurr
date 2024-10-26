@@ -319,6 +319,14 @@
     },
     {
       "install_info": {
+        "revision": "0d8b8cf7c9311fe3f1730df8e193d836f6dd9d1b",
+        "url": "https://github.com/ValdezFOmar/tree-sitter-desktop"
+      },
+      "lang": "desktop",
+      "tier": 3
+    },
+    {
+      "install_info": {
         "revision": "16c9cb959675bc9bc4f4e5bebe473d511a12a06d",
         "url": "https://github.com/joelspadin/tree-sitter-devicetree"
       },
@@ -2116,7 +2124,7 @@
     {
       "install_info": {
         "location": "tree-sitter-superhtml",
-        "revision": "3325bbb2dda260131a8db0cae1f1f557d17ebced",
+        "revision": "e561df3b5ce94e598a4c3d0ee4abd9635bad63b3",
         "url": "https://github.com/kristoff-it/superhtml"
       },
       "lang": "superhtml",
