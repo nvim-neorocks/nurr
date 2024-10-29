@@ -154,7 +154,7 @@
     },
     {
       "install_info": {
-        "revision": "79284a14a0d7e4495b095b38acdd8a27acbe870e",
+        "revision": "6c7f459ddc0bcf78b615d3a3f4e8fed87b8b3b1b",
         "url": "https://github.com/tree-sitter/tree-sitter-c"
       },
       "lang": "c",
@@ -559,7 +559,7 @@
     },
     {
       "install_info": {
-        "revision": "cb4cb11ca2dced205fb54005684a44e2ceb813c1",
+        "revision": "e9fbb3acbfc62b051616e53b17ab97b9823e8617",
         "url": "https://github.com/stadelmanma/tree-sitter-fortran"
       },
       "lang": "fortran",
@@ -1160,7 +1160,7 @@
     },
     {
       "install_info": {
-        "revision": "9e5ab09710b9f035efdcef1eecaadbf261af7ec3",
+        "revision": "0017388765b8b9d89febfe08b5f82805b4e173a5",
         "url": "https://github.com/koto-lang/tree-sitter-koto"
       },
       "lang": "koto",
