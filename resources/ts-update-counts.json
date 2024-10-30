@@ -38,7 +38,7 @@
     },
     {
       "key": "bash",
-      "value": 31
+      "value": 32
     },
     {
       "key": "bass",
@@ -46,7 +46,7 @@
     },
     {
       "key": "beancount",
-      "value": 29
+      "value": 30
     },
     {
       "key": "bibtex",
@@ -1006,7 +1006,7 @@
     },
     {
       "key": "thrift",
-      "value": 29
+      "value": 30
     },
     {
       "key": "tiger",
@@ -1014,7 +1014,7 @@
     },
     {
       "key": "tlaplus",
-      "value": 35
+      "value": 36
     },
     {
       "key": "tmux",
@@ -1086,7 +1086,7 @@
     },
     {
       "key": "vala",
-      "value": 29
+      "value": 30
     },
     {
       "key": "vento",
@@ -1218,7 +1218,7 @@
     },
     {
       "key": "desktop",
-      "value": 2
+      "value": 3
     }
   ]
 }
