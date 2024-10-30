@@ -2102,7 +2102,7 @@
             "license": "MIT"
         },
         {
-            "name": "lawrence-laz/neotest-zig/",
+            "name": "lawrence-laz/neotest-zig",
             "shorthand": "neotest-zig",
             "dependencies": ["neotest", "plenary.nvim", "tree-sitter-zig"],
             "summary": "Test runner for Zig in Neovim using Neotest backend.",
