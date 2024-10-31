@@ -422,7 +422,7 @@
     },
     {
       "install_info": {
-        "revision": "38cf8d0af6049025de0e5486a40881dac06285b4",
+        "revision": "5eca41a689dc03534e9c459b066d116f8befb4ef",
         "url": "https://github.com/ValdezFOmar/tree-sitter-editorconfig"
       },
       "lang": "editorconfig",
@@ -678,7 +678,7 @@
     },
     {
       "install_info": {
-        "revision": "57c9951b290c8084d7c60b0aee7a2b30986ea031",
+        "revision": "2702fe84b986e4403a071bcb112d48e3dcde0ca4",
         "url": "https://github.com/gleam-lang/tree-sitter-gleam"
       },
       "lang": "gleam",
@@ -885,7 +885,7 @@
     },
     {
       "install_info": {
-        "revision": "6dd0303acf7138dd2b9b432a229e16539581c701",
+        "revision": "9359017bd0dc6b023044713aa215544885663637",
         "url": "https://github.com/connorlay/tree-sitter-heex"
       },
       "lang": "heex",
@@ -2124,7 +2124,7 @@
     {
       "install_info": {
         "location": "tree-sitter-superhtml",
-        "revision": "e561df3b5ce94e598a4c3d0ee4abd9635bad63b3",
+        "revision": "6db4b3359d01fc9feead856953e76be6f5e61a1e",
         "url": "https://github.com/kristoff-it/superhtml"
       },
       "lang": "superhtml",
