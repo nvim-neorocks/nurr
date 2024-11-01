@@ -303,6 +303,14 @@
     },
     {
       "install_info": {
+        "revision": "8b895c278f98d05e67997f5e3a43fb5531933023",
+        "url": "https://github.com/elliotfontaine/tree-sitter-cylc"
+      },
+      "lang": "cylc",
+      "tier": 3
+    },
+    {
+      "install_info": {
         "revision": "45e5f1e9d6de2c68591bc8e5ec662cf18e950b4a",
         "url": "https://github.com/gdamore/tree-sitter-d"
       },
@@ -2124,7 +2132,7 @@
     {
       "install_info": {
         "location": "tree-sitter-superhtml",
-        "revision": "6db4b3359d01fc9feead856953e76be6f5e61a1e",
+        "revision": "7d61cccdb865b2028301a0597b55ac8b225af6cf",
         "url": "https://github.com/kristoff-it/superhtml"
       },
       "lang": "superhtml",
