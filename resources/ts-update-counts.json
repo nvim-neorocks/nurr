@@ -34,7 +34,7 @@
     },
     {
       "key": "awk",
-      "value": 29
+      "value": 30
     },
     {
       "key": "bash",
@@ -362,7 +362,7 @@
     },
     {
       "key": "groovy",
-      "value": 29
+      "value": 30
     },
     {
       "key": "gstlaunch",
@@ -638,7 +638,7 @@
     },
     {
       "key": "nix",
-      "value": 43
+      "value": 44
     },
     {
       "key": "nqc",
@@ -858,7 +858,7 @@
     },
     {
       "key": "ruby",
-      "value": 31
+      "value": 32
     },
     {
       "key": "rust",
@@ -1214,11 +1214,11 @@
     },
     {
       "key": "xresources",
-      "value": 3
+      "value": 4
     },
     {
       "key": "desktop",
-      "value": 3
+      "value": 4
     },
     {
       "key": "cylc",

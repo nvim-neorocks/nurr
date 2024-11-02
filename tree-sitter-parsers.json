@@ -81,7 +81,7 @@
     },
     {
       "install_info": {
-        "revision": "553fdc4afb3b603332c3f4baf50c711506f4e797",
+        "revision": "d99440affd7f5e1d433b1753fe02a58cd0e7f635",
         "url": "https://github.com/Beaglefoot/tree-sitter-awk"
       },
       "lang": "awk",
@@ -327,7 +327,7 @@
     },
     {
       "install_info": {
-        "revision": "f3985c2695998ec98c1df50d5567ccdecaa97755",
+        "revision": "de93cdbd1cba965c102ce8b659d79f5759b933bd",
         "url": "https://github.com/ValdezFOmar/tree-sitter-desktop"
       },
       "lang": "desktop",
@@ -837,7 +837,7 @@
     },
     {
       "install_info": {
-        "revision": "0d8884514fe10c4fa47527d9a0284d207f38ddea",
+        "revision": "b53a8cc1075e056b8223b86f3bb392e0d57ae101",
         "url": "https://github.com/murtaza64/tree-sitter-groovy"
       },
       "lang": "groovy",
@@ -1425,7 +1425,7 @@
     },
     {
       "install_info": {
-        "revision": "456b14a2fa6315abc7e02fcffaf4a1f35d4955d3",
+        "revision": "ae2e097040ce36864b70aeb0a7c924ba696c3848",
         "url": "https://github.com/cstrahan/tree-sitter-nix"
       },
       "lang": "nix",
@@ -1923,7 +1923,7 @@
     },
     {
       "install_info": {
-        "revision": "83aec5f7d1659aaa79e6f24b406a9cd49b87e8e8",
+        "revision": "557ec01403bd1fcfea50f1805641ca773cbaaa42",
         "url": "https://github.com/tree-sitter/tree-sitter-ruby"
       },
       "lang": "ruby",
@@ -2561,7 +2561,7 @@
     },
     {
       "install_info": {
-        "revision": "630af80f563ede09a652a808277950c36306e3a3",
+        "revision": "37751efa38512535e6dbc840dccf35c6779f69b7",
         "url": "https://github.com/ValdezFOmar/tree-sitter-xresources"
       },
       "lang": "xresources",
