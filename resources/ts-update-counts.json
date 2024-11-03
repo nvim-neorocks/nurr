@@ -34,7 +34,7 @@
     },
     {
       "key": "awk",
-      "value": 30
+      "value": 31
     },
     {
       "key": "bash",
@@ -638,7 +638,7 @@
     },
     {
       "key": "nix",
-      "value": 44
+      "value": 45
     },
     {
       "key": "nqc",
@@ -822,7 +822,7 @@
     },
     {
       "key": "regex",
-      "value": 32
+      "value": 33
     },
     {
       "key": "rego",
@@ -862,7 +862,7 @@
     },
     {
       "key": "rust",
-      "value": 32
+      "value": 33
     },
     {
       "key": "scala",
@@ -942,7 +942,7 @@
     },
     {
       "key": "styled",
-      "value": 30
+      "value": 31
     },
     {
       "key": "supercollider",
@@ -1098,7 +1098,7 @@
     },
     {
       "key": "vhdl",
-      "value": 30
+      "value": 31
     },
     {
       "key": "vhs",

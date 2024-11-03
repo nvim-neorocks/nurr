@@ -81,7 +81,7 @@
     },
     {
       "install_info": {
-        "revision": "d99440affd7f5e1d433b1753fe02a58cd0e7f635",
+        "revision": "34bbdc7cce8e803096f47b625979e34c1be38127",
         "url": "https://github.com/Beaglefoot/tree-sitter-awk"
       },
       "lang": "awk",
@@ -1425,7 +1425,7 @@
     },
     {
       "install_info": {
-        "revision": "ae2e097040ce36864b70aeb0a7c924ba696c3848",
+        "revision": "1b26cb63284287344bc3820804cea18419b3edec",
         "url": "https://github.com/cstrahan/tree-sitter-nix"
       },
       "lang": "nix",
@@ -2115,7 +2115,7 @@
     {
       "install_info": {
         "generate_from_json": true,
-        "revision": "764af55fc6b8e5ae177eb272f5c5de6238db23e6",
+        "revision": "2e0e6231348d8cb0a82406490771825b8ac80422",
         "url": "https://github.com/mskelton/tree-sitter-styled"
       },
       "lang": "styled",
@@ -2455,7 +2455,7 @@
     },
     {
       "install_info": {
-        "revision": "d6e8301999336b47d663052d43f983c3edeb01dd",
+        "revision": "606cc728e7d55bbcecfa37b20d7313a609af1361",
         "url": "https://github.com/jpt13653903/tree-sitter-vhdl"
       },
       "lang": "vhdl",
