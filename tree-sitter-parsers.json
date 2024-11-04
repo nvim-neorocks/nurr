@@ -319,7 +319,7 @@
     },
     {
       "install_info": {
-        "revision": "9ac03bb2154316624fb4c41fe0f372a5f1597b43",
+        "revision": "a7496b9d562be91e6588eecd5d7045832f575cd0",
         "url": "https://github.com/UserNobody14/tree-sitter-dart"
       },
       "lang": "dart",
@@ -335,7 +335,7 @@
     },
     {
       "install_info": {
-        "revision": "16c9cb959675bc9bc4f4e5bebe473d511a12a06d",
+        "revision": "16f640f3c59117c9e749d581634afdb00e004f4c",
         "url": "https://github.com/joelspadin/tree-sitter-devicetree"
       },
       "lang": "devicetree",
@@ -343,7 +343,7 @@
     },
     {
       "install_info": {
-        "revision": "affb6ee38d629c9296749767ab832d69bb0d9ea8",
+        "revision": "ffd37395cbb5d576b1df51b28b38f5ab6575a20c",
         "url": "https://github.com/jbellerb/tree-sitter-dhall"
       },
       "lang": "dhall",
@@ -1007,7 +1007,7 @@
     },
     {
       "install_info": {
-        "revision": "5573b295410201ed22771776b34d636900eba368",
+        "revision": "9ac6fdd7840b5c0f271fe11b4ab656634dc2074a",
         "url": "https://github.com/cathaysia/tree-sitter-idl"
       },
       "lang": "idl",
@@ -2089,7 +2089,7 @@
     },
     {
       "install_info": {
-        "revision": "77450e8bce8853921512348f83c73c168c71fdfb",
+        "revision": "dd32616275c6e9d7800c58f40c16a09ad1c7c238",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-ssh-config"
       },
       "lang": "ssh_config",
@@ -2156,6 +2156,14 @@
       "requires": [
         "html_tags"
       ],
+      "tier": 2
+    },
+    {
+      "install_info": {
+        "revision": "03d97aad336ecc6b302f23bdd9b695ddc937160b",
+        "url": "https://github.com/FuelLabs/tree-sitter-sway.git"
+      },
+      "lang": "sway",
       "tier": 2
     },
     {
@@ -2561,7 +2569,7 @@
     },
     {
       "install_info": {
-        "revision": "37751efa38512535e6dbc840dccf35c6779f69b7",
+        "revision": "d36d356624af4b46d3fc815d0701ebf72654473c",
         "url": "https://github.com/ValdezFOmar/tree-sitter-xresources"
       },
       "lang": "xresources",
