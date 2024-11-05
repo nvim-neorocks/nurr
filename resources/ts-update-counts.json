@@ -150,7 +150,7 @@
     },
     {
       "key": "dhall",
-      "value": 30
+      "value": 31
     },
     {
       "key": "diff",
@@ -722,7 +722,7 @@
     },
     {
       "key": "printf",
-      "value": 29
+      "value": 30
     },
     {
       "key": "prisma",
@@ -822,7 +822,7 @@
     },
     {
       "key": "regex",
-      "value": 33
+      "value": 34
     },
     {
       "key": "rego",
@@ -1198,11 +1198,11 @@
     },
     {
       "key": "ziggy",
-      "value": 6
+      "value": 7
     },
     {
       "key": "ziggy_schema",
-      "value": 6
+      "value": 7
     },
     {
       "key": "superhtml",
