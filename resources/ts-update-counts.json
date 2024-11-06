@@ -294,7 +294,7 @@
     },
     {
       "key": "gitattributes",
-      "value": 29
+      "value": 30
     },
     {
       "key": "gitcommit",
@@ -638,7 +638,7 @@
     },
     {
       "key": "nix",
-      "value": 45
+      "value": 46
     },
     {
       "key": "nqc",
@@ -722,7 +722,7 @@
     },
     {
       "key": "printf",
-      "value": 30
+      "value": 31
     },
     {
       "key": "prisma",
@@ -742,7 +742,7 @@
     },
     {
       "key": "properties",
-      "value": 29
+      "value": 30
     },
     {
       "key": "proto",
@@ -986,7 +986,7 @@
     },
     {
       "key": "tcl",
-      "value": 29
+      "value": 30
     },
     {
       "key": "teal",
@@ -1118,7 +1118,7 @@
     },
     {
       "key": "wgsl",
-      "value": 29
+      "value": 30
     },
     {
       "key": "wgsl_bevy",
@@ -1230,7 +1230,7 @@
     },
     {
       "key": "nu",
-      "value": 2
+      "value": 3
     }
   ]
 }
