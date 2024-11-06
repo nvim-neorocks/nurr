@@ -1442,6 +1442,14 @@
     },
     {
       "install_info": {
+        "revision": "082a7c7df7db460da6b280c9f902bf2b19a2f423",
+        "url": "https://github.com/nushell/tree-sitter-nu"
+      },
+      "lang": "nu",
+      "tier": 3
+    },
+    {
+      "install_info": {
         "generate_from_json": true,
         "revision": "62e61b6f5c0289c376d61a8c91faf6435cde9012",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-objc"
