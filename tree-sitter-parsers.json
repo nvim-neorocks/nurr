@@ -1023,7 +1023,7 @@
     },
     {
       "install_info": {
-        "revision": "6f9c072d023c3886aabcd8012274461b35d2d0a9",
+        "revision": "aecabede39b0db05678e2d4686258d4f71b00a51",
         "url": "https://github.com/inko-lang/tree-sitter-inko"
       },
       "lang": "inko",
@@ -1442,7 +1442,7 @@
     },
     {
       "install_info": {
-        "revision": "d8b33566737f849353d08a9f8fdc86ce78d411c2",
+        "revision": "24f9e4103dd70c2a3a27b20bba9255065353f782",
         "url": "https://github.com/nushell/tree-sitter-nu"
       },
       "lang": "nu",
@@ -2405,7 +2405,7 @@
     },
     {
       "install_info": {
-        "revision": "8f58696e79092b4ad6bf197415bbd0970acf15cd",
+        "revision": "18a1d183c4c0cc40438bae2ebf8191aaf2dee8dc",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-udev"
       },
       "lang": "udev",
