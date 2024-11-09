@@ -182,7 +182,7 @@
     },
     {
       "key": "earthfile",
-      "value": 31
+      "value": 32
     },
     {
       "key": "ebnf",
@@ -606,7 +606,7 @@
     },
     {
       "key": "mlir",
-      "value": 35
+      "value": 36
     },
     {
       "key": "muttrc",
@@ -638,7 +638,7 @@
     },
     {
       "key": "nix",
-      "value": 46
+      "value": 47
     },
     {
       "key": "nqc",
@@ -1082,7 +1082,7 @@
     },
     {
       "key": "v",
-      "value": 34
+      "value": 35
     },
     {
       "key": "vala",
@@ -1214,11 +1214,11 @@
     },
     {
       "key": "xresources",
-      "value": 5
+      "value": 6
     },
     {
       "key": "desktop",
-      "value": 4
+      "value": 5
     },
     {
       "key": "cylc",
@@ -1230,7 +1230,7 @@
     },
     {
       "key": "nu",
-      "value": 5
+      "value": 6
     },
     {
       "key": "runescript",
