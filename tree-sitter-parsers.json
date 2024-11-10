@@ -89,7 +89,7 @@
     },
     {
       "install_info": {
-        "revision": "597a5ed6ed4d932fd44697feec988f977081ae59",
+        "revision": "c7c7b38e8834d1dcb09135e01ae79825f4c77789",
         "url": "https://github.com/tree-sitter/tree-sitter-bash"
       },
       "lang": "bash",
@@ -162,7 +162,7 @@
     },
     {
       "install_info": {
-        "revision": "3a85187e0a9e8db01dec6b3eb2f4e7cdfecc9d88",
+        "revision": "bb22f5b78ba9a814b9e3bce3b8374e9a7fcfbda4",
         "url": "https://github.com/tree-sitter/tree-sitter-c-sharp"
       },
       "lang": "c_sharp",
@@ -252,7 +252,7 @@
     {
       "install_info": {
         "generate_from_json": true,
-        "revision": "16bf9d2c451957aee976c982c2c668b1c0d12014",
+        "revision": "ca14f24ad00af1c3d3e2e563f02b08ae967da1c8",
         "url": "https://github.com/tree-sitter/tree-sitter-cpp"
       },
       "lang": "cpp",
@@ -408,7 +408,7 @@
     },
     {
       "install_info": {
-        "revision": "91d55b1d50a6ab58a019098c060c26260425a224",
+        "revision": "059fb087247bef8789e938629388c3e7af32c986",
         "url": "https://github.com/glehmann/tree-sitter-earthfile"
       },
       "lang": "earthfile",
@@ -430,7 +430,7 @@
     },
     {
       "install_info": {
-        "revision": "5eca41a689dc03534e9c459b066d116f8befb4ef",
+        "revision": "5e6f8e3268fc23cd6d79334c5246766e02dbd79a",
         "url": "https://github.com/ValdezFOmar/tree-sitter-editorconfig"
       },
       "lang": "editorconfig",
@@ -486,7 +486,7 @@
     },
     {
       "install_info": {
-        "revision": "7e319b065c5864bac2fb68f7e14a338b919e8bb3",
+        "revision": "8719f8606e6f2ecdaa564801383caeff19084cf6",
         "url": "https://github.com/tree-sitter/tree-sitter-embedded-template"
       },
       "lang": "embedded_template",
@@ -756,7 +756,7 @@
     },
     {
       "install_info": {
-        "revision": "df2ce2e206d2810bf010d73055055bfcff1b55aa",
+        "revision": "3e0062a534859b0c2f0ef7dc4fb6d11f8a0903c3",
         "url": "https://github.com/tree-sitter/tree-sitter-go"
       },
       "lang": "go",
@@ -959,7 +959,7 @@
     },
     {
       "install_info": {
-        "revision": "c30792dee70aaa1910e66a39557a841b6e4386d5",
+        "revision": "c1fa688e0e215c134928cb481e21c2e9b78b8ed1",
         "url": "https://github.com/tree-sitter/tree-sitter-html"
       },
       "lang": "html",
@@ -1051,7 +1051,7 @@
     },
     {
       "install_info": {
-        "revision": "b864ed97b9675e86de7c15a70c12e4c1ca85fbf9",
+        "revision": "bbaecd50bad60a062fef5829fcbc4dc2ac7991fd",
         "url": "https://github.com/tree-sitter/tree-sitter-java"
       },
       "lang": "java",
@@ -1059,7 +1059,7 @@
     },
     {
       "install_info": {
-        "revision": "a2ef0796e8b9db9107c9ad210b3121b8ad918d5e",
+        "revision": "3a837b6f3658ca3618f2022f8707e29739c91364",
         "url": "https://github.com/tree-sitter/tree-sitter-javascript"
       },
       "lang": "javascript",
@@ -1079,7 +1079,7 @@
     },
     {
       "install_info": {
-        "revision": "b2237872e528b8372ed008068f717db66c16a725",
+        "revision": "64ba0cd3bcab20dcb9d798de9d8b50445159d81a",
         "url": "https://github.com/tree-sitter/tree-sitter-jsdoc"
       },
       "lang": "jsdoc",
@@ -1087,7 +1087,7 @@
     },
     {
       "install_info": {
-        "revision": "f2503f1c437fe24560876557868ac94c9cfd3216",
+        "revision": "2f22d4a64883ba2a9cdf37988893723a98d31833",
         "url": "https://github.com/tree-sitter/tree-sitter-json"
       },
       "lang": "json",
@@ -1425,7 +1425,7 @@
     },
     {
       "install_info": {
-        "revision": "aa9ab8bbe68fc30c830f423d25638ff943cb89d0",
+        "revision": "715fdc7dd721f36fc301426cd49e1968c445306e",
         "url": "https://github.com/cstrahan/tree-sitter-nix"
       },
       "lang": "nix",
@@ -1442,7 +1442,7 @@
     },
     {
       "install_info": {
-        "revision": "caf8baffd56274db2e70077a37b8d3ccfaa46e58",
+        "revision": "7e0f16f608a9e804fae61430ade734f9f849fb80",
         "url": "https://github.com/nushell/tree-sitter-nu"
       },
       "lang": "nu",
@@ -1749,7 +1749,7 @@
     },
     {
       "install_info": {
-        "revision": "7f4b9c2d8039701b0579b7c060a918f8548aa7cd",
+        "revision": "d5e1c9b8a2963cb9da3495678388343bb2f0ef3e",
         "url": "https://github.com/tree-sitter/tree-sitter-python"
       },
       "lang": "python",
@@ -1850,7 +1850,7 @@
     },
     {
       "install_info": {
-        "revision": "b518ad4bbee3ad59672b1826ca4dc62825983533",
+        "revision": "9b46e66cd6ad44b4fc2016b8b514c7480988fbe0",
         "url": "https://github.com/tree-sitter/tree-sitter-regex"
       },
       "lang": "regex",
@@ -1947,7 +1947,7 @@
     },
     {
       "install_info": {
-        "revision": "2ace7a922a755960f44d73a7bb1efffeb4cc5501",
+        "revision": "48eef06e8d806413d9a617f4a3f4d3168c4e5918",
         "url": "https://github.com/tree-sitter/tree-sitter-rust"
       },
       "lang": "rust",
@@ -2209,7 +2209,7 @@
     },
     {
       "install_info": {
-        "revision": "e455373021812abf4a0b5170caa0d882a9578bab",
+        "revision": "39710952cece7f6d78ee7f99a9a1721f3bb0bbad",
         "url": "https://gitlab.com/xasc/tree-sitter-t32"
       },
       "lang": "t32",
