@@ -10,7 +10,7 @@
     },
     {
       "install_info": {
-        "revision": "6516cfec35479d62c0ad3c8e7e546a9774b489fd",
+        "revision": "b9b32fa042c2952a7bfca86847ea325e44ccc897",
         "url": "https://github.com/tree-sitter/tree-sitter-agda"
       },
       "lang": "agda",
@@ -89,7 +89,7 @@
     },
     {
       "install_info": {
-        "revision": "c7c7b38e8834d1dcb09135e01ae79825f4c77789",
+        "revision": "487734f87fd87118028a65a4599352fa99c9cde8",
         "url": "https://github.com/tree-sitter/tree-sitter-bash"
       },
       "lang": "bash",
@@ -154,7 +154,7 @@
     },
     {
       "install_info": {
-        "revision": "6c7f459ddc0bcf78b615d3a3f4e8fed87b8b3b1b",
+        "revision": "e8841a6a9431b7365ac9055688429e1deb8db90f",
         "url": "https://github.com/tree-sitter/tree-sitter-c"
       },
       "lang": "c",
@@ -162,7 +162,7 @@
     },
     {
       "install_info": {
-        "revision": "bb22f5b78ba9a814b9e3bce3b8374e9a7fcfbda4",
+        "revision": "362a8a41b265056592a0c3771664a21d23a71392",
         "url": "https://github.com/tree-sitter/tree-sitter-c-sharp"
       },
       "lang": "c_sharp",
@@ -252,7 +252,7 @@
     {
       "install_info": {
         "generate_from_json": true,
-        "revision": "ca14f24ad00af1c3d3e2e563f02b08ae967da1c8",
+        "revision": "f41e1a044c8a84ea9fa8577fdd2eab92ec96de02",
         "url": "https://github.com/tree-sitter/tree-sitter-cpp"
       },
       "lang": "cpp",
@@ -263,7 +263,7 @@
     },
     {
       "install_info": {
-        "revision": "ccc4e2c4b30ddabc4b41c577ad0550b3cac4a74a",
+        "revision": "6a442a3cf461b0ce275339e5afa178693484c927",
         "url": "https://github.com/tree-sitter/tree-sitter-css"
       },
       "lang": "css",
@@ -430,7 +430,7 @@
     },
     {
       "install_info": {
-        "revision": "5e6f8e3268fc23cd6d79334c5246766e02dbd79a",
+        "revision": "cfdc59ccdc13c324962a02e104743e0e23ca1010",
         "url": "https://github.com/ValdezFOmar/tree-sitter-editorconfig"
       },
       "lang": "editorconfig",
@@ -486,7 +486,7 @@
     },
     {
       "install_info": {
-        "revision": "8719f8606e6f2ecdaa564801383caeff19084cf6",
+        "revision": "332262529bc51abf5746317b2255ccc2fff778f8",
         "url": "https://github.com/tree-sitter/tree-sitter-embedded-template"
       },
       "lang": "embedded_template",
@@ -551,7 +551,7 @@
     },
     {
       "install_info": {
-        "revision": "04664b40c0dadb7ef37028acf3422c63271d377b",
+        "revision": "f08bb76892b93e5b23c45ac3bd6b1eea5df323cc",
         "url": "https://github.com/FoamScience/tree-sitter-foam"
       },
       "lang": "foam",
@@ -756,7 +756,7 @@
     },
     {
       "install_info": {
-        "revision": "3e0062a534859b0c2f0ef7dc4fb6d11f8a0903c3",
+        "revision": "5f564e3d6c85c1caa311227448a9839532013840",
         "url": "https://github.com/tree-sitter/tree-sitter-go"
       },
       "lang": "go",
@@ -869,7 +869,7 @@
     },
     {
       "install_info": {
-        "revision": "70ea0757986ea58a0d39ddfcd9d791beadeb0f43",
+        "revision": "2c2fcb22e3b939ed59ae8d6f10500c3213c68670",
         "url": "https://github.com/tree-sitter/tree-sitter-haskell"
       },
       "lang": "haskell",
@@ -959,7 +959,7 @@
     },
     {
       "install_info": {
-        "revision": "c1fa688e0e215c134928cb481e21c2e9b78b8ed1",
+        "revision": "5a5ca8551a179998360b4a4ca2c0f366a35acc03",
         "url": "https://github.com/tree-sitter/tree-sitter-html"
       },
       "lang": "html",
@@ -1051,7 +1051,7 @@
     },
     {
       "install_info": {
-        "revision": "bbaecd50bad60a062fef5829fcbc4dc2ac7991fd",
+        "revision": "a1bbe92a6370bb4c15386735fbda12f2b812a923",
         "url": "https://github.com/tree-sitter/tree-sitter-java"
       },
       "lang": "java",
@@ -1059,7 +1059,7 @@
     },
     {
       "install_info": {
-        "revision": "3a837b6f3658ca3618f2022f8707e29739c91364",
+        "revision": "108b2d4d17a04356a340aea809e4dd5b801eb40d",
         "url": "https://github.com/tree-sitter/tree-sitter-javascript"
       },
       "lang": "javascript",
@@ -1079,7 +1079,7 @@
     },
     {
       "install_info": {
-        "revision": "64ba0cd3bcab20dcb9d798de9d8b50445159d81a",
+        "revision": "b253abf68a73217b7a52c0ec254f4b6a7bb86665",
         "url": "https://github.com/tree-sitter/tree-sitter-jsdoc"
       },
       "lang": "jsdoc",
@@ -1087,7 +1087,7 @@
     },
     {
       "install_info": {
-        "revision": "2f22d4a64883ba2a9cdf37988893723a98d31833",
+        "revision": "ee35a6ebefcef0c5c416c0d1ccec7370cfca5a24",
         "url": "https://github.com/tree-sitter/tree-sitter-json"
       },
       "lang": "json",
@@ -1128,7 +1128,7 @@
     },
     {
       "install_info": {
-        "revision": "19f62656dc7f2ff3756a8ef3dcf9ab1c01a9eb58",
+        "revision": "a8e1262997d5a45520a06cbe1b86c0737d507054",
         "url": "https://github.com/tree-sitter/tree-sitter-julia"
       },
       "lang": "julia",
@@ -1358,7 +1358,7 @@
     {
       "install_info": {
         "generate": true,
-        "revision": "bee151bcbf8bb58b5a73febd98a4625ca623e807",
+        "revision": "fb9eafe8c193d71ab7fc00b8c4fb944476f5e466",
         "url": "https://github.com/artagnon/tree-sitter-mlir"
       },
       "lang": "mlir",
@@ -1471,7 +1471,7 @@
     {
       "install_info": {
         "location": "grammars/ocaml",
-        "revision": "5f7a97e9757d8afe6c0b0b5dd8734cf59f35456e",
+        "revision": "26bc61c206e7820f9f804b206f7765ffc55cd039",
         "url": "https://github.com/tree-sitter/tree-sitter-ocaml"
       },
       "lang": "ocaml",
@@ -1480,7 +1480,7 @@
     {
       "install_info": {
         "location": "grammars/interface",
-        "revision": "5f7a97e9757d8afe6c0b0b5dd8734cf59f35456e",
+        "revision": "26bc61c206e7820f9f804b206f7765ffc55cd039",
         "url": "https://github.com/tree-sitter/tree-sitter-ocaml"
       },
       "lang": "ocaml_interface",
@@ -1551,7 +1551,7 @@
     {
       "install_info": {
         "location": "php",
-        "revision": "2bce5a6588ad6d53ffe5effaf9708682f0fbfc9b",
+        "revision": "6918e6908d78780ddd996b9fcbaa835b42782d5b",
         "url": "https://github.com/tree-sitter/tree-sitter-php"
       },
       "lang": "php",
@@ -1564,7 +1564,7 @@
     {
       "install_info": {
         "location": "php_only",
-        "revision": "2bce5a6588ad6d53ffe5effaf9708682f0fbfc9b",
+        "revision": "6918e6908d78780ddd996b9fcbaa835b42782d5b",
         "url": "https://github.com/tree-sitter/tree-sitter-php"
       },
       "lang": "php_only",
@@ -1749,7 +1749,7 @@
     },
     {
       "install_info": {
-        "revision": "d5e1c9b8a2963cb9da3495678388343bb2f0ef3e",
+        "revision": "6d14e44ea217bc5bb1c1804180e9818d7d1b8d91",
         "url": "https://github.com/tree-sitter/tree-sitter-python"
       },
       "lang": "python",
@@ -1757,7 +1757,7 @@
     },
     {
       "install_info": {
-        "revision": "1d3e2ff34f1113fadc0ff174c8a01cd4227af7fd",
+        "revision": "1fd627a4e8bff8c24c11987474bd33112bead857",
         "url": "https://github.com/tree-sitter/tree-sitter-ql"
       },
       "lang": "ql",
@@ -1785,7 +1785,7 @@
     },
     {
       "install_info": {
-        "revision": "f767fb0ac5e711b6d44c5e0c8d1f349687a86ce0",
+        "revision": "a6674e279b14958625d7a530cabe06119c7a1532",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-query"
       },
       "lang": "query",
@@ -1850,7 +1850,7 @@
     },
     {
       "install_info": {
-        "revision": "9b46e66cd6ad44b4fc2016b8b514c7480988fbe0",
+        "revision": "4470c59041416e8a2a9fa343595ca28ed91f38b8",
         "url": "https://github.com/tree-sitter/tree-sitter-regex"
       },
       "lang": "regex",
@@ -1931,7 +1931,7 @@
     },
     {
       "install_info": {
-        "revision": "557ec01403bd1fcfea50f1805641ca773cbaaa42",
+        "revision": "71bd32fb7607035768799732addba884a37a6210",
         "url": "https://github.com/tree-sitter/tree-sitter-ruby"
       },
       "lang": "ruby",
@@ -1947,7 +1947,7 @@
     },
     {
       "install_info": {
-        "revision": "48eef06e8d806413d9a617f4a3f4d3168c4e5918",
+        "revision": "32c17ce5463818032a9c252a849b910315b6e485",
         "url": "https://github.com/tree-sitter/tree-sitter-rust"
       },
       "lang": "rust",
@@ -1955,7 +1955,7 @@
     },
     {
       "install_info": {
-        "revision": "a9af6356f8e31f04e870587bca79bc2b15808ff5",
+        "revision": "28c3be045afe1e293b5ba1a74e759601e74050c3",
         "url": "https://github.com/tree-sitter/tree-sitter-scala"
       },
       "lang": "scala",
@@ -2209,7 +2209,7 @@
     },
     {
       "install_info": {
-        "revision": "39710952cece7f6d78ee7f99a9a1721f3bb0bbad",
+        "revision": "2e2d7bbc244800def373f9424b1eb430d95c7ad7",
         "url": "https://gitlab.com/xasc/tree-sitter-t32"
       },
       "lang": "t32",
@@ -2251,7 +2251,7 @@
     {
       "install_info": {
         "generate_from_json": true,
-        "revision": "1dcd7db19c047bc0327907a544df3207ba814ea4",
+        "revision": "85196e73091639eb37cb24270c48cedc8a41e32f",
         "url": "https://github.com/vrischmann/tree-sitter-templ"
       },
       "lang": "templ",
@@ -2339,7 +2339,7 @@
       "install_info": {
         "generate_from_json": true,
         "location": "tsx",
-        "revision": "73c4447796b251295b498227bad028d88dc1918b",
+        "revision": "45af49560396d67a710b21a3ce315fcaa09006ff",
         "url": "https://github.com/tree-sitter/tree-sitter-typescript"
       },
       "lang": "tsx",
@@ -2370,7 +2370,7 @@
       "install_info": {
         "generate_from_json": true,
         "location": "typescript",
-        "revision": "73c4447796b251295b498227bad028d88dc1918b",
+        "revision": "45af49560396d67a710b21a3ce315fcaa09006ff",
         "url": "https://github.com/tree-sitter/tree-sitter-typescript"
       },
       "lang": "typescript",
@@ -2585,7 +2585,7 @@
     },
     {
       "install_info": {
-        "revision": "e64706be80390ebe56f743f3c091629be66d3cc5",
+        "revision": "a75056c2e1bed83c338ff394dbb7c653db210432",
         "url": "https://github.com/ValdezFOmar/tree-sitter-xresources"
       },
       "lang": "xresources",

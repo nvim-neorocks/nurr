@@ -6,7 +6,7 @@
     },
     {
       "key": "agda",
-      "value": 30
+      "value": 31
     },
     {
       "key": "angular",
@@ -38,7 +38,7 @@
     },
     {
       "key": "bash",
-      "value": 33
+      "value": 34
     },
     {
       "key": "bass",
@@ -70,11 +70,11 @@
     },
     {
       "key": "c",
-      "value": 33
+      "value": 34
     },
     {
       "key": "c_sharp",
-      "value": 31
+      "value": 32
     },
     {
       "key": "cairo",
@@ -118,11 +118,11 @@
     },
     {
       "key": "cpp",
-      "value": 33
+      "value": 34
     },
     {
       "key": "css",
-      "value": 30
+      "value": 31
     },
     {
       "key": "csv",
@@ -194,7 +194,7 @@
     },
     {
       "key": "editorconfig",
-      "value": 38
+      "value": 39
     },
     {
       "key": "eds",
@@ -222,7 +222,7 @@
     },
     {
       "key": "embedded_template",
-      "value": 31
+      "value": 32
     },
     {
       "key": "erlang",
@@ -254,7 +254,7 @@
     },
     {
       "key": "foam",
-      "value": 29
+      "value": 30
     },
     {
       "key": "forth",
@@ -326,7 +326,7 @@
     },
     {
       "key": "go",
-      "value": 32
+      "value": 33
     },
     {
       "key": "goctl",
@@ -378,7 +378,7 @@
     },
     {
       "key": "haskell",
-      "value": 30
+      "value": 31
     },
     {
       "key": "haskell_persistent",
@@ -418,7 +418,7 @@
     },
     {
       "key": "html",
-      "value": 31
+      "value": 32
     },
     {
       "key": "html_tags",
@@ -462,11 +462,11 @@
     },
     {
       "key": "java",
-      "value": 33
+      "value": 34
     },
     {
       "key": "javascript",
-      "value": 32
+      "value": 33
     },
     {
       "key": "jq",
@@ -474,11 +474,11 @@
     },
     {
       "key": "jsdoc",
-      "value": 31
+      "value": 32
     },
     {
       "key": "json",
-      "value": 31
+      "value": 32
     },
     {
       "key": "json5",
@@ -498,7 +498,7 @@
     },
     {
       "key": "julia",
-      "value": 30
+      "value": 32
     },
     {
       "key": "just",
@@ -606,7 +606,7 @@
     },
     {
       "key": "mlir",
-      "value": 36
+      "value": 37
     },
     {
       "key": "muttrc",
@@ -654,11 +654,11 @@
     },
     {
       "key": "ocaml",
-      "value": 32
+      "value": 33
     },
     {
       "key": "ocaml_interface",
-      "value": 33
+      "value": 34
     },
     {
       "key": "ocamllex",
@@ -690,11 +690,11 @@
     },
     {
       "key": "php",
-      "value": 33
+      "value": 34
     },
     {
       "key": "php_only",
-      "value": 33
+      "value": 34
     },
     {
       "key": "phpdoc",
@@ -774,11 +774,11 @@
     },
     {
       "key": "python",
-      "value": 31
+      "value": 32
     },
     {
       "key": "ql",
-      "value": 30
+      "value": 31
     },
     {
       "key": "qmldir",
@@ -790,7 +790,7 @@
     },
     {
       "key": "query",
-      "value": 29
+      "value": 30
     },
     {
       "key": "r",
@@ -822,7 +822,7 @@
     },
     {
       "key": "regex",
-      "value": 36
+      "value": 37
     },
     {
       "key": "rego",
@@ -858,15 +858,15 @@
     },
     {
       "key": "ruby",
-      "value": 32
+      "value": 33
     },
     {
       "key": "rust",
-      "value": 34
+      "value": 35
     },
     {
       "key": "scala",
-      "value": 36
+      "value": 37
     },
     {
       "key": "scfg",
@@ -974,7 +974,7 @@
     },
     {
       "key": "t32",
-      "value": 32
+      "value": 33
     },
     {
       "key": "tablegen",
@@ -994,7 +994,7 @@
     },
     {
       "key": "templ",
-      "value": 34
+      "value": 35
     },
     {
       "key": "terraform",
@@ -1034,7 +1034,7 @@
     },
     {
       "key": "tsx",
-      "value": 30
+      "value": 31
     },
     {
       "key": "turtle",
@@ -1046,7 +1046,7 @@
     },
     {
       "key": "typescript",
-      "value": 30
+      "value": 31
     },
     {
       "key": "typespec",
@@ -1214,7 +1214,7 @@
     },
     {
       "key": "xresources",
-      "value": 6
+      "value": 7
     },
     {
       "key": "desktop",
