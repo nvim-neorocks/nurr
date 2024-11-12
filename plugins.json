@@ -2332,6 +2332,21 @@
             "license": "UNLICENSE"
         },
         {
+            "name": "nvzone/volt",
+            "shorthand": "volt",
+            "dependencies": [],
+            "summary": "Plugin for creating reactive UI in neovim",
+            "license": "GPL-3.0"
+        },
+        {
+            "name": "nvzone/menu",
+            "shorthand": "menu",
+            "dependencies": ["volt"],
+            "summary": "Menu plugin for neovim ( supports nested menus ) made using volt",
+            "license": "GPL-3.0"
+        },
+
+        {
             "name": "voldikss/vim-floaterm",
             "shorthand": "vim-floatterm",
             "dependencies": [],
