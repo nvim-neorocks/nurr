@@ -8,6 +8,13 @@
             "license": "MIT"
         },
         {
+            "name": "https://git.sr.ht/~whynothugo/lsp_lines.nvim",
+            "shorthand": "lsp_lines.nvim",
+            "dependencies": [],
+            "summary": "Renders diagnostics using virtual lines on top of the real line of code.",
+            "license": "ISC"
+        },
+        {
             "name": "folke/flash.nvim",
             "shorthand": "flash.nvim",
             "dependencies": [],
