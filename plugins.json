@@ -134,6 +134,13 @@
             "license": "GPL-3.0"
         },
         {
+            "name": "MagicDuck/grug-far.nvim",
+            "shorthand": "grug-far.nvim",
+            "dependencies": [],
+            "summary": "Find And Replace plugin for neovim.",
+            "license": "MIT"
+        },
+        {
             "name": "echasnovski/mini.nvim",
             "shorthand": "mini.nvim",
             "dependencies": [],
