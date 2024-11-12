@@ -38,7 +38,7 @@
     },
     {
       "key": "bash",
-      "value": 34
+      "value": 35
     },
     {
       "key": "bass",
@@ -118,7 +118,7 @@
     },
     {
       "key": "cpp",
-      "value": 34
+      "value": 35
     },
     {
       "key": "css",
@@ -326,7 +326,7 @@
     },
     {
       "key": "go",
-      "value": 33
+      "value": 34
     },
     {
       "key": "goctl",
@@ -418,7 +418,7 @@
     },
     {
       "key": "html",
-      "value": 32
+      "value": 33
     },
     {
       "key": "html_tags",
@@ -442,7 +442,7 @@
     },
     {
       "key": "idl",
-      "value": 30
+      "value": 31
     },
     {
       "key": "ini",
@@ -530,7 +530,7 @@
     },
     {
       "key": "latex",
-      "value": 32
+      "value": 33
     },
     {
       "key": "ledger",
@@ -958,7 +958,7 @@
     },
     {
       "key": "swift",
-      "value": 37
+      "value": 38
     },
     {
       "key": "sxhkdrc",
@@ -974,7 +974,7 @@
     },
     {
       "key": "t32",
-      "value": 33
+      "value": 34
     },
     {
       "key": "tablegen",
@@ -994,7 +994,7 @@
     },
     {
       "key": "templ",
-      "value": 35
+      "value": 36
     },
     {
       "key": "terraform",
@@ -1226,7 +1226,7 @@
     },
     {
       "key": "sway",
-      "value": 2
+      "value": 3
     },
     {
       "key": "nu",

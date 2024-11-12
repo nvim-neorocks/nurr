@@ -89,7 +89,7 @@
     },
     {
       "install_info": {
-        "revision": "487734f87fd87118028a65a4599352fa99c9cde8",
+        "revision": "49c31006d8307dcb12bc5770f35b6d5b9e2be68e",
         "url": "https://github.com/tree-sitter/tree-sitter-bash"
       },
       "lang": "bash",
@@ -252,7 +252,7 @@
     {
       "install_info": {
         "generate_from_json": true,
-        "revision": "f41e1a044c8a84ea9fa8577fdd2eab92ec96de02",
+        "revision": "f41b4f66a42100be405f96bdc4ebc4a61095d3e8",
         "url": "https://github.com/tree-sitter/tree-sitter-cpp"
       },
       "lang": "cpp",
@@ -756,7 +756,7 @@
     },
     {
       "install_info": {
-        "revision": "5f564e3d6c85c1caa311227448a9839532013840",
+        "revision": "0942d76fc517739b5d29a0e420b5e602d19c724d",
         "url": "https://github.com/tree-sitter/tree-sitter-go"
       },
       "lang": "go",
@@ -959,7 +959,7 @@
     },
     {
       "install_info": {
-        "revision": "5a5ca8551a179998360b4a4ca2c0f366a35acc03",
+        "revision": "d9219ada6e1a2c8f0ab0304a8bd9ca4285ae0468",
         "url": "https://github.com/tree-sitter/tree-sitter-html"
       },
       "lang": "html",
@@ -1007,7 +1007,7 @@
     },
     {
       "install_info": {
-        "revision": "9ac6fdd7840b5c0f271fe11b4ab656634dc2074a",
+        "revision": "86ff7f19747a761dc8ba72f4045fd64aed94ba4c",
         "url": "https://github.com/cathaysia/tree-sitter-idl"
       },
       "lang": "idl",
@@ -1193,7 +1193,7 @@
     {
       "install_info": {
         "generate": true,
-        "revision": "87e4059f01bed363230dc349f794ce4cc580e862",
+        "revision": "7b06f6ed394308e7407a1703d2724128c45fc9d7",
         "url": "https://github.com/latex-lsp/tree-sitter-latex"
       },
       "lang": "latex",
@@ -2176,7 +2176,7 @@
     },
     {
       "install_info": {
-        "revision": "03d97aad336ecc6b302f23bdd9b695ddc937160b",
+        "revision": "395006713db3bbb90d267ebdfcbf1881b399b05c",
         "url": "https://github.com/FuelLabs/tree-sitter-sway.git"
       },
       "lang": "sway",
@@ -2185,7 +2185,7 @@
     {
       "install_info": {
         "generate": true,
-        "revision": "042041d0ff8986f0e58818eb35770349b50e949f",
+        "revision": "6accc2f720c7ff8573f6956a34ea22f50c44d839",
         "url": "https://github.com/alex-pinkus/tree-sitter-swift"
       },
       "lang": "swift",
@@ -2209,7 +2209,7 @@
     },
     {
       "install_info": {
-        "revision": "2e2d7bbc244800def373f9424b1eb430d95c7ad7",
+        "revision": "476f0d8ab4b012d3b6f9598890217ada70f1a8ba",
         "url": "https://gitlab.com/xasc/tree-sitter-t32"
       },
       "lang": "t32",
@@ -2251,7 +2251,7 @@
     {
       "install_info": {
         "generate_from_json": true,
-        "revision": "85196e73091639eb37cb24270c48cedc8a41e32f",
+        "revision": "73a558744fff7c4560f4801e14a467811f608556",
         "url": "https://github.com/vrischmann/tree-sitter-templ"
       },
       "lang": "templ",
