@@ -141,6 +141,13 @@
             "license": "MIT"
         },
         {
+            "name": "dstein64/vim-startuptime",
+            "shorthand": "vim-startuptime",
+            "dependencies": [],
+            "summary": "A plugin for viewing Vim and Neovim startup event timing information.",
+            "license": "MIT"
+        },
+        {
             "name": "echasnovski/mini.nvim",
             "shorthand": "mini.nvim",
             "dependencies": [],
