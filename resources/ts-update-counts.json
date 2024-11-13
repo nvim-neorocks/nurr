@@ -178,7 +178,7 @@
     },
     {
       "key": "dtd",
-      "value": 31
+      "value": 32
     },
     {
       "key": "earthfile",
@@ -606,7 +606,7 @@
     },
     {
       "key": "mlir",
-      "value": 37
+      "value": 38
     },
     {
       "key": "muttrc",
@@ -638,7 +638,7 @@
     },
     {
       "key": "nix",
-      "value": 48
+      "value": 49
     },
     {
       "key": "nqc",
@@ -1070,7 +1070,7 @@
     },
     {
       "key": "unison",
-      "value": 31
+      "value": 33
     },
     {
       "key": "usd",
@@ -1082,7 +1082,7 @@
     },
     {
       "key": "v",
-      "value": 35
+      "value": 36
     },
     {
       "key": "vala",
@@ -1098,7 +1098,7 @@
     },
     {
       "key": "vhdl",
-      "value": 31
+      "value": 32
     },
     {
       "key": "vhs",
@@ -1138,7 +1138,7 @@
     },
     {
       "key": "xml",
-      "value": 32
+      "value": 33
     },
     {
       "key": "yaml",

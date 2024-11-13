@@ -400,7 +400,7 @@
     {
       "install_info": {
         "location": "dtd",
-        "revision": "cd1316e476ec40da6ce1fb5749c9d7e6b4f1090c",
+        "revision": "4b64dd3a03ec002258d6268d712fd93716d6ab57",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-xml"
       },
       "lang": "dtd",
@@ -1358,7 +1358,7 @@
     {
       "install_info": {
         "generate": true,
-        "revision": "fb9eafe8c193d71ab7fc00b8c4fb944476f5e466",
+        "revision": "5b8867f59954c9cae76f2aa1ac88ae513de412bd",
         "url": "https://github.com/artagnon/tree-sitter-mlir"
       },
       "lang": "mlir",
@@ -1425,7 +1425,7 @@
     },
     {
       "install_info": {
-        "revision": "715fdc7dd721f36fc301426cd49e1968c445306e",
+        "revision": "0240bbfce72d155823c3b7edec622dedd580bf02",
         "url": "https://github.com/cstrahan/tree-sitter-nix"
       },
       "lang": "nix",
@@ -2422,7 +2422,7 @@
     {
       "install_info": {
         "generate": true,
-        "revision": "bc06e1eb100e1c0fab9bd89a9ca55d646ac80fc4",
+        "revision": "3c97db76d3cdbd002dfba493620c2d5df2fd6fa9",
         "url": "https://github.com/kylegoetz/tree-sitter-unison"
       },
       "lang": "unison",
@@ -2447,7 +2447,7 @@
     {
       "install_info": {
         "location": "tree_sitter_v",
-        "revision": "6d9c64ee6527bb35650300809bfebac37693e99f",
+        "revision": "8f1a06b488e65aeeb340d5e2ae3e703a104bd5c4",
         "url": "https://github.com/vlang/v-analyzer"
       },
       "lang": "v",
@@ -2479,7 +2479,7 @@
     },
     {
       "install_info": {
-        "revision": "606cc728e7d55bbcecfa37b20d7313a609af1361",
+        "revision": "b4e73e0c0a09af83e10145953cfbd3652c2833dc",
         "url": "https://github.com/jpt13653903/tree-sitter-vhdl"
       },
       "lang": "vhdl",
@@ -2574,7 +2574,7 @@
     {
       "install_info": {
         "location": "xml",
-        "revision": "cd1316e476ec40da6ce1fb5749c9d7e6b4f1090c",
+        "revision": "4b64dd3a03ec002258d6268d712fd93716d6ab57",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-xml"
       },
       "lang": "xml",
