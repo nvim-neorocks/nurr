@@ -829,7 +829,7 @@
     },
     {
       "install_info": {
-        "revision": "c06e272341363c5d8e19ac34bc7c56258a37e71b",
+        "revision": "df7992dbc1e57e055ba1cbfdbe9f961750940553",
         "url": "https://github.com/MaeBrooks/tree-sitter-gren"
       },
       "lang": "gren",
@@ -2397,7 +2397,7 @@
     },
     {
       "install_info": {
-        "revision": "8b8b16ef1b40cbecbe3f754b1c1c966b5a0904fe",
+        "revision": "26dfb4b94a99cc9d6044342b7ad0ba761da77d60",
         "url": "https://github.com/uben0/tree-sitter-typst"
       },
       "lang": "typst",
@@ -2447,7 +2447,7 @@
     {
       "install_info": {
         "location": "tree_sitter_v",
-        "revision": "8f1a06b488e65aeeb340d5e2ae3e703a104bd5c4",
+        "revision": "bb0a1bd4c2a56f6b191b7d051ea3f2976c3bcb11",
         "url": "https://github.com/vlang/v-analyzer"
       },
       "lang": "v",
