@@ -25,10 +25,6 @@ jobs:
       with:
         luaVersion: "5.1"
 
-    - name: test concat
-      run: |
-        echo ${{ join (matrix.deps, '\n')}}
-
     - name: Checkout plugin repository
       uses: actions/checkout@v4
       with:
