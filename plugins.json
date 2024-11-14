@@ -92,6 +92,13 @@
             "license": "MIT"
         },
         {
+            "name": "leath-dub/snipe.nvim",
+            "shorthand": "snipe.nvim",
+            "dependencies": [],
+            "summary": "Efficient targetted menu built for fast buffer navigation",
+            "license": "UNKNOWN"
+        },
+        {
             "name": "nacro90/numb.nvim",
             "shorthand": "numb.nvim",
             "dependencies": [],
