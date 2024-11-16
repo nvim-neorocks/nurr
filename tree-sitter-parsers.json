@@ -1128,7 +1128,7 @@
     },
     {
       "install_info": {
-        "revision": "a8e1262997d5a45520a06cbe1b86c0737d507054",
+        "revision": "fe553797479a8f58abc713330b640af0f569f915",
         "url": "https://github.com/tree-sitter/tree-sitter-julia"
       },
       "lang": "julia",
@@ -2089,7 +2089,7 @@
       "install_info": {
         "branch": "gh-pages",
         "generate_from_json": true,
-        "revision": "f551a8fa69dc9aea479b93fae34c3ea7be15f931",
+        "revision": "8048c5095fea3f585488c8315d5755f9bb54ca73",
         "url": "https://github.com/derekstride/tree-sitter-sql"
       },
       "lang": "sql",
