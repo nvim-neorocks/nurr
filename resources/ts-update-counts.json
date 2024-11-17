@@ -142,7 +142,7 @@
     },
     {
       "key": "dart",
-      "value": 33
+      "value": 34
     },
     {
       "key": "devicetree",
@@ -498,7 +498,7 @@
     },
     {
       "key": "julia",
-      "value": 33
+      "value": 34
     },
     {
       "key": "just",
@@ -654,11 +654,11 @@
     },
     {
       "key": "ocaml",
-      "value": 33
+      "value": 34
     },
     {
       "key": "ocaml_interface",
-      "value": 34
+      "value": 35
     },
     {
       "key": "ocamllex",
@@ -686,7 +686,7 @@
     },
     {
       "key": "perl",
-      "value": 35
+      "value": 36
     },
     {
       "key": "php",
@@ -922,7 +922,7 @@
     },
     {
       "key": "sql",
-      "value": 32
+      "value": 33
     },
     {
       "key": "squirrel",
@@ -1214,7 +1214,7 @@
     },
     {
       "key": "xresources",
-      "value": 7
+      "value": 8
     },
     {
       "key": "desktop",
@@ -1230,7 +1230,7 @@
     },
     {
       "key": "nu",
-      "value": 8
+      "value": 9
     },
     {
       "key": "runescript",
