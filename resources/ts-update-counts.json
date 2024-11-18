@@ -194,7 +194,7 @@
     },
     {
       "key": "editorconfig",
-      "value": 39
+      "value": 40
     },
     {
       "key": "eds",
@@ -278,7 +278,7 @@
     },
     {
       "key": "gdscript",
-      "value": 30
+      "value": 32
     },
     {
       "key": "gdshader",
@@ -478,7 +478,7 @@
     },
     {
       "key": "json",
-      "value": 32
+      "value": 33
     },
     {
       "key": "json5",
@@ -502,7 +502,7 @@
     },
     {
       "key": "just",
-      "value": 31
+      "value": 32
     },
     {
       "key": "kconfig",
@@ -758,7 +758,7 @@
     },
     {
       "key": "pug",
-      "value": 29
+      "value": 30
     },
     {
       "key": "puppet",
@@ -994,7 +994,7 @@
     },
     {
       "key": "templ",
-      "value": 36
+      "value": 37
     },
     {
       "key": "terraform",
@@ -1098,7 +1098,7 @@
     },
     {
       "key": "vhdl",
-      "value": 32
+      "value": 33
     },
     {
       "key": "vhs",
@@ -1214,7 +1214,7 @@
     },
     {
       "key": "xresources",
-      "value": 8
+      "value": 9
     },
     {
       "key": "desktop",
@@ -1230,7 +1230,7 @@
     },
     {
       "key": "nu",
-      "value": 9
+      "value": 10
     },
     {
       "key": "runescript",
