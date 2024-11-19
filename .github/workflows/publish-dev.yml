@@ -27,7 +27,7 @@ jobs:
         uses: rlalik/setup-cpp-compiler@master
         with:
           compiler: clang-latest
-          
+
       - name: Checkout plugin repository
         uses: actions/checkout@v4
         with:
@@ -51,7 +51,7 @@ jobs:
 
       - name: Get resources
         uses: actions/checkout@v4
-        with: 
+        with:
           sparse-checkout: |
             resources
           path: nurr
