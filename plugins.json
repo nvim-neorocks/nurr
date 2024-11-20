@@ -15,6 +15,13 @@
             "license": "Apache-2.0"
         },
         {
+            "name": "folke/snacks.nvim",
+            "shorthand": "snacks.nvim",
+            "dependencies": [],
+            "summary": "🍿 A collection of small QoL plugins for Neovim",
+            "license": "Apache-2.0"
+        },
+        {
             "name": "folke/tokyonight.nvim",
             "shorthand": "tokyonight.nvim",
             "dependencies": [],
