@@ -18,7 +18,7 @@
     },
     {
       "key": "arduino",
-      "value": 30
+      "value": 31
     },
     {
       "key": "asm",
@@ -502,7 +502,7 @@
     },
     {
       "key": "just",
-      "value": 33
+      "value": 34
     },
     {
       "key": "kconfig",
@@ -534,7 +534,7 @@
     },
     {
       "key": "ledger",
-      "value": 30
+      "value": 31
     },
     {
       "key": "leo",
@@ -606,7 +606,7 @@
     },
     {
       "key": "mlir",
-      "value": 38
+      "value": 39
     },
     {
       "key": "muttrc",
@@ -690,11 +690,11 @@
     },
     {
       "key": "php",
-      "value": 34
+      "value": 35
     },
     {
       "key": "php_only",
-      "value": 34
+      "value": 35
     },
     {
       "key": "phpdoc",
@@ -794,7 +794,7 @@
     },
     {
       "key": "r",
-      "value": 32
+      "value": 33
     },
     {
       "key": "racket",
@@ -922,7 +922,7 @@
     },
     {
       "key": "sql",
-      "value": 33
+      "value": 34
     },
     {
       "key": "squirrel",
@@ -1230,7 +1230,7 @@
     },
     {
       "key": "nu",
-      "value": 12
+      "value": 13
     },
     {
       "key": "runescript",
