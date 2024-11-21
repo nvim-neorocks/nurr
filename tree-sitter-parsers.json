@@ -1201,7 +1201,7 @@
     },
     {
       "install_info": {
-        "revision": "f00dcc4039082d1c253c81f23f9242bb143d41e6",
+        "revision": "19699bd9fe0bacf90d464747aab9b6179fc7b1c0",
         "url": "https://github.com/cbarrete/tree-sitter-ledger"
       },
       "lang": "ledger",
@@ -1442,7 +1442,7 @@
     },
     {
       "install_info": {
-        "revision": "f7b3d2870da1c04e796aa8116f7ce3f83c52b54c",
+        "revision": "28eba5e41f57e621d63c2d74c90f942190cb5e4d",
         "url": "https://github.com/nushell/tree-sitter-nu"
       },
       "lang": "nu",
@@ -1891,7 +1891,7 @@
     },
     {
       "install_info": {
-        "revision": "322e4cc65754d2b3fdef4f2f8a71e0762e3d13af",
+        "revision": "db697cee6ea87ddaf5aa940b0688d8c7f93cd425",
         "url": "https://github.com/Hubro/tree-sitter-robot"
       },
       "lang": "robot",
