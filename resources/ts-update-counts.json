@@ -430,7 +430,7 @@
     },
     {
       "key": "http",
-      "value": 31
+      "value": 32
     },
     {
       "key": "hurl",
@@ -474,7 +474,7 @@
     },
     {
       "key": "jsdoc",
-      "value": 32
+      "value": 33
     },
     {
       "key": "json",
@@ -686,7 +686,7 @@
     },
     {
       "key": "perl",
-      "value": 36
+      "value": 37
     },
     {
       "key": "php",
@@ -838,7 +838,7 @@
     },
     {
       "key": "robot",
-      "value": 30
+      "value": 31
     },
     {
       "key": "robots",
@@ -866,7 +866,7 @@
     },
     {
       "key": "scala",
-      "value": 37
+      "value": 38
     },
     {
       "key": "scfg",
@@ -922,7 +922,7 @@
     },
     {
       "key": "sql",
-      "value": 34
+      "value": 35
     },
     {
       "key": "squirrel",
@@ -990,7 +990,7 @@
     },
     {
       "key": "teal",
-      "value": 31
+      "value": 32
     },
     {
       "key": "templ",
@@ -1230,7 +1230,7 @@
     },
     {
       "key": "nu",
-      "value": 14
+      "value": 15
     },
     {
       "key": "runescript",
