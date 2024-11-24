@@ -74,7 +74,7 @@
     },
     {
       "key": "c_sharp",
-      "value": 32
+      "value": 33
     },
     {
       "key": "cairo",
@@ -86,7 +86,7 @@
     },
     {
       "key": "chatito",
-      "value": 29
+      "value": 30
     },
     {
       "key": "clojure",
@@ -354,7 +354,7 @@
     },
     {
       "key": "gpg",
-      "value": 29
+      "value": 30
     },
     {
       "key": "graphql",
@@ -414,7 +414,7 @@
     },
     {
       "key": "hoon",
-      "value": 29
+      "value": 30
     },
     {
       "key": "html",
@@ -614,7 +614,7 @@
     },
     {
       "key": "nasm",
-      "value": 29
+      "value": 30
     },
     {
       "key": "nginx",
@@ -682,7 +682,7 @@
     },
     {
       "key": "pem",
-      "value": 29
+      "value": 30
     },
     {
       "key": "perl",
@@ -714,7 +714,7 @@
     },
     {
       "key": "poe_filter",
-      "value": 29
+      "value": 30
     },
     {
       "key": "pony",
@@ -1094,7 +1094,7 @@
     },
     {
       "key": "verilog",
-      "value": 33
+      "value": 34
     },
     {
       "key": "vhdl",

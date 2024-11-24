@@ -162,7 +162,7 @@
     },
     {
       "install_info": {
-        "revision": "362a8a41b265056592a0c3771664a21d23a71392",
+        "revision": "ec73575c09f16b0ece864c6e036e9f424ec8e26f",
         "url": "https://github.com/tree-sitter/tree-sitter-c-sharp"
       },
       "lang": "c_sharp",
@@ -186,7 +186,7 @@
     },
     {
       "install_info": {
-        "revision": "a461f20dedb43905febb12c1635bc7d2e43e96f0",
+        "revision": "b4cbe9ab7672d5106e9550d8413835395a1be362",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-chatito"
       },
       "lang": "chatito",
@@ -813,7 +813,7 @@
     },
     {
       "install_info": {
-        "revision": "f99323fb8f3f10b6c69db0c2f6d0a14bd7330675",
+        "revision": "63e80cfe1302da9f9c7ee8d9df295f47d7d181bf",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-gpg-config"
       },
       "lang": "gpg",
@@ -951,7 +951,7 @@
     },
     {
       "install_info": {
-        "revision": "a24c5a39d1d7e993a8bee913c8e8b6a652ca5ae8",
+        "revision": "2ac017d168aca1e75b3df94dbbb6b3083f79cdfe",
         "url": "https://github.com/urbit-pilled/tree-sitter-hoon"
       },
       "lang": "hoon",
@@ -1132,7 +1132,7 @@
         "url": "https://github.com/tree-sitter/tree-sitter-julia"
       },
       "lang": "julia",
-      "tier": 4
+      "tier": 3
     },
     {
       "install_info": {
@@ -1374,7 +1374,7 @@
     },
     {
       "install_info": {
-        "revision": "570f3d7be01fffc751237f4cfcf52d04e20532d1",
+        "revision": "d1b3638d017f2a8585e26dcfc66fe1df94185e30",
         "url": "https://github.com/naclsn/tree-sitter-nasm"
       },
       "lang": "nasm",
@@ -1532,7 +1532,7 @@
     },
     {
       "install_info": {
-        "revision": "217ff2af3f2db15a79ab7e3d21ea1e0c17e71a1a",
+        "revision": "1d16b8e063fdf4385e389096c4bc4999eaaef05f",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-pem"
       },
       "lang": "pem",
@@ -1608,7 +1608,7 @@
     },
     {
       "install_info": {
-        "revision": "592476d81f95d2451f2ca107dc872224c76fecdf",
+        "revision": "908ba6accbd9cd3fdf0a208fdc186b9ca3db123c",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-poe-filter"
       },
       "lang": "poe_filter",
