@@ -162,7 +162,7 @@
     },
     {
       "install_info": {
-        "revision": "ec73575c09f16b0ece864c6e036e9f424ec8e26f",
+        "revision": "285c993f01d9955932b45a6192055003aa70a570",
         "url": "https://github.com/tree-sitter/tree-sitter-c-sharp"
       },
       "lang": "c_sharp",
@@ -430,7 +430,7 @@
     },
     {
       "install_info": {
-        "revision": "511d5f387426ba555d7fb33e726ab6770f477a49",
+        "revision": "5f4f84f0e79049e4526c0a1db669378092ecb256",
         "url": "https://github.com/ValdezFOmar/tree-sitter-editorconfig"
       },
       "lang": "editorconfig",
@@ -756,7 +756,7 @@
     },
     {
       "install_info": {
-        "revision": "0942d76fc517739b5d29a0e420b5e602d19c724d",
+        "revision": "12fe553fdaaa7449f764bc876fd777704d4fb752",
         "url": "https://github.com/tree-sitter/tree-sitter-go"
       },
       "lang": "go",
@@ -1442,7 +1442,7 @@
     },
     {
       "install_info": {
-        "revision": "9eedcb303de0b4e046477161fb3d2932a0146d2a",
+        "revision": "74e6037383ce3a77ed6fdb8281bbd69316c723a4",
         "url": "https://github.com/nushell/tree-sitter-nu"
       },
       "lang": "nu",
@@ -1947,7 +1947,7 @@
     },
     {
       "install_info": {
-        "revision": "32c17ce5463818032a9c252a849b910315b6e485",
+        "revision": "cad8a206f2e4194676b9699f26f6560d07130d3f",
         "url": "https://github.com/tree-sitter/tree-sitter-rust"
       },
       "lang": "rust",
@@ -2251,7 +2251,7 @@
     {
       "install_info": {
         "generate_from_json": true,
-        "revision": "c926ed73e101bbdef3f54eaa05b8fa30d2676dfe",
+        "revision": "dc41c080783c6305d66471672a9c9147561126e4",
         "url": "https://github.com/vrischmann/tree-sitter-templ"
       },
       "lang": "templ",
@@ -2585,7 +2585,7 @@
     },
     {
       "install_info": {
-        "revision": "2fb18b8ca7d3717a0475f35c5c7e8142a82f3200",
+        "revision": "ce8129b03f03413f18f8cd989f88c05c59151bb5",
         "url": "https://github.com/ValdezFOmar/tree-sitter-xresources"
       },
       "lang": "xresources",
