@@ -686,7 +686,7 @@
     },
     {
       "install_info": {
-        "revision": "2702fe84b986e4403a071bcb112d48e3dcde0ca4",
+        "revision": "066704e4826699e754d351e3bbe12bf2e51de9d8",
         "url": "https://github.com/gleam-lang/tree-sitter-gleam"
       },
       "lang": "gleam",
@@ -1955,7 +1955,7 @@
     },
     {
       "install_info": {
-        "revision": "c33925aa8aabaa5b61f1db860b2628c41ce84684",
+        "revision": "5f44942205c2364ce2ced14a40687d1e09685034",
         "url": "https://github.com/tree-sitter/tree-sitter-scala"
       },
       "lang": "scala",
