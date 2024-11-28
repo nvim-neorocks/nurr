@@ -2044,7 +2044,7 @@
     },
     {
       "install_info": {
-        "revision": "ee5a2d2ba30b487c4bbf613d2ef310a454c09c7c",
+        "revision": "bf268722bc6406429776f71f012e6d1a88801931",
         "url": "https://github.com/JoranHonig/tree-sitter-solidity"
       },
       "lang": "solidity",
@@ -2089,7 +2089,7 @@
       "install_info": {
         "branch": "gh-pages",
         "generate_from_json": true,
-        "revision": "3d516e6ae778bd41f9d5178823798ff6af96da60",
+        "revision": "f58f33955ea0a3e6a0aa2ef4b90a133ebee02173",
         "url": "https://github.com/derekstride/tree-sitter-sql"
       },
       "lang": "sql",
