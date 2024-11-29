@@ -1023,7 +1023,7 @@
     },
     {
       "install_info": {
-        "revision": "aecabede39b0db05678e2d4686258d4f71b00a51",
+        "revision": "a6fb0b0bfee5dede688968fd91282da799e5aa8e",
         "url": "https://github.com/inko-lang/tree-sitter-inko"
       },
       "lang": "inko",
@@ -1442,7 +1442,7 @@
     },
     {
       "install_info": {
-        "revision": "74e6037383ce3a77ed6fdb8281bbd69316c723a4",
+        "revision": "7c0628f578904d918afefe62dd639b3ac457ce51",
         "url": "https://github.com/nushell/tree-sitter-nu"
       },
       "lang": "nu",
@@ -2089,7 +2089,7 @@
       "install_info": {
         "branch": "gh-pages",
         "generate_from_json": true,
-        "revision": "f58f33955ea0a3e6a0aa2ef4b90a133ebee02173",
+        "revision": "035354ea51c835cfe8fc9abf81bb081965a42b4c",
         "url": "https://github.com/derekstride/tree-sitter-sql"
       },
       "lang": "sql",
@@ -2381,7 +2381,7 @@
     },
     {
       "install_info": {
-        "revision": "0ee05546d73d8eb64635ed8125de6f35c77759fe",
+        "revision": "0acb668f04cf12ff5a96a09ce915e0b2d6797e9b",
         "url": "https://github.com/happenslol/tree-sitter-typespec"
       },
       "lang": "typespec",
