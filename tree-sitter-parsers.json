@@ -567,7 +567,7 @@
     },
     {
       "install_info": {
-        "revision": "4c96c4d00b5c17b109028e8627407971085034ce",
+        "revision": "6f16bab7455cd2906a86679a1be83dd4f378db81",
         "url": "https://github.com/stadelmanma/tree-sitter-fortran"
       },
       "lang": "fortran",
@@ -1358,7 +1358,7 @@
     {
       "install_info": {
         "generate": true,
-        "revision": "3362ba5caab4de11f42b4a736a0e2bcdc9343480",
+        "revision": "72929ac13d7e1c46010114202262b7102a821293",
         "url": "https://github.com/artagnon/tree-sitter-mlir"
       },
       "lang": "mlir",
@@ -1425,7 +1425,7 @@
     },
     {
       "install_info": {
-        "revision": "0eca4c5cb06196cca6d9e81a64cb4b73bdab1c87",
+        "revision": "21897cc3dcd15325303e46b85295b743742af6ab",
         "url": "https://github.com/cstrahan/tree-sitter-nix"
       },
       "lang": "nix",
@@ -1442,7 +1442,7 @@
     },
     {
       "install_info": {
-        "revision": "7c0628f578904d918afefe62dd639b3ac457ce51",
+        "revision": "41a1c570b57987386ed9a928fc214928f8ddc669",
         "url": "https://github.com/nushell/tree-sitter-nu"
       },
       "lang": "nu",
@@ -2381,7 +2381,7 @@
     },
     {
       "install_info": {
-        "revision": "0acb668f04cf12ff5a96a09ce915e0b2d6797e9b",
+        "revision": "53d892fd975da3f81374f7732af3cd3abb6b85d9",
         "url": "https://github.com/happenslol/tree-sitter-typespec"
       },
       "lang": "typespec",

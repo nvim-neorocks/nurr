@@ -262,7 +262,7 @@
     },
     {
       "key": "fortran",
-      "value": 35
+      "value": 36
     },
     {
       "key": "fsh",
@@ -606,7 +606,7 @@
     },
     {
       "key": "mlir",
-      "value": 39
+      "value": 40
     },
     {
       "key": "muttrc",
@@ -638,7 +638,7 @@
     },
     {
       "key": "nix",
-      "value": 50
+      "value": 51
     },
     {
       "key": "nqc",
@@ -1050,7 +1050,7 @@
     },
     {
       "key": "typespec",
-      "value": 30
+      "value": 31
     },
     {
       "key": "typoscript",
@@ -1230,7 +1230,7 @@
     },
     {
       "key": "nu",
-      "value": 18
+      "value": 20
     },
     {
       "key": "runescript",
