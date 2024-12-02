@@ -32,7 +32,7 @@
     {
       "install_info": {
         "location": "apex",
-        "revision": "46d4a12e4e90b10a575b7b16ea3b6ead50322074",
+        "revision": "0dc9e80dfeee2330a4793eb379515dac1607b4a9",
         "url": "https://github.com/aheber/tree-sitter-sfapex"
       },
       "lang": "apex",
@@ -430,7 +430,7 @@
     },
     {
       "install_info": {
-        "revision": "a84ab6361d3df04bd1566d3b0657a4f6dc5aade4",
+        "revision": "3288aa46e30e1295133bd6f303c00ac71b4f61ad",
         "url": "https://github.com/ValdezFOmar/tree-sitter-editorconfig"
       },
       "lang": "editorconfig",
@@ -454,7 +454,7 @@
     },
     {
       "install_info": {
-        "revision": "53458546e3bb717beee1d15df30724c81eb41d1c",
+        "revision": "d30189581a8b2802f237884287fdb7c40f32a041",
         "url": "https://github.com/elixir-lang/tree-sitter-elixir"
       },
       "lang": "elixir",
@@ -1201,7 +1201,7 @@
     },
     {
       "install_info": {
-        "revision": "19699bd9fe0bacf90d464747aab9b6179fc7b1c0",
+        "revision": "d313153eef68c557ba4538b20de2d0e92f3ef6f8",
         "url": "https://github.com/cbarrete/tree-sitter-ledger"
       },
       "lang": "ledger",
@@ -1303,7 +1303,7 @@
     {
       "install_info": {
         "location": "tree-sitter-markdown",
-        "revision": "5cdc549ab8f461aff876c5be9741027189299cec",
+        "revision": "c89a30ce556a5ea5552e816e5dc2f2c0de96237d",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-markdown"
       },
       "lang": "markdown",
@@ -1316,7 +1316,7 @@
     {
       "install_info": {
         "location": "tree-sitter-markdown-inline",
-        "revision": "5cdc549ab8f461aff876c5be9741027189299cec",
+        "revision": "c89a30ce556a5ea5552e816e5dc2f2c0de96237d",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-markdown"
       },
       "lang": "markdown_inline",
@@ -1992,7 +1992,7 @@
     {
       "install_info": {
         "location": "sflog",
-        "revision": "46d4a12e4e90b10a575b7b16ea3b6ead50322074",
+        "revision": "0dc9e80dfeee2330a4793eb379515dac1607b4a9",
         "url": "https://github.com/aheber/tree-sitter-sfapex"
       },
       "lang": "sflog",
@@ -2053,7 +2053,7 @@
     {
       "install_info": {
         "location": "soql",
-        "revision": "46d4a12e4e90b10a575b7b16ea3b6ead50322074",
+        "revision": "0dc9e80dfeee2330a4793eb379515dac1607b4a9",
         "url": "https://github.com/aheber/tree-sitter-sfapex"
       },
       "lang": "soql",
@@ -2062,7 +2062,7 @@
     {
       "install_info": {
         "location": "sosl",
-        "revision": "46d4a12e4e90b10a575b7b16ea3b6ead50322074",
+        "revision": "0dc9e80dfeee2330a4793eb379515dac1607b4a9",
         "url": "https://github.com/aheber/tree-sitter-sfapex"
       },
       "lang": "sosl",
@@ -2131,7 +2131,7 @@
     {
       "install_info": {
         "generate_from_json": true,
-        "revision": "2e0e6231348d8cb0a82406490771825b8ac80422",
+        "revision": "75d3ad20818c30c49b445ca2cb35999c278b3453",
         "url": "https://github.com/mskelton/tree-sitter-styled"
       },
       "lang": "styled",
@@ -2185,7 +2185,7 @@
     {
       "install_info": {
         "generate": true,
-        "revision": "ba1b982fc45a049f0e40a8c7a796d1c802be349c",
+        "revision": "247d159ea87d2653ad0e669f69b638cd476fe699",
         "url": "https://github.com/alex-pinkus/tree-sitter-swift"
       },
       "lang": "swift",
@@ -2585,7 +2585,7 @@
     },
     {
       "install_info": {
-        "revision": "ce8129b03f03413f18f8cd989f88c05c59151bb5",
+        "revision": "1fffefe05bb7f37016f2ada74b50a29e9820b52f",
         "url": "https://github.com/ValdezFOmar/tree-sitter-xresources"
       },
       "lang": "xresources",
