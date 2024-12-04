@@ -178,7 +178,7 @@
     },
     {
       "key": "dtd",
-      "value": 32
+      "value": 33
     },
     {
       "key": "earthfile",
@@ -450,7 +450,7 @@
     },
     {
       "key": "inko",
-      "value": 34
+      "value": 35
     },
     {
       "key": "ispc",
@@ -498,7 +498,7 @@
     },
     {
       "key": "julia",
-      "value": 37
+      "value": 38
     },
     {
       "key": "just",
@@ -1138,11 +1138,11 @@
     },
     {
       "key": "xml",
-      "value": 33
+      "value": 34
     },
     {
       "key": "yaml",
-      "value": 29
+      "value": 30
     },
     {
       "key": "yang",
@@ -1162,7 +1162,7 @@
     },
     {
       "key": "powershell",
-      "value": 31
+      "value": 32
     },
     {
       "key": "rescript",
