@@ -1749,7 +1749,7 @@
     },
     {
       "install_info": {
-        "revision": "6d14e44ea217bc5bb1c1804180e9818d7d1b8d91",
+        "revision": "1ee3e775477f913ae3a46cde7a6a512deb06052c",
         "url": "https://github.com/tree-sitter/tree-sitter-python"
       },
       "lang": "python",
@@ -2114,7 +2114,7 @@
     {
       "install_info": {
         "generate_from_json": true,
-        "revision": "018d0e09d9d0f0dd6740a37682b8ee4512e8b2ac",
+        "revision": "a453dbf3ba433db0e5ec621a38a7e59d72e4dc69",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-starlark"
       },
       "lang": "starlark",
@@ -2242,7 +2242,7 @@
     {
       "install_info": {
         "generate": true,
-        "revision": "635e61625949a0711f63b52cfaaac1c75769885c",
+        "revision": "3db655924b2ff1c54fdf6371b5425ea6b5dccefe",
         "url": "https://github.com/euclidianAce/tree-sitter-teal"
       },
       "lang": "teal",
