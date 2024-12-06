@@ -162,7 +162,7 @@
     },
     {
       "install_info": {
-        "revision": "285c993f01d9955932b45a6192055003aa70a570",
+        "revision": "4bf615f8d688f50d69fc5677187dc35f22e03ad6",
         "url": "https://github.com/tree-sitter/tree-sitter-c-sharp"
       },
       "lang": "c_sharp",
@@ -1626,7 +1626,7 @@
     {
       "filetype": "ps1",
       "install_info": {
-        "revision": "efbefa2fcf61ddbecb0af48df4a8bde1d2cab446",
+        "revision": "7e6ccf19774a098bb3c996690c65cc1a6f439dc0",
         "url": "https://github.com/airbus-cert/tree-sitter-powershell"
       },
       "lang": "powershell",
@@ -2209,7 +2209,7 @@
     },
     {
       "install_info": {
-        "revision": "7c8579685e34116c61971240780b316c54be698b",
+        "revision": "8b367f7ce2b2e4cbc0adea033edd94a8e2282969",
         "url": "https://gitlab.com/xasc/tree-sitter-t32"
       },
       "lang": "t32",
