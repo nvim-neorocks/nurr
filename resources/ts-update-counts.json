@@ -974,7 +974,7 @@
     },
     {
       "key": "t32",
-      "value": 38
+      "value": 39
     },
     {
       "key": "tablegen",
@@ -1050,7 +1050,7 @@
     },
     {
       "key": "typespec",
-      "value": 31
+      "value": 32
     },
     {
       "key": "typoscript",
@@ -1230,10 +1230,14 @@
     },
     {
       "key": "nu",
-      "value": 20
+      "value": 21
     },
     {
       "key": "runescript",
+      "value": 1
+    },
+    {
+      "key": "circom",
       "value": 1
     }
   ]

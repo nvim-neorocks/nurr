@@ -194,6 +194,14 @@
     },
     {
       "install_info": {
+        "revision": "02150524228b1e6afef96949f2d6b7cc0aaf999e",
+        "url": "https://github.com/Decurity/tree-sitter-circom"
+      },
+      "lang": "circom",
+      "tier": 3
+    },
+    {
+      "install_info": {
         "revision": "f4236d4da8aa92bc105d9c118746474c608e6af7",
         "url": "https://github.com/sogaiu/tree-sitter-clojure"
       },
@@ -1442,7 +1450,7 @@
     },
     {
       "install_info": {
-        "revision": "41a1c570b57987386ed9a928fc214928f8ddc669",
+        "revision": "a94fdf1df5deba1aa1a3fff23e1276333b5ab666",
         "url": "https://github.com/nushell/tree-sitter-nu"
       },
       "lang": "nu",
@@ -2209,7 +2217,7 @@
     },
     {
       "install_info": {
-        "revision": "8b367f7ce2b2e4cbc0adea033edd94a8e2282969",
+        "revision": "e9e334539a07ca044128592c41946daa68d626dd",
         "url": "https://gitlab.com/xasc/tree-sitter-t32"
       },
       "lang": "t32",
@@ -2381,7 +2389,7 @@
     },
     {
       "install_info": {
-        "revision": "53d892fd975da3f81374f7732af3cd3abb6b85d9",
+        "revision": "8455e6601de80c9641b6e6f54c7320573eec0300",
         "url": "https://github.com/happenslol/tree-sitter-typespec"
       },
       "lang": "typespec",
