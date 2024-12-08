@@ -2384,7 +2384,7 @@
         },
         {
             "name": "sainnhe/gruvbox-material",
-            "shorthand": "gruvbox-material",,
+            "shorthand": "gruvbox-material",
             "dependencies": [],
             "summary": "Gruvbox with Material Palette",
             "license": "MIT"
