@@ -2374,6 +2374,13 @@
             "summary": "A tree-sitter grammar for nu-lang, the language of nushell",
             "license": "MIT",
             "rockspec_template": "nurr/resources/tree-sitter-nu.template"
+        },
+        {
+            "name": "Verf/deepwhite.nvim",
+            "shorthand": "deepwhite.nvim",
+            "dependencies": [],
+            "summary": "DeepWhite colorscheme for Neovim",
+            "license": "MIT"
         }
     ]
 }
