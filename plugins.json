@@ -2374,6 +2374,13 @@
             "summary": "A tree-sitter grammar for nu-lang, the language of nushell",
             "license": "MIT",
             "rockspec_template": "nurr/resources/tree-sitter-nu.template"
+        },
+        {
+            "name": "neanias/everforest-nvim",
+            "shorthand": "everforest-nvim",
+            "dependencies": [],
+            "summary": "A Lua port of the Everforest colour scheme",
+            "license": "No License"
         }
     ]
 }
