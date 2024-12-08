@@ -2381,6 +2381,13 @@
             "dependencies": [],
             "summary": "DeepWhite colorscheme for Neovim",
             "license": "MIT"
+        },
+        {
+            "name": "sainnhe/gruvbox-material",
+            "shorthand": "gruvbox-material",
+            "dependencies": [],
+            "summary": "Gruvbox theme for (Neo)vim with the Material Palette",
+            "license": "MIT"
         }
     ]
 }
