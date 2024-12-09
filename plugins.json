@@ -2382,6 +2382,13 @@
             "dependencies": [],
             "summary": "Gruvbox theme for (Neo)vim with the Material Palette",
             "license": "MIT"
+        },
+        {
+            "name": "neanias/everforest-nvim",
+            "shorthand": "everforest-nvim",
+            "dependencies": [],
+            "summary": "A Lua port of the Everforest colour scheme",
+            "license": "MIT"
         }
     ]
 }
