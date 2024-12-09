@@ -1810,7 +1810,7 @@
             "shorthand": "refactoring.nvim",
             "license": "MIT",
             "summary": "The Refactoring library based off the Refactoring book by Martin Fowler",
-            "dependencies": ["plenary.nvim"]
+            "dependencies": ["plenary.nvim"],
             "rockspec_template": "nurr/resources/no-build.template"
         },
         {
