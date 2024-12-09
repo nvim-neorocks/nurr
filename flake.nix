@@ -34,7 +34,7 @@
           ];
         };
         luarc = pkgs.mk-luarc {
-          nvim = pkgs.neovim-nightly;
+          nvim = pkgs.neovim-unwrapped;
         };
       in {
         devShells.default = pkgs.mkShell {
