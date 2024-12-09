@@ -35,11 +35,18 @@ jobs:
           path: .
           fetch-depth: 0
 
+      - name: checkout NURR scripts
+        uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            scripts
+          path: nurr
+
       - name: Get latest Tag
         id: get-release
         run: |
           # Check for semver tags
-          TAG="$(./scripts/echo_latest_tag_version.lua)"
+          TAG="$(./nurr/scripts/echo_latest_tag_version.lua)"
           if [[ -n "$TAG" ]]; then
             echo "Found $TAG"
             git checkout $TAG
@@ -51,6 +58,10 @@ jobs:
           else
             echo "PUBLISHED_COUNT=NOTHING" >> $GITHUB_ENV
           fi
+
+      - name: Cleanup NURR scripts
+        run: |
+          rm -rf nurr
 
       - name: Install Lua
         if: ${{ env.RELEASE_VERSION != '' }}
