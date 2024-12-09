@@ -516,7 +516,7 @@
             "shorthand": "cmp_luasnip",
             "license": "Apache-2.0",
             "summary": "luasnip completion source for nvim-cmp",
-            "dependencies": ["nvim-cmp"]
+            "dependencies": []
         },
         {
             "name": "nvim-colortils/colortils.nvim",
@@ -1020,49 +1020,49 @@
             "shorthand": "cmp-buffer",
             "license": "MIT",
             "summary": "nvim-cmp source for buffer words",
-            "dependencies": ["nvim-cmp"]
+            "dependencies": []
         },
         {
             "name": "hrsh7th/cmp-cmdline",
             "shorthand": "cmp-cmdline",
             "license": "MIT",
             "summary": "nvim-cmp source for vim's cmdline",
-            "dependencies": ["nvim-cmp"]
+            "dependencies": []
         },
         {
             "name": "petertriho/cmp-git",
             "shorthand": "cmp-git",
             "license": "MIT",
             "summary": "Git source for nvim-cmp",
-            "dependencies": ["nvim-cmp"]
+            "dependencies": []
         },
         {
             "name": "hrsh7th/cmp-nvim-lsp",
             "shorthand": "cmp-nvim-lsp",
             "license": "MIT",
             "summary": "nvim-cmp source for neovim builtin LSP client",
-            "dependencies": ["nvim-cmp"]
+            "dependencies": []
         },
         {
             "name": "hrsh7th/cmp-path",
             "shorthand": "cmp-path",
             "license": "MIT",
             "summary": "nvim-cmp source for path",
-            "dependencies": ["nvim-cmp"]
+            "dependencies": []
         },
         {
             "name": "lukas-reineke/cmp-rg",
             "shorthand": "cmp-rg",
             "license": "MIT",
             "summary": "ripgrep source for nvim-cmp",
-            "dependencies": ["nvim-cmp"]
+            "dependencies": []
         },
         {
             "name": "tzachar/cmp-tabnine",
             "shorthand": "cmp-tabnine",
             "license": "MIT",
             "summary": "TabNine plugin for hrsh7th/nvim-cmp",
-            "dependencies": ["nvim-cmp"]
+            "dependencies": []
         },
         {
             "name": "CRAG666/code_runner.nvim",
@@ -1076,7 +1076,7 @@
             "shorthand": "codeium.nvim",
             "license": "MIT",
             "summary": "A native neovim extension for Codeium",
-            "dependencies": ["plenary.nvim", "nvim-cmp"]
+            "dependencies": ["plenary.nvim"]
         },
         {
             "name": "ziontee113/color-picker.nvim",
