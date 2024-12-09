@@ -295,7 +295,7 @@
             "license": "MIT"
         },
         {
-            "name": "echasnovski/mini.git",
+            "name": "echasnovski/mini-git",
             "shorthand": "mini.git",
             "dependencies": [],
             "summary": "Git integration for Neovim. Part of the mini.nvim suite.",
