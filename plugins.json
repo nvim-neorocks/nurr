@@ -463,13 +463,6 @@
             "dependencies": ["nui.nvim", "plenary.nvim", "trouble.nvim", "telescope.nvim"]
         },
         {
-            "name": "dpayne/CodeGPT.nvim",
-            "shorthand": "CodeGPT.nvim",
-            "license": "GPL-3.0",
-            "summary": "CodeGPT is a plugin for neovim that provides commands to interact with ChatGPT.",
-            "dependencies": ["plenary.nvim", "nui.nvim"]
-        },
-        {
             "name": "matbme/JABS.nvim",
             "shorthand": "JABS.nvim",
             "license": "GPL-3.0",
