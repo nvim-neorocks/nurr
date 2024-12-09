@@ -35,6 +35,11 @@ jobs:
           path: .
           fetch-depth: 0
 
+      - uses: rhysd/action-setup-vim@v1
+        with:
+          neovim: true
+          version: nightly
+
       - name: checkout NURR scripts
         uses: actions/checkout@v4
         with:
@@ -61,7 +66,7 @@ jobs:
 
       - name: Cleanup NURR scripts
         run: |
-          rm -rf nurr
+          rm -r nurr
 
       - name: Install Lua
         if: ${{ env.RELEASE_VERSION != '' }}
