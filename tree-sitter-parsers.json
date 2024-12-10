@@ -462,7 +462,7 @@
     },
     {
       "install_info": {
-        "revision": "d30189581a8b2802f237884287fdb7c40f32a041",
+        "revision": "02a6f7fd4be28dd94ee4dd2ca19cb777053ea74e",
         "url": "https://github.com/elixir-lang/tree-sitter-elixir"
       },
       "lang": "elixir",
@@ -1634,7 +1634,7 @@
     {
       "filetype": "ps1",
       "install_info": {
-        "revision": "7e6ccf19774a098bb3c996690c65cc1a6f439dc0",
+        "revision": "b3fe65637fca35e426dc8c889d86c8724aaa73d5",
         "url": "https://github.com/airbus-cert/tree-sitter-powershell"
       },
       "lang": "powershell",
