@@ -414,7 +414,7 @@
     },
     {
       "key": "hoon",
-      "value": 30
+      "value": 31
     },
     {
       "key": "html",
@@ -582,11 +582,11 @@
     },
     {
       "key": "markdown",
-      "value": 36
+      "value": 37
     },
     {
       "key": "markdown_inline",
-      "value": 36
+      "value": 37
     },
     {
       "key": "matlab",
@@ -846,7 +846,7 @@
     },
     {
       "key": "roc",
-      "value": 29
+      "value": 30
     },
     {
       "key": "ron",
@@ -1050,7 +1050,7 @@
     },
     {
       "key": "typespec",
-      "value": 32
+      "value": 33
     },
     {
       "key": "typoscript",
@@ -1230,7 +1230,7 @@
     },
     {
       "key": "nu",
-      "value": 21
+      "value": 22
     },
     {
       "key": "runescript",

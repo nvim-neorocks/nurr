@@ -959,7 +959,7 @@
     },
     {
       "install_info": {
-        "revision": "2ac017d168aca1e75b3df94dbbb6b3083f79cdfe",
+        "revision": "16d4a5fd4a52069fcc6491f0ec6a5bad21f1d705",
         "url": "https://github.com/urbit-pilled/tree-sitter-hoon"
       },
       "lang": "hoon",
@@ -1311,7 +1311,7 @@
     {
       "install_info": {
         "location": "tree-sitter-markdown",
-        "revision": "c89a30ce556a5ea5552e816e5dc2f2c0de96237d",
+        "revision": "192407ab5a24bfc24f13332979b5e7967518754a",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-markdown"
       },
       "lang": "markdown",
@@ -1324,7 +1324,7 @@
     {
       "install_info": {
         "location": "tree-sitter-markdown-inline",
-        "revision": "c89a30ce556a5ea5552e816e5dc2f2c0de96237d",
+        "revision": "192407ab5a24bfc24f13332979b5e7967518754a",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-markdown"
       },
       "lang": "markdown_inline",
@@ -1450,7 +1450,7 @@
     },
     {
       "install_info": {
-        "revision": "a94fdf1df5deba1aa1a3fff23e1276333b5ab666",
+        "revision": "ac878320cd624b3402a50fa875ad5f90bf6dd6d7",
         "url": "https://github.com/nushell/tree-sitter-nu"
       },
       "lang": "nu",
@@ -1915,7 +1915,7 @@
     },
     {
       "install_info": {
-        "revision": "ef46edd0c03ea30a22f7e92bc68628fb7231dc8a",
+        "revision": "7d29fc24b36119494b4dc3f3d967075e261706c1",
         "url": "https://github.com/faldor20/tree-sitter-roc"
       },
       "lang": "roc",
@@ -2389,7 +2389,7 @@
     },
     {
       "install_info": {
-        "revision": "8455e6601de80c9641b6e6f54c7320573eec0300",
+        "revision": "42fb163442ef2691b9b720fb4e4e846809415d18",
         "url": "https://github.com/happenslol/tree-sitter-typespec"
       },
       "lang": "typespec",
