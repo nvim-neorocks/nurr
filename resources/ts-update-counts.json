@@ -14,7 +14,7 @@
     },
     {
       "key": "apex",
-      "value": 39
+      "value": 40
     },
     {
       "key": "arduino",
@@ -210,7 +210,7 @@
     },
     {
       "key": "elm",
-      "value": 30
+      "value": 31
     },
     {
       "key": "elsa",
@@ -550,7 +550,7 @@
     },
     {
       "key": "liquidsoap",
-      "value": 29
+      "value": 30
     },
     {
       "key": "llvm",
@@ -866,7 +866,7 @@
     },
     {
       "key": "scala",
-      "value": 39
+      "value": 40
     },
     {
       "key": "scfg",
@@ -886,7 +886,7 @@
     },
     {
       "key": "slint",
-      "value": 31
+      "value": 32
     },
     {
       "key": "smali",
@@ -906,11 +906,11 @@
     },
     {
       "key": "soql",
-      "value": 37
+      "value": 39
     },
     {
       "key": "sosl",
-      "value": 36
+      "value": 37
     },
     {
       "key": "sourcepawn",
@@ -922,7 +922,7 @@
     },
     {
       "key": "sql",
-      "value": 37
+      "value": 38
     },
     {
       "key": "squirrel",
@@ -994,7 +994,7 @@
     },
     {
       "key": "templ",
-      "value": 39
+      "value": 40
     },
     {
       "key": "terraform",
@@ -1174,7 +1174,7 @@
     },
     {
       "key": "sflog",
-      "value": 36
+      "value": 37
     },
     {
       "key": "gap",
