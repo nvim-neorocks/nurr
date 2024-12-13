@@ -991,7 +991,7 @@
     },
     {
       "install_info": {
-        "revision": "231f1b1bafd12e46c8ed8c21dbbdd940d9f15e94",
+        "revision": "d2e4e4c7d03f70e0465d436f2b5f67497cd544ca",
         "url": "https://github.com/rest-nvim/tree-sitter-http"
       },
       "lang": "http",
@@ -1450,7 +1450,7 @@
     },
     {
       "install_info": {
-        "revision": "ac878320cd624b3402a50fa875ad5f90bf6dd6d7",
+        "revision": "f85d2481616537d1d54894bc278d64b24581ea5c",
         "url": "https://github.com/nushell/tree-sitter-nu"
       },
       "lang": "nu",
@@ -1963,7 +1963,7 @@
     },
     {
       "install_info": {
-        "revision": "14058535212e3d01a4c4b34b06c524fae289ec18",
+        "revision": "68773dfed7fee05b3549aaf52ebf8be7c7fe7d5f",
         "url": "https://github.com/tree-sitter/tree-sitter-scala"
       },
       "lang": "scala",

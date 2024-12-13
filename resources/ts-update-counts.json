@@ -430,7 +430,7 @@
     },
     {
       "key": "http",
-      "value": 32
+      "value": 33
     },
     {
       "key": "hurl",
@@ -866,7 +866,7 @@
     },
     {
       "key": "scala",
-      "value": 40
+      "value": 41
     },
     {
       "key": "scfg",
@@ -1230,7 +1230,7 @@
     },
     {
       "key": "nu",
-      "value": 22
+      "value": 23
     },
     {
       "key": "runescript",
