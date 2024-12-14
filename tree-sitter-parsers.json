@@ -2052,7 +2052,7 @@
     },
     {
       "install_info": {
-        "revision": "bf268722bc6406429776f71f012e6d1a88801931",
+        "revision": "f7f5251a3f5b1d04f0799b3571b12918af177fc8",
         "url": "https://github.com/JoranHonig/tree-sitter-solidity"
       },
       "lang": "solidity",
@@ -2455,7 +2455,7 @@
     {
       "install_info": {
         "location": "tree_sitter_v",
-        "revision": "bbba20d654a764c2d2de272fd5f45a2433870640",
+        "revision": "bc2aa2993851ed5ad10caf4571aa2aaee3c80a7f",
         "url": "https://github.com/vlang/v-analyzer"
       },
       "lang": "v",
