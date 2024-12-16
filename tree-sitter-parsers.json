@@ -154,7 +154,7 @@
     },
     {
       "install_info": {
-        "revision": "e8841a6a9431b7365ac9055688429e1deb8db90f",
+        "revision": "3efee11f784605d44623d7dadd6cd12a0f73ea92",
         "url": "https://github.com/tree-sitter/tree-sitter-c"
       },
       "lang": "c",
@@ -438,7 +438,7 @@
     },
     {
       "install_info": {
-        "revision": "3288aa46e30e1295133bd6f303c00ac71b4f61ad",
+        "revision": "efcd7c2852c69822d625786324538b7457fafddb",
         "url": "https://github.com/ValdezFOmar/tree-sitter-editorconfig"
       },
       "lang": "editorconfig",
@@ -837,7 +837,7 @@
     },
     {
       "install_info": {
-        "revision": "df7992dbc1e57e055ba1cbfdbe9f961750940553",
+        "revision": "76554f4f2339f5a24eed19c58f2079b51c694152",
         "url": "https://github.com/MaeBrooks/tree-sitter-gren"
       },
       "lang": "gren",
@@ -1459,7 +1459,7 @@
     {
       "install_info": {
         "generate_from_json": true,
-        "revision": "62e61b6f5c0289c376d61a8c91faf6435cde9012",
+        "revision": "18802acf31d0b5c1c1d50bdbc9eb0e1636cab9ed",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-objc"
       },
       "lang": "objc",
@@ -1634,7 +1634,7 @@
     {
       "filetype": "ps1",
       "install_info": {
-        "revision": "b3fe65637fca35e426dc8c889d86c8724aaa73d5",
+        "revision": "ff0ac42e742f3c4be3b55fd14f910d5dc204e323",
         "url": "https://github.com/airbus-cert/tree-sitter-powershell"
       },
       "lang": "powershell",
@@ -1963,7 +1963,7 @@
     },
     {
       "install_info": {
-        "revision": "68773dfed7fee05b3549aaf52ebf8be7c7fe7d5f",
+        "revision": "fb9aa828ddf6284234de8e62f2d3312fdb98f68e",
         "url": "https://github.com/tree-sitter/tree-sitter-scala"
       },
       "lang": "scala",
@@ -2044,7 +2044,7 @@
     {
       "install_info": {
         "generate_from_json": true,
-        "revision": "e909815acdbe37e69440261ebb1091ed52e1dec6",
+        "revision": "29a82ddde86c0d428acf971b04794c13525c4bc5",
         "url": "https://github.com/osthomas/tree-sitter-snakemake"
       },
       "lang": "snakemake",
@@ -2217,7 +2217,7 @@
     },
     {
       "install_info": {
-        "revision": "e9e334539a07ca044128592c41946daa68d626dd",
+        "revision": "ad23ed0325658adbb1dfb397d4dfbea8872585c6",
         "url": "https://gitlab.com/xasc/tree-sitter-t32"
       },
       "lang": "t32",
@@ -2259,7 +2259,7 @@
     {
       "install_info": {
         "generate_from_json": true,
-        "revision": "80944bb7413a6d06845c33537805d0ee0419a13d",
+        "revision": "940de168186ba782b9fab22971055bfb5fc1967d",
         "url": "https://github.com/vrischmann/tree-sitter-templ"
       },
       "lang": "templ",
@@ -2487,7 +2487,7 @@
     },
     {
       "install_info": {
-        "revision": "c438173a3cbb92b349c994f2acf822a0f3b961a0",
+        "revision": "eb1532861767a46fc336102bd4ebc938da8773f5",
         "url": "https://github.com/jpt13653903/tree-sitter-vhdl"
       },
       "lang": "vhdl",
@@ -2593,7 +2593,7 @@
     },
     {
       "install_info": {
-        "revision": "724ce1e841f2b9097625756a67f5847ff00178db",
+        "revision": "3b9f6a8ecaeae71f4419f31d4975234242eaf867",
         "url": "https://github.com/ValdezFOmar/tree-sitter-xresources"
       },
       "lang": "xresources",

@@ -70,7 +70,7 @@
     },
     {
       "key": "c",
-      "value": 34
+      "value": 35
     },
     {
       "key": "c_sharp",
@@ -194,7 +194,7 @@
     },
     {
       "key": "editorconfig",
-      "value": 44
+      "value": 45
     },
     {
       "key": "eds",
@@ -646,7 +646,7 @@
     },
     {
       "key": "objc",
-      "value": 29
+      "value": 30
     },
     {
       "key": "objdump",
@@ -866,7 +866,7 @@
     },
     {
       "key": "scala",
-      "value": 41
+      "value": 42
     },
     {
       "key": "scfg",
@@ -898,7 +898,7 @@
     },
     {
       "key": "snakemake",
-      "value": 29
+      "value": 30
     },
     {
       "key": "solidity",
@@ -974,7 +974,7 @@
     },
     {
       "key": "t32",
-      "value": 39
+      "value": 40
     },
     {
       "key": "tablegen",
@@ -994,7 +994,7 @@
     },
     {
       "key": "templ",
-      "value": 40
+      "value": 41
     },
     {
       "key": "terraform",
@@ -1098,7 +1098,7 @@
     },
     {
       "key": "vhdl",
-      "value": 34
+      "value": 35
     },
     {
       "key": "vhs",
@@ -1162,7 +1162,7 @@
     },
     {
       "key": "powershell",
-      "value": 34
+      "value": 35
     },
     {
       "key": "rescript",
@@ -1210,11 +1210,11 @@
     },
     {
       "key": "gren",
-      "value": 3
+      "value": 5
     },
     {
       "key": "xresources",
-      "value": 13
+      "value": 14
     },
     {
       "key": "desktop",
