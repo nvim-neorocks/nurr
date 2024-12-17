@@ -14,7 +14,7 @@
     },
     {
       "key": "apex",
-      "value": 41
+      "value": 42
     },
     {
       "key": "arduino",
@@ -262,7 +262,7 @@
     },
     {
       "key": "fortran",
-      "value": 36
+      "value": 37
     },
     {
       "key": "fsh",
@@ -558,7 +558,7 @@
     },
     {
       "key": "lua",
-      "value": 31
+      "value": 32
     },
     {
       "key": "luadoc",
@@ -866,7 +866,7 @@
     },
     {
       "key": "scala",
-      "value": 42
+      "value": 43
     },
     {
       "key": "scfg",
@@ -906,11 +906,11 @@
     },
     {
       "key": "soql",
-      "value": 40
+      "value": 41
     },
     {
       "key": "sosl",
-      "value": 38
+      "value": 39
     },
     {
       "key": "sourcepawn",
@@ -994,7 +994,7 @@
     },
     {
       "key": "templ",
-      "value": 41
+      "value": 42
     },
     {
       "key": "terraform",
@@ -1174,7 +1174,7 @@
     },
     {
       "key": "sflog",
-      "value": 38
+      "value": 39
     },
     {
       "key": "gap",
@@ -1230,7 +1230,7 @@
     },
     {
       "key": "nu",
-      "value": 23
+      "value": 24
     },
     {
       "key": "runescript",
