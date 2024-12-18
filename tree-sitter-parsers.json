@@ -959,7 +959,7 @@
     },
     {
       "install_info": {
-        "revision": "16d4a5fd4a52069fcc6491f0ec6a5bad21f1d705",
+        "revision": "1545137aadcc63660c47db9ad98d02fa602655d0",
         "url": "https://github.com/urbit-pilled/tree-sitter-hoon"
       },
       "lang": "hoon",
@@ -1450,7 +1450,7 @@
     },
     {
       "install_info": {
-        "revision": "e36dde8d98549da7c9ef9e8f8698a3e77d4015ac",
+        "revision": "dc22e2577eb09d1d0de50802c59da2eca98a0e7b",
         "url": "https://github.com/nushell/tree-sitter-nu"
       },
       "lang": "nu",
