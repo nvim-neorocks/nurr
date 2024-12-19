@@ -70,12 +70,18 @@ jobs:
       run: |
         git config --global url.https://git.sr.ht.insteadOf git://github.com/
 
-    - name: Checkout plugin repository
+    - name: Checkout plugin repository from github
+      if: ${{ startsWith( matrix.plugin.name, 'https://git.sr.ht') == false }}
       uses: actions/checkout@v4
       with:
         repository: ${{ matrix.plugin.name }}
         ref: ${{ matrix.plugin.ref }}
         path: .
+
+    - name: Clone from sr.ht
+      if: ${{ startsWith(env.REPOSITORY_URL, 'https://git.sr.ht') }}
+      run: |
+        git clone ${{ matrix.plugin.ref }}
 
     - run: |
         echo "GITHUB_REPOSITORY_OVERRIDE=${{ matrix.plugin.name }}" >> $GITHUB_ENV
