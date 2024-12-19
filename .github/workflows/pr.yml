@@ -65,10 +65,10 @@ jobs:
 
     # actions/checkout doesn't clone git repos external to github. this is a trick to do so
     # https://github.com/actions/checkout/issues/24#issuecomment-1234831235
-    - name: override remote if needed
-      if: startWith('https', ${{ matrix.plugin.name }})
-      run: |
-        git config --global url.https://git.sr.ht.insteadOf git://github.com/
+    # - name: override remote if needed
+    #   if: startWith('https', ${{ matrix.plugin.name }})
+    #   run: |
+    #     git config --global url.https://git.sr.ht.insteadOf git://github.com/
 
     - name: Checkout plugin repository from github
       if: ${{ startsWith( matrix.plugin.name, 'https://git.sr.ht') == false }}
