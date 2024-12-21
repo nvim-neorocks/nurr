@@ -1176,7 +1176,7 @@
     },
     {
       "install_info": {
-        "revision": "0017388765b8b9d89febfe08b5f82805b4e173a5",
+        "revision": "b420f7922d0d74905fd0d771e5b83be9ee8a8a9a",
         "url": "https://github.com/koto-lang/tree-sitter-koto"
       },
       "lang": "koto",
@@ -1450,7 +1450,7 @@
     },
     {
       "install_info": {
-        "revision": "dc22e2577eb09d1d0de50802c59da2eca98a0e7b",
+        "revision": "755efd545d39e23418ce6f96f2a8600ff1a7e74d",
         "url": "https://github.com/nushell/tree-sitter-nu"
       },
       "lang": "nu",
@@ -1634,7 +1634,7 @@
     {
       "filetype": "ps1",
       "install_info": {
-        "revision": "ff0ac42e742f3c4be3b55fd14f910d5dc204e323",
+        "revision": "32fe49cc5d4a2d5a976dacafc0da16d98787866b",
         "url": "https://github.com/airbus-cert/tree-sitter-powershell"
       },
       "lang": "powershell",
