@@ -54,7 +54,7 @@
     },
     {
       "key": "bicep",
-      "value": 29
+      "value": 30
     },
     {
       "key": "bitbake",
@@ -462,7 +462,7 @@
     },
     {
       "key": "java",
-      "value": 36
+      "value": 37
     },
     {
       "key": "javascript",
@@ -506,7 +506,7 @@
     },
     {
       "key": "kconfig",
-      "value": 29
+      "value": 31
     },
     {
       "key": "kdl",
@@ -762,7 +762,7 @@
     },
     {
       "key": "puppet",
-      "value": 29
+      "value": 30
     },
     {
       "key": "purescript",
@@ -774,7 +774,7 @@
     },
     {
       "key": "python",
-      "value": 34
+      "value": 35
     },
     {
       "key": "ql",
@@ -1094,7 +1094,7 @@
     },
     {
       "key": "verilog",
-      "value": 34
+      "value": 35
     },
     {
       "key": "vhdl",
@@ -1158,7 +1158,7 @@
     },
     {
       "key": "zig",
-      "value": 33
+      "value": 34
     },
     {
       "key": "powershell",
