@@ -1152,7 +1152,7 @@
     },
     {
       "install_info": {
-        "revision": "9934ff456d867d0d0f98ef365a0de410ff4e6705",
+        "revision": "9ac99fe4c0c27a35dc6f757cef534c646e944881",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-kconfig"
       },
       "lang": "kconfig",
@@ -1283,7 +1283,7 @@
     {
       "install_info": {
         "generate_from_json": true,
-        "revision": "fbadc96272f718dba267628ba7b0e694c368cef3",
+        "revision": "a8914d6c1fc5131f8e1c13f769fa704c9f5eb02f",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-luau"
       },
       "lang": "luau",
@@ -1508,7 +1508,7 @@
     },
     {
       "install_info": {
-        "revision": "3fee7964bbfb2554deef12c224344f3870d15375",
+        "revision": "e8adc739b78409a99f8c31313f0bb54cc538cf73",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-odin"
       },
       "lang": "odin",
@@ -1757,7 +1757,7 @@
     },
     {
       "install_info": {
-        "revision": "65ca0d5a8a9badca68513a44cf8a802e6af61322",
+        "revision": "bffb65a8cfe4e46290331dfef0dbf0ef3679de11",
         "url": "https://github.com/tree-sitter/tree-sitter-python"
       },
       "lang": "python",
@@ -1858,7 +1858,7 @@
     },
     {
       "install_info": {
-        "revision": "4470c59041416e8a2a9fa343595ca28ed91f38b8",
+        "revision": "d329907611abe46d26ab5908e5922e7400212cb9",
         "url": "https://github.com/tree-sitter/tree-sitter-regex"
       },
       "lang": "regex",
@@ -2455,7 +2455,7 @@
     {
       "install_info": {
         "location": "tree_sitter_v",
-        "revision": "bc2aa2993851ed5ad10caf4571aa2aaee3c80a7f",
+        "revision": "b9644a24bf0be5bf41de61bda681b28492dd3112",
         "url": "https://github.com/vlang/v-analyzer"
       },
       "lang": "v",

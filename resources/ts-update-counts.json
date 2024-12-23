@@ -506,7 +506,7 @@
     },
     {
       "key": "kconfig",
-      "value": 31
+      "value": 32
     },
     {
       "key": "kdl",
@@ -570,7 +570,7 @@
     },
     {
       "key": "luau",
-      "value": 29
+      "value": 30
     },
     {
       "key": "m68k",
@@ -666,7 +666,7 @@
     },
     {
       "key": "odin",
-      "value": 30
+      "value": 31
     },
     {
       "key": "org",
@@ -774,7 +774,7 @@
     },
     {
       "key": "python",
-      "value": 35
+      "value": 36
     },
     {
       "key": "ql",
@@ -822,7 +822,7 @@
     },
     {
       "key": "regex",
-      "value": 37
+      "value": 38
     },
     {
       "key": "rego",
@@ -1082,7 +1082,7 @@
     },
     {
       "key": "v",
-      "value": 39
+      "value": 40
     },
     {
       "key": "vala",
