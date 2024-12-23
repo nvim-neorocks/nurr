@@ -393,6 +393,13 @@
             "license": "MIT"
         },
         {
+            "name": "echasnovski/mini.snippets",
+            "shorthand": "mini.snippets",
+            "dependencies": [],
+            "summary": "Neovim: Manage and expand snippets. Part of the mini.nvim suite.",
+            "license": "MIT"
+        },
+        {
             "name": "echasnovski/mini.splitjoin",
             "shorthand": "mini.splitjoin",
             "dependencies": [],
