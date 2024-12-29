@@ -154,7 +154,7 @@
     },
     {
       "install_info": {
-        "revision": "3efee11f784605d44623d7dadd6cd12a0f73ea92",
+        "revision": "3aa2995549d5d8b26928e8d3fa2770fd4327414e",
         "url": "https://github.com/tree-sitter/tree-sitter-c"
       },
       "lang": "c",
@@ -1217,7 +1217,7 @@
     },
     {
       "install_info": {
-        "revision": "6ca11a96fc2cab51217e0cf4a2f9ed3ea63e28fb",
+        "revision": "44a061bac4d9443d75f2700c62a71cd4dcf16f05",
         "url": "https://github.com/r001/tree-sitter-leo"
       },
       "lang": "leo",
@@ -1450,7 +1450,7 @@
     },
     {
       "install_info": {
-        "revision": "755efd545d39e23418ce6f96f2a8600ff1a7e74d",
+        "revision": "249c39d315bd4bbe04b7b1be8d7004587b5032bd",
         "url": "https://github.com/nushell/tree-sitter-nu"
       },
       "lang": "nu",
@@ -2113,7 +2113,7 @@
     },
     {
       "install_info": {
-        "revision": "dd32616275c6e9d7800c58f40c16a09ad1c7c238",
+        "revision": "0dd3c7e9f301758f6c69a6efde43d3048deb4d8a",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-ssh-config"
       },
       "lang": "ssh_config",
