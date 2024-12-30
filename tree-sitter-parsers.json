@@ -438,7 +438,7 @@
     },
     {
       "install_info": {
-        "revision": "efcd7c2852c69822d625786324538b7457fafddb",
+        "revision": "ad9d7b84453426c40717c2b2c6b13d0a955d0662",
         "url": "https://github.com/ValdezFOmar/tree-sitter-editorconfig"
       },
       "lang": "editorconfig",
@@ -1450,7 +1450,7 @@
     },
     {
       "install_info": {
-        "revision": "249c39d315bd4bbe04b7b1be8d7004587b5032bd",
+        "revision": "9822fc63a62ff87939c88ead9f381f951f092dee",
         "url": "https://github.com/nushell/tree-sitter-nu"
       },
       "lang": "nu",
@@ -2097,7 +2097,7 @@
       "install_info": {
         "branch": "gh-pages",
         "generate_from_json": true,
-        "revision": "f2a6b6f86cd4322c346faa312ddf2b839bf5e989",
+        "revision": "b9d109588d5b5ed986c857464830c2f0bef53f18",
         "url": "https://github.com/derekstride/tree-sitter-sql"
       },
       "lang": "sql",
@@ -2259,7 +2259,7 @@
     {
       "install_info": {
         "generate_from_json": true,
-        "revision": "9269b5a65e79be8fb6b6669935823263343b7ba0",
+        "revision": "60310af0d788a0160d719d4aff8f146b6e6c55bd",
         "url": "https://github.com/vrischmann/tree-sitter-templ"
       },
       "lang": "templ",
@@ -2471,7 +2471,7 @@
     },
     {
       "install_info": {
-        "revision": "3321077d7446c1b3b017c294fd56ce028ed817fe",
+        "revision": "3b32474bc29584ea214e4e84b47102408263fe0e",
         "url": "https://github.com/ventojs/tree-sitter-vento"
       },
       "lang": "vento",
@@ -2487,7 +2487,7 @@
     },
     {
       "install_info": {
-        "revision": "eb1532861767a46fc336102bd4ebc938da8773f5",
+        "revision": "63d0360d42c43b4902b8470c7ddcf323432e2dde",
         "url": "https://github.com/jpt13653903/tree-sitter-vhdl"
       },
       "lang": "vhdl",
@@ -2593,7 +2593,7 @@
     },
     {
       "install_info": {
-        "revision": "5fd347f0b950b2d2563d41176373c610a0a5468c",
+        "revision": "7c7b03e69710a31031e02bc18a7c3c6542a010e2",
         "url": "https://github.com/ValdezFOmar/tree-sitter-xresources"
       },
       "lang": "xresources",
