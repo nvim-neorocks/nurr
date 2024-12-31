@@ -592,7 +592,7 @@
     {
       "install_info": {
         "location": "fsharp",
-        "revision": "971da5ff0266bfe4a6ecfb94616548032d6d1ba0",
+        "revision": "207f1c988f4649e12fe207e4a7e4f83b9da037d1",
         "url": "https://github.com/ionide/tree-sitter-fsharp"
       },
       "lang": "fsharp",
@@ -1035,6 +1035,14 @@
         "url": "https://github.com/inko-lang/tree-sitter-inko"
       },
       "lang": "inko",
+      "tier": 3
+    },
+    {
+      "install_info": {
+        "revision": "8d3e9782f2d091d0cd39c13bfb3068db0c675960",
+        "url": "https://github.com/srghma/tree-sitter-ipkg"
+      },
+      "lang": "ipkg",
       "tier": 3
     },
     {

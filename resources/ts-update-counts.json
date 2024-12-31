@@ -38,7 +38,7 @@
     },
     {
       "key": "bash",
-      "value": 36
+      "value": 37
     },
     {
       "key": "bass",
@@ -1194,7 +1194,7 @@
     },
     {
       "key": "fsharp",
-      "value": 9
+      "value": 10
     },
     {
       "key": "ziggy",
@@ -1238,6 +1238,10 @@
     },
     {
       "key": "circom",
+      "value": 1
+    },
+    {
+      "key": "ipkg",
       "value": 1
     }
   ]
