@@ -637,7 +637,7 @@
     },
     {
       "install_info": {
-        "revision": "bf39f1b38a234d79940fd8866abb0b132ab51b1e",
+        "revision": "75ce61d196717b8c183fa6066676540c81e24dca",
         "url": "https://github.com/PrestonKnopp/tree-sitter-gdscript"
       },
       "lang": "gdscript",
@@ -2201,7 +2201,7 @@
     {
       "install_info": {
         "generate": true,
-        "revision": "7ca0504e6d1a3e1e2f5fa725dafecf5e5bd2b202",
+        "revision": "742723056556ec80ca4da09a6411fff86b330911",
         "url": "https://github.com/alex-pinkus/tree-sitter-swift"
       },
       "lang": "swift",
