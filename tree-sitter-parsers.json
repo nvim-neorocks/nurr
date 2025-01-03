@@ -780,7 +780,7 @@
     },
     {
       "install_info": {
-        "revision": "74105cc46a09850ebe626b894ecc6c61a12fb999",
+        "revision": "941955d027f1d8530501e77ce5e1d6035f5f99c1",
         "url": "https://github.com/PrestonKnopp/tree-sitter-godot-resource"
       },
       "lang": "godot_resource",
@@ -1695,7 +1695,7 @@
     },
     {
       "install_info": {
-        "revision": "f93f673990deffbfa548826eebade93af81887b4",
+        "revision": "579b62f5ad8d96c2bb331f07d1408c92767531d9",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-properties"
       },
       "lang": "properties",
