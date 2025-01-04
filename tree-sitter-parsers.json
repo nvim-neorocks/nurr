@@ -1144,7 +1144,7 @@
     },
     {
       "install_info": {
-        "revision": "e01c928d11375513138a175a68485c4d53e55ea9",
+        "revision": "ffdd9fe4dccdc26d62ce1654fceac52c394f0cf3",
         "url": "https://github.com/tree-sitter/tree-sitter-julia"
       },
       "lang": "julia",
@@ -1184,7 +1184,7 @@
     },
     {
       "install_info": {
-        "revision": "b420f7922d0d74905fd0d771e5b83be9ee8a8a9a",
+        "revision": "7258681498ac92f24b2d7ebb844b5e79dc3cf9ac",
         "url": "https://github.com/koto-lang/tree-sitter-koto"
       },
       "lang": "koto",
@@ -2463,7 +2463,7 @@
     {
       "install_info": {
         "location": "tree_sitter_v",
-        "revision": "b9644a24bf0be5bf41de61bda681b28492dd3112",
+        "revision": "535103910159887a41d019635c1cdbec910d1a31",
         "url": "https://github.com/vlang/v-analyzer"
       },
       "lang": "v",
