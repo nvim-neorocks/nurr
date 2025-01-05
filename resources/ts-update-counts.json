@@ -606,7 +606,7 @@
     },
     {
       "key": "mlir",
-      "value": 40
+      "value": 41
     },
     {
       "key": "muttrc",
@@ -810,7 +810,7 @@
     },
     {
       "key": "rbs",
-      "value": 30
+      "value": 31
     },
     {
       "key": "re2c",
@@ -898,7 +898,7 @@
     },
     {
       "key": "snakemake",
-      "value": 30
+      "value": 31
     },
     {
       "key": "solidity",
