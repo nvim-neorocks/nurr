@@ -154,7 +154,7 @@
     },
     {
       "key": "diff",
-      "value": 31
+      "value": 32
     },
     {
       "key": "disassembly",
@@ -502,7 +502,7 @@
     },
     {
       "key": "just",
-      "value": 35
+      "value": 36
     },
     {
       "key": "kconfig",
@@ -654,11 +654,11 @@
     },
     {
       "key": "ocaml",
-      "value": 34
+      "value": 35
     },
     {
       "key": "ocaml_interface",
-      "value": 35
+      "value": 36
     },
     {
       "key": "ocamllex",
@@ -958,7 +958,7 @@
     },
     {
       "key": "swift",
-      "value": 43
+      "value": 44
     },
     {
       "key": "sxhkdrc",
@@ -1214,7 +1214,7 @@
     },
     {
       "key": "xresources",
-      "value": 16
+      "value": 17
     },
     {
       "key": "desktop",

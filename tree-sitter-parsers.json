@@ -359,7 +359,7 @@
     },
     {
       "install_info": {
-        "revision": "63439b5e6e35750aff1e53d9eecc663d369c54bc",
+        "revision": "e42b8def4f75633568f1aecfe01817bf15164928",
         "url": "https://github.com/the-mikedavis/tree-sitter-diff"
       },
       "lang": "diff",
@@ -1152,7 +1152,7 @@
     },
     {
       "install_info": {
-        "revision": "4f4e566fe47c30b14cfe388a28f70b79009609e5",
+        "revision": "bb0c898a80644de438e6efe5d88d30bf092935cd",
         "url": "https://github.com/IndianBoy42/tree-sitter-just"
       },
       "lang": "just",
@@ -1487,7 +1487,7 @@
     {
       "install_info": {
         "location": "grammars/ocaml",
-        "revision": "98c2130c59ca7553b47086f91c5d22180151ad55",
+        "revision": "781514ec0b786e516e4da3edc64fdfcf76400e4e",
         "url": "https://github.com/tree-sitter/tree-sitter-ocaml"
       },
       "lang": "ocaml",
@@ -1496,7 +1496,7 @@
     {
       "install_info": {
         "location": "grammars/interface",
-        "revision": "98c2130c59ca7553b47086f91c5d22180151ad55",
+        "revision": "781514ec0b786e516e4da3edc64fdfcf76400e4e",
         "url": "https://github.com/tree-sitter/tree-sitter-ocaml"
       },
       "lang": "ocaml_interface",
@@ -2201,7 +2201,7 @@
     {
       "install_info": {
         "generate": true,
-        "revision": "742723056556ec80ca4da09a6411fff86b330911",
+        "revision": "f4be8072f18fb9704fd35d4b8154ae2b19e314c0",
         "url": "https://github.com/alex-pinkus/tree-sitter-swift"
       },
       "lang": "swift",
@@ -2601,7 +2601,7 @@
     },
     {
       "install_info": {
-        "revision": "7c7b03e69710a31031e02bc18a7c3c6542a010e2",
+        "revision": "8117b0ab58df8afb902c0862b7f6eb3bbb06c7ab",
         "url": "https://github.com/ValdezFOmar/tree-sitter-xresources"
       },
       "lang": "xresources",
