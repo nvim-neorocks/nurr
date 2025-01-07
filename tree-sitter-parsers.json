@@ -162,7 +162,7 @@
     },
     {
       "install_info": {
-        "revision": "4bf615f8d688f50d69fc5677187dc35f22e03ad6",
+        "revision": "acff8cbb53a1d7b9cd07b209c9933a0e2da9ef35",
         "url": "https://github.com/tree-sitter/tree-sitter-c-sharp"
       },
       "lang": "c_sharp",
@@ -1406,7 +1406,7 @@
     },
     {
       "install_info": {
-        "revision": "ddaa2bc22355effd97c0d6b09ff5962705c6368d",
+        "revision": "25464b33522c3f609fa512aa9651707c0b66d48b",
         "url": "https://github.com/nickel-lang/tree-sitter-nickel"
       },
       "lang": "nickel",
