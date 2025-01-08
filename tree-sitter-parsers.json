@@ -845,7 +845,7 @@
     },
     {
       "install_info": {
-        "revision": "b53a8cc1075e056b8223b86f3bb392e0d57ae101",
+        "revision": "1f30c3398495dfeba24c7aa3b12a2bc68c0bd419",
         "url": "https://github.com/murtaza64/tree-sitter-groovy"
       },
       "lang": "groovy",
@@ -1765,7 +1765,7 @@
     },
     {
       "install_info": {
-        "revision": "bffb65a8cfe4e46290331dfef0dbf0ef3679de11",
+        "revision": "409b5d671eb0ea4972eeacaaca24bbec1acf79b1",
         "url": "https://github.com/tree-sitter/tree-sitter-python"
       },
       "lang": "python",
