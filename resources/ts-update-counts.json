@@ -122,7 +122,7 @@
     },
     {
       "key": "css",
-      "value": 31
+      "value": 32
     },
     {
       "key": "csv",
@@ -262,7 +262,7 @@
     },
     {
       "key": "fortran",
-      "value": 37
+      "value": 38
     },
     {
       "key": "fsh",
@@ -338,7 +338,7 @@
     },
     {
       "key": "gomod",
-      "value": 31
+      "value": 32
     },
     {
       "key": "gosum",
@@ -654,11 +654,11 @@
     },
     {
       "key": "ocaml",
-      "value": 36
+      "value": 37
     },
     {
       "key": "ocaml_interface",
-      "value": 37
+      "value": 38
     },
     {
       "key": "ocamllex",
@@ -846,7 +846,7 @@
     },
     {
       "key": "roc",
-      "value": 30
+      "value": 31
     },
     {
       "key": "ron",
