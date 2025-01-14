@@ -14,7 +14,7 @@
     },
     {
       "key": "apex",
-      "value": 44
+      "value": 45
     },
     {
       "key": "arduino",
@@ -346,7 +346,7 @@
     },
     {
       "key": "gotmpl",
-      "value": 30
+      "value": 31
     },
     {
       "key": "gowork",
@@ -362,7 +362,7 @@
     },
     {
       "key": "groovy",
-      "value": 31
+      "value": 32
     },
     {
       "key": "gstlaunch",
@@ -590,7 +590,7 @@
     },
     {
       "key": "matlab",
-      "value": 30
+      "value": 31
     },
     {
       "key": "menhir",
@@ -638,7 +638,7 @@
     },
     {
       "key": "nix",
-      "value": 51
+      "value": 52
     },
     {
       "key": "nqc",
@@ -906,11 +906,11 @@
     },
     {
       "key": "soql",
-      "value": 43
+      "value": 44
     },
     {
       "key": "sosl",
-      "value": 41
+      "value": 42
     },
     {
       "key": "sourcepawn",
@@ -1174,11 +1174,11 @@
     },
     {
       "key": "sflog",
-      "value": 41
+      "value": 42
     },
     {
       "key": "gap",
-      "value": 30
+      "value": 31
     },
     {
       "key": "gaptst",

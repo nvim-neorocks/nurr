@@ -32,7 +32,7 @@
     {
       "install_info": {
         "location": "apex",
-        "revision": "129eaf01a15437110846b28cb8d8bb6df29968d9",
+        "revision": "eade4054efc897f4bb18a5b7bf4b5a824dbffa74",
         "url": "https://github.com/aheber/tree-sitter-sfapex"
       },
       "lang": "apex",
@@ -616,7 +616,7 @@
     },
     {
       "install_info": {
-        "revision": "ea70c228dd1d3875aeb264bf99903dc9a696894f",
+        "revision": "7db79590d2f8b0e0246008ecfd569b4bfca587a9",
         "url": "https://github.com/gap-system/tree-sitter-gap"
       },
       "lang": "gap",
@@ -845,7 +845,7 @@
     },
     {
       "install_info": {
-        "revision": "1f30c3398495dfeba24c7aa3b12a2bc68c0bd419",
+        "revision": "d1556e77d49df1a28cd564af5766fdaea8ab7063",
         "url": "https://github.com/murtaza64/tree-sitter-groovy"
       },
       "lang": "groovy",
@@ -1341,7 +1341,7 @@
     },
     {
       "install_info": {
-        "revision": "306c43ab28b7b8a4976e40ff0a7c26b019ad52df",
+        "revision": "b0a0198b182574cd3ca0447264c83331901b9338",
         "url": "https://github.com/acristoffers/tree-sitter-matlab"
       },
       "lang": "matlab",
@@ -1441,7 +1441,7 @@
     },
     {
       "install_info": {
-        "revision": "21897cc3dcd15325303e46b85295b743742af6ab",
+        "revision": "4b952d99ce6fc795ff3cfa48b05637f2b1751d3b",
         "url": "https://github.com/cstrahan/tree-sitter-nix"
       },
       "lang": "nix",
@@ -2008,7 +2008,7 @@
     {
       "install_info": {
         "location": "sflog",
-        "revision": "129eaf01a15437110846b28cb8d8bb6df29968d9",
+        "revision": "eade4054efc897f4bb18a5b7bf4b5a824dbffa74",
         "url": "https://github.com/aheber/tree-sitter-sfapex"
       },
       "lang": "sflog",
@@ -2069,7 +2069,7 @@
     {
       "install_info": {
         "location": "soql",
-        "revision": "129eaf01a15437110846b28cb8d8bb6df29968d9",
+        "revision": "eade4054efc897f4bb18a5b7bf4b5a824dbffa74",
         "url": "https://github.com/aheber/tree-sitter-sfapex"
       },
       "lang": "soql",
@@ -2078,7 +2078,7 @@
     {
       "install_info": {
         "location": "sosl",
-        "revision": "129eaf01a15437110846b28cb8d8bb6df29968d9",
+        "revision": "eade4054efc897f4bb18a5b7bf4b5a824dbffa74",
         "url": "https://github.com/aheber/tree-sitter-sfapex"
       },
       "lang": "sosl",
