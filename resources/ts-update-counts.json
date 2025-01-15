@@ -230,7 +230,7 @@
     },
     {
       "key": "facility",
-      "value": 29
+      "value": 30
     },
     {
       "key": "faust",
@@ -262,7 +262,7 @@
     },
     {
       "key": "fortran",
-      "value": 38
+      "value": 39
     },
     {
       "key": "fsh",
@@ -346,7 +346,7 @@
     },
     {
       "key": "gotmpl",
-      "value": 31
+      "value": 32
     },
     {
       "key": "gowork",
@@ -394,7 +394,7 @@
     },
     {
       "key": "helm",
-      "value": 31
+      "value": 32
     },
     {
       "key": "hjson",
@@ -654,11 +654,11 @@
     },
     {
       "key": "ocaml",
-      "value": 37
+      "value": 38
     },
     {
       "key": "ocaml_interface",
-      "value": 38
+      "value": 39
     },
     {
       "key": "ocamllex",
