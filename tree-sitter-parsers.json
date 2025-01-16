@@ -416,7 +416,7 @@
     },
     {
       "install_info": {
-        "revision": "059fb087247bef8789e938629388c3e7af32c986",
+        "revision": "a44f6f6d22ea4fe16fa37ababd90240ab87a9e0d",
         "url": "https://github.com/glehmann/tree-sitter-earthfile"
       },
       "lang": "earthfile",
@@ -805,7 +805,7 @@
     },
     {
       "install_info": {
-        "revision": "161e38cf9ec47109edefe99aa127e5b111e2e189",
+        "revision": "ab4a8c4a51f271f320f2bad6a5d499415bf541b1",
         "url": "https://github.com/ngalaiko/tree-sitter-go-template"
       },
       "lang": "gotmpl",
@@ -901,7 +901,7 @@
     },
     {
       "install_info": {
-        "revision": "f6b83f305a755cd49cf5f6a66b2b789be93dc7b9",
+        "revision": "76d4b3e42f6b363245ba4df566c29fc4150154d1",
         "url": "https://github.com/connorlay/tree-sitter-heex"
       },
       "lang": "heex",
@@ -910,7 +910,7 @@
     {
       "install_info": {
         "location": "dialects/helm",
-        "revision": "161e38cf9ec47109edefe99aa127e5b111e2e189",
+        "revision": "ab4a8c4a51f271f320f2bad6a5d499415bf541b1",
         "url": "https://github.com/ngalaiko/tree-sitter-go-template"
       },
       "lang": "helm",
@@ -2503,7 +2503,7 @@
     },
     {
       "install_info": {
-        "revision": "09f8fbfe40a3a699b200daca7d92e65fbbe9f9e6",
+        "revision": "037e675d547b18bbf3fdeb222e242ae5dccc39d7",
         "url": "https://github.com/charmbracelet/tree-sitter-vhs"
       },
       "lang": "vhs",
