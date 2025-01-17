@@ -226,7 +226,7 @@
     },
     {
       "key": "erlang",
-      "value": 33
+      "value": 34
     },
     {
       "key": "facility",
@@ -390,7 +390,7 @@
     },
     {
       "key": "heex",
-      "value": 32
+      "value": 33
     },
     {
       "key": "helm",
@@ -458,7 +458,7 @@
     },
     {
       "key": "janet_simple",
-      "value": 29
+      "value": 30
     },
     {
       "key": "java",
@@ -526,7 +526,7 @@
     },
     {
       "key": "lalrpop",
-      "value": 30
+      "value": 31
     },
     {
       "key": "latex",
@@ -1242,6 +1242,10 @@
     },
     {
       "key": "ipkg",
+      "value": 1
+    },
+    {
+      "key": "idris",
       "value": 1
     }
   ]

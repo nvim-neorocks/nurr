@@ -502,7 +502,7 @@
     },
     {
       "install_info": {
-        "revision": "4095e9993acc89cb311ab1be8614c21b1cf768a4",
+        "revision": "d2281ab060093290045941a865a3834eec862a3f",
         "url": "https://github.com/WhatsApp/tree-sitter-erlang"
       },
       "lang": "erlang",
@@ -901,7 +901,7 @@
     },
     {
       "install_info": {
-        "revision": "76d4b3e42f6b363245ba4df566c29fc4150154d1",
+        "revision": "a63c69c20fd88d1e5614a02b4a6b48cfb7e54a45",
         "url": "https://github.com/connorlay/tree-sitter-heex"
       },
       "lang": "heex",
@@ -1023,6 +1023,14 @@
     },
     {
       "install_info": {
+        "revision": "c56a25cf57c68ff929356db25505c1cc4c7820f6",
+        "url": "https://github.com/kayhide/tree-sitter-idris"
+      },
+      "lang": "idris",
+      "tier": 3
+    },
+    {
+      "install_info": {
         "revision": "962568c9efa71d25720ab42c5d36e222626ef3a6",
         "url": "https://github.com/justinmk/tree-sitter-ini"
       },
@@ -1059,7 +1067,7 @@
     },
     {
       "install_info": {
-        "revision": "12bfab7db8a5f5b1d774ef84b5831acd34936071",
+        "revision": "b4aa56fd0a2ea2708fc93062683ae5eaa4e973e6",
         "url": "https://github.com/sogaiu/tree-sitter-janet-simple"
       },
       "lang": "janet_simple",
@@ -1200,7 +1208,7 @@
     },
     {
       "install_info": {
-        "revision": "194c25539f435de415ee0551a5f07058833da915",
+        "revision": "a7f5ea297bd621d072ed4cb2cc8ba5ae64ae3c4b",
         "url": "https://github.com/traxys/tree-sitter-lalrpop"
       },
       "lang": "lalrpop",
