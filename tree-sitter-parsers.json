@@ -551,7 +551,7 @@
     },
     {
       "install_info": {
-        "revision": "a78aef9abc395c600c38a037ac779afc7e3cc9e0",
+        "revision": "70640c0696abde32622afc43291a385681afbd32",
         "url": "https://github.com/ram02z/tree-sitter-fish"
       },
       "lang": "fish",
@@ -1007,7 +1007,7 @@
     },
     {
       "install_info": {
-        "revision": "6858695eba0e63b9e0fceef081d291eb352abce8",
+        "revision": "af796443b66d7ab00184992daa3bdaede0955c87",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-hyprlang"
       },
       "lang": "hyprlang",
@@ -1809,7 +1809,7 @@
     },
     {
       "install_info": {
-        "revision": "a6674e279b14958625d7a530cabe06119c7a1532",
+        "revision": "5c2d02747250bc326bc33687b3319b7db8554e24",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-query"
       },
       "lang": "query",
@@ -2094,7 +2094,7 @@
     },
     {
       "install_info": {
-        "revision": "6b9bf9cbab91443380d2ca8a2f6c491cc7fac5bf",
+        "revision": "f2af8d0dc14c6790130cceb2a20027eb41a8297c",
         "url": "https://github.com/nilshelmig/tree-sitter-sourcepawn"
       },
       "lang": "sourcepawn",
@@ -2275,7 +2275,7 @@
     {
       "install_info": {
         "generate_from_json": true,
-        "revision": "60310af0d788a0160d719d4aff8f146b6e6c55bd",
+        "revision": "a9178bfc9cc8040c08f39b47bae5400a2bf06e50",
         "url": "https://github.com/vrischmann/tree-sitter-templ"
       },
       "lang": "templ",
@@ -2503,7 +2503,7 @@
     },
     {
       "install_info": {
-        "revision": "63d0360d42c43b4902b8470c7ddcf323432e2dde",
+        "revision": "da8ea8afa7899a99e43a7d61afef9f77b7a675eb",
         "url": "https://github.com/jpt13653903/tree-sitter-vhdl"
       },
       "lang": "vhdl",
@@ -2609,7 +2609,7 @@
     },
     {
       "install_info": {
-        "revision": "983f13acef542aef431a845fef084ddda8d9d666",
+        "revision": "d0f9dc7cec4dc15fc6f9d556bb4e9dd5050328a6",
         "url": "https://github.com/ValdezFOmar/tree-sitter-xresources"
       },
       "lang": "xresources",
