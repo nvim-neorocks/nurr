@@ -226,7 +226,7 @@
     },
     {
       "key": "erlang",
-      "value": 34
+      "value": 35
     },
     {
       "key": "facility",
@@ -438,7 +438,7 @@
     },
     {
       "key": "hyprlang",
-      "value": 32
+      "value": 33
     },
     {
       "key": "idl",
@@ -902,7 +902,7 @@
     },
     {
       "key": "solidity",
-      "value": 32
+      "value": 33
     },
     {
       "key": "soql",
@@ -974,7 +974,7 @@
     },
     {
       "key": "t32",
-      "value": 40
+      "value": 41
     },
     {
       "key": "tablegen",
@@ -1247,6 +1247,10 @@
     {
       "key": "idris",
       "value": 1
+    },
+    {
+      "key": "slim",
+      "value": 2
     }
   ]
 }
