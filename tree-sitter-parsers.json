@@ -502,7 +502,7 @@
     },
     {
       "install_info": {
-        "revision": "5fc0a536009391b01a90df9e59833c847c8cf72b",
+        "revision": "981fda038d2eb182a88a9374ccb1c14b840cba0b",
         "url": "https://github.com/WhatsApp/tree-sitter-erlang"
       },
       "lang": "erlang",
@@ -845,7 +845,7 @@
     },
     {
       "install_info": {
-        "revision": "d1556e77d49df1a28cd564af5766fdaea8ab7063",
+        "revision": "86911590a8e46d71301c66468e5620d9faa5b6af",
         "url": "https://github.com/murtaza64/tree-sitter-groovy"
       },
       "lang": "groovy",
@@ -1067,7 +1067,7 @@
     },
     {
       "install_info": {
-        "revision": "b4aa56fd0a2ea2708fc93062683ae5eaa4e973e6",
+        "revision": "81f17db9a8ab0a97ff20986ef9065eb628db7408",
         "url": "https://github.com/sogaiu/tree-sitter-janet-simple"
       },
       "lang": "janet_simple",
@@ -1184,7 +1184,7 @@
     },
     {
       "install_info": {
-        "revision": "0662afbd2ce19b17c603acf67ae707b4d69ab8f4",
+        "revision": "c4ddea359a7ff4d92360b2efcd6cfce5dc25afe6",
         "url": "https://github.com/fwcd/tree-sitter-kotlin"
       },
       "lang": "kotlin",
@@ -1947,7 +1947,7 @@
     },
     {
       "install_info": {
-        "revision": "5120f6e59284cb8b85b450bd2db0bd352635ba9f",
+        "revision": "dd5971ef7759583aadd5aa5e3a3a0905eb5734d5",
         "url": "https://github.com/stsewd/tree-sitter-rst"
       },
       "lang": "rst",
@@ -2035,7 +2035,7 @@
     },
     {
       "install_info": {
-        "revision": "23c9917c649659ae8ddf6d88fb9e9c6cfd80b8e0",
+        "revision": "a0f08e85b787248219ea645423c5916c8d620ef6",
         "url": "https://github.com/theoo/tree-sitter-slim"
       },
       "lang": "slim",

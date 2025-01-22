@@ -226,7 +226,7 @@
     },
     {
       "key": "erlang",
-      "value": 35
+      "value": 36
     },
     {
       "key": "facility",
@@ -362,7 +362,7 @@
     },
     {
       "key": "groovy",
-      "value": 32
+      "value": 33
     },
     {
       "key": "gstlaunch",
@@ -458,7 +458,7 @@
     },
     {
       "key": "janet_simple",
-      "value": 30
+      "value": 31
     },
     {
       "key": "java",
@@ -514,7 +514,7 @@
     },
     {
       "key": "kotlin",
-      "value": 31
+      "value": 32
     },
     {
       "key": "koto",
@@ -854,7 +854,7 @@
     },
     {
       "key": "rst",
-      "value": 30
+      "value": 31
     },
     {
       "key": "ruby",
@@ -1250,7 +1250,7 @@
     },
     {
       "key": "slim",
-      "value": 2
+      "value": 3
     }
   ]
 }
