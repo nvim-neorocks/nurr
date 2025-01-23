@@ -575,7 +575,7 @@
     },
     {
       "install_info": {
-        "revision": "5fc069e4f05810ec6f8e399cd522e4eba864181c",
+        "revision": "a86dce3eb653d375aa36350072717265648657ad",
         "url": "https://github.com/stadelmanma/tree-sitter-fortran"
       },
       "lang": "fortran",
@@ -861,7 +861,7 @@
     },
     {
       "install_info": {
-        "revision": "fca1e294f6dce8ec5659233a6a21f5bd0ed5b4f2",
+        "revision": "bc5b3a10d6d27e8220a113a9a7fe9bec0a1574b0",
         "url": "https://github.com/slackhq/tree-sitter-hack"
       },
       "lang": "hack",
@@ -2180,7 +2180,7 @@
     {
       "install_info": {
         "location": "tree-sitter-superhtml",
-        "revision": "1fda813bd9dc108e962e018e6a327434767ad616",
+        "revision": "e6eba40bf54dd94d842154be0389c53a37be8dc8",
         "url": "https://github.com/kristoff-it/superhtml"
       },
       "lang": "superhtml",
@@ -2625,7 +2625,7 @@
     },
     {
       "install_info": {
-        "revision": "b733d3f5f5005890f324333dd57e1f0badec5c87",
+        "revision": "1805917414a9a8ba2473717fd69447277a175fae",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-yaml"
       },
       "lang": "yaml",
@@ -2666,7 +2666,7 @@
     {
       "install_info": {
         "location": "tree-sitter-ziggy",
-        "revision": "fe73beef9f52f04048d8b19016fc4fbc66b4596f",
+        "revision": "3518133e9ebea7c372eff4def368eda8488fad18",
         "url": "https://github.com/kristoff-it/ziggy"
       },
       "lang": "ziggy",
@@ -2675,7 +2675,7 @@
     {
       "install_info": {
         "location": "tree-sitter-ziggy-schema",
-        "revision": "fe73beef9f52f04048d8b19016fc4fbc66b4596f",
+        "revision": "3518133e9ebea7c372eff4def368eda8488fad18",
         "url": "https://github.com/kristoff-it/ziggy"
       },
       "lang": "ziggy_schema",
