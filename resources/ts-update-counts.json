@@ -38,7 +38,7 @@
     },
     {
       "key": "bash",
-      "value": 37
+      "value": 38
     },
     {
       "key": "bass",
@@ -70,11 +70,11 @@
     },
     {
       "key": "c",
-      "value": 36
+      "value": 37
     },
     {
       "key": "c_sharp",
-      "value": 36
+      "value": 37
     },
     {
       "key": "cairo",
@@ -118,11 +118,11 @@
     },
     {
       "key": "cpp",
-      "value": 35
+      "value": 36
     },
     {
       "key": "css",
-      "value": 33
+      "value": 34
     },
     {
       "key": "csv",
@@ -222,7 +222,7 @@
     },
     {
       "key": "embedded_template",
-      "value": 32
+      "value": 33
     },
     {
       "key": "erlang",
@@ -262,7 +262,7 @@
     },
     {
       "key": "fortran",
-      "value": 40
+      "value": 41
     },
     {
       "key": "fsh",
@@ -326,7 +326,7 @@
     },
     {
       "key": "go",
-      "value": 36
+      "value": 37
     },
     {
       "key": "goctl",
@@ -418,7 +418,7 @@
     },
     {
       "key": "html",
-      "value": 33
+      "value": 34
     },
     {
       "key": "html_tags",
@@ -462,11 +462,11 @@
     },
     {
       "key": "java",
-      "value": 37
+      "value": 38
     },
     {
       "key": "javascript",
-      "value": 33
+      "value": 34
     },
     {
       "key": "jq",
@@ -474,11 +474,11 @@
     },
     {
       "key": "jsdoc",
-      "value": 33
+      "value": 34
     },
     {
       "key": "json",
-      "value": 33
+      "value": 34
     },
     {
       "key": "json5",
@@ -690,11 +690,11 @@
     },
     {
       "key": "php",
-      "value": 35
+      "value": 36
     },
     {
       "key": "php_only",
-      "value": 36
+      "value": 37
     },
     {
       "key": "phpdoc",
@@ -774,7 +774,7 @@
     },
     {
       "key": "python",
-      "value": 37
+      "value": 38
     },
     {
       "key": "ql",
@@ -822,7 +822,7 @@
     },
     {
       "key": "regex",
-      "value": 38
+      "value": 39
     },
     {
       "key": "rego",
@@ -862,7 +862,7 @@
     },
     {
       "key": "rust",
-      "value": 38
+      "value": 39
     },
     {
       "key": "scala",
@@ -1034,7 +1034,7 @@
     },
     {
       "key": "tsx",
-      "value": 32
+      "value": 33
     },
     {
       "key": "turtle",
@@ -1046,7 +1046,7 @@
     },
     {
       "key": "typescript",
-      "value": 32
+      "value": 33
     },
     {
       "key": "typespec",
