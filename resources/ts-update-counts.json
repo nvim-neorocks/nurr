@@ -38,7 +38,7 @@
     },
     {
       "key": "bash",
-      "value": 38
+      "value": 39
     },
     {
       "key": "bass",
@@ -70,11 +70,11 @@
     },
     {
       "key": "c",
-      "value": 37
+      "value": 38
     },
     {
       "key": "c_sharp",
-      "value": 37
+      "value": 38
     },
     {
       "key": "cairo",
@@ -118,11 +118,11 @@
     },
     {
       "key": "cpp",
-      "value": 36
+      "value": 37
     },
     {
       "key": "css",
-      "value": 34
+      "value": 35
     },
     {
       "key": "csv",
@@ -206,7 +206,7 @@
     },
     {
       "key": "elixir",
-      "value": 37
+      "value": 38
     },
     {
       "key": "elm",
@@ -222,7 +222,7 @@
     },
     {
       "key": "embedded_template",
-      "value": 33
+      "value": 34
     },
     {
       "key": "erlang",
@@ -326,7 +326,7 @@
     },
     {
       "key": "go",
-      "value": 37
+      "value": 38
     },
     {
       "key": "goctl",
@@ -418,7 +418,7 @@
     },
     {
       "key": "html",
-      "value": 34
+      "value": 35
     },
     {
       "key": "html_tags",
@@ -462,11 +462,11 @@
     },
     {
       "key": "java",
-      "value": 38
+      "value": 39
     },
     {
       "key": "javascript",
-      "value": 34
+      "value": 35
     },
     {
       "key": "jq",
@@ -474,11 +474,11 @@
     },
     {
       "key": "jsdoc",
-      "value": 34
+      "value": 35
     },
     {
       "key": "json",
-      "value": 34
+      "value": 35
     },
     {
       "key": "json5",
@@ -618,7 +618,7 @@
     },
     {
       "key": "nginx",
-      "value": 29
+      "value": 30
     },
     {
       "key": "nickel",
@@ -690,11 +690,11 @@
     },
     {
       "key": "php",
-      "value": 36
+      "value": 37
     },
     {
       "key": "php_only",
-      "value": 37
+      "value": 38
     },
     {
       "key": "phpdoc",
@@ -726,7 +726,7 @@
     },
     {
       "key": "prisma",
-      "value": 29
+      "value": 30
     },
     {
       "key": "problog",
@@ -774,7 +774,7 @@
     },
     {
       "key": "python",
-      "value": 38
+      "value": 39
     },
     {
       "key": "ql",
@@ -822,7 +822,7 @@
     },
     {
       "key": "regex",
-      "value": 39
+      "value": 40
     },
     {
       "key": "rego",
@@ -862,7 +862,7 @@
     },
     {
       "key": "rust",
-      "value": 39
+      "value": 40
     },
     {
       "key": "scala",
@@ -870,7 +870,7 @@
     },
     {
       "key": "scfg",
-      "value": 29
+      "value": 30
     },
     {
       "key": "scheme",
@@ -1034,7 +1034,7 @@
     },
     {
       "key": "tsx",
-      "value": 33
+      "value": 34
     },
     {
       "key": "turtle",
@@ -1046,7 +1046,7 @@
     },
     {
       "key": "typescript",
-      "value": 33
+      "value": 34
     },
     {
       "key": "typespec",
@@ -1082,7 +1082,7 @@
     },
     {
       "key": "v",
-      "value": 41
+      "value": 42
     },
     {
       "key": "vala",
@@ -1094,7 +1094,7 @@
     },
     {
       "key": "verilog",
-      "value": 37
+      "value": 38
     },
     {
       "key": "vhdl",
