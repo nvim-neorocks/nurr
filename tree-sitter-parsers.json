@@ -292,7 +292,7 @@
     {
       "install_info": {
         "generate_from_json": true,
-        "revision": "635e8aa3747823a0c4e9660c07cef76fe8d3ef93",
+        "revision": "757e0a61f9d38b3d9eaa299e8d866e8283ffc284",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-cuda"
       },
       "lang": "cuda",
@@ -1067,7 +1067,7 @@
     },
     {
       "install_info": {
-        "revision": "81f17db9a8ab0a97ff20986ef9065eb628db7408",
+        "revision": "ca4785b47a4ff15653f0408a49c764dec533e0d3",
         "url": "https://github.com/sogaiu/tree-sitter-janet-simple"
       },
       "lang": "janet_simple",
