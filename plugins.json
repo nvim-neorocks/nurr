@@ -1692,7 +1692,7 @@
             "license": "MIT",
             "summary": "Syntax aware text-objects, select, move, swap, and peek support.",
             "ref": "main",
-            "rockspec_template": "nurr/resources/nvim-treesitter-textobjects.template"
+            "rockspec_template": "nurr/resources/main-branch.template"
         },
         {
             "name": "windwp/nvim-ts-autotag",
