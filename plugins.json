@@ -1691,7 +1691,8 @@
             "shorthand": "nvim-treesitter-textobjects",
             "license": "MIT",
             "summary": "Syntax aware text-objects, select, move, swap, and peek support.",
-            "ref": "main"
+            "ref": "main",
+            "rockspec_template": "nurr/resources/nvim-treesitter-textobjects.template"
         },
         {
             "name": "windwp/nvim-ts-autotag",
