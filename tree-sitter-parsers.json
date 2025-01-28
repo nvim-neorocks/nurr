@@ -805,7 +805,7 @@
     },
     {
       "install_info": {
-        "revision": "ab4a8c4a51f271f320f2bad6a5d499415bf541b1",
+        "revision": "845c471f153c83c6106e1179e38094b2f16a0d20",
         "url": "https://github.com/ngalaiko/tree-sitter-go-template"
       },
       "lang": "gotmpl",
@@ -837,7 +837,7 @@
     },
     {
       "install_info": {
-        "revision": "76554f4f2339f5a24eed19c58f2079b51c694152",
+        "revision": "06389ece5bc7344ed3931dc516bb609d8864dd2a",
         "url": "https://github.com/MaeBrooks/tree-sitter-gren"
       },
       "lang": "gren",
@@ -910,7 +910,7 @@
     {
       "install_info": {
         "location": "dialects/helm",
-        "revision": "ab4a8c4a51f271f320f2bad6a5d499415bf541b1",
+        "revision": "845c471f153c83c6106e1179e38094b2f16a0d20",
         "url": "https://github.com/ngalaiko/tree-sitter-go-template"
       },
       "lang": "helm",
@@ -1466,7 +1466,7 @@
     },
     {
       "install_info": {
-        "revision": "9822fc63a62ff87939c88ead9f381f951f092dee",
+        "revision": "b51db01e154fac33eda5b289a6c7751c09568f6d",
         "url": "https://github.com/nushell/tree-sitter-nu"
       },
       "lang": "nu",
