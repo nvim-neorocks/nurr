@@ -260,7 +260,7 @@
     {
       "install_info": {
         "generate_from_json": true,
-        "revision": "a352ed85f733f9c6cc458fe5a82bcd4c00f70eab",
+        "revision": "950b4fc9b3a7a59d351853acddde65a422481bc5",
         "url": "https://github.com/tree-sitter/tree-sitter-cpp"
       },
       "lang": "cpp",
@@ -375,7 +375,7 @@
     },
     {
       "install_info": {
-        "revision": "886601b67d1f4690173a4925c214343c30704d32",
+        "revision": "639c2dd7f53ee7755c9bdb560598c56ad128ef30",
         "url": "https://github.com/treeman/tree-sitter-djot"
       },
       "lang": "djot",
@@ -780,7 +780,7 @@
     },
     {
       "install_info": {
-        "revision": "941955d027f1d8530501e77ce5e1d6035f5f99c1",
+        "revision": "91c55fdf325a832659e59cdf4a02bfe8a423f14c",
         "url": "https://github.com/PrestonKnopp/tree-sitter-godot-resource"
       },
       "lang": "godot_resource",
@@ -1233,7 +1233,7 @@
     },
     {
       "install_info": {
-        "revision": "44a061bac4d9443d75f2700c62a71cd4dcf16f05",
+        "revision": "6bc5564917edacd070afc4d33cf5e2e677831ea9",
         "url": "https://github.com/r001/tree-sitter-leo"
       },
       "lang": "leo",
