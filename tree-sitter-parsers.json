@@ -260,7 +260,7 @@
     {
       "install_info": {
         "generate_from_json": true,
-        "revision": "950b4fc9b3a7a59d351853acddde65a422481bc5",
+        "revision": "0a4623a93fc7ca072903eb68cd2ca26fc5f41d2e",
         "url": "https://github.com/tree-sitter/tree-sitter-cpp"
       },
       "lang": "cpp",
@@ -375,7 +375,7 @@
     },
     {
       "install_info": {
-        "revision": "639c2dd7f53ee7755c9bdb560598c56ad128ef30",
+        "revision": "ac748d11ce2ede8b1b0a82a280d1f5af7a98bf82",
         "url": "https://github.com/treeman/tree-sitter-djot"
       },
       "lang": "djot",
@@ -805,7 +805,7 @@
     },
     {
       "install_info": {
-        "revision": "845c471f153c83c6106e1179e38094b2f16a0d20",
+        "revision": "5f19a36bb1eebb30454e277b222b278ceafed0dd",
         "url": "https://github.com/ngalaiko/tree-sitter-go-template"
       },
       "lang": "gotmpl",
@@ -901,7 +901,7 @@
     },
     {
       "install_info": {
-        "revision": "a63c69c20fd88d1e5614a02b4a6b48cfb7e54a45",
+        "revision": "008626a3fad379d17c81d5ed576edd9bd7a4fbf7",
         "url": "https://github.com/connorlay/tree-sitter-heex"
       },
       "lang": "heex",
@@ -910,7 +910,7 @@
     {
       "install_info": {
         "location": "dialects/helm",
-        "revision": "845c471f153c83c6106e1179e38094b2f16a0d20",
+        "revision": "5f19a36bb1eebb30454e277b222b278ceafed0dd",
         "url": "https://github.com/ngalaiko/tree-sitter-go-template"
       },
       "lang": "helm",
@@ -2076,7 +2076,7 @@
     },
     {
       "install_info": {
-        "revision": "727087514eff57d92e273a24303142308bce3381",
+        "revision": "d38dcd0b58b223c43e3f9265914fb3167dc624c6",
         "url": "https://github.com/JoranHonig/tree-sitter-solidity"
       },
       "lang": "solidity",
