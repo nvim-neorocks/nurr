@@ -70,11 +70,11 @@
     },
     {
       "key": "c",
-      "value": 38
+      "value": 39
     },
     {
       "key": "c_sharp",
-      "value": 38
+      "value": 39
     },
     {
       "key": "cairo",
@@ -118,11 +118,11 @@
     },
     {
       "key": "cpp",
-      "value": 39
+      "value": 40
     },
     {
       "key": "css",
-      "value": 35
+      "value": 36
     },
     {
       "key": "csv",
@@ -162,7 +162,7 @@
     },
     {
       "key": "djot",
-      "value": 33
+      "value": 34
     },
     {
       "key": "dockerfile",
@@ -178,11 +178,11 @@
     },
     {
       "key": "dtd",
-      "value": 33
+      "value": 34
     },
     {
       "key": "earthfile",
-      "value": 34
+      "value": 35
     },
     {
       "key": "ebnf",
@@ -326,7 +326,7 @@
     },
     {
       "key": "go",
-      "value": 38
+      "value": 39
     },
     {
       "key": "goctl",
@@ -418,7 +418,7 @@
     },
     {
       "key": "html",
-      "value": 35
+      "value": 36
     },
     {
       "key": "html_tags",
@@ -462,11 +462,11 @@
     },
     {
       "key": "java",
-      "value": 39
+      "value": 40
     },
     {
       "key": "javascript",
-      "value": 35
+      "value": 36
     },
     {
       "key": "jq",
@@ -478,7 +478,7 @@
     },
     {
       "key": "json",
-      "value": 35
+      "value": 36
     },
     {
       "key": "json5",
@@ -558,7 +558,7 @@
     },
     {
       "key": "lua",
-      "value": 32
+      "value": 33
     },
     {
       "key": "luadoc",
@@ -638,7 +638,7 @@
     },
     {
       "key": "nix",
-      "value": 54
+      "value": 55
     },
     {
       "key": "nqc",
@@ -654,15 +654,15 @@
     },
     {
       "key": "ocaml",
-      "value": 38
-    },
-    {
-      "key": "ocaml_interface",
       "value": 39
     },
     {
+      "key": "ocaml_interface",
+      "value": 40
+    },
+    {
       "key": "ocamllex",
-      "value": 29
+      "value": 30
     },
     {
       "key": "odin",
@@ -690,11 +690,11 @@
     },
     {
       "key": "php",
-      "value": 37
+      "value": 38
     },
     {
       "key": "php_only",
-      "value": 38
+      "value": 39
     },
     {
       "key": "phpdoc",
@@ -774,7 +774,7 @@
     },
     {
       "key": "python",
-      "value": 39
+      "value": 40
     },
     {
       "key": "ql",
@@ -858,7 +858,7 @@
     },
     {
       "key": "ruby",
-      "value": 34
+      "value": 35
     },
     {
       "key": "rust",
@@ -866,7 +866,7 @@
     },
     {
       "key": "scala",
-      "value": 44
+      "value": 45
     },
     {
       "key": "scfg",
@@ -1034,7 +1034,7 @@
     },
     {
       "key": "tsx",
-      "value": 34
+      "value": 35
     },
     {
       "key": "turtle",
@@ -1046,7 +1046,7 @@
     },
     {
       "key": "typescript",
-      "value": 35
+      "value": 36
     },
     {
       "key": "typespec",
@@ -1138,7 +1138,7 @@
     },
     {
       "key": "xml",
-      "value": 35
+      "value": 36
     },
     {
       "key": "yaml",
