@@ -38,7 +38,7 @@
     },
     {
       "key": "bash",
-      "value": 39
+      "value": 40
     },
     {
       "key": "bass",
@@ -378,7 +378,7 @@
     },
     {
       "key": "haskell",
-      "value": 31
+      "value": 32
     },
     {
       "key": "haskell_persistent",
@@ -498,7 +498,7 @@
     },
     {
       "key": "julia",
-      "value": 40
+      "value": 41
     },
     {
       "key": "just",
@@ -638,7 +638,7 @@
     },
     {
       "key": "nix",
-      "value": 55
+      "value": 56
     },
     {
       "key": "nqc",
@@ -646,7 +646,7 @@
     },
     {
       "key": "objc",
-      "value": 30
+      "value": 31
     },
     {
       "key": "objdump",
@@ -1058,7 +1058,7 @@
     },
     {
       "key": "typst",
-      "value": 32
+      "value": 33
     },
     {
       "key": "udev",
@@ -1218,7 +1218,7 @@
     },
     {
       "key": "desktop",
-      "value": 6
+      "value": 7
     },
     {
       "key": "cylc",
