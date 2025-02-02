@@ -335,7 +335,7 @@
     },
     {
       "install_info": {
-        "revision": "5d5e8659cc0d511e8f2860483c3c1d7ebb7b893e",
+        "revision": "6d66eea37afa1d6bc1e25ef457113743df42416d",
         "url": "https://github.com/ValdezFOmar/tree-sitter-desktop"
       },
       "lang": "desktop",
@@ -1349,7 +1349,7 @@
     },
     {
       "install_info": {
-        "revision": "b0a0198b182574cd3ca0447264c83331901b9338",
+        "revision": "bbf1b3f0bd7417c1efb8958fe95be3d0d540207a",
         "url": "https://github.com/acristoffers/tree-sitter-matlab"
       },
       "lang": "matlab",
@@ -1566,7 +1566,7 @@
       "install_info": {
         "branch": "release",
         "generate_from_json": true,
-        "revision": "6f280c52662dc254eb7a5abc0889f7a9e1154ffd",
+        "revision": "db79ba96ba13e2e89ce9da07c1cc1dfbe6e2e0f6",
         "url": "https://github.com/tree-sitter-perl/tree-sitter-perl"
       },
       "lang": "perl",
@@ -1809,7 +1809,7 @@
     },
     {
       "install_info": {
-        "revision": "5c2d02747250bc326bc33687b3319b7db8554e24",
+        "revision": "9bf4d5cad5ecf51d9102cd50765e8d6119616a9a",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-query"
       },
       "lang": "query",
@@ -1846,6 +1846,14 @@
         "url": "https://github.com/Fymyte/tree-sitter-rasi"
       },
       "lang": "rasi",
+      "tier": 3
+    },
+    {
+      "install_info": {
+        "revision": "a47cd8ca148685629739a4ab69f58864800fbdab",
+        "url": "https://github.com/tris203/tree-sitter-razor"
+      },
+      "lang": "razor",
       "tier": 3
     },
     {
@@ -1979,7 +1987,7 @@
     },
     {
       "install_info": {
-        "revision": "851f6a6856363dd03e911290105c5cc878bcc9c6",
+        "revision": "d67fe3ba3879bd7ba74bd7f56c9a38fed241ba25",
         "url": "https://github.com/tree-sitter/tree-sitter-scala"
       },
       "lang": "scala",
