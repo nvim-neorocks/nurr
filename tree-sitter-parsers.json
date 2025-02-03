@@ -154,7 +154,7 @@
     },
     {
       "install_info": {
-        "revision": "f10e84f382a4e53144af0c958be3017064478262",
+        "revision": "cf36b0354a2d75a42f87191cbd3166ad8af348e4",
         "url": "https://github.com/tree-sitter/tree-sitter-c"
       },
       "lang": "c",
@@ -1809,7 +1809,7 @@
     },
     {
       "install_info": {
-        "revision": "9bf4d5cad5ecf51d9102cd50765e8d6119616a9a",
+        "revision": "0555ac0da902abff06076e40501102cee3ba68bd",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-query"
       },
       "lang": "query",
@@ -1955,7 +1955,7 @@
     },
     {
       "install_info": {
-        "revision": "dd5971ef7759583aadd5aa5e3a3a0905eb5734d5",
+        "revision": "899e073a10012b8028b643d676c30bbf9c64a45d",
         "url": "https://github.com/stsewd/tree-sitter-rst"
       },
       "lang": "rst",
@@ -2225,7 +2225,7 @@
     {
       "install_info": {
         "generate": true,
-        "revision": "f4be8072f18fb9704fd35d4b8154ae2b19e314c0",
+        "revision": "1ebc09c38f41d6aab7dd65ca0f8ea032ced0364f",
         "url": "https://github.com/alex-pinkus/tree-sitter-swift"
       },
       "lang": "swift",
@@ -2519,7 +2519,7 @@
     },
     {
       "install_info": {
-        "revision": "da8ea8afa7899a99e43a7d61afef9f77b7a675eb",
+        "revision": "cfc522af3e49c1a00ae74e01aa14e19818dab8f2",
         "url": "https://github.com/jpt13653903/tree-sitter-vhdl"
       },
       "lang": "vhdl",
