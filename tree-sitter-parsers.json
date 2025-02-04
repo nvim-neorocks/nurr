@@ -303,7 +303,7 @@
     },
     {
       "install_info": {
-        "revision": "8a5f273bfa281c66354da562f2307c2d394b6c81",
+        "revision": "770737bcff2c4aa3f624d439e32b07dbb07102d3",
         "url": "https://github.com/eonpatapon/tree-sitter-cue"
       },
       "lang": "cue",
@@ -502,7 +502,7 @@
     },
     {
       "install_info": {
-        "revision": "981fda038d2eb182a88a9374ccb1c14b840cba0b",
+        "revision": "cd1679d6e0ab03159001a39dc599523ed4fc5971",
         "url": "https://github.com/WhatsApp/tree-sitter-erlang"
       },
       "lang": "erlang",
@@ -1067,7 +1067,7 @@
     },
     {
       "install_info": {
-        "revision": "ca4785b47a4ff15653f0408a49c764dec533e0d3",
+        "revision": "b08b402207fba0037d5152ce7c521351147f4388",
         "url": "https://github.com/sogaiu/tree-sitter-janet-simple"
       },
       "lang": "janet_simple",
