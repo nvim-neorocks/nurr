@@ -502,7 +502,7 @@
     },
     {
       "install_info": {
-        "revision": "cd1679d6e0ab03159001a39dc599523ed4fc5971",
+        "revision": "54d95b5e7750140c42ec2c8fda4d67fe11a045c3",
         "url": "https://github.com/WhatsApp/tree-sitter-erlang"
       },
       "lang": "erlang",
@@ -592,7 +592,7 @@
     {
       "install_info": {
         "location": "fsharp",
-        "revision": "207f1c988f4649e12fe207e4a7e4f83b9da037d1",
+        "revision": "ad824dea984734406b50699c5f388a7412e85946",
         "url": "https://github.com/ionide/tree-sitter-fsharp"
       },
       "lang": "fsharp",
