@@ -502,7 +502,7 @@
     },
     {
       "install_info": {
-        "revision": "54d95b5e7750140c42ec2c8fda4d67fe11a045c3",
+        "revision": "90f1fcb7a9c9fff2442c00d087368d5bc2c94407",
         "url": "https://github.com/WhatsApp/tree-sitter-erlang"
       },
       "lang": "erlang",
@@ -1466,7 +1466,7 @@
     },
     {
       "install_info": {
-        "revision": "b51db01e154fac33eda5b289a6c7751c09568f6d",
+        "revision": "d0b26e45525016ef8e6f2ced05852437c06a00ca",
         "url": "https://github.com/nushell/tree-sitter-nu"
       },
       "lang": "nu",
@@ -2527,7 +2527,7 @@
     },
     {
       "install_info": {
-        "revision": "037e675d547b18bbf3fdeb222e242ae5dccc39d7",
+        "revision": "966067fe81d78071805d8e55ec836b3926c4ece4",
         "url": "https://github.com/charmbracelet/tree-sitter-vhs"
       },
       "lang": "vhs",
