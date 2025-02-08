@@ -226,7 +226,7 @@
     },
     {
       "key": "erlang",
-      "value": 39
+      "value": 40
     },
     {
       "key": "facility",
@@ -306,7 +306,7 @@
     },
     {
       "key": "gleam",
-      "value": 33
+      "value": 35
     },
     {
       "key": "glimmer",
@@ -438,7 +438,7 @@
     },
     {
       "key": "hyprlang",
-      "value": 33
+      "value": 34
     },
     {
       "key": "idl",
@@ -1198,11 +1198,11 @@
     },
     {
       "key": "ziggy",
-      "value": 8
+      "value": 9
     },
     {
       "key": "ziggy_schema",
-      "value": 8
+      "value": 9
     },
     {
       "key": "superhtml",
@@ -1255,6 +1255,18 @@
     {
       "key": "razor",
       "value": 1
+    },
+    {
+      "key": "enforce",
+      "value": 2
+    },
+    {
+      "key": "jinja",
+      "value": 2
+    },
+    {
+      "key": "jinja_inline",
+      "value": 2
     }
   ]
 }

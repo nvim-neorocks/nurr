@@ -502,7 +502,15 @@
     },
     {
       "install_info": {
-        "revision": "90f1fcb7a9c9fff2442c00d087368d5bc2c94407",
+        "revision": "9db7a49f3d73222c05b75dcfa8892f5e93542d1e",
+        "url": "https://github.com/simonvic/tree-sitter-enforce"
+      },
+      "lang": "enforce",
+      "tier": 3
+    },
+    {
+      "install_info": {
+        "revision": "9cea919877741b2ed87cf215c0a06feb9a1930bf",
         "url": "https://github.com/WhatsApp/tree-sitter-erlang"
       },
       "lang": "erlang",
@@ -694,7 +702,7 @@
     },
     {
       "install_info": {
-        "revision": "066704e4826699e754d351e3bbe12bf2e51de9d8",
+        "revision": "af6043419f5aa0f8b6c2a26db0187aefa46c7f5f",
         "url": "https://github.com/gleam-lang/tree-sitter-gleam"
       },
       "lang": "gleam",
@@ -1092,6 +1100,29 @@
         "jsx"
       ],
       "tier": 2
+    },
+    {
+      "install_info": {
+        "location": "tree-sitter-jinja",
+        "revision": "41b17a33f335130ce9861fd21bffeb88fd768ef4",
+        "url": "https://github.com/cathaysia/tree-sitter-jinja"
+      },
+      "lang": "jinja",
+      "readme_note": "basic highlighting",
+      "requires": [
+        "jinja_inline"
+      ],
+      "tier": 3
+    },
+    {
+      "install_info": {
+        "location": "tree-sitter-jinja_inline",
+        "revision": "41b17a33f335130ce9861fd21bffeb88fd768ef4",
+        "url": "https://github.com/cathaysia/tree-sitter-jinja"
+      },
+      "lang": "jinja_inline",
+      "readme_note": "needed for full highlighting",
+      "tier": 3
     },
     {
       "install_info": {
@@ -2674,7 +2705,7 @@
     {
       "install_info": {
         "location": "tree-sitter-ziggy",
-        "revision": "3518133e9ebea7c372eff4def368eda8488fad18",
+        "revision": "acf2b6b5aa8b9ce93f4a1ef1adf4e95c06db7831",
         "url": "https://github.com/kristoff-it/ziggy"
       },
       "lang": "ziggy",
@@ -2683,7 +2714,7 @@
     {
       "install_info": {
         "location": "tree-sitter-ziggy-schema",
-        "revision": "3518133e9ebea7c372eff4def368eda8488fad18",
+        "revision": "acf2b6b5aa8b9ce93f4a1ef1adf4e95c06db7831",
         "url": "https://github.com/kristoff-it/ziggy"
       },
       "lang": "ziggy_schema",
