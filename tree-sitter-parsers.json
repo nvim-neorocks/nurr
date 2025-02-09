@@ -1881,6 +1881,7 @@
     },
     {
       "install_info": {
+        "generate_from_json": true,
         "revision": "a47cd8ca148685629739a4ab69f58864800fbdab",
         "url": "https://github.com/tris203/tree-sitter-razor"
       },
