@@ -154,7 +154,7 @@
     },
     {
       "install_info": {
-        "revision": "cf36b0354a2d75a42f87191cbd3166ad8af348e4",
+        "revision": "2a265d69a4caf57108a73ad2ed1e6922dd2f998c",
         "url": "https://github.com/tree-sitter/tree-sitter-c"
       },
       "lang": "c",
@@ -1413,7 +1413,7 @@
     {
       "install_info": {
         "generate": true,
-        "revision": "b5d5f238b371b7c9b764f6a053b045dda92bc836",
+        "revision": "65bca19232744b920859ce682cd830b5006b8ccd",
         "url": "https://github.com/artagnon/tree-sitter-mlir"
       },
       "lang": "mlir",
@@ -1689,7 +1689,7 @@
     },
     {
       "install_info": {
-        "revision": "60d50a2247b0c1fb72b967562c64711d65c6a060",
+        "revision": "df6b69967db7d74ab338a86a9ab45c0966c5ee3c",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-printf"
       },
       "lang": "printf",
