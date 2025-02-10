@@ -162,7 +162,7 @@
     },
     {
       "install_info": {
-        "revision": "b27b091bfdc5f16d0ef76421ea5609c82a57dff0",
+        "revision": "71011c87dc75ab996063eec72644bba7c3edbef5",
         "url": "https://github.com/tree-sitter/tree-sitter-c-sharp"
       },
       "lang": "c_sharp",
@@ -999,7 +999,7 @@
     },
     {
       "install_info": {
-        "revision": "d2e4e4c7d03f70e0465d436f2b5f67497cd544ca",
+        "revision": "77ecf6385f1b5d422e0bbd12204374d287d61ad2",
         "url": "https://github.com/rest-nvim/tree-sitter-http"
       },
       "lang": "http",
@@ -1023,7 +1023,7 @@
     },
     {
       "install_info": {
-        "revision": "86ff7f19747a761dc8ba72f4045fd64aed94ba4c",
+        "revision": "b14e7971cfbd64fa0ebcdeaa4dfbb3cb0bfabd7c",
         "url": "https://github.com/cathaysia/tree-sitter-idl"
       },
       "lang": "idl",
@@ -1597,7 +1597,7 @@
       "install_info": {
         "branch": "release",
         "generate_from_json": true,
-        "revision": "db79ba96ba13e2e89ce9da07c1cc1dfbe6e2e0f6",
+        "revision": "4a6272ad32b8d9d41996644190b2b2874cbe7882",
         "url": "https://github.com/tree-sitter-perl/tree-sitter-perl"
       },
       "lang": "perl",
