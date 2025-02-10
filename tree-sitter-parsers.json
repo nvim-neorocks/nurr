@@ -6,7 +6,7 @@
         "url": "https://github.com/briot/tree-sitter-ada"
       },
       "lang": "ada",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -27,7 +27,7 @@
         "html",
         "html_tags"
       ],
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -36,7 +36,7 @@
         "url": "https://github.com/aheber/tree-sitter-sfapex"
       },
       "lang": "apex",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -56,7 +56,7 @@
         "url": "https://github.com/RubixDev/tree-sitter-asm"
       },
       "lang": "asm",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -69,7 +69,7 @@
         "html",
         "html_tags"
       ],
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -77,7 +77,7 @@
         "url": "https://github.com/mleonidas/tree-sitter-authzed"
       },
       "lang": "authzed",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -85,7 +85,7 @@
         "url": "https://github.com/Beaglefoot/tree-sitter-awk"
       },
       "lang": "awk",
-      "tier": 4
+      "tier": 2
     },
     {
       "install_info": {
@@ -93,7 +93,7 @@
         "url": "https://github.com/tree-sitter/tree-sitter-bash"
       },
       "lang": "bash",
-      "tier": 1
+      "tier": 2
     },
     {
       "install_info": {
@@ -101,7 +101,7 @@
         "url": "https://github.com/vito/tree-sitter-bass"
       },
       "lang": "bass",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -109,7 +109,7 @@
         "url": "https://github.com/polarmutex/tree-sitter-beancount"
       },
       "lang": "beancount",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -117,7 +117,7 @@
         "url": "https://github.com/latex-lsp/tree-sitter-bibtex"
       },
       "lang": "bibtex",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -141,7 +141,7 @@
         "url": "https://gitlab.com/gabmus/tree-sitter-blueprint"
       },
       "lang": "blueprint",
-      "tier": 4
+      "tier": 2
     },
     {
       "install_info": {
@@ -150,7 +150,7 @@
       },
       "lang": "bp",
       "readme_note": "Android Blueprint",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -158,7 +158,7 @@
         "url": "https://github.com/tree-sitter/tree-sitter-c"
       },
       "lang": "c",
-      "tier": 1
+      "tier": 2
     },
     {
       "install_info": {
@@ -198,7 +198,7 @@
         "url": "https://github.com/Decurity/tree-sitter-circom"
       },
       "lang": "circom",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -206,7 +206,7 @@
         "url": "https://github.com/sogaiu/tree-sitter-clojure"
       },
       "lang": "clojure",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -214,7 +214,7 @@
         "url": "https://github.com/uyha/tree-sitter-cmake"
       },
       "lang": "cmake",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -222,7 +222,7 @@
         "url": "https://github.com/stsewd/tree-sitter-comment"
       },
       "lang": "comment",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -239,7 +239,7 @@
         "url": "https://github.com/addcninblue/tree-sitter-cooklang"
       },
       "lang": "cooklang",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -247,7 +247,7 @@
         "url": "https://github.com/jakestanger/tree-sitter-corn"
       },
       "lang": "corn",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -307,7 +307,7 @@
         "url": "https://github.com/eonpatapon/tree-sitter-cue"
       },
       "lang": "cue",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -315,7 +315,7 @@
         "url": "https://github.com/elliotfontaine/tree-sitter-cylc"
       },
       "lang": "cylc",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -323,7 +323,7 @@
         "url": "https://github.com/gdamore/tree-sitter-d"
       },
       "lang": "d",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -331,7 +331,7 @@
         "url": "https://github.com/UserNobody14/tree-sitter-dart"
       },
       "lang": "dart",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -339,7 +339,7 @@
         "url": "https://github.com/ValdezFOmar/tree-sitter-desktop"
       },
       "lang": "desktop",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -347,7 +347,7 @@
         "url": "https://github.com/joelspadin/tree-sitter-devicetree"
       },
       "lang": "devicetree",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -355,7 +355,7 @@
         "url": "https://github.com/jbellerb/tree-sitter-dhall"
       },
       "lang": "dhall",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -363,7 +363,7 @@
         "url": "https://github.com/the-mikedavis/tree-sitter-diff"
       },
       "lang": "diff",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -371,7 +371,7 @@
         "url": "https://github.com/ColinKennedy/tree-sitter-disassembly"
       },
       "lang": "disassembly",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -379,7 +379,7 @@
         "url": "https://github.com/treeman/tree-sitter-djot"
       },
       "lang": "djot",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -387,7 +387,7 @@
         "url": "https://github.com/camdencheek/tree-sitter-dockerfile"
       },
       "lang": "dockerfile",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -395,7 +395,7 @@
         "url": "https://github.com/rydesun/tree-sitter-dot"
       },
       "lang": "dot",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -420,7 +420,7 @@
         "url": "https://github.com/glehmann/tree-sitter-earthfile"
       },
       "lang": "earthfile",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -429,12 +429,12 @@
         "url": "https://github.com/RubixDev/ebnf"
       },
       "lang": "ebnf",
-      "tier": 3
+      "tier": 2
     },
     {
       "lang": "ecma",
       "readme_note": "queries required by javascript, typescript, tsx, qmljs",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -442,7 +442,7 @@
         "url": "https://github.com/ValdezFOmar/tree-sitter-editorconfig"
       },
       "lang": "editorconfig",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -450,7 +450,7 @@
         "url": "https://github.com/uyha/tree-sitter-eds"
       },
       "lang": "eds",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -458,7 +458,7 @@
         "url": "https://github.com/connorlay/tree-sitter-eex"
       },
       "lang": "eex",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -466,7 +466,7 @@
         "url": "https://github.com/elixir-lang/tree-sitter-elixir"
       },
       "lang": "elixir",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -474,7 +474,7 @@
         "url": "https://github.com/elm-tooling/tree-sitter-elm"
       },
       "lang": "elm",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -482,7 +482,7 @@
         "url": "https://github.com/glapa-grossklag/tree-sitter-elsa"
       },
       "lang": "elsa",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -490,7 +490,7 @@
         "url": "https://github.com/elves/tree-sitter-elvish"
       },
       "lang": "elvish",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -498,7 +498,7 @@
         "url": "https://github.com/tree-sitter/tree-sitter-embedded-template"
       },
       "lang": "embedded_template",
-      "tier": 4
+      "tier": 2
     },
     {
       "install_info": {
@@ -506,7 +506,7 @@
         "url": "https://github.com/simonvic/tree-sitter-enforce"
       },
       "lang": "enforce",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -514,7 +514,7 @@
         "url": "https://github.com/WhatsApp/tree-sitter-erlang"
       },
       "lang": "erlang",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -522,7 +522,7 @@
         "url": "https://github.com/FacilityApi/tree-sitter-facility"
       },
       "lang": "facility",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -530,7 +530,7 @@
         "url": "https://github.com/khiner/tree-sitter-faust"
       },
       "lang": "faust",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -539,7 +539,7 @@
         "url": "https://github.com/alexmozaidze/tree-sitter-fennel"
       },
       "lang": "fennel",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -547,7 +547,7 @@
         "url": "https://github.com/google/tree-sitter-fidl"
       },
       "lang": "fidl",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -563,7 +563,7 @@
         "url": "https://github.com/ram02z/tree-sitter-fish"
       },
       "lang": "fish",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -571,7 +571,7 @@
         "url": "https://github.com/FoamScience/tree-sitter-foam"
       },
       "lang": "foam",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -579,7 +579,7 @@
         "url": "https://github.com/AlexanderBrevig/tree-sitter-forth"
       },
       "lang": "forth",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -587,7 +587,7 @@
         "url": "https://github.com/stadelmanma/tree-sitter-fortran"
       },
       "lang": "fortran",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -595,7 +595,7 @@
         "url": "https://github.com/mgramigna/tree-sitter-fsh"
       },
       "lang": "fsh",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -604,7 +604,7 @@
         "url": "https://github.com/ionide/tree-sitter-fsharp"
       },
       "lang": "fsharp",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -620,7 +620,7 @@
         "url": "https://gitlab.com/jirgn/tree-sitter-fusion"
       },
       "lang": "fusion",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -629,7 +629,7 @@
       },
       "lang": "gap",
       "readme_note": "GAP system",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -641,7 +641,7 @@
       "requires": [
         "gap"
       ],
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -650,7 +650,7 @@
       },
       "lang": "gdscript",
       "readme_note": "Godot",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -658,7 +658,7 @@
         "url": "https://github.com/GodOfAvacyn/tree-sitter-gdshader"
       },
       "lang": "gdshader",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -666,7 +666,7 @@
         "url": "https://github.com/the-mikedavis/tree-sitter-git-config"
       },
       "lang": "git_config",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -674,7 +674,7 @@
         "url": "https://github.com/the-mikedavis/tree-sitter-git-rebase"
       },
       "lang": "git_rebase",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -690,7 +690,7 @@
         "url": "https://github.com/gbprod/tree-sitter-gitcommit"
       },
       "lang": "gitcommit",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -698,7 +698,7 @@
         "url": "https://github.com/shunsambongi/tree-sitter-gitignore"
       },
       "lang": "gitignore",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -706,7 +706,7 @@
         "url": "https://github.com/gleam-lang/tree-sitter-gleam"
       },
       "lang": "gleam",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -715,7 +715,7 @@
       },
       "lang": "glimmer",
       "readme_note": "Glimmer and Ember",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -727,7 +727,7 @@
       "requires": [
         "ecma"
       ],
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -739,7 +739,7 @@
       "requires": [
         "typescript"
       ],
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -768,7 +768,7 @@
         "url": "https://github.com/dpezto/tree-sitter-gnuplot"
       },
       "lang": "gnuplot",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -784,7 +784,7 @@
         "url": "https://github.com/chaozwn/tree-sitter-goctl"
       },
       "lang": "goctl",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -793,7 +793,7 @@
       },
       "lang": "godot_resource",
       "readme_note": "Godot Resources",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -801,7 +801,7 @@
         "url": "https://github.com/camdencheek/tree-sitter-go-mod"
       },
       "lang": "gomod",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -817,7 +817,7 @@
         "url": "https://github.com/ngalaiko/tree-sitter-go-template"
       },
       "lang": "gotmpl",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -825,7 +825,7 @@
         "url": "https://github.com/omertuc/tree-sitter-go-work"
       },
       "lang": "gowork",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -841,7 +841,7 @@
         "url": "https://github.com/bkegley/tree-sitter-graphql"
       },
       "lang": "graphql",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -849,7 +849,7 @@
         "url": "https://github.com/MaeBrooks/tree-sitter-gren"
       },
       "lang": "gren",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -857,7 +857,7 @@
         "url": "https://github.com/murtaza64/tree-sitter-groovy"
       },
       "lang": "groovy",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -873,7 +873,7 @@
         "url": "https://github.com/slackhq/tree-sitter-hack"
       },
       "lang": "hack",
-      "tier": 4
+      "tier": 2
     },
     {
       "install_info": {
@@ -897,7 +897,7 @@
         "url": "https://github.com/MercuryTechnologies/tree-sitter-haskell-persistent"
       },
       "lang": "haskell_persistent",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -913,7 +913,7 @@
         "url": "https://github.com/connorlay/tree-sitter-heex"
       },
       "lang": "heex",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -922,7 +922,7 @@
         "url": "https://github.com/ngalaiko/tree-sitter-go-template"
       },
       "lang": "helm",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -934,7 +934,7 @@
       "requires": [
         "json"
       ],
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -954,7 +954,7 @@
         "url": "https://github.com/Freed-Wu/tree-sitter-hlsplaylist"
       },
       "lang": "hlsplaylist",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -963,7 +963,7 @@
         "url": "https://github.com/antosha417/tree-sitter-hocon"
       },
       "lang": "hocon",
-      "tier": 4
+      "tier": 2
     },
     {
       "install_info": {
@@ -971,7 +971,7 @@
         "url": "https://github.com/urbit-pilled/tree-sitter-hoon"
       },
       "lang": "hoon",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -987,7 +987,7 @@
     {
       "lang": "html_tags",
       "readme_note": "queries required by html, astro, vue, svelte",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -995,7 +995,7 @@
         "url": "https://github.com/interdependence/tree-sitter-htmldjango"
       },
       "lang": "htmldjango",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -1003,7 +1003,7 @@
         "url": "https://github.com/rest-nvim/tree-sitter-http"
       },
       "lang": "http",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -1011,7 +1011,7 @@
         "url": "https://github.com/pfeiferj/tree-sitter-hurl"
       },
       "lang": "hurl",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -1027,7 +1027,7 @@
         "url": "https://github.com/cathaysia/tree-sitter-idl"
       },
       "lang": "idl",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -1035,7 +1035,7 @@
         "url": "https://github.com/kayhide/tree-sitter-idris"
       },
       "lang": "idris",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -1043,7 +1043,7 @@
         "url": "https://github.com/justinmk/tree-sitter-ini"
       },
       "lang": "ini",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -1051,7 +1051,7 @@
         "url": "https://github.com/inko-lang/tree-sitter-inko"
       },
       "lang": "inko",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -1059,7 +1059,7 @@
         "url": "https://github.com/srghma/tree-sitter-ipkg"
       },
       "lang": "ipkg",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -1079,7 +1079,7 @@
         "url": "https://github.com/sogaiu/tree-sitter-janet-simple"
       },
       "lang": "janet_simple",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -1112,7 +1112,7 @@
       "requires": [
         "jinja_inline"
       ],
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -1122,7 +1122,7 @@
       },
       "lang": "jinja_inline",
       "readme_note": "needed for full highlighting",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -1130,7 +1130,7 @@
         "url": "https://github.com/flurie/tree-sitter-jq"
       },
       "lang": "jq",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -1154,7 +1154,7 @@
         "url": "https://github.com/Joakker/tree-sitter-json5"
       },
       "lang": "json5",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -1166,7 +1166,7 @@
       "requires": [
         "json"
       ],
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -1174,12 +1174,12 @@
         "url": "https://github.com/sourcegraph/tree-sitter-jsonnet"
       },
       "lang": "jsonnet",
-      "tier": 3
+      "tier": 2
     },
     {
       "lang": "jsx",
       "readme_note": "queries required by javascript, tsx",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -1187,7 +1187,7 @@
         "url": "https://github.com/tree-sitter/tree-sitter-julia"
       },
       "lang": "julia",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -1195,7 +1195,7 @@
         "url": "https://github.com/IndianBoy42/tree-sitter-just"
       },
       "lang": "just",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -1219,7 +1219,7 @@
         "url": "https://github.com/fwcd/tree-sitter-kotlin"
       },
       "lang": "kotlin",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -1227,7 +1227,7 @@
         "url": "https://github.com/koto-lang/tree-sitter-koto"
       },
       "lang": "koto",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -1235,7 +1235,7 @@
         "url": "https://github.com/Willem-J-an/tree-sitter-kusto"
       },
       "lang": "kusto",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -1243,7 +1243,7 @@
         "url": "https://github.com/traxys/tree-sitter-lalrpop"
       },
       "lang": "lalrpop",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -1252,7 +1252,7 @@
         "url": "https://github.com/latex-lsp/tree-sitter-latex"
       },
       "lang": "latex",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -1260,7 +1260,7 @@
         "url": "https://github.com/cbarrete/tree-sitter-ledger"
       },
       "lang": "ledger",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -1268,7 +1268,7 @@
         "url": "https://github.com/r001/tree-sitter-leo"
       },
       "lang": "leo",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -1284,7 +1284,7 @@
         "url": "https://github.com/hankthetank27/tree-sitter-liquid"
       },
       "lang": "liquid",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -1292,7 +1292,7 @@
         "url": "https://github.com/savonet/tree-sitter-liquidsoap"
       },
       "lang": "liquidsoap",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -1300,7 +1300,7 @@
         "url": "https://github.com/benwilliamgraham/tree-sitter-llvm"
       },
       "lang": "llvm",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -1308,7 +1308,7 @@
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-lua"
       },
       "lang": "lua",
-      "tier": 1
+      "tier": 2
     },
     {
       "install_info": {
@@ -1345,7 +1345,7 @@
         "url": "https://github.com/grahambates/tree-sitter-m68k"
       },
       "lang": "m68k",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -1353,7 +1353,7 @@
         "url": "https://github.com/alemuller/tree-sitter-make"
       },
       "lang": "make",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -1366,7 +1366,7 @@
       "requires": [
         "markdown_inline"
       ],
-      "tier": 1
+      "tier": 2
     },
     {
       "install_info": {
@@ -1376,7 +1376,7 @@
       },
       "lang": "markdown_inline",
       "readme_note": "needed for full highlighting",
-      "tier": 1
+      "tier": 2
     },
     {
       "install_info": {
@@ -1384,7 +1384,7 @@
         "url": "https://github.com/acristoffers/tree-sitter-matlab"
       },
       "lang": "matlab",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -1392,7 +1392,7 @@
         "url": "https://github.com/Kerl13/tree-sitter-menhir"
       },
       "lang": "menhir",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -1400,7 +1400,7 @@
         "url": "https://github.com/monaqa/tree-sitter-mermaid"
       },
       "lang": "mermaid",
-      "tier": 4
+      "tier": 2
     },
     {
       "install_info": {
@@ -1417,7 +1417,7 @@
         "url": "https://github.com/artagnon/tree-sitter-mlir"
       },
       "lang": "mlir",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -1425,7 +1425,7 @@
         "url": "https://github.com/neomutt/tree-sitter-muttrc"
       },
       "lang": "muttrc",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -1433,7 +1433,7 @@
         "url": "https://github.com/naclsn/tree-sitter-nasm"
       },
       "lang": "nasm",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -1441,7 +1441,7 @@
         "url": "https://github.com/opa-oz/tree-sitter-nginx"
       },
       "lang": "nginx",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -1449,7 +1449,7 @@
         "url": "https://github.com/nickel-lang/tree-sitter-nickel"
       },
       "lang": "nickel",
-      "tier": 4
+      "tier": 2
     },
     {
       "install_info": {
@@ -1460,7 +1460,7 @@
       "requires": [
         "nim_format_string"
       ],
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -1468,7 +1468,7 @@
         "url": "https://github.com/aMOPel/tree-sitter-nim-format-string"
       },
       "lang": "nim_format_string",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -1476,7 +1476,7 @@
         "url": "https://github.com/alemuller/tree-sitter-ninja"
       },
       "lang": "ninja",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -1484,7 +1484,7 @@
         "url": "https://github.com/cstrahan/tree-sitter-nix"
       },
       "lang": "nix",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -1501,7 +1501,7 @@
         "url": "https://github.com/nushell/tree-sitter-nu"
       },
       "lang": "nu",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -1521,7 +1521,7 @@
         "url": "https://github.com/ColinKennedy/tree-sitter-objdump"
       },
       "lang": "objdump",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -1551,7 +1551,7 @@
         "url": "https://github.com/atom-ocaml/tree-sitter-ocamllex"
       },
       "lang": "ocamllex",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -1575,7 +1575,7 @@
         "url": "https://github.com/Isopod/tree-sitter-pascal"
       },
       "lang": "pascal",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -1583,7 +1583,7 @@
         "url": "https://github.com/ath3/tree-sitter-passwd"
       },
       "lang": "passwd",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -1601,7 +1601,7 @@
         "url": "https://github.com/tree-sitter-perl/tree-sitter-perl"
       },
       "lang": "perl",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -1633,7 +1633,7 @@
         "url": "https://github.com/claytonrcarter/tree-sitter-phpdoc"
       },
       "lang": "phpdoc",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -1641,7 +1641,7 @@
         "url": "https://github.com/leo60228/tree-sitter-pioasm"
       },
       "lang": "pioasm",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -1659,7 +1659,7 @@
         "url": "https://github.com/tree-sitter-perl/tree-sitter-pod"
       },
       "lang": "pod",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -1685,7 +1685,7 @@
         "url": "https://github.com/airbus-cert/tree-sitter-powershell"
       },
       "lang": "powershell",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -1701,7 +1701,7 @@
         "url": "https://github.com/victorhqc/tree-sitter-prisma"
       },
       "lang": "prisma",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -1713,7 +1713,7 @@
       "requires": [
         "prolog"
       ],
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -1722,7 +1722,7 @@
         "url": "https://github.com/foxyseta/tree-sitter-prolog"
       },
       "lang": "prolog",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -1730,7 +1730,7 @@
         "url": "https://github.com/MichaHoffmann/tree-sitter-promql"
       },
       "lang": "promql",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -1747,7 +1747,7 @@
         "url": "https://github.com/treywood/tree-sitter-proto"
       },
       "lang": "proto",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -1755,7 +1755,7 @@
         "url": "https://github.com/PRQL/tree-sitter-prql"
       },
       "lang": "prql",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -1775,7 +1775,7 @@
         "url": "https://github.com/zealot128/tree-sitter-pug"
       },
       "lang": "pug",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -1791,7 +1791,7 @@
         "url": "https://github.com/postsolar/tree-sitter-purescript"
       },
       "lang": "purescript",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -1808,7 +1808,7 @@
         "url": "https://github.com/tree-sitter/tree-sitter-python"
       },
       "lang": "python",
-      "tier": 1
+      "tier": 2
     },
     {
       "install_info": {
@@ -1836,7 +1836,7 @@
       "requires": [
         "ecma"
       ],
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -1845,7 +1845,7 @@
       },
       "lang": "query",
       "readme_note": "Tree-sitter query language",
-      "tier": 1
+      "tier": 2
     },
     {
       "install_info": {
@@ -1853,7 +1853,7 @@
         "url": "https://github.com/r-lib/tree-sitter-r"
       },
       "lang": "r",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -1861,7 +1861,7 @@
         "url": "https://github.com/6cdh/tree-sitter-racket"
       },
       "lang": "racket",
-      "tier": 4
+      "tier": 2
     },
     {
       "install_info": {
@@ -1869,7 +1869,7 @@
         "url": "https://github.com/alephium/tree-sitter-ralph"
       },
       "lang": "ralph",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -1877,7 +1877,7 @@
         "url": "https://github.com/Fymyte/tree-sitter-rasi"
       },
       "lang": "rasi",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -1886,7 +1886,7 @@
         "url": "https://github.com/tris203/tree-sitter-razor"
       },
       "lang": "razor",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -1894,7 +1894,7 @@
         "url": "https://github.com/joker1007/tree-sitter-rbs"
       },
       "lang": "rbs",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -1926,7 +1926,7 @@
         "url": "https://github.com/FallenAngel97/tree-sitter-rego"
       },
       "lang": "rego",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -1951,7 +1951,7 @@
         "url": "https://github.com/bamonroe/tree-sitter-rnoweb"
       },
       "lang": "rnoweb",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -1959,7 +1959,7 @@
         "url": "https://github.com/Hubro/tree-sitter-robot"
       },
       "lang": "robot",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -1967,7 +1967,7 @@
         "url": "https://github.com/opa-oz/tree-sitter-robots-txt"
       },
       "lang": "robots",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -1975,7 +1975,7 @@
         "url": "https://github.com/faldor20/tree-sitter-roc"
       },
       "lang": "roc",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -1991,7 +1991,7 @@
         "url": "https://github.com/stsewd/tree-sitter-rst"
       },
       "lang": "rst",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -2007,7 +2007,7 @@
         "url": "https://github.com/2004Scape/tree-sitter-runescript"
       },
       "lang": "runescript",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -2032,7 +2032,7 @@
         "url": "https://github.com/rockorager/tree-sitter-scfg"
       },
       "lang": "scfg",
-      "tier": 4
+      "tier": 2
     },
     {
       "install_info": {
@@ -2040,7 +2040,7 @@
         "url": "https://github.com/6cdh/tree-sitter-scheme"
       },
       "lang": "scheme",
-      "tier": 4
+      "tier": 2
     },
     {
       "install_info": {
@@ -2051,7 +2051,7 @@
       "requires": [
         "css"
       ],
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -2061,7 +2061,7 @@
       },
       "lang": "sflog",
       "readme_note": "Salesforce debug log",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -2079,7 +2079,7 @@
         "url": "https://github.com/theoo/tree-sitter-slim"
       },
       "lang": "slim",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -2087,7 +2087,7 @@
         "url": "https://github.com/slint-ui/tree-sitter-slint"
       },
       "lang": "slint",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -2103,7 +2103,7 @@
         "url": "https://github.com/indoorvivants/tree-sitter-smithy"
       },
       "lang": "smithy",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -2112,7 +2112,7 @@
         "url": "https://github.com/osthomas/tree-sitter-snakemake"
       },
       "lang": "snakemake",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -2120,7 +2120,7 @@
         "url": "https://github.com/JoranHonig/tree-sitter-solidity"
       },
       "lang": "solidity",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -2129,7 +2129,7 @@
         "url": "https://github.com/aheber/tree-sitter-sfapex"
       },
       "lang": "soql",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -2138,7 +2138,7 @@
         "url": "https://github.com/aheber/tree-sitter-sfapex"
       },
       "lang": "sosl",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -2146,7 +2146,7 @@
         "url": "https://github.com/nilshelmig/tree-sitter-sourcepawn"
       },
       "lang": "sourcepawn",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -2155,7 +2155,7 @@
         "url": "https://github.com/GordianDziwis/tree-sitter-sparql"
       },
       "lang": "sparql",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -2165,7 +2165,7 @@
         "url": "https://github.com/derekstride/tree-sitter-sql"
       },
       "lang": "sql",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -2198,7 +2198,7 @@
         "url": "https://github.com/sigmaSd/tree-sitter-strace"
       },
       "lang": "strace",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -2207,7 +2207,7 @@
         "url": "https://github.com/mskelton/tree-sitter-styled"
       },
       "lang": "styled",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -2215,7 +2215,7 @@
         "url": "https://github.com/madskjeldgaard/tree-sitter-supercollider"
       },
       "lang": "supercollider",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -2224,7 +2224,7 @@
         "url": "https://github.com/kristoff-it/superhtml"
       },
       "lang": "superhtml",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -2232,7 +2232,7 @@
         "url": "https://github.com/connorlay/tree-sitter-surface"
       },
       "lang": "surface",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -2261,7 +2261,7 @@
         "url": "https://github.com/alex-pinkus/tree-sitter-swift"
       },
       "lang": "swift",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -2269,7 +2269,7 @@
         "url": "https://github.com/RaafatTurki/tree-sitter-sxhkdrc"
       },
       "lang": "sxhkdrc",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -2277,7 +2277,7 @@
         "url": "https://github.com/ok-ryoko/tree-sitter-systemtap"
       },
       "lang": "systemtap",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -2285,7 +2285,7 @@
         "url": "https://gitlab.com/xasc/tree-sitter-t32"
       },
       "lang": "t32",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -2301,7 +2301,7 @@
         "url": "https://github.com/tact-lang/tree-sitter-tact"
       },
       "lang": "tact",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -2318,7 +2318,7 @@
         "url": "https://github.com/euclidianAce/tree-sitter-teal"
       },
       "lang": "teal",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -2327,7 +2327,7 @@
         "url": "https://github.com/vrischmann/tree-sitter-templ"
       },
       "lang": "templ",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -2339,7 +2339,7 @@
       "requires": [
         "hcl"
       ],
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -2347,7 +2347,7 @@
         "url": "https://github.com/PorterAtGoogle/tree-sitter-textproto"
       },
       "lang": "textproto",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -2363,7 +2363,7 @@
         "url": "https://github.com/ambroisie/tree-sitter-tiger"
       },
       "lang": "tiger",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -2371,7 +2371,7 @@
         "url": "https://github.com/tlaplus-community/tree-sitter-tlaplus"
       },
       "lang": "tlaplus",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -2379,7 +2379,7 @@
         "url": "https://github.com/Freed-Wu/tree-sitter-tmux"
       },
       "lang": "tmux",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -2387,7 +2387,7 @@
         "url": "https://github.com/arnarg/tree-sitter-todotxt"
       },
       "lang": "todotxt",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -2428,7 +2428,7 @@
         "url": "https://github.com/GordianDziwis/tree-sitter-turtle"
       },
       "lang": "turtle",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -2436,7 +2436,7 @@
         "url": "https://github.com/gbprod/tree-sitter-twig"
       },
       "lang": "twig",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -2457,7 +2457,7 @@
         "url": "https://github.com/happenslol/tree-sitter-typespec"
       },
       "lang": "typespec",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -2465,7 +2465,7 @@
         "url": "https://github.com/Teddytrombone/tree-sitter-typoscript"
       },
       "lang": "typoscript",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -2473,7 +2473,7 @@
         "url": "https://github.com/uben0/tree-sitter-typst"
       },
       "lang": "typst",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -2498,7 +2498,7 @@
         "url": "https://github.com/kylegoetz/tree-sitter-unison"
       },
       "lang": "unison",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -2506,7 +2506,7 @@
         "url": "https://github.com/ColinKennedy/tree-sitter-usd"
       },
       "lang": "usd",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -2523,7 +2523,7 @@
         "url": "https://github.com/vlang/v-analyzer"
       },
       "lang": "v",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -2531,7 +2531,7 @@
         "url": "https://github.com/vala-lang/tree-sitter-vala"
       },
       "lang": "vala",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -2539,7 +2539,7 @@
         "url": "https://github.com/ventojs/tree-sitter-vento"
       },
       "lang": "vento",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -2547,7 +2547,7 @@
         "url": "https://github.com/gmlarumbe/tree-sitter-systemverilog"
       },
       "lang": "verilog",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -2555,7 +2555,7 @@
         "url": "https://github.com/jpt13653903/tree-sitter-vhdl"
       },
       "lang": "vhdl",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -2563,7 +2563,7 @@
         "url": "https://github.com/charmbracelet/tree-sitter-vhs"
       },
       "lang": "vhs",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -2571,7 +2571,7 @@
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-vim"
       },
       "lang": "vim",
-      "tier": 1
+      "tier": 2
     },
     {
       "install_info": {
@@ -2579,7 +2579,7 @@
         "url": "https://github.com/neovim/tree-sitter-vimdoc"
       },
       "lang": "vimdoc",
-      "tier": 1
+      "tier": 2
     },
     {
       "install_info": {
@@ -2587,7 +2587,7 @@
         "url": "https://github.com/belltoy/tree-sitter-vrl"
       },
       "lang": "vrl",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -2608,7 +2608,7 @@
         "url": "https://github.com/szebniok/tree-sitter-wgsl"
       },
       "lang": "wgsl",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -2625,7 +2625,7 @@
         "url": "https://github.com/winglang/tree-sitter-wing"
       },
       "lang": "wing",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -2633,7 +2633,7 @@
         "url": "https://github.com/liamwh/tree-sitter-wit"
       },
       "lang": "wit",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -2661,7 +2661,7 @@
         "url": "https://github.com/ValdezFOmar/tree-sitter-xresources"
       },
       "lang": "xresources",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -2677,7 +2677,7 @@
         "url": "https://github.com/Hubro/tree-sitter-yang"
       },
       "lang": "yang",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -2693,7 +2693,7 @@
         "url": "https://github.com/Freed-Wu/tree-sitter-zathurarc"
       },
       "lang": "zathurarc",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -2701,7 +2701,7 @@
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-zig"
       },
       "lang": "zig",
-      "tier": 1
+      "tier": 2
     },
     {
       "install_info": {
@@ -2710,7 +2710,7 @@
         "url": "https://github.com/kristoff-it/ziggy"
       },
       "lang": "ziggy",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -2719,7 +2719,7 @@
         "url": "https://github.com/kristoff-it/ziggy"
       },
       "lang": "ziggy_schema",
-      "tier": 3
+      "tier": 2
     }
   ]
 }
