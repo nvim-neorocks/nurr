@@ -2469,7 +2469,7 @@
     },
     {
       "install_info": {
-        "revision": "cb0ffe14259f7f63ee6f05b57ceb24a35bedef75",
+        "revision": "46cf4ded12ee974a70bf8457263b67ad7ee0379d",
         "url": "https://github.com/uben0/tree-sitter-typst"
       },
       "lang": "typst",
@@ -2519,7 +2519,7 @@
     {
       "install_info": {
         "location": "tree_sitter_v",
-        "revision": "0461bf8addccb4df566827f1601f415d07b1ffbc",
+        "revision": "92cb593652173dbb1ffb34ce48874d779850aabc",
         "url": "https://github.com/vlang/v-analyzer"
       },
       "lang": "v",
