@@ -32,7 +32,7 @@
     {
       "install_info": {
         "location": "apex",
-        "revision": "eade4054efc897f4bb18a5b7bf4b5a824dbffa74",
+        "revision": "85418f744a318d345db259831a75f92930e3b9f0",
         "url": "https://github.com/aheber/tree-sitter-sfapex"
       },
       "lang": "apex",
@@ -1597,7 +1597,7 @@
       "install_info": {
         "branch": "release",
         "generate_from_json": true,
-        "revision": "4a6272ad32b8d9d41996644190b2b2874cbe7882",
+        "revision": "bb53f204aa3e7507960014642965c9f9a9e84b1d",
         "url": "https://github.com/tree-sitter-perl/tree-sitter-perl"
       },
       "lang": "perl",
@@ -2056,7 +2056,7 @@
     {
       "install_info": {
         "location": "sflog",
-        "revision": "eade4054efc897f4bb18a5b7bf4b5a824dbffa74",
+        "revision": "85418f744a318d345db259831a75f92930e3b9f0",
         "url": "https://github.com/aheber/tree-sitter-sfapex"
       },
       "lang": "sflog",
@@ -2125,7 +2125,7 @@
     {
       "install_info": {
         "location": "soql",
-        "revision": "eade4054efc897f4bb18a5b7bf4b5a824dbffa74",
+        "revision": "85418f744a318d345db259831a75f92930e3b9f0",
         "url": "https://github.com/aheber/tree-sitter-sfapex"
       },
       "lang": "soql",
@@ -2134,7 +2134,7 @@
     {
       "install_info": {
         "location": "sosl",
-        "revision": "eade4054efc897f4bb18a5b7bf4b5a824dbffa74",
+        "revision": "85418f744a318d345db259831a75f92930e3b9f0",
         "url": "https://github.com/aheber/tree-sitter-sfapex"
       },
       "lang": "sosl",
