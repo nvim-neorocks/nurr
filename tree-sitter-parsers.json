@@ -32,7 +32,7 @@
     {
       "install_info": {
         "location": "apex",
-        "revision": "85418f744a318d345db259831a75f92930e3b9f0",
+        "revision": "3597575a429766dd7ecce9f5bb97f6fec4419d5d",
         "url": "https://github.com/aheber/tree-sitter-sfapex"
       },
       "lang": "apex",
@@ -2056,7 +2056,7 @@
     {
       "install_info": {
         "location": "sflog",
-        "revision": "85418f744a318d345db259831a75f92930e3b9f0",
+        "revision": "3597575a429766dd7ecce9f5bb97f6fec4419d5d",
         "url": "https://github.com/aheber/tree-sitter-sfapex"
       },
       "lang": "sflog",
@@ -2125,7 +2125,7 @@
     {
       "install_info": {
         "location": "soql",
-        "revision": "85418f744a318d345db259831a75f92930e3b9f0",
+        "revision": "3597575a429766dd7ecce9f5bb97f6fec4419d5d",
         "url": "https://github.com/aheber/tree-sitter-sfapex"
       },
       "lang": "soql",
@@ -2134,7 +2134,7 @@
     {
       "install_info": {
         "location": "sosl",
-        "revision": "85418f744a318d345db259831a75f92930e3b9f0",
+        "revision": "3597575a429766dd7ecce9f5bb97f6fec4419d5d",
         "url": "https://github.com/aheber/tree-sitter-sfapex"
       },
       "lang": "sosl",
@@ -2220,7 +2220,7 @@
     {
       "install_info": {
         "location": "tree-sitter-superhtml",
-        "revision": "e6eba40bf54dd94d842154be0389c53a37be8dc8",
+        "revision": "9266b3131bbcc0705b3b752bcb7478871a143740",
         "url": "https://github.com/kristoff-it/superhtml"
       },
       "lang": "superhtml",
