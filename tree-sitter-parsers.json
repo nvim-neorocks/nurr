@@ -1183,7 +1183,7 @@
     },
     {
       "install_info": {
-        "revision": "3f9870ca1f419e480f39fc181fcfb6dad480969a",
+        "revision": "12a3aede757bc7fbdfb1909507c7a6fddd31df37",
         "url": "https://github.com/tree-sitter/tree-sitter-julia"
       },
       "lang": "julia",
@@ -2559,7 +2559,7 @@
     },
     {
       "install_info": {
-        "revision": "966067fe81d78071805d8e55ec836b3926c4ece4",
+        "revision": "3f202326c06f1c4d47aa82b9013a6b71aea70611",
         "url": "https://github.com/charmbracelet/tree-sitter-vhs"
       },
       "lang": "vhs",
