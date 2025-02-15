@@ -162,7 +162,7 @@
     },
     {
       "install_info": {
-        "revision": "71011c87dc75ab996063eec72644bba7c3edbef5",
+        "revision": "b5eb5742f6a7e9438bee22ce8026d6b927be2cd7",
         "url": "https://github.com/tree-sitter/tree-sitter-c-sharp"
       },
       "lang": "c_sharp",
@@ -502,7 +502,7 @@
     },
     {
       "install_info": {
-        "revision": "9db7a49f3d73222c05b75dcfa8892f5e93542d1e",
+        "revision": "cf853e5f56f1babe5ec573e356f6fbb4784bf5c1",
         "url": "https://github.com/simonvic/tree-sitter-enforce"
       },
       "lang": "enforce",
@@ -510,7 +510,7 @@
     },
     {
       "install_info": {
-        "revision": "9cea919877741b2ed87cf215c0a06feb9a1930bf",
+        "revision": "370cea629eb62a8686504b9fb3252a5e1ae55313",
         "url": "https://github.com/WhatsApp/tree-sitter-erlang"
       },
       "lang": "erlang",
@@ -1413,7 +1413,7 @@
     {
       "install_info": {
         "generate": true,
-        "revision": "65bca19232744b920859ce682cd830b5006b8ccd",
+        "revision": "9d83ca263fa7ec8ac7a5fd8ad14891b2dc583a32",
         "url": "https://github.com/artagnon/tree-sitter-mlir"
       },
       "lang": "mlir",
@@ -1497,7 +1497,7 @@
     },
     {
       "install_info": {
-        "revision": "d0b26e45525016ef8e6f2ced05852437c06a00ca",
+        "revision": "2a153c88d5d44d96653057c7cc14292f4e641bef",
         "url": "https://github.com/nushell/tree-sitter-nu"
       },
       "lang": "nu",

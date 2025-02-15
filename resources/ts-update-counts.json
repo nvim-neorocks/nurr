@@ -74,7 +74,7 @@
     },
     {
       "key": "c_sharp",
-      "value": 40
+      "value": 41
     },
     {
       "key": "cairo",
@@ -226,7 +226,7 @@
     },
     {
       "key": "erlang",
-      "value": 40
+      "value": 41
     },
     {
       "key": "facility",
@@ -606,7 +606,7 @@
     },
     {
       "key": "mlir",
-      "value": 44
+      "value": 45
     },
     {
       "key": "muttrc",
@@ -1230,7 +1230,7 @@
     },
     {
       "key": "nu",
-      "value": 32
+      "value": 33
     },
     {
       "key": "runescript",
@@ -1258,7 +1258,7 @@
     },
     {
       "key": "enforce",
-      "value": 2
+      "value": 3
     },
     {
       "key": "jinja",
