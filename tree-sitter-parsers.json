@@ -1563,14 +1563,6 @@
     },
     {
       "install_info": {
-        "revision": "64cfbc213f5a83da17632c95382a5a0a2f3357c1",
-        "url": "https://github.com/milisims/tree-sitter-org"
-      },
-      "lang": "org",
-      "tier": 4
-    },
-    {
-      "install_info": {
         "revision": "d0ebabefaea9ac3f6fc3004cf08cd121b66da9e4",
         "url": "https://github.com/Isopod/tree-sitter-pascal"
       },
