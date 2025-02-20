@@ -182,7 +182,7 @@
     },
     {
       "key": "earthfile",
-      "value": 35
+      "value": 36
     },
     {
       "key": "ebnf",
@@ -674,7 +674,7 @@
     },
     {
       "key": "pascal",
-      "value": 29
+      "value": 30
     },
     {
       "key": "passwd",
@@ -738,7 +738,7 @@
     },
     {
       "key": "promql",
-      "value": 29
+      "value": 30
     },
     {
       "key": "properties",
@@ -1082,7 +1082,7 @@
     },
     {
       "key": "v",
-      "value": 44
+      "value": 45
     },
     {
       "key": "vala",
