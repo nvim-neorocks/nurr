@@ -1280,7 +1280,7 @@
     },
     {
       "install_info": {
-        "revision": "23ac814111e2b4b4b083e2c92219af2d5b74d13d",
+        "revision": "d68a255c393cfefa9d3185023e2f1684a52907ed",
         "url": "https://github.com/hankthetank27/tree-sitter-liquid"
       },
       "lang": "liquid",
@@ -2249,7 +2249,7 @@
     {
       "install_info": {
         "generate": true,
-        "revision": "48fcda87af1bed7d7a328dcd257fe8ee75933b04",
+        "revision": "d56d844952f7317ca87c3ff9012b868def80d9ba",
         "url": "https://github.com/alex-pinkus/tree-sitter-swift"
       },
       "lang": "swift",
