@@ -59,7 +59,7 @@
         {
             "name": "folke/trouble.nvim",
             "shorthand": "trouble.nvim",
-            "dependencies": ["nvim-web-devicons"],
+            "dependencies": [],
             "summary": "A pretty diagnostics, references, telescope results, quickfix and location list to help you solve all the trouble your code is causing",
             "license": "Apache-2.0"
         },
