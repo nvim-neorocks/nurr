@@ -59,7 +59,7 @@
         {
             "name": "folke/trouble.nvim",
             "shorthand": "trouble.nvim",
-            "dependencies": ["nvim-web-devicons"],
+            "dependencies": [],
             "summary": "A pretty diagnostics, references, telescope results, quickfix and location list to help you solve all the trouble your code is causing",
             "license": "Apache-2.0"
         },
@@ -1440,7 +1440,7 @@
             "shorthand": "lualine.nvim",
             "license": "MIT",
             "summary": "A blazing fast and easy to configure neovim statusline plugin written in pure lua.",
-            "dependencies": ["nvim-web-devicons"]
+            "dependencies": []
         },
         {
             "name": "rktjmp/lush.nvim",
