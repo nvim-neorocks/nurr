@@ -502,7 +502,7 @@
     },
     {
       "install_info": {
-        "revision": "cf853e5f56f1babe5ec573e356f6fbb4784bf5c1",
+        "revision": "8201c3c354c34b96d5a531c8e63d262209ee06cb",
         "url": "https://github.com/simonvic/tree-sitter-enforce"
       },
       "lang": "enforce",
@@ -1047,7 +1047,7 @@
     },
     {
       "install_info": {
-        "revision": "4d057a5c24d715b211c3c82de2526f041b4af66f",
+        "revision": "f58a87ac4dc6a7955c64c9e4408fbd693e804686",
         "url": "https://github.com/inko-lang/tree-sitter-inko"
       },
       "lang": "inko",
@@ -1280,7 +1280,7 @@
     },
     {
       "install_info": {
-        "revision": "d68a255c393cfefa9d3185023e2f1684a52907ed",
+        "revision": "6e03a054a71cd419d9702725243137641e97ba51",
         "url": "https://github.com/hankthetank27/tree-sitter-liquid"
       },
       "lang": "liquid",
@@ -1413,7 +1413,7 @@
     {
       "install_info": {
         "generate": true,
-        "revision": "2a8476371ff4f8b9e451d702033fdf9410fc1a16",
+        "revision": "ad381783044e107ce144af3c36342cc34183d5b4",
         "url": "https://github.com/artagnon/tree-sitter-mlir"
       },
       "lang": "mlir",
@@ -1480,7 +1480,7 @@
     },
     {
       "install_info": {
-        "revision": "b3a88cf3e597d48c33657deca4fda7a75c0069c1",
+        "revision": "97263793aff88c824d15dc3595d61a63ca6ccc21",
         "url": "https://github.com/cstrahan/tree-sitter-nix"
       },
       "lang": "nix",
@@ -1497,7 +1497,7 @@
     },
     {
       "install_info": {
-        "revision": "2a153c88d5d44d96653057c7cc14292f4e641bef",
+        "revision": "ba6db53a20f6e8d5394d316cc8fe8a44690db82a",
         "url": "https://github.com/nushell/tree-sitter-nu"
       },
       "lang": "nu",
