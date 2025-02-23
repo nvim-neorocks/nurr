@@ -1497,7 +1497,7 @@
     },
     {
       "install_info": {
-        "revision": "ba6db53a20f6e8d5394d316cc8fe8a44690db82a",
+        "revision": "3673f18a834a75c655d14ed529bda5cb059e884e",
         "url": "https://github.com/nushell/tree-sitter-nu"
       },
       "lang": "nu",
@@ -2543,7 +2543,7 @@
     },
     {
       "install_info": {
-        "revision": "cfc522af3e49c1a00ae74e01aa14e19818dab8f2",
+        "revision": "f3a8d69a96656bb81d803f7e6ec24fbe1aa2c313",
         "url": "https://github.com/jpt13653903/tree-sitter-vhdl"
       },
       "lang": "vhdl",
