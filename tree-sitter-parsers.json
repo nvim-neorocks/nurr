@@ -1497,7 +1497,7 @@
     },
     {
       "install_info": {
-        "revision": "3673f18a834a75c655d14ed529bda5cb059e884e",
+        "revision": "a073ba8cd854318ca5d56e97279fc330f194be8a",
         "url": "https://github.com/nushell/tree-sitter-nu"
       },
       "lang": "nu",
@@ -1979,7 +1979,7 @@
     },
     {
       "install_info": {
-        "revision": "899e073a10012b8028b643d676c30bbf9c64a45d",
+        "revision": "4e562e1598b95b93db4f3f64fe40ddefbc677a15",
         "url": "https://github.com/stsewd/tree-sitter-rst"
       },
       "lang": "rst",
@@ -2249,7 +2249,7 @@
     {
       "install_info": {
         "generate": true,
-        "revision": "d56d844952f7317ca87c3ff9012b868def80d9ba",
+        "revision": "42ad8f6b4dc9b46285893cc37b460323b54932d4",
         "url": "https://github.com/alex-pinkus/tree-sitter-swift"
       },
       "lang": "swift",
