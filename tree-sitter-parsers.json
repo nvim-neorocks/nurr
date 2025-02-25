@@ -2195,7 +2195,7 @@
     {
       "install_info": {
         "generate_from_json": true,
-        "revision": "75d3ad20818c30c49b445ca2cb35999c278b3453",
+        "revision": "319cdcaa0346ba6db668a222d938e5c3569e2a51",
         "url": "https://github.com/mskelton/tree-sitter-styled"
       },
       "lang": "styled",
