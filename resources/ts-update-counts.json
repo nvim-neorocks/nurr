@@ -262,7 +262,7 @@
     },
     {
       "key": "fortran",
-      "value": 41
+      "value": 42
     },
     {
       "key": "fsh",
@@ -510,7 +510,7 @@
     },
     {
       "key": "kdl",
-      "value": 29
+      "value": 30
     },
     {
       "key": "kotlin",
@@ -578,7 +578,7 @@
     },
     {
       "key": "make",
-      "value": 29
+      "value": 30
     },
     {
       "key": "markdown",
@@ -638,7 +638,7 @@
     },
     {
       "key": "nix",
-      "value": 57
+      "value": 58
     },
     {
       "key": "nqc",
@@ -690,11 +690,11 @@
     },
     {
       "key": "php",
-      "value": 38
+      "value": 39
     },
     {
       "key": "php_only",
-      "value": 40
+      "value": 41
     },
     {
       "key": "phpdoc",
@@ -1014,7 +1014,7 @@
     },
     {
       "key": "tlaplus",
-      "value": 36
+      "value": 37
     },
     {
       "key": "tmux",
@@ -1046,7 +1046,7 @@
     },
     {
       "key": "typescript",
-      "value": 36
+      "value": 37
     },
     {
       "key": "typespec",
@@ -1266,6 +1266,10 @@
     },
     {
       "key": "jinja_inline",
+      "value": 2
+    },
+    {
+      "key": "kcl",
       "value": 2
     }
   ]

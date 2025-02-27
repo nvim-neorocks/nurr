@@ -583,7 +583,7 @@
     },
     {
       "install_info": {
-        "revision": "022b032d31299c5d8336cdfd0ece97de20a609c0",
+        "revision": "765d82ad913e75abfffdd57837217e96f4774fba",
         "url": "https://github.com/stadelmanma/tree-sitter-fortran"
       },
       "lang": "fortran",
@@ -1199,6 +1199,14 @@
     },
     {
       "install_info": {
+        "revision": "b0b2eb38009e04035a6e266c7e11e541f3caab7c",
+        "url": "https://github.com/kcl-lang/tree-sitter-kcl"
+      },
+      "lang": "kcl",
+      "tier": 2
+    },
+    {
+      "install_info": {
         "revision": "9ac99fe4c0c27a35dc6f757cef534c646e944881",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-kconfig"
       },
@@ -1480,7 +1488,7 @@
     },
     {
       "install_info": {
-        "revision": "97263793aff88c824d15dc3595d61a63ca6ccc21",
+        "revision": "48057cf966641e7a49b09700550751195c34bcb5",
         "url": "https://github.com/cstrahan/tree-sitter-nix"
       },
       "lang": "nix",
@@ -1598,7 +1606,7 @@
     {
       "install_info": {
         "location": "php",
-        "revision": "f3a19ab3217a6e838870fc7142fa492d1fd7a7c9",
+        "revision": "b22484c92180e6e30c14477f00e1c7f9d2e39304",
         "url": "https://github.com/tree-sitter/tree-sitter-php"
       },
       "lang": "php",
@@ -1611,7 +1619,7 @@
     {
       "install_info": {
         "location": "php_only",
-        "revision": "f3a19ab3217a6e838870fc7142fa492d1fd7a7c9",
+        "revision": "b22484c92180e6e30c14477f00e1c7f9d2e39304",
         "url": "https://github.com/tree-sitter/tree-sitter-php"
       },
       "lang": "php_only",
@@ -2359,7 +2367,7 @@
     },
     {
       "install_info": {
-        "revision": "d711f24c93221cdfc9a9b4dbb0998f528fc982ac",
+        "revision": "4ba91b07b97741a67f61221d0d50e6d962e4987e",
         "url": "https://github.com/tlaplus-community/tree-sitter-tlaplus"
       },
       "lang": "tlaplus",
