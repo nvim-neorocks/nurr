@@ -690,11 +690,11 @@
     },
     {
       "key": "php",
-      "value": 39
+      "value": 40
     },
     {
       "key": "php_only",
-      "value": 41
+      "value": 42
     },
     {
       "key": "phpdoc",
@@ -862,7 +862,7 @@
     },
     {
       "key": "rust",
-      "value": 41
+      "value": 43
     },
     {
       "key": "scala",
@@ -1082,7 +1082,7 @@
     },
     {
       "key": "v",
-      "value": 45
+      "value": 46
     },
     {
       "key": "vala",
