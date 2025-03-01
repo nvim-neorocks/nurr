@@ -142,7 +142,7 @@
     },
     {
       "key": "dart",
-      "value": 34
+      "value": 35
     },
     {
       "key": "devicetree",
@@ -162,7 +162,7 @@
     },
     {
       "key": "djot",
-      "value": 34
+      "value": 35
     },
     {
       "key": "dockerfile",
@@ -602,11 +602,11 @@
     },
     {
       "key": "meson",
-      "value": 30
+      "value": 31
     },
     {
       "key": "mlir",
-      "value": 47
+      "value": 48
     },
     {
       "key": "muttrc",
