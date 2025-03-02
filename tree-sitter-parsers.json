@@ -210,7 +210,7 @@
     },
     {
       "install_info": {
-        "revision": "e409ae33f00e04cde30f2bcffb979caf1a33562a",
+        "revision": "def189b2d9395d8ebfe946ff7b1765dc8899a971",
         "url": "https://github.com/uyha/tree-sitter-cmake"
       },
       "lang": "cmake",
@@ -1104,7 +1104,7 @@
     {
       "install_info": {
         "location": "tree-sitter-jinja",
-        "revision": "41b17a33f335130ce9861fd21bffeb88fd768ef4",
+        "revision": "07a62adf99c0f41e0cab7ab523541309a8d73dc4",
         "url": "https://github.com/cathaysia/tree-sitter-jinja"
       },
       "lang": "jinja",
@@ -1117,7 +1117,7 @@
     {
       "install_info": {
         "location": "tree-sitter-jinja_inline",
-        "revision": "41b17a33f335130ce9861fd21bffeb88fd768ef4",
+        "revision": "07a62adf99c0f41e0cab7ab523541309a8d73dc4",
         "url": "https://github.com/cathaysia/tree-sitter-jinja"
       },
       "lang": "jinja_inline",
@@ -1505,7 +1505,7 @@
     },
     {
       "install_info": {
-        "revision": "a073ba8cd854318ca5d56e97279fc330f194be8a",
+        "revision": "b99dc3b7b26337d84f95c0de4dda81077b03e5c7",
         "url": "https://github.com/nushell/tree-sitter-nu"
       },
       "lang": "nu",
