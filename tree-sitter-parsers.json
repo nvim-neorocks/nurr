@@ -210,7 +210,7 @@
     },
     {
       "install_info": {
-        "revision": "def189b2d9395d8ebfe946ff7b1765dc8899a971",
+        "revision": "e5d2133f2a750238c8a64d55e461d4a0ce01f861",
         "url": "https://github.com/uyha/tree-sitter-cmake"
       },
       "lang": "cmake",
@@ -462,7 +462,7 @@
     },
     {
       "install_info": {
-        "revision": "86ec2ed45d6d9433b4e0b88cd3d96796bd45625f",
+        "revision": "c35154687de847d977858f9fad1049a1e9420f44",
         "url": "https://github.com/elixir-lang/tree-sitter-elixir"
       },
       "lang": "elixir",
@@ -583,7 +583,7 @@
     },
     {
       "install_info": {
-        "revision": "765d82ad913e75abfffdd57837217e96f4774fba",
+        "revision": "21b740801794b6570a0380f8aef22bb67214ea65",
         "url": "https://github.com/stadelmanma/tree-sitter-fortran"
       },
       "lang": "fortran",
@@ -600,7 +600,7 @@
     {
       "install_info": {
         "location": "fsharp",
-        "revision": "9308e58bec0394232a8d4abdd92eeaa387aefc89",
+        "revision": "02929f084726db969e5b916d144436f248146824",
         "url": "https://github.com/ionide/tree-sitter-fsharp"
       },
       "lang": "fsharp",
@@ -2011,7 +2011,7 @@
     },
     {
       "install_info": {
-        "revision": "6e883a2adea9414799300699e78c0d2f032b5c46",
+        "revision": "02da1b25f6dfc7341ddb80f37f708cdd9301be2d",
         "url": "https://github.com/tree-sitter/tree-sitter-rust"
       },
       "lang": "rust",
@@ -2551,7 +2551,7 @@
     },
     {
       "install_info": {
-        "revision": "f3a8d69a96656bb81d803f7e6ec24fbe1aa2c313",
+        "revision": "db1d7446bd07d811981734cd501fe1994cbad99d",
         "url": "https://github.com/jpt13653903/tree-sitter-vhdl"
       },
       "lang": "vhdl",
