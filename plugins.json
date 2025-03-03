@@ -2285,7 +2285,7 @@
             "license": "MIT"
         },
         {
-            "name": "norcalli/nvim-colorizer.lua",
+            "name": "catgoose/nvim-colorizer.lua",
             "shorthand": "nvim-colorizer.lua",
             "dependencies": [],
             "summary": "The fastest Neovim colorizer.",
