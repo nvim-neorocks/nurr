@@ -771,7 +771,7 @@
             "dependencies": []
         },
         {
-            "name": "epwalsh/obsidian.nvim",
+            "name": "obsidian-nvim/obsidian.nvim",
             "shorthand": "obsidian.nvim",
             "license": "Apache-2.0",
             "summary": "Obsidian + Neovim",
