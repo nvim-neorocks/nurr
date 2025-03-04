@@ -94,7 +94,7 @@
     },
     {
       "key": "cmake",
-      "value": 33
+      "value": 34
     },
     {
       "key": "comment",
@@ -206,7 +206,7 @@
     },
     {
       "key": "elixir",
-      "value": 40
+      "value": 41
     },
     {
       "key": "elm",
@@ -494,7 +494,7 @@
     },
     {
       "key": "jsx",
-      "value": 29
+      "value": 30
     },
     {
       "key": "julia",
@@ -654,11 +654,11 @@
     },
     {
       "key": "ocaml",
-      "value": 39
+      "value": 40
     },
     {
       "key": "ocaml_interface",
-      "value": 40
+      "value": 41
     },
     {
       "key": "ocamllex",
@@ -830,7 +830,7 @@
     },
     {
       "key": "requirements",
-      "value": 29
+      "value": 30
     },
     {
       "key": "rnoweb",
@@ -1162,7 +1162,7 @@
     },
     {
       "key": "powershell",
-      "value": 36
+      "value": 37
     },
     {
       "key": "rescript",
@@ -1198,15 +1198,15 @@
     },
     {
       "key": "ziggy",
-      "value": 9
+      "value": 10
     },
     {
       "key": "ziggy_schema",
-      "value": 9
+      "value": 10
     },
     {
       "key": "superhtml",
-      "value": 13
+      "value": 14
     },
     {
       "key": "gren",

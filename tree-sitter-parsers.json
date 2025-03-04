@@ -210,7 +210,7 @@
     },
     {
       "install_info": {
-        "revision": "e5d2133f2a750238c8a64d55e461d4a0ce01f861",
+        "revision": "cd00bbcb77fe31283ca79b0038387ec7411759ae",
         "url": "https://github.com/uyha/tree-sitter-cmake"
       },
       "lang": "cmake",
@@ -462,7 +462,7 @@
     },
     {
       "install_info": {
-        "revision": "c35154687de847d977858f9fad1049a1e9420f44",
+        "revision": "450a8194f5a66561135962cfc8d7545a27b61c4c",
         "url": "https://github.com/elixir-lang/tree-sitter-elixir"
       },
       "lang": "elixir",
@@ -1534,7 +1534,7 @@
     {
       "install_info": {
         "location": "grammars/ocaml",
-        "revision": "91e4d9106f5da8199ab5158ba65e02da3e664597",
+        "revision": "db52ba3f7f33c9949bba115a813d7c30a359cd87",
         "url": "https://github.com/tree-sitter/tree-sitter-ocaml"
       },
       "lang": "ocaml",
@@ -1543,7 +1543,7 @@
     {
       "install_info": {
         "location": "grammars/interface",
-        "revision": "91e4d9106f5da8199ab5158ba65e02da3e664597",
+        "revision": "db52ba3f7f33c9949bba115a813d7c30a359cd87",
         "url": "https://github.com/tree-sitter/tree-sitter-ocaml"
       },
       "lang": "ocaml_interface",
@@ -1681,7 +1681,7 @@
     {
       "filetype": "ps1",
       "install_info": {
-        "revision": "32fe49cc5d4a2d5a976dacafc0da16d98787866b",
+        "revision": "e904962e25858b7e8e19c653e737ad3b7d1c55bd",
         "url": "https://github.com/airbus-cert/tree-sitter-powershell"
       },
       "lang": "powershell",
@@ -1930,7 +1930,7 @@
     },
     {
       "install_info": {
-        "revision": "5ad9b7581b3334f6ad492847d007f2fac6e6e5f2",
+        "revision": "728910099ddea7f1f94ea95a35a70d1ea76a1639",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-requirements"
       },
       "lang": "requirements",
@@ -2220,7 +2220,7 @@
     {
       "install_info": {
         "location": "tree-sitter-superhtml",
-        "revision": "9266b3131bbcc0705b3b752bcb7478871a143740",
+        "revision": "15ff939100f9d52342445407973f3ce125a8437e",
         "url": "https://github.com/kristoff-it/superhtml"
       },
       "lang": "superhtml",
@@ -2706,7 +2706,7 @@
     {
       "install_info": {
         "location": "tree-sitter-ziggy",
-        "revision": "acf2b6b5aa8b9ce93f4a1ef1adf4e95c06db7831",
+        "revision": "af41bdb5b1d64404c2ec7eb1d9de01083c0d2596",
         "url": "https://github.com/kristoff-it/ziggy"
       },
       "lang": "ziggy",
@@ -2715,7 +2715,7 @@
     {
       "install_info": {
         "location": "tree-sitter-ziggy-schema",
-        "revision": "acf2b6b5aa8b9ce93f4a1ef1adf4e95c06db7831",
+        "revision": "af41bdb5b1d64404c2ec7eb1d9de01083c0d2596",
         "url": "https://github.com/kristoff-it/ziggy"
       },
       "lang": "ziggy_schema",
