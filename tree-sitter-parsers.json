@@ -408,7 +408,7 @@
     {
       "install_info": {
         "location": "dtd",
-        "revision": "26e95de449d772bc2dd4f0382580f84e2a0754d6",
+        "revision": "2128a0b249263e238d88cb894dad00c3168fea37",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-xml"
       },
       "lang": "dtd",
@@ -1421,7 +1421,7 @@
     {
       "install_info": {
         "generate": true,
-        "revision": "855130574db8f33521be163368973c4e2e6dda55",
+        "revision": "af14b427119a7428b461277bfc43abe5864d995d",
         "url": "https://github.com/artagnon/tree-sitter-mlir"
       },
       "lang": "mlir",
@@ -2075,7 +2075,7 @@
     },
     {
       "install_info": {
-        "revision": "a0f08e85b787248219ea645423c5916c8d620ef6",
+        "revision": "546e3aa1af8a3b355c7734efccd9a759ffc0b43a",
         "url": "https://github.com/theoo/tree-sitter-slim"
       },
       "lang": "slim",
@@ -2646,7 +2646,7 @@
     {
       "install_info": {
         "location": "xml",
-        "revision": "26e95de449d772bc2dd4f0382580f84e2a0754d6",
+        "revision": "2128a0b249263e238d88cb894dad00c3168fea37",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-xml"
       },
       "lang": "xml",

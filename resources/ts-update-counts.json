@@ -178,7 +178,7 @@
     },
     {
       "key": "dtd",
-      "value": 34
+      "value": 35
     },
     {
       "key": "earthfile",
@@ -606,7 +606,7 @@
     },
     {
       "key": "mlir",
-      "value": 48
+      "value": 49
     },
     {
       "key": "muttrc",
@@ -1138,7 +1138,7 @@
     },
     {
       "key": "xml",
-      "value": 36
+      "value": 37
     },
     {
       "key": "yaml",
@@ -1250,7 +1250,7 @@
     },
     {
       "key": "slim",
-      "value": 3
+      "value": 4
     },
     {
       "key": "razor",
