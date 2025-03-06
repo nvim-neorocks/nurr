@@ -19,7 +19,7 @@
     {
       "install_info": {
         "generate_from_json": true,
-        "revision": "745d3c65c2294aca1110b6b6ad6805124be605c9",
+        "revision": "cba288924f4832abb619c627539f111004ff22e5",
         "url": "https://github.com/dlvandenberg/tree-sitter-angular"
       },
       "lang": "angular",
@@ -1412,7 +1412,7 @@
     },
     {
       "install_info": {
-        "revision": "12edaf0dfef0a43bc74336a4432b2db1c65788d6",
+        "revision": "742a21e11e914096e0172dad2f0b85e7554c95ff",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-meson"
       },
       "lang": "meson",
@@ -1421,7 +1421,7 @@
     {
       "install_info": {
         "generate": true,
-        "revision": "af14b427119a7428b461277bfc43abe5864d995d",
+        "revision": "c7c62f37a8612a897d25906d93363fec36c1591c",
         "url": "https://github.com/artagnon/tree-sitter-mlir"
       },
       "lang": "mlir",
@@ -2011,7 +2011,7 @@
     },
     {
       "install_info": {
-        "revision": "02da1b25f6dfc7341ddb80f37f708cdd9301be2d",
+        "revision": "5edb201282b79aba611c763d11a84dcde15fcae6",
         "url": "https://github.com/tree-sitter/tree-sitter-rust"
       },
       "lang": "rust",
@@ -2019,7 +2019,7 @@
     },
     {
       "install_info": {
-        "revision": "d67fe3ba3879bd7ba74bd7f56c9a38fed241ba25",
+        "revision": "ed939ed550ebff7d4ad8aafb4d5aad44de69965d",
         "url": "https://github.com/tree-sitter/tree-sitter-scala"
       },
       "lang": "scala",
@@ -2494,7 +2494,7 @@
     {
       "install_info": {
         "generate": true,
-        "revision": "3c97db76d3cdbd002dfba493620c2d5df2fd6fa9",
+        "revision": "169e7f748a540ec360c0cb086b448faad012caa4",
         "url": "https://github.com/kylegoetz/tree-sitter-unison"
       },
       "lang": "unison",
