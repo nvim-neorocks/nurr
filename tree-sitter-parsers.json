@@ -702,7 +702,7 @@
     },
     {
       "install_info": {
-        "revision": "af6043419f5aa0f8b6c2a26db0187aefa46c7f5f",
+        "revision": "e01c88449b53e2ee5dad222d4020cc7006c5b700",
         "url": "https://github.com/gleam-lang/tree-sitter-gleam"
       },
       "lang": "gleam",
@@ -2011,7 +2011,7 @@
     },
     {
       "install_info": {
-        "revision": "5edb201282b79aba611c763d11a84dcde15fcae6",
+        "revision": "e86119bdb4968b9799f6a014ca2401c178d54b5f",
         "url": "https://github.com/tree-sitter/tree-sitter-rust"
       },
       "lang": "rust",
