@@ -1534,7 +1534,7 @@
     {
       "install_info": {
         "location": "grammars/ocaml",
-        "revision": "db52ba3f7f33c9949bba115a813d7c30a359cd87",
+        "revision": "6921a831d79d515d64400a9e022cf30e68a2a3dd",
         "url": "https://github.com/tree-sitter/tree-sitter-ocaml"
       },
       "lang": "ocaml",
@@ -1543,7 +1543,7 @@
     {
       "install_info": {
         "location": "grammars/interface",
-        "revision": "db52ba3f7f33c9949bba115a813d7c30a359cd87",
+        "revision": "6921a831d79d515d64400a9e022cf30e68a2a3dd",
         "url": "https://github.com/tree-sitter/tree-sitter-ocaml"
       },
       "lang": "ocaml_interface",
