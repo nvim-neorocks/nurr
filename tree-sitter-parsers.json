@@ -1534,7 +1534,7 @@
     {
       "install_info": {
         "location": "grammars/ocaml",
-        "revision": "6921a831d79d515d64400a9e022cf30e68a2a3dd",
+        "revision": "91708deb10cb4fe68ab3c50891426b9967dbf35a",
         "url": "https://github.com/tree-sitter/tree-sitter-ocaml"
       },
       "lang": "ocaml",
@@ -1543,7 +1543,7 @@
     {
       "install_info": {
         "location": "grammars/interface",
-        "revision": "6921a831d79d515d64400a9e022cf30e68a2a3dd",
+        "revision": "91708deb10cb4fe68ab3c50891426b9967dbf35a",
         "url": "https://github.com/tree-sitter/tree-sitter-ocaml"
       },
       "lang": "ocaml_interface",
@@ -1555,7 +1555,7 @@
     {
       "install_info": {
         "generate": true,
-        "revision": "5da5bb7508ac9fd3317561670ef18c126a0fe2aa",
+        "revision": "c5cf996c23e38a1537069fbe2d4bb83a75fc7b2f",
         "url": "https://github.com/atom-ocaml/tree-sitter-ocamllex"
       },
       "lang": "ocamllex",
