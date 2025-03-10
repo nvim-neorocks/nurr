@@ -52,7 +52,7 @@
     },
     {
       "install_info": {
-        "revision": "5bb5b03e3c1ce5853b5282b9fba060f7c7bbf11e",
+        "revision": "04962e15f6b464cf1d75eada59506dc25090e186",
         "url": "https://github.com/RubixDev/tree-sitter-asm"
       },
       "lang": "asm",
@@ -1104,7 +1104,7 @@
     {
       "install_info": {
         "location": "tree-sitter-jinja",
-        "revision": "07a62adf99c0f41e0cab7ab523541309a8d73dc4",
+        "revision": "9ccf02886dbabcda36ba2e419aa1cd993428ff03",
         "url": "https://github.com/cathaysia/tree-sitter-jinja"
       },
       "lang": "jinja",
@@ -1117,7 +1117,7 @@
     {
       "install_info": {
         "location": "tree-sitter-jinja_inline",
-        "revision": "07a62adf99c0f41e0cab7ab523541309a8d73dc4",
+        "revision": "9ccf02886dbabcda36ba2e419aa1cd993428ff03",
         "url": "https://github.com/cathaysia/tree-sitter-jinja"
       },
       "lang": "jinja_inline",
@@ -1971,7 +1971,7 @@
     },
     {
       "install_info": {
-        "revision": "de0839d6c7db2405e827435cf3ac62d22f4bd5e9",
+        "revision": "54c9a725fc7a419ccec8ad1a7761631f857b553a",
         "url": "https://github.com/faldor20/tree-sitter-roc"
       },
       "lang": "roc",
@@ -2331,6 +2331,14 @@
     },
     {
       "install_info": {
+        "revision": "ae37c8f0e55b3b969caf5433940553374c87430c",
+        "url": "https://github.com/uncenter/tree-sitter-tera"
+      },
+      "lang": "tera",
+      "tier": 2
+    },
+    {
+      "install_info": {
         "location": "dialects/terraform",
         "revision": "9e3ec9848f28d26845ba300fd73c740459b83e9b",
         "url": "https://github.com/MichaHoffmann/tree-sitter-hcl"
@@ -2551,7 +2559,7 @@
     },
     {
       "install_info": {
-        "revision": "db1d7446bd07d811981734cd501fe1994cbad99d",
+        "revision": "32d3e3daa745bf9f1665676f323be968444619e1",
         "url": "https://github.com/jpt13653903/tree-sitter-vhdl"
       },
       "lang": "vhdl",

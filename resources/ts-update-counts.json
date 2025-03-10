@@ -22,7 +22,7 @@
     },
     {
       "key": "asm",
-      "value": 30
+      "value": 31
     },
     {
       "key": "astro",
@@ -50,7 +50,7 @@
     },
     {
       "key": "bibtex",
-      "value": 29
+      "value": 30
     },
     {
       "key": "bicep",
@@ -846,7 +846,7 @@
     },
     {
       "key": "roc",
-      "value": 32
+      "value": 33
     },
     {
       "key": "ron",
@@ -1098,7 +1098,7 @@
     },
     {
       "key": "vhdl",
-      "value": 40
+      "value": 41
     },
     {
       "key": "vhs",
@@ -1262,15 +1262,19 @@
     },
     {
       "key": "jinja",
-      "value": 3
+      "value": 4
     },
     {
       "key": "jinja_inline",
-      "value": 3
+      "value": 4
     },
     {
       "key": "kcl",
       "value": 2
+    },
+    {
+      "key": "tera",
+      "value": 1
     }
   ]
 }
