@@ -510,7 +510,7 @@
     },
     {
       "install_info": {
-        "revision": "370cea629eb62a8686504b9fb3252a5e1ae55313",
+        "revision": "e772975f9af564e65ccc4ffcb3891eb1b9abd897",
         "url": "https://github.com/WhatsApp/tree-sitter-erlang"
       },
       "lang": "erlang",
@@ -1104,7 +1104,7 @@
     {
       "install_info": {
         "location": "tree-sitter-jinja",
-        "revision": "9ccf02886dbabcda36ba2e419aa1cd993428ff03",
+        "revision": "dd2c42ea360b7e4b6c6fb809494203ae251e1c87",
         "url": "https://github.com/cathaysia/tree-sitter-jinja"
       },
       "lang": "jinja",
@@ -1117,7 +1117,7 @@
     {
       "install_info": {
         "location": "tree-sitter-jinja_inline",
-        "revision": "9ccf02886dbabcda36ba2e419aa1cd993428ff03",
+        "revision": "dd2c42ea360b7e4b6c6fb809494203ae251e1c87",
         "url": "https://github.com/cathaysia/tree-sitter-jinja"
       },
       "lang": "jinja_inline",
@@ -1488,7 +1488,7 @@
     },
     {
       "install_info": {
-        "revision": "48057cf966641e7a49b09700550751195c34bcb5",
+        "revision": "cfc53fd287d23ab7281440a8526c73542984669b",
         "url": "https://github.com/cstrahan/tree-sitter-nix"
       },
       "lang": "nix",
@@ -1505,7 +1505,7 @@
     },
     {
       "install_info": {
-        "revision": "b99dc3b7b26337d84f95c0de4dda81077b03e5c7",
+        "revision": "c9f04276e6b5bbbcdba7aa1810ea621ced5bed97",
         "url": "https://github.com/nushell/tree-sitter-nu"
       },
       "lang": "nu",
@@ -1971,7 +1971,7 @@
     },
     {
       "install_info": {
-        "revision": "54c9a725fc7a419ccec8ad1a7761631f857b553a",
+        "revision": "32e20cb1133a5a189f986c3b5df47ac730fbee3d",
         "url": "https://github.com/faldor20/tree-sitter-roc"
       },
       "lang": "roc",
@@ -2220,7 +2220,7 @@
     {
       "install_info": {
         "location": "tree-sitter-superhtml",
-        "revision": "15ff939100f9d52342445407973f3ce125a8437e",
+        "revision": "91d92846e8baaafc8854d2b9d0ac436bc16234db",
         "url": "https://github.com/kristoff-it/superhtml"
       },
       "lang": "superhtml",
@@ -2331,7 +2331,7 @@
     },
     {
       "install_info": {
-        "revision": "ae37c8f0e55b3b969caf5433940553374c87430c",
+        "revision": "588f14ce363904bebd926492bbd1d2c53f8d5f14",
         "url": "https://github.com/uncenter/tree-sitter-tera"
       },
       "lang": "tera",
@@ -2714,7 +2714,7 @@
     {
       "install_info": {
         "location": "tree-sitter-ziggy",
-        "revision": "af41bdb5b1d64404c2ec7eb1d9de01083c0d2596",
+        "revision": "cefc572046d16f071d6d01f73af215c9dd2a5927",
         "url": "https://github.com/kristoff-it/ziggy"
       },
       "lang": "ziggy",
@@ -2723,7 +2723,7 @@
     {
       "install_info": {
         "location": "tree-sitter-ziggy-schema",
-        "revision": "af41bdb5b1d64404c2ec7eb1d9de01083c0d2596",
+        "revision": "cefc572046d16f071d6d01f73af215c9dd2a5927",
         "url": "https://github.com/kristoff-it/ziggy"
       },
       "lang": "ziggy_schema",

@@ -50,7 +50,7 @@
     },
     {
       "key": "bibtex",
-      "value": 30
+      "value": 31
     },
     {
       "key": "bicep",
@@ -226,7 +226,7 @@
     },
     {
       "key": "erlang",
-      "value": 41
+      "value": 42
     },
     {
       "key": "facility",
@@ -638,7 +638,7 @@
     },
     {
       "key": "nix",
-      "value": 58
+      "value": 59
     },
     {
       "key": "nqc",
@@ -774,7 +774,7 @@
     },
     {
       "key": "python",
-      "value": 41
+      "value": 42
     },
     {
       "key": "ql",
@@ -846,7 +846,7 @@
     },
     {
       "key": "roc",
-      "value": 33
+      "value": 34
     },
     {
       "key": "ron",
@@ -1198,15 +1198,15 @@
     },
     {
       "key": "ziggy",
-      "value": 10
+      "value": 11
     },
     {
       "key": "ziggy_schema",
-      "value": 10
+      "value": 11
     },
     {
       "key": "superhtml",
-      "value": 14
+      "value": 15
     },
     {
       "key": "gren",
@@ -1230,7 +1230,7 @@
     },
     {
       "key": "nu",
-      "value": 38
+      "value": 39
     },
     {
       "key": "runescript",
@@ -1262,11 +1262,11 @@
     },
     {
       "key": "jinja",
-      "value": 4
+      "value": 5
     },
     {
       "key": "jinja_inline",
-      "value": 4
+      "value": 5
     },
     {
       "key": "kcl",
@@ -1274,7 +1274,7 @@
     },
     {
       "key": "tera",
-      "value": 1
+      "value": 2
     }
   ]
 }
