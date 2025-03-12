@@ -94,7 +94,7 @@
     },
     {
       "key": "cmake",
-      "value": 34
+      "value": 35
     },
     {
       "key": "comment",
@@ -226,7 +226,7 @@
     },
     {
       "key": "erlang",
-      "value": 42
+      "value": 43
     },
     {
       "key": "facility",
@@ -446,7 +446,7 @@
     },
     {
       "key": "ini",
-      "value": 29
+      "value": 30
     },
     {
       "key": "inko",
@@ -774,7 +774,7 @@
     },
     {
       "key": "python",
-      "value": 42
+      "value": 43
     },
     {
       "key": "ql",
@@ -958,7 +958,7 @@
     },
     {
       "key": "swift",
-      "value": 48
+      "value": 49
     },
     {
       "key": "sxhkdrc",
@@ -1198,11 +1198,11 @@
     },
     {
       "key": "ziggy",
-      "value": 11
+      "value": 12
     },
     {
       "key": "ziggy_schema",
-      "value": 11
+      "value": 12
     },
     {
       "key": "superhtml",
@@ -1230,7 +1230,7 @@
     },
     {
       "key": "nu",
-      "value": 39
+      "value": 40
     },
     {
       "key": "runescript",
@@ -1262,11 +1262,11 @@
     },
     {
       "key": "jinja",
-      "value": 5
+      "value": 6
     },
     {
       "key": "jinja_inline",
-      "value": 5
+      "value": 6
     },
     {
       "key": "kcl",
