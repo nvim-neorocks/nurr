@@ -137,6 +137,14 @@
     },
     {
       "install_info": {
+        "revision": "bcdc4b01827cac21205f7453e9be02f906943128",
+        "url": "https://github.com/EmranMR/tree-sitter-blade"
+      },
+      "lang": "blade",
+      "tier": 2
+    },
+    {
+      "install_info": {
         "revision": "60ba73739c6083c693d86a1a7cf039c07eb4ed59",
         "url": "https://gitlab.com/gabmus/tree-sitter-blueprint"
       },
@@ -210,7 +218,7 @@
     },
     {
       "install_info": {
-        "revision": "c70336e8db6d3842721d9be40610580908ff45ba",
+        "revision": "fe48221d4d9842d916d66b5e71ab3c6307ec28b3",
         "url": "https://github.com/uyha/tree-sitter-cmake"
       },
       "lang": "cmake",
@@ -1288,7 +1296,7 @@
     },
     {
       "install_info": {
-        "revision": "6e03a054a71cd419d9702725243137641e97ba51",
+        "revision": "d269f4d52cd08f6cbc6636ee23cc30a9f6c32e42",
         "url": "https://github.com/hankthetank27/tree-sitter-liquid"
       },
       "lang": "liquid",
@@ -1412,7 +1420,7 @@
     },
     {
       "install_info": {
-        "revision": "742a21e11e914096e0172dad2f0b85e7554c95ff",
+        "revision": "03fd2216bc52976c9b92ca64b5ec2e1f06408f7e",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-meson"
       },
       "lang": "meson",
@@ -2297,7 +2305,7 @@
     },
     {
       "install_info": {
-        "revision": "83e264928fa194b7283428527259e88e54205264",
+        "revision": "a19be2d4c1956e12facfc717e28f13a6ad0860e0",
         "url": "https://github.com/tact-lang/tree-sitter-tact"
       },
       "lang": "tact",
@@ -2331,7 +2339,7 @@
     },
     {
       "install_info": {
-        "revision": "588f14ce363904bebd926492bbd1d2c53f8d5f14",
+        "revision": "482b475b32e6bae67f9d57abc60545399fd9b0a3",
         "url": "https://github.com/uncenter/tree-sitter-tera"
       },
       "lang": "tera",
@@ -2527,7 +2535,7 @@
     {
       "install_info": {
         "location": "tree_sitter_v",
-        "revision": "532bebd50742ef15949bdd67c36d46697c847628",
+        "revision": "26c2c4c2b3fb4f7a07ae78d298b36998b7ffa956",
         "url": "https://github.com/vlang/v-analyzer"
       },
       "lang": "v",
@@ -2559,7 +2567,7 @@
     },
     {
       "install_info": {
-        "revision": "32d3e3daa745bf9f1665676f323be968444619e1",
+        "revision": "35ed277d3e98836796bc764010dc3fb800d14ee4",
         "url": "https://github.com/jpt13653903/tree-sitter-vhdl"
       },
       "lang": "vhdl",
