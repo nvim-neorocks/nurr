@@ -178,7 +178,7 @@
     },
     {
       "key": "dtd",
-      "value": 35
+      "value": 36
     },
     {
       "key": "earthfile",
@@ -1138,7 +1138,7 @@
     },
     {
       "key": "xml",
-      "value": 37
+      "value": 38
     },
     {
       "key": "yaml",
@@ -1198,11 +1198,11 @@
     },
     {
       "key": "ziggy",
-      "value": 12
+      "value": 13
     },
     {
       "key": "ziggy_schema",
-      "value": 12
+      "value": 13
     },
     {
       "key": "superhtml",

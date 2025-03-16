@@ -416,7 +416,7 @@
     {
       "install_info": {
         "location": "dtd",
-        "revision": "2128a0b249263e238d88cb894dad00c3168fea37",
+        "revision": "0d9a8099c963ed53e183425c1b47fa2622c8eaf7",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-xml"
       },
       "lang": "dtd",
@@ -2662,7 +2662,7 @@
     {
       "install_info": {
         "location": "xml",
-        "revision": "2128a0b249263e238d88cb894dad00c3168fea37",
+        "revision": "0d9a8099c963ed53e183425c1b47fa2622c8eaf7",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-xml"
       },
       "lang": "xml",
@@ -2722,7 +2722,7 @@
     {
       "install_info": {
         "location": "tree-sitter-ziggy",
-        "revision": "00958faeaeb97d9b7beb76f128a5401441182204",
+        "revision": "cfc661821e387f7b48b1db0408fe8219d1ca611d",
         "url": "https://github.com/kristoff-it/ziggy"
       },
       "lang": "ziggy",
@@ -2731,7 +2731,7 @@
     {
       "install_info": {
         "location": "tree-sitter-ziggy-schema",
-        "revision": "00958faeaeb97d9b7beb76f128a5401441182204",
+        "revision": "cfc661821e387f7b48b1db0408fe8219d1ca611d",
         "url": "https://github.com/kristoff-it/ziggy"
       },
       "lang": "ziggy_schema",
