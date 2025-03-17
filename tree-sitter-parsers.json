@@ -235,7 +235,7 @@
     {
       "install_info": {
         "generate_from_json": true,
-        "revision": "bf2a65b1c119898a1a17389e07f2a399c05cdc0c",
+        "revision": "32323509b3d9fe96607d151c2da2c9009eb13a2f",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-commonlisp"
       },
       "lang": "commonlisp",
@@ -300,7 +300,7 @@
     {
       "install_info": {
         "generate_from_json": true,
-        "revision": "757e0a61f9d38b3d9eaa299e8d866e8283ffc284",
+        "revision": "014628ae8d2df391b88ddb9fa0260fd97f770829",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-cuda"
       },
       "lang": "cuda",
@@ -752,7 +752,7 @@
     {
       "install_info": {
         "generate_from_json": true,
-        "revision": "66aec57f7119c7e8e40665b723cd7af5594f15ee",
+        "revision": "24a6c8ef698e4480fecf8340d771fbcb5de8fbb4",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-glsl"
       },
       "lang": "glsl",
@@ -2228,7 +2228,7 @@
     {
       "install_info": {
         "location": "tree-sitter-superhtml",
-        "revision": "91d92846e8baaafc8854d2b9d0ac436bc16234db",
+        "revision": "240cc44b5fcd8e9e01180f1cbdcdd0f909a27275",
         "url": "https://github.com/kristoff-it/superhtml"
       },
       "lang": "superhtml",
@@ -2722,7 +2722,7 @@
     {
       "install_info": {
         "location": "tree-sitter-ziggy",
-        "revision": "cfc661821e387f7b48b1db0408fe8219d1ca611d",
+        "revision": "8a29017169f43dc2c3526817e98142eb9a335087",
         "url": "https://github.com/kristoff-it/ziggy"
       },
       "lang": "ziggy",
@@ -2731,7 +2731,7 @@
     {
       "install_info": {
         "location": "tree-sitter-ziggy-schema",
-        "revision": "cfc661821e387f7b48b1db0408fe8219d1ca611d",
+        "revision": "8a29017169f43dc2c3526817e98142eb9a335087",
         "url": "https://github.com/kristoff-it/ziggy"
       },
       "lang": "ziggy_schema",

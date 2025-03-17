@@ -102,7 +102,7 @@
     },
     {
       "key": "commonlisp",
-      "value": 29
+      "value": 30
     },
     {
       "key": "cooklang",
@@ -130,7 +130,7 @@
     },
     {
       "key": "cuda",
-      "value": 30
+      "value": 31
     },
     {
       "key": "cue",
@@ -314,7 +314,7 @@
     },
     {
       "key": "glsl",
-      "value": 30
+      "value": 31
     },
     {
       "key": "gn",
@@ -1198,15 +1198,15 @@
     },
     {
       "key": "ziggy",
-      "value": 13
+      "value": 14
     },
     {
       "key": "ziggy_schema",
-      "value": 13
+      "value": 14
     },
     {
       "key": "superhtml",
-      "value": 15
+      "value": 16
     },
     {
       "key": "gren",
