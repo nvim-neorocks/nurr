@@ -262,7 +262,7 @@
     },
     {
       "key": "fortran",
-      "value": 43
+      "value": 44
     },
     {
       "key": "fsh",
@@ -1162,7 +1162,7 @@
     },
     {
       "key": "powershell",
-      "value": 37
+      "value": 38
     },
     {
       "key": "rescript",
@@ -1186,11 +1186,11 @@
     },
     {
       "key": "glimmer_javascript",
-      "value": 30
+      "value": 31
     },
     {
       "key": "glimmer_typescript",
-      "value": 30
+      "value": 31
     },
     {
       "key": "fsharp",
