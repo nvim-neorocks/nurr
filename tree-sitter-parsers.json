@@ -1848,7 +1848,7 @@
     },
     {
       "install_info": {
-        "revision": "0555ac0da902abff06076e40501102cee3ba68bd",
+        "revision": "930202c2a80965a7a9ca018b5b2a08b25dfa7f12",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-query"
       },
       "lang": "query",
@@ -2591,7 +2591,7 @@
     },
     {
       "install_info": {
-        "revision": "d2e4b5c172a109966c2ce0378f73df6cede39400",
+        "revision": "2694c3d27e2ca98a0ccde72f33887394300d524e",
         "url": "https://github.com/neovim/tree-sitter-vimdoc"
       },
       "lang": "vimdoc",
