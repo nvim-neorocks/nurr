@@ -1420,7 +1420,7 @@
     },
     {
       "install_info": {
-        "revision": "03fd2216bc52976c9b92ca64b5ec2e1f06408f7e",
+        "revision": "9c74e8e8917b83d90e38ac040949079437ec0043",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-meson"
       },
       "lang": "meson",
@@ -2027,7 +2027,7 @@
     },
     {
       "install_info": {
-        "revision": "ed939ed550ebff7d4ad8aafb4d5aad44de69965d",
+        "revision": "041dea1ca8b25f20fa564854922ac6a99c050ec6",
         "url": "https://github.com/tree-sitter/tree-sitter-scala"
       },
       "lang": "scala",
@@ -2228,7 +2228,7 @@
     {
       "install_info": {
         "location": "tree-sitter-superhtml",
-        "revision": "240cc44b5fcd8e9e01180f1cbdcdd0f909a27275",
+        "revision": "fc7c594f52528e4a4a08671137850143d55a5bf2",
         "url": "https://github.com/kristoff-it/superhtml"
       },
       "lang": "superhtml",
