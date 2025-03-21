@@ -710,7 +710,7 @@
     },
     {
       "install_info": {
-        "revision": "e01c88449b53e2ee5dad222d4020cc7006c5b700",
+        "revision": "99ec4101504452c488b7c835fb65cfef75b090b7",
         "url": "https://github.com/gleam-lang/tree-sitter-gleam"
       },
       "lang": "gleam",
@@ -728,7 +728,7 @@
     {
       "install_info": {
         "generate_from_json": true,
-        "revision": "4801ac4d0a611502001035f45d1cba5cb57d272f",
+        "revision": "babba3fc0c822a633261ce9e96a4d7986050eb0c",
         "url": "https://github.com/NullVoxPopuli/tree-sitter-glimmer-javascript"
       },
       "lang": "glimmer_javascript",
@@ -740,7 +740,7 @@
     {
       "install_info": {
         "generate_from_json": true,
-        "revision": "c011b053626f27a0fe5cc99eeae4185399a572f9",
+        "revision": "48c60295f1ee34ea4ed6e5177102be6d24bfc9d0",
         "url": "https://github.com/NullVoxPopuli/tree-sitter-glimmer-typescript"
       },
       "lang": "glimmer_typescript",
@@ -1255,7 +1255,7 @@
     },
     {
       "install_info": {
-        "revision": "a7f5ea297bd621d072ed4cb2cc8ba5ae64ae3c4b",
+        "revision": "8d38e9755c05d37df8a24dadb0fc64f6588ac188",
         "url": "https://github.com/traxys/tree-sitter-lalrpop"
       },
       "lang": "lalrpop",
@@ -1714,7 +1714,7 @@
     {
       "install_info": {
         "location": "grammars/problog",
-        "revision": "93c69d2f84d8a167c0a3f4a8d51ccefe365a4dc8",
+        "revision": "986a50d27e1bbf4fabce7e650c26e1e0da5535fc",
         "url": "https://github.com/foxyseta/tree-sitter-prolog"
       },
       "lang": "problog",
@@ -1726,7 +1726,7 @@
     {
       "install_info": {
         "location": "grammars/prolog",
-        "revision": "93c69d2f84d8a167c0a3f4a8d51ccefe365a4dc8",
+        "revision": "986a50d27e1bbf4fabce7e650c26e1e0da5535fc",
         "url": "https://github.com/foxyseta/tree-sitter-prolog"
       },
       "lang": "prolog",
@@ -1979,7 +1979,7 @@
     },
     {
       "install_info": {
-        "revision": "32e20cb1133a5a189f986c3b5df47ac730fbee3d",
+        "revision": "0b1afe88161cbd81f5ddea1bb4fa786314ed49a7",
         "url": "https://github.com/faldor20/tree-sitter-roc"
       },
       "lang": "roc",

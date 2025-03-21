@@ -306,7 +306,7 @@
     },
     {
       "key": "gleam",
-      "value": 38
+      "value": 39
     },
     {
       "key": "glimmer",
@@ -526,7 +526,7 @@
     },
     {
       "key": "lalrpop",
-      "value": 31
+      "value": 32
     },
     {
       "key": "latex",
@@ -730,11 +730,11 @@
     },
     {
       "key": "problog",
-      "value": 29
+      "value": 30
     },
     {
       "key": "prolog",
-      "value": 29
+      "value": 30
     },
     {
       "key": "promql",
@@ -774,7 +774,7 @@
     },
     {
       "key": "python",
-      "value": 44
+      "value": 45
     },
     {
       "key": "ql",
@@ -846,7 +846,7 @@
     },
     {
       "key": "roc",
-      "value": 34
+      "value": 36
     },
     {
       "key": "ron",
@@ -1186,11 +1186,11 @@
     },
     {
       "key": "glimmer_javascript",
-      "value": 31
+      "value": 32
     },
     {
       "key": "glimmer_typescript",
-      "value": 31
+      "value": 32
     },
     {
       "key": "fsharp",
