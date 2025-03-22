@@ -558,7 +558,7 @@
     },
     {
       "key": "lua",
-      "value": 33
+      "value": 34
     },
     {
       "key": "luadoc",
@@ -582,11 +582,11 @@
     },
     {
       "key": "markdown",
-      "value": 39
+      "value": 40
     },
     {
       "key": "markdown_inline",
-      "value": 37
+      "value": 38
     },
     {
       "key": "matlab",
@@ -1106,7 +1106,7 @@
     },
     {
       "key": "vim",
-      "value": 30
+      "value": 31
     },
     {
       "key": "vimdoc",

@@ -1320,7 +1320,7 @@
     },
     {
       "install_info": {
-        "revision": "68d29aa745b68ae22cbbdb5dcb68c20232521ff6",
+        "revision": "db16e76558122e834ee214c8dc755b4a3edc82a9",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-lua"
       },
       "lang": "lua",
@@ -1374,7 +1374,7 @@
     {
       "install_info": {
         "location": "tree-sitter-markdown",
-        "revision": "192407ab5a24bfc24f13332979b5e7967518754a",
+        "revision": "413285231ce8fa8b11e7074bbe265b48aa7277f9",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-markdown"
       },
       "lang": "markdown",
@@ -1387,7 +1387,7 @@
     {
       "install_info": {
         "location": "tree-sitter-markdown-inline",
-        "revision": "192407ab5a24bfc24f13332979b5e7967518754a",
+        "revision": "413285231ce8fa8b11e7074bbe265b48aa7277f9",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-markdown"
       },
       "lang": "markdown_inline",
@@ -2583,7 +2583,7 @@
     },
     {
       "install_info": {
-        "revision": "f3cd62d8bd043ef20507e84bb6b4b53731ccf3a7",
+        "revision": "11b688a1f0e97c0c4e3dbabf4a38016335f4d237",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-vim"
       },
       "lang": "vim",
