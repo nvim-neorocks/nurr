@@ -402,7 +402,7 @@
     },
     {
       "key": "hlsl",
-      "value": 31
+      "value": 32
     },
     {
       "key": "hlsplaylist",
@@ -462,7 +462,7 @@
     },
     {
       "key": "java",
-      "value": 41
+      "value": 42
     },
     {
       "key": "javascript",
@@ -1279,6 +1279,14 @@
     {
       "key": "blade",
       "value": 1
+    },
+    {
+      "key": "caddy",
+      "value": 2
+    },
+    {
+      "key": "javadoc",
+      "value": 2
     }
   ]
 }
