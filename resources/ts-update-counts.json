@@ -730,11 +730,11 @@
     },
     {
       "key": "problog",
-      "value": 30
+      "value": 31
     },
     {
       "key": "prolog",
-      "value": 30
+      "value": 31
     },
     {
       "key": "promql",
@@ -1286,7 +1286,7 @@
     },
     {
       "key": "javadoc",
-      "value": 2
+      "value": 3
     }
   ]
 }

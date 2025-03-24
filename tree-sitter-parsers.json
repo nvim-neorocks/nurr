@@ -1107,7 +1107,7 @@
     },
     {
       "install_info": {
-        "revision": "f741f4bc29a415adad6e1d47092cfa7f22ec9907",
+        "revision": "db9589e9c61cff7d7fcc207744c711b10b60a7a3",
         "url": "https://github.com/rmuir/tree-sitter-javadoc"
       },
       "lang": "javadoc",
@@ -1730,7 +1730,7 @@
     {
       "install_info": {
         "location": "grammars/problog",
-        "revision": "986a50d27e1bbf4fabce7e650c26e1e0da5535fc",
+        "revision": "d8d415f6a1cf80ca138524bcc395810b176d40fa",
         "url": "https://github.com/foxyseta/tree-sitter-prolog"
       },
       "lang": "problog",
@@ -1742,7 +1742,7 @@
     {
       "install_info": {
         "location": "grammars/prolog",
-        "revision": "986a50d27e1bbf4fabce7e650c26e1e0da5535fc",
+        "revision": "d8d415f6a1cf80ca138524bcc395810b176d40fa",
         "url": "https://github.com/foxyseta/tree-sitter-prolog"
       },
       "lang": "prolog",
