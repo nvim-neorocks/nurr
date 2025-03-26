@@ -19,7 +19,7 @@
     {
       "install_info": {
         "generate_from_json": true,
-        "revision": "cba288924f4832abb619c627539f111004ff22e5",
+        "revision": "be53f2597dded40c90b5f53ed9f4521422f6b6b3",
         "url": "https://github.com/dlvandenberg/tree-sitter-angular"
       },
       "lang": "angular",
@@ -1255,7 +1255,7 @@
     },
     {
       "install_info": {
-        "revision": "329b0e84ef6cc6950665de4accd0bdda1601a2f1",
+        "revision": "673511402dfef07b25cfa43991693b8442695fc7",
         "url": "https://github.com/koto-lang/tree-sitter-koto"
       },
       "lang": "koto",
@@ -2043,7 +2043,7 @@
     },
     {
       "install_info": {
-        "revision": "041dea1ca8b25f20fa564854922ac6a99c050ec6",
+        "revision": "42a1542248ff611ba2091fe76c6dbf42551ebef8",
         "url": "https://github.com/tree-sitter/tree-sitter-scala"
       },
       "lang": "scala",
