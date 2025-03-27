@@ -19,7 +19,7 @@
     {
       "install_info": {
         "generate_from_json": true,
-        "revision": "be53f2597dded40c90b5f53ed9f4521422f6b6b3",
+        "revision": "634cfc54f802dd4fb54caa2d42dd38b7f9d39df3",
         "url": "https://github.com/dlvandenberg/tree-sitter-angular"
       },
       "lang": "angular",
@@ -917,7 +917,7 @@
     },
     {
       "install_info": {
-        "revision": "9e3ec9848f28d26845ba300fd73c740459b83e9b",
+        "revision": "de10d494dbd6b71cdf07a678fecbf404dbfe4398",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-hcl"
       },
       "lang": "hcl",
@@ -1255,7 +1255,7 @@
     },
     {
       "install_info": {
-        "revision": "673511402dfef07b25cfa43991693b8442695fc7",
+        "revision": "25e4eed7ecd8a071798529de966fa72f7ea7bda5",
         "url": "https://github.com/koto-lang/tree-sitter-koto"
       },
       "lang": "koto",
@@ -1436,7 +1436,7 @@
     },
     {
       "install_info": {
-        "revision": "9c74e8e8917b83d90e38ac040949079437ec0043",
+        "revision": "a56af662e8540412fed5e40cc20435b2b9a20502",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-meson"
       },
       "lang": "meson",
@@ -1621,7 +1621,7 @@
       "install_info": {
         "branch": "release",
         "generate_from_json": true,
-        "revision": "bb53f204aa3e7507960014642965c9f9a9e84b1d",
+        "revision": "ecd90bd8b381bcc7219fed4fe351903630e761c6",
         "url": "https://github.com/tree-sitter-perl/tree-sitter-perl"
       },
       "lang": "perl",
@@ -2244,7 +2244,7 @@
     {
       "install_info": {
         "location": "tree-sitter-superhtml",
-        "revision": "fc7c594f52528e4a4a08671137850143d55a5bf2",
+        "revision": "f8cfcf64d01c17516ad1cfd7b17ecd05b68a4d6b",
         "url": "https://github.com/kristoff-it/superhtml"
       },
       "lang": "superhtml",
@@ -2321,7 +2321,7 @@
     },
     {
       "install_info": {
-        "revision": "a19be2d4c1956e12facfc717e28f13a6ad0860e0",
+        "revision": "47af20264abbd24ea282ded0f8ee9cad3cf3bf2f",
         "url": "https://github.com/tact-lang/tree-sitter-tact"
       },
       "lang": "tact",
@@ -2364,7 +2364,7 @@
     {
       "install_info": {
         "location": "dialects/terraform",
-        "revision": "9e3ec9848f28d26845ba300fd73c740459b83e9b",
+        "revision": "de10d494dbd6b71cdf07a678fecbf404dbfe4398",
         "url": "https://github.com/MichaHoffmann/tree-sitter-hcl"
       },
       "lang": "terraform",
@@ -2591,7 +2591,7 @@
     },
     {
       "install_info": {
-        "revision": "3f202326c06f1c4d47aa82b9013a6b71aea70611",
+        "revision": "0c6fae9d2cfc5b217bfd1fe84a7678f5917116db",
         "url": "https://github.com/charmbracelet/tree-sitter-vhs"
       },
       "lang": "vhs",

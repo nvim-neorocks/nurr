@@ -10,7 +10,7 @@
     },
     {
       "key": "angular",
-      "value": 32
+      "value": 33
     },
     {
       "key": "apex",
@@ -386,7 +386,7 @@
     },
     {
       "key": "hcl",
-      "value": 29
+      "value": 30
     },
     {
       "key": "heex",
@@ -518,7 +518,7 @@
     },
     {
       "key": "koto",
-      "value": 38
+      "value": 39
     },
     {
       "key": "kusto",
@@ -602,7 +602,7 @@
     },
     {
       "key": "meson",
-      "value": 34
+      "value": 35
     },
     {
       "key": "mlir",
@@ -686,7 +686,7 @@
     },
     {
       "key": "perl",
-      "value": 42
+      "value": 43
     },
     {
       "key": "php",
@@ -982,7 +982,7 @@
     },
     {
       "key": "tact",
-      "value": 35
+      "value": 36
     },
     {
       "key": "tcl",
@@ -998,7 +998,7 @@
     },
     {
       "key": "terraform",
-      "value": 29
+      "value": 30
     },
     {
       "key": "textproto",
@@ -1102,7 +1102,7 @@
     },
     {
       "key": "vhs",
-      "value": 32
+      "value": 33
     },
     {
       "key": "vim",
@@ -1206,7 +1206,7 @@
     },
     {
       "key": "superhtml",
-      "value": 17
+      "value": 18
     },
     {
       "key": "gren",
