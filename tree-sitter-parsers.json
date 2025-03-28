@@ -19,7 +19,7 @@
     {
       "install_info": {
         "generate_from_json": true,
-        "revision": "634cfc54f802dd4fb54caa2d42dd38b7f9d39df3",
+        "revision": "843525141575e397541e119698f0532755e959f6",
         "url": "https://github.com/dlvandenberg/tree-sitter-angular"
       },
       "lang": "angular",
@@ -1255,7 +1255,7 @@
     },
     {
       "install_info": {
-        "revision": "25e4eed7ecd8a071798529de966fa72f7ea7bda5",
+        "revision": "46770abba021e2ddd2c51d9fa3087fd1ab6b2aea",
         "url": "https://github.com/koto-lang/tree-sitter-koto"
       },
       "lang": "koto",
@@ -2244,7 +2244,7 @@
     {
       "install_info": {
         "location": "tree-sitter-superhtml",
-        "revision": "f8cfcf64d01c17516ad1cfd7b17ecd05b68a4d6b",
+        "revision": "28dcf0edf98d491d47bacb65dc49b6fb979b444c",
         "url": "https://github.com/kristoff-it/superhtml"
       },
       "lang": "superhtml",
