@@ -150,7 +150,7 @@
     },
     {
       "key": "dhall",
-      "value": 31
+      "value": 33
     },
     {
       "key": "diff",
@@ -430,7 +430,7 @@
     },
     {
       "key": "http",
-      "value": 35
+      "value": 36
     },
     {
       "key": "hurl",
@@ -986,7 +986,7 @@
     },
     {
       "key": "tcl",
-      "value": 30
+      "value": 31
     },
     {
       "key": "teal",
@@ -1206,7 +1206,7 @@
     },
     {
       "key": "superhtml",
-      "value": 19
+      "value": 20
     },
     {
       "key": "gren",
@@ -1230,7 +1230,7 @@
     },
     {
       "key": "nu",
-      "value": 40
+      "value": 41
     },
     {
       "key": "runescript",
@@ -1258,7 +1258,7 @@
     },
     {
       "key": "enforce",
-      "value": 4
+      "value": 5
     },
     {
       "key": "jinja",
@@ -1274,7 +1274,7 @@
     },
     {
       "key": "tera",
-      "value": 3
+      "value": 4
     },
     {
       "key": "blade",
@@ -1286,7 +1286,7 @@
     },
     {
       "key": "javadoc",
-      "value": 3
+      "value": 4
     }
   ]
 }

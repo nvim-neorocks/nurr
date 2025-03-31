@@ -367,7 +367,7 @@
     },
     {
       "install_info": {
-        "revision": "4a6c08abfb54827db4e722d6cdca81b093898988",
+        "revision": "0d4fdd401b22d3f2f23ad2128a5307a4d927434f",
         "url": "https://github.com/jbellerb/tree-sitter-dhall"
       },
       "lang": "dhall",
@@ -518,7 +518,7 @@
     },
     {
       "install_info": {
-        "revision": "8201c3c354c34b96d5a531c8e63d262209ee06cb",
+        "revision": "36064bd71ce22e9a8c73b64b1a3448cc600a4312",
         "url": "https://github.com/simonvic/tree-sitter-enforce"
       },
       "lang": "enforce",
@@ -1015,7 +1015,7 @@
     },
     {
       "install_info": {
-        "revision": "77ecf6385f1b5d422e0bbd12204374d287d61ad2",
+        "revision": "db8b4398de90b6d0b6c780aba96aaa2cd8e9202c",
         "url": "https://github.com/rest-nvim/tree-sitter-http"
       },
       "lang": "http",
@@ -1107,7 +1107,7 @@
     },
     {
       "install_info": {
-        "revision": "db9589e9c61cff7d7fcc207744c711b10b60a7a3",
+        "revision": "330cc9cb4f33545f7bfce6c3b6aa77fe6db1b537",
         "url": "https://github.com/rmuir/tree-sitter-javadoc"
       },
       "lang": "javadoc",
@@ -1529,7 +1529,7 @@
     },
     {
       "install_info": {
-        "revision": "c10340b5bb3789f69182acf8f34c3d4fc24d2fe1",
+        "revision": "d5c71a10b4d1b02e38967b05f8de70e847448dd1",
         "url": "https://github.com/nushell/tree-sitter-nu"
       },
       "lang": "nu",
@@ -2244,7 +2244,7 @@
     {
       "install_info": {
         "location": "tree-sitter-superhtml",
-        "revision": "28dcf0edf98d491d47bacb65dc49b6fb979b444c",
+        "revision": "16887e9fa3122c36a3d4942470e33c1c282fe859",
         "url": "https://github.com/kristoff-it/superhtml"
       },
       "lang": "superhtml",
@@ -2329,7 +2329,7 @@
     },
     {
       "install_info": {
-        "revision": "98015ebe182d94e5a4439e32ffd91beaac32fcb9",
+        "revision": "3755c8c18c039ca4125797fd0212f7e59974e58e",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-tcl"
       },
       "lang": "tcl",
@@ -2355,7 +2355,7 @@
     },
     {
       "install_info": {
-        "revision": "482b475b32e6bae67f9d57abc60545399fd9b0a3",
+        "revision": "25a7c617192253bddfa65e378975d8c476419010",
         "url": "https://github.com/uncenter/tree-sitter-tera"
       },
       "lang": "tera",
