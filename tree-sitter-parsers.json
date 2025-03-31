@@ -454,7 +454,7 @@
     },
     {
       "install_info": {
-        "revision": "02f562e71dc28d573187809eecdffaee7c82321c",
+        "revision": "3f2b371537355f6e53cc3af37f79ba450efb5132",
         "url": "https://github.com/ValdezFOmar/tree-sitter-editorconfig"
       },
       "lang": "editorconfig",
@@ -486,7 +486,7 @@
     },
     {
       "install_info": {
-        "revision": "e34bdc5c512918628b05b48e633f711123204e45",
+        "revision": "3b373a3ccb48f31aa4b7ddc9092e2f5e24ab7aed",
         "url": "https://github.com/elm-tooling/tree-sitter-elm"
       },
       "lang": "elm",
@@ -2329,7 +2329,7 @@
     },
     {
       "install_info": {
-        "revision": "3755c8c18c039ca4125797fd0212f7e59974e58e",
+        "revision": "9d6ac0661686e0da8b622571d06d1c1471a437fc",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-tcl"
       },
       "lang": "tcl",
