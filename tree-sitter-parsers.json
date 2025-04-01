@@ -599,7 +599,7 @@
     },
     {
       "install_info": {
-        "revision": "64e11001d7ef3e8ac18e55a3a2d811fe36430923",
+        "revision": "d738334e4a21866a1ab81fb3f27f9b0b2ad2e515",
         "url": "https://github.com/stadelmanma/tree-sitter-fortran"
       },
       "lang": "fortran",
@@ -2043,7 +2043,7 @@
     },
     {
       "install_info": {
-        "revision": "160e35520577d91576b08fb677aaee840c591dc2",
+        "revision": "c1189954df854977c3a52003ca8a247c5f4729ba",
         "url": "https://github.com/tree-sitter/tree-sitter-scala"
       },
       "lang": "scala",
@@ -2329,7 +2329,7 @@
     },
     {
       "install_info": {
-        "revision": "9d6ac0661686e0da8b622571d06d1c1471a437fc",
+        "revision": "f15e711167661d1ba541d4f62b9dbfc4ce61ec56",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-tcl"
       },
       "lang": "tcl",
