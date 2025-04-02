@@ -226,7 +226,7 @@
     },
     {
       "key": "erlang",
-      "value": 43
+      "value": 44
     },
     {
       "key": "facility",
@@ -690,11 +690,11 @@
     },
     {
       "key": "php",
-      "value": 40
+      "value": 41
     },
     {
       "key": "php_only",
-      "value": 42
+      "value": 43
     },
     {
       "key": "phpdoc",
@@ -786,7 +786,7 @@
     },
     {
       "key": "qmljs",
-      "value": 31
+      "value": 32
     },
     {
       "key": "query",
@@ -862,7 +862,7 @@
     },
     {
       "key": "rust",
-      "value": 47
+      "value": 48
     },
     {
       "key": "scala",
@@ -1186,11 +1186,11 @@
     },
     {
       "key": "glimmer_javascript",
-      "value": 32
+      "value": 33
     },
     {
       "key": "glimmer_typescript",
-      "value": 32
+      "value": 33
     },
     {
       "key": "fsharp",
