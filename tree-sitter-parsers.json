@@ -367,7 +367,7 @@
     },
     {
       "install_info": {
-        "revision": "0d4fdd401b22d3f2f23ad2128a5307a4d927434f",
+        "revision": "4a6c08abfb54827db4e722d6cdca81b093898988",
         "url": "https://github.com/jbellerb/tree-sitter-dhall"
       },
       "lang": "dhall",
@@ -486,7 +486,7 @@
     },
     {
       "install_info": {
-        "revision": "3b373a3ccb48f31aa4b7ddc9092e2f5e24ab7aed",
+        "revision": "e34bdc5c512918628b05b48e633f711123204e45",
         "url": "https://github.com/elm-tooling/tree-sitter-elm"
       },
       "lang": "elm",
@@ -518,7 +518,7 @@
     },
     {
       "install_info": {
-        "revision": "36064bd71ce22e9a8c73b64b1a3448cc600a4312",
+        "revision": "aedd0bbab9dcc9caec9cc4e32bd303e86509522b",
         "url": "https://github.com/simonvic/tree-sitter-enforce"
       },
       "lang": "enforce",
@@ -2035,7 +2035,7 @@
     },
     {
       "install_info": {
-        "revision": "3691201b01cacb2f96ffca4c632c4e938bfacd88",
+        "revision": "e86119bdb4968b9799f6a014ca2401c178d54b5f",
         "url": "https://github.com/tree-sitter/tree-sitter-rust"
       },
       "lang": "rust",
