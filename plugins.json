@@ -715,13 +715,6 @@
             "dependencies": ["nvim-dap"]
         },
         {
-            "name": "kndndrj/nvim-dbee",
-            "shorthand": "nvim-dbee",
-            "license": "GPL-3.0",
-            "summary": "Interactive database client for neovim",
-            "dependencies": ["nui.nvim"]
-        },
-        {
             "name": "vijaymarupudi/nvim-fzf",
             "shorthand": "nvim-fzf",
             "license": "AGPL-3.0",
