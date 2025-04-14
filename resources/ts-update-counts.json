@@ -1287,6 +1287,10 @@
     {
       "key": "javadoc",
       "value": 4
+    },
+    {
+      "key": "brightscript",
+      "value": 1
     }
   ]
 }

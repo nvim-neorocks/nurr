@@ -162,6 +162,14 @@
     },
     {
       "install_info": {
+        "revision": "48ce1687125c6dfefcc7a1bef19fa0f0f00426cc",
+        "url": "https://github.com/ajdelcimmuto/tree-sitter-brightscript"
+      },
+      "lang": "brightscript",
+      "tier": 2
+    },
+    {
+      "install_info": {
         "revision": "2a265d69a4caf57108a73ad2ed1e6922dd2f998c",
         "url": "https://github.com/tree-sitter/tree-sitter-c"
       },
