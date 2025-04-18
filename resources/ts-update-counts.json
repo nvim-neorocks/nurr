@@ -66,7 +66,7 @@
     },
     {
       "key": "bp",
-      "value": 30
+      "value": 31
     },
     {
       "key": "c",
@@ -94,11 +94,11 @@
     },
     {
       "key": "cmake",
-      "value": 36
+      "value": 37
     },
     {
       "key": "comment",
-      "value": 29
+      "value": 30
     },
     {
       "key": "commonlisp",
@@ -146,11 +146,11 @@
     },
     {
       "key": "devicetree",
-      "value": 32
+      "value": 33
     },
     {
       "key": "dhall",
-      "value": 34
+      "value": 35
     },
     {
       "key": "diff",
@@ -210,7 +210,7 @@
     },
     {
       "key": "elm",
-      "value": 33
+      "value": 34
     },
     {
       "key": "elsa",
@@ -226,7 +226,7 @@
     },
     {
       "key": "erlang",
-      "value": 44
+      "value": 45
     },
     {
       "key": "facility",
@@ -238,7 +238,7 @@
     },
     {
       "key": "fennel",
-      "value": 29
+      "value": 30
     },
     {
       "key": "fidl",
@@ -286,7 +286,7 @@
     },
     {
       "key": "git_config",
-      "value": 29
+      "value": 30
     },
     {
       "key": "git_rebase",
@@ -386,7 +386,7 @@
     },
     {
       "key": "hcl",
-      "value": 30
+      "value": 31
     },
     {
       "key": "heex",
@@ -426,7 +426,7 @@
     },
     {
       "key": "htmldjango",
-      "value": 29
+      "value": 30
     },
     {
       "key": "http",
@@ -498,7 +498,7 @@
     },
     {
       "key": "julia",
-      "value": 42
+      "value": 43
     },
     {
       "key": "just",
@@ -518,7 +518,7 @@
     },
     {
       "key": "koto",
-      "value": 40
+      "value": 41
     },
     {
       "key": "kusto",
@@ -602,11 +602,11 @@
     },
     {
       "key": "meson",
-      "value": 35
+      "value": 36
     },
     {
       "key": "mlir",
-      "value": 51
+      "value": 52
     },
     {
       "key": "muttrc",
@@ -622,7 +622,7 @@
     },
     {
       "key": "nickel",
-      "value": 31
+      "value": 32
     },
     {
       "key": "nim",
@@ -698,7 +698,7 @@
     },
     {
       "key": "phpdoc",
-      "value": 30
+      "value": 31
     },
     {
       "key": "pioasm",
@@ -806,7 +806,7 @@
     },
     {
       "key": "rasi",
-      "value": 29
+      "value": 30
     },
     {
       "key": "rbs",
@@ -862,7 +862,7 @@
     },
     {
       "key": "rust",
-      "value": 49
+      "value": 50
     },
     {
       "key": "scala",
@@ -886,7 +886,7 @@
     },
     {
       "key": "slint",
-      "value": 33
+      "value": 34
     },
     {
       "key": "smali",
@@ -922,7 +922,7 @@
     },
     {
       "key": "sql",
-      "value": 40
+      "value": 41
     },
     {
       "key": "squirrel",
@@ -958,7 +958,7 @@
     },
     {
       "key": "swift",
-      "value": 51
+      "value": 52
     },
     {
       "key": "sxhkdrc",
@@ -974,7 +974,7 @@
     },
     {
       "key": "t32",
-      "value": 41
+      "value": 42
     },
     {
       "key": "tablegen",
@@ -986,7 +986,7 @@
     },
     {
       "key": "tcl",
-      "value": 33
+      "value": 34
     },
     {
       "key": "teal",
@@ -994,11 +994,11 @@
     },
     {
       "key": "templ",
-      "value": 45
+      "value": 46
     },
     {
       "key": "terraform",
-      "value": 30
+      "value": 31
     },
     {
       "key": "textproto",
@@ -1050,7 +1050,7 @@
     },
     {
       "key": "typespec",
-      "value": 33
+      "value": 34
     },
     {
       "key": "typoscript",
@@ -1094,7 +1094,7 @@
     },
     {
       "key": "verilog",
-      "value": 38
+      "value": 39
     },
     {
       "key": "vhdl",
@@ -1106,7 +1106,7 @@
     },
     {
       "key": "vim",
-      "value": 31
+      "value": 32
     },
     {
       "key": "vimdoc",
@@ -1130,7 +1130,7 @@
     },
     {
       "key": "wit",
-      "value": 30
+      "value": 31
     },
     {
       "key": "xcompose",
@@ -1166,7 +1166,7 @@
     },
     {
       "key": "rescript",
-      "value": 29
+      "value": 30
     },
     {
       "key": "vrl",
@@ -1178,7 +1178,7 @@
     },
     {
       "key": "gap",
-      "value": 31
+      "value": 32
     },
     {
       "key": "gaptst",
@@ -1206,7 +1206,7 @@
     },
     {
       "key": "superhtml",
-      "value": 20
+      "value": 21
     },
     {
       "key": "gren",
@@ -1258,15 +1258,15 @@
     },
     {
       "key": "enforce",
-      "value": 6
+      "value": 7
     },
     {
       "key": "jinja",
-      "value": 6
+      "value": 7
     },
     {
       "key": "jinja_inline",
-      "value": 6
+      "value": 7
     },
     {
       "key": "kcl",
@@ -1274,7 +1274,7 @@
     },
     {
       "key": "tera",
-      "value": 4
+      "value": 5
     },
     {
       "key": "blade",
@@ -1286,7 +1286,7 @@
     },
     {
       "key": "javadoc",
-      "value": 4
+      "value": 5
     },
     {
       "key": "brightscript",
