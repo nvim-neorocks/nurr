@@ -26,7 +26,7 @@
     },
     {
       "key": "astro",
-      "value": 33
+      "value": 34
     },
     {
       "key": "authzed",
@@ -178,7 +178,7 @@
     },
     {
       "key": "dtd",
-      "value": 36
+      "value": 37
     },
     {
       "key": "earthfile",
@@ -206,7 +206,7 @@
     },
     {
       "key": "elixir",
-      "value": 41
+      "value": 42
     },
     {
       "key": "elm",
@@ -306,7 +306,7 @@
     },
     {
       "key": "gleam",
-      "value": 39
+      "value": 40
     },
     {
       "key": "glimmer",
@@ -514,11 +514,11 @@
     },
     {
       "key": "kotlin",
-      "value": 32
+      "value": 33
     },
     {
       "key": "koto",
-      "value": 41
+      "value": 42
     },
     {
       "key": "kusto",
@@ -534,7 +534,7 @@
     },
     {
       "key": "ledger",
-      "value": 33
+      "value": 34
     },
     {
       "key": "leo",
@@ -606,7 +606,7 @@
     },
     {
       "key": "mlir",
-      "value": 52
+      "value": 53
     },
     {
       "key": "muttrc",
@@ -654,11 +654,11 @@
     },
     {
       "key": "ocaml",
-      "value": 42
+      "value": 43
     },
     {
       "key": "ocaml_interface",
-      "value": 43
+      "value": 44
     },
     {
       "key": "ocamllex",
@@ -690,11 +690,11 @@
     },
     {
       "key": "php",
-      "value": 41
+      "value": 42
     },
     {
       "key": "php_only",
-      "value": 43
+      "value": 44
     },
     {
       "key": "phpdoc",
@@ -798,7 +798,7 @@
     },
     {
       "key": "racket",
-      "value": 31
+      "value": 32
     },
     {
       "key": "ralph",
@@ -874,7 +874,7 @@
     },
     {
       "key": "scheme",
-      "value": 31
+      "value": 32
     },
     {
       "key": "scss",
@@ -882,7 +882,7 @@
     },
     {
       "key": "slang",
-      "value": 32
+      "value": 33
     },
     {
       "key": "slint",
@@ -958,7 +958,7 @@
     },
     {
       "key": "swift",
-      "value": 52
+      "value": 53
     },
     {
       "key": "sxhkdrc",
@@ -978,23 +978,23 @@
     },
     {
       "key": "tablegen",
-      "value": 29
+      "value": 30
     },
     {
       "key": "tact",
-      "value": 36
+      "value": 37
     },
     {
       "key": "tcl",
-      "value": 34
+      "value": 35
     },
     {
       "key": "teal",
-      "value": 33
+      "value": 34
     },
     {
       "key": "templ",
-      "value": 46
+      "value": 47
     },
     {
       "key": "terraform",
@@ -1082,7 +1082,7 @@
     },
     {
       "key": "v",
-      "value": 47
+      "value": 48
     },
     {
       "key": "vala",
@@ -1186,11 +1186,11 @@
     },
     {
       "key": "glimmer_javascript",
-      "value": 33
+      "value": 34
     },
     {
       "key": "glimmer_typescript",
-      "value": 33
+      "value": 34
     },
     {
       "key": "fsharp",
@@ -1250,11 +1250,11 @@
     },
     {
       "key": "slim",
-      "value": 4
+      "value": 5
     },
     {
       "key": "razor",
-      "value": 2
+      "value": 3
     },
     {
       "key": "enforce",
@@ -1278,7 +1278,7 @@
     },
     {
       "key": "blade",
-      "value": 1
+      "value": 2
     },
     {
       "key": "caddy",
