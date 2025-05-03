@@ -330,6 +330,13 @@
             "license": "MIT"
         },
         {
+            "name": "echasnovski/mini.keymap",
+            "shorthand": "mini.keymap",
+            "dependencies": [],
+            "summary": "Neovim: Special key mappings. Part of the mini.nvim suite.",
+            "license": "MIT"
+        },
+        {
             "name": "echasnovski/mini.map",
             "shorthand": "mini.map",
             "dependencies": [],
