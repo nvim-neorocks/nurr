@@ -182,7 +182,7 @@
     },
     {
       "key": "earthfile",
-      "value": 36
+      "value": 37
     },
     {
       "key": "ebnf",
@@ -278,7 +278,7 @@
     },
     {
       "key": "gdscript",
-      "value": 34
+      "value": 35
     },
     {
       "key": "gdshader",
@@ -514,7 +514,7 @@
     },
     {
       "key": "kotlin",
-      "value": 33
+      "value": 34
     },
     {
       "key": "koto",
@@ -602,11 +602,11 @@
     },
     {
       "key": "meson",
-      "value": 36
+      "value": 37
     },
     {
       "key": "mlir",
-      "value": 53
+      "value": 54
     },
     {
       "key": "muttrc",
@@ -798,7 +798,7 @@
     },
     {
       "key": "racket",
-      "value": 32
+      "value": 33
     },
     {
       "key": "ralph",
@@ -838,7 +838,7 @@
     },
     {
       "key": "robot",
-      "value": 32
+      "value": 33
     },
     {
       "key": "robots",
@@ -874,7 +874,7 @@
     },
     {
       "key": "scheme",
-      "value": 32
+      "value": 33
     },
     {
       "key": "scss",
@@ -974,7 +974,7 @@
     },
     {
       "key": "t32",
-      "value": 42
+      "value": 43
     },
     {
       "key": "tablegen",
@@ -982,11 +982,11 @@
     },
     {
       "key": "tact",
-      "value": 37
+      "value": 38
     },
     {
       "key": "tcl",
-      "value": 35
+      "value": 36
     },
     {
       "key": "teal",
@@ -994,7 +994,7 @@
     },
     {
       "key": "templ",
-      "value": 47
+      "value": 48
     },
     {
       "key": "terraform",
@@ -1106,7 +1106,7 @@
     },
     {
       "key": "vim",
-      "value": 32
+      "value": 33
     },
     {
       "key": "vimdoc",
@@ -1286,7 +1286,7 @@
     },
     {
       "key": "javadoc",
-      "value": 5
+      "value": 6
     },
     {
       "key": "brightscript",
