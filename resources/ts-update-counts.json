@@ -98,7 +98,7 @@
     },
     {
       "key": "comment",
-      "value": 30
+      "value": 31
     },
     {
       "key": "commonlisp",
@@ -210,7 +210,7 @@
     },
     {
       "key": "elm",
-      "value": 34
+      "value": 35
     },
     {
       "key": "elsa",
@@ -334,7 +334,7 @@
     },
     {
       "key": "godot_resource",
-      "value": 32
+      "value": 33
     },
     {
       "key": "gomod",
@@ -534,7 +534,7 @@
     },
     {
       "key": "ledger",
-      "value": 34
+      "value": 35
     },
     {
       "key": "leo",
@@ -590,7 +590,7 @@
     },
     {
       "key": "matlab",
-      "value": 32
+      "value": 33
     },
     {
       "key": "menhir",
@@ -766,7 +766,7 @@
     },
     {
       "key": "purescript",
-      "value": 29
+      "value": 30
     },
     {
       "key": "pymanifest",
@@ -790,7 +790,7 @@
     },
     {
       "key": "query",
-      "value": 35
+      "value": 36
     },
     {
       "key": "r",
@@ -1106,11 +1106,11 @@
     },
     {
       "key": "vim",
-      "value": 33
+      "value": 34
     },
     {
       "key": "vimdoc",
-      "value": 32
+      "value": 33
     },
     {
       "key": "vue",
@@ -1210,7 +1210,7 @@
     },
     {
       "key": "gren",
-      "value": 6
+      "value": 7
     },
     {
       "key": "xresources",
@@ -1278,7 +1278,7 @@
     },
     {
       "key": "blade",
-      "value": 2
+      "value": 3
     },
     {
       "key": "caddy",
@@ -1286,7 +1286,7 @@
     },
     {
       "key": "javadoc",
-      "value": 6
+      "value": 7
     },
     {
       "key": "brightscript",
