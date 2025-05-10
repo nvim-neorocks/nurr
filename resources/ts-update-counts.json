@@ -118,7 +118,7 @@
     },
     {
       "key": "cpp",
-      "value": 41
+      "value": 42
     },
     {
       "key": "css",
@@ -438,7 +438,7 @@
     },
     {
       "key": "hyprlang",
-      "value": 34
+      "value": 35
     },
     {
       "key": "idl",
@@ -582,11 +582,11 @@
     },
     {
       "key": "markdown",
-      "value": 40
+      "value": 41
     },
     {
       "key": "markdown_inline",
-      "value": 38
+      "value": 39
     },
     {
       "key": "matlab",
@@ -602,11 +602,11 @@
     },
     {
       "key": "meson",
-      "value": 37
+      "value": 38
     },
     {
       "key": "mlir",
-      "value": 54
+      "value": 55
     },
     {
       "key": "muttrc",
@@ -790,7 +790,7 @@
     },
     {
       "key": "query",
-      "value": 36
+      "value": 37
     },
     {
       "key": "r",
@@ -974,7 +974,7 @@
     },
     {
       "key": "t32",
-      "value": 43
+      "value": 44
     },
     {
       "key": "tablegen",
@@ -1222,7 +1222,7 @@
     },
     {
       "key": "cylc",
-      "value": 1
+      "value": 2
     },
     {
       "key": "sway",
