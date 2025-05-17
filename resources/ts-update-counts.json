@@ -182,7 +182,7 @@
     },
     {
       "key": "earthfile",
-      "value": 37
+      "value": 38
     },
     {
       "key": "ebnf",
@@ -278,7 +278,7 @@
     },
     {
       "key": "gdscript",
-      "value": 35
+      "value": 36
     },
     {
       "key": "gdshader",
@@ -286,7 +286,7 @@
     },
     {
       "key": "git_config",
-      "value": 30
+      "value": 31
     },
     {
       "key": "git_rebase",
@@ -334,7 +334,7 @@
     },
     {
       "key": "godot_resource",
-      "value": 33
+      "value": 34
     },
     {
       "key": "gomod",
@@ -386,7 +386,7 @@
     },
     {
       "key": "hcl",
-      "value": 31
+      "value": 32
     },
     {
       "key": "heex",
@@ -470,7 +470,7 @@
     },
     {
       "key": "jq",
-      "value": 29
+      "value": 30
     },
     {
       "key": "jsdoc",
@@ -554,7 +554,7 @@
     },
     {
       "key": "llvm",
-      "value": 30
+      "value": 31
     },
     {
       "key": "lua",
@@ -606,7 +606,7 @@
     },
     {
       "key": "mlir",
-      "value": 55
+      "value": 56
     },
     {
       "key": "muttrc",
@@ -790,7 +790,7 @@
     },
     {
       "key": "query",
-      "value": 37
+      "value": 38
     },
     {
       "key": "r",
@@ -894,7 +894,7 @@
     },
     {
       "key": "smithy",
-      "value": 29
+      "value": 30
     },
     {
       "key": "snakemake",
@@ -986,11 +986,11 @@
     },
     {
       "key": "tcl",
-      "value": 36
+      "value": 37
     },
     {
       "key": "teal",
-      "value": 34
+      "value": 35
     },
     {
       "key": "templ",
@@ -998,7 +998,7 @@
     },
     {
       "key": "terraform",
-      "value": 31
+      "value": 32
     },
     {
       "key": "textproto",
@@ -1286,7 +1286,7 @@
     },
     {
       "key": "javadoc",
-      "value": 7
+      "value": 8
     },
     {
       "key": "brightscript",
