@@ -306,7 +306,7 @@
     },
     {
       "key": "gleam",
-      "value": 40
+      "value": 41
     },
     {
       "key": "glimmer",
@@ -558,7 +558,7 @@
     },
     {
       "key": "lua",
-      "value": 34
+      "value": 35
     },
     {
       "key": "luadoc",
@@ -582,11 +582,11 @@
     },
     {
       "key": "markdown",
-      "value": 41
+      "value": 42
     },
     {
       "key": "markdown_inline",
-      "value": 39
+      "value": 40
     },
     {
       "key": "matlab",
@@ -662,7 +662,7 @@
     },
     {
       "key": "ocamllex",
-      "value": 31
+      "value": 32
     },
     {
       "key": "odin",
@@ -674,7 +674,7 @@
     },
     {
       "key": "pascal",
-      "value": 31
+      "value": 32
     },
     {
       "key": "passwd",
@@ -790,7 +790,7 @@
     },
     {
       "key": "query",
-      "value": 38
+      "value": 39
     },
     {
       "key": "r",
@@ -798,7 +798,7 @@
     },
     {
       "key": "racket",
-      "value": 33
+      "value": 34
     },
     {
       "key": "ralph",
@@ -874,7 +874,7 @@
     },
     {
       "key": "scheme",
-      "value": 33
+      "value": 34
     },
     {
       "key": "scss",
@@ -1110,7 +1110,7 @@
     },
     {
       "key": "vimdoc",
-      "value": 33
+      "value": 34
     },
     {
       "key": "vue",
@@ -1194,7 +1194,7 @@
     },
     {
       "key": "fsharp",
-      "value": 13
+      "value": 14
     },
     {
       "key": "ziggy",
