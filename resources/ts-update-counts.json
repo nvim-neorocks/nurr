@@ -70,7 +70,7 @@
     },
     {
       "key": "c",
-      "value": 42
+      "value": 43
     },
     {
       "key": "c_sharp",
@@ -94,7 +94,7 @@
     },
     {
       "key": "cmake",
-      "value": 37
+      "value": 38
     },
     {
       "key": "comment",
@@ -178,7 +178,7 @@
     },
     {
       "key": "dtd",
-      "value": 37
+      "value": 38
     },
     {
       "key": "earthfile",
@@ -194,7 +194,7 @@
     },
     {
       "key": "editorconfig",
-      "value": 48
+      "value": 49
     },
     {
       "key": "eds",
@@ -458,7 +458,7 @@
     },
     {
       "key": "janet_simple",
-      "value": 33
+      "value": 34
     },
     {
       "key": "java",
@@ -546,7 +546,7 @@
     },
     {
       "key": "liquid",
-      "value": 33
+      "value": 34
     },
     {
       "key": "liquidsoap",
@@ -606,7 +606,7 @@
     },
     {
       "key": "mlir",
-      "value": 56
+      "value": 57
     },
     {
       "key": "muttrc",
@@ -686,7 +686,7 @@
     },
     {
       "key": "perl",
-      "value": 43
+      "value": 44
     },
     {
       "key": "php",
@@ -994,7 +994,7 @@
     },
     {
       "key": "templ",
-      "value": 48
+      "value": 49
     },
     {
       "key": "terraform",
@@ -1014,7 +1014,7 @@
     },
     {
       "key": "tlaplus",
-      "value": 37
+      "value": 38
     },
     {
       "key": "tmux",
@@ -1082,7 +1082,7 @@
     },
     {
       "key": "v",
-      "value": 48
+      "value": 49
     },
     {
       "key": "vala",
@@ -1098,7 +1098,7 @@
     },
     {
       "key": "vhdl",
-      "value": 43
+      "value": 44
     },
     {
       "key": "vhs",
@@ -1138,11 +1138,11 @@
     },
     {
       "key": "xml",
-      "value": 38
+      "value": 39
     },
     {
       "key": "yaml",
-      "value": 34
+      "value": 35
     },
     {
       "key": "yang",
@@ -1214,11 +1214,11 @@
     },
     {
       "key": "xresources",
-      "value": 19
+      "value": 20
     },
     {
       "key": "desktop",
-      "value": 8
+      "value": 9
     },
     {
       "key": "cylc",
