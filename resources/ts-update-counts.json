@@ -70,7 +70,7 @@
     },
     {
       "key": "c",
-      "value": 43
+      "value": 44
     },
     {
       "key": "c_sharp",
@@ -90,7 +90,7 @@
     },
     {
       "key": "clojure",
-      "value": 29
+      "value": 30
     },
     {
       "key": "cmake",
@@ -194,7 +194,7 @@
     },
     {
       "key": "editorconfig",
-      "value": 49
+      "value": 50
     },
     {
       "key": "eds",
@@ -262,7 +262,7 @@
     },
     {
       "key": "fortran",
-      "value": 45
+      "value": 46
     },
     {
       "key": "fsh",
@@ -278,7 +278,7 @@
     },
     {
       "key": "gdscript",
-      "value": 36
+      "value": 37
     },
     {
       "key": "gdshader",
@@ -294,7 +294,7 @@
     },
     {
       "key": "gitattributes",
-      "value": 30
+      "value": 31
     },
     {
       "key": "gitcommit",
@@ -334,7 +334,7 @@
     },
     {
       "key": "godot_resource",
-      "value": 34
+      "value": 35
     },
     {
       "key": "gomod",
@@ -446,7 +446,7 @@
     },
     {
       "key": "ini",
-      "value": 30
+      "value": 31
     },
     {
       "key": "inko",
@@ -518,7 +518,7 @@
     },
     {
       "key": "koto",
-      "value": 42
+      "value": 43
     },
     {
       "key": "kusto",
@@ -606,7 +606,7 @@
     },
     {
       "key": "mlir",
-      "value": 57
+      "value": 58
     },
     {
       "key": "muttrc",
@@ -654,11 +654,11 @@
     },
     {
       "key": "ocaml",
-      "value": 43
+      "value": 44
     },
     {
       "key": "ocaml_interface",
-      "value": 44
+      "value": 45
     },
     {
       "key": "ocamllex",
@@ -794,7 +794,7 @@
     },
     {
       "key": "r",
-      "value": 34
+      "value": 35
     },
     {
       "key": "racket",
@@ -874,7 +874,7 @@
     },
     {
       "key": "scheme",
-      "value": 34
+      "value": 35
     },
     {
       "key": "scss",
@@ -886,7 +886,7 @@
     },
     {
       "key": "slint",
-      "value": 34
+      "value": 35
     },
     {
       "key": "smali",
@@ -1142,7 +1142,7 @@
     },
     {
       "key": "yaml",
-      "value": 35
+      "value": 36
     },
     {
       "key": "yang",
@@ -1214,11 +1214,11 @@
     },
     {
       "key": "xresources",
-      "value": 20
+      "value": 21
     },
     {
       "key": "desktop",
-      "value": 9
+      "value": 10
     },
     {
       "key": "cylc",
@@ -1294,7 +1294,7 @@
     },
     {
       "key": "c3",
-      "value": 1
+      "value": 2
     }
   ]
 }
