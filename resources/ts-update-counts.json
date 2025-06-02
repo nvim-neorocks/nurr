@@ -194,7 +194,7 @@
     },
     {
       "key": "editorconfig",
-      "value": 50
+      "value": 51
     },
     {
       "key": "eds",
@@ -262,7 +262,7 @@
     },
     {
       "key": "fortran",
-      "value": 46
+      "value": 47
     },
     {
       "key": "fsh",
@@ -606,7 +606,7 @@
     },
     {
       "key": "mlir",
-      "value": 58
+      "value": 59
     },
     {
       "key": "muttrc",
@@ -622,7 +622,7 @@
     },
     {
       "key": "nickel",
-      "value": 32
+      "value": 33
     },
     {
       "key": "nim",
@@ -654,11 +654,11 @@
     },
     {
       "key": "ocaml",
-      "value": 44
+      "value": 45
     },
     {
       "key": "ocaml_interface",
-      "value": 45
+      "value": 46
     },
     {
       "key": "ocamllex",
@@ -794,7 +794,7 @@
     },
     {
       "key": "r",
-      "value": 35
+      "value": 36
     },
     {
       "key": "racket",
@@ -974,7 +974,7 @@
     },
     {
       "key": "t32",
-      "value": 44
+      "value": 45
     },
     {
       "key": "tablegen",
@@ -994,7 +994,7 @@
     },
     {
       "key": "templ",
-      "value": 49
+      "value": 50
     },
     {
       "key": "terraform",
@@ -1214,11 +1214,11 @@
     },
     {
       "key": "xresources",
-      "value": 21
+      "value": 22
     },
     {
       "key": "desktop",
-      "value": 10
+      "value": 11
     },
     {
       "key": "cylc",
@@ -1286,7 +1286,7 @@
     },
     {
       "key": "javadoc",
-      "value": 8
+      "value": 9
     },
     {
       "key": "brightscript",
