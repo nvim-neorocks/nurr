@@ -10,7 +10,7 @@
     },
     {
       "key": "angular",
-      "value": 35
+      "value": 36
     },
     {
       "key": "apex",
@@ -38,7 +38,7 @@
     },
     {
       "key": "bash",
-      "value": 40
+      "value": 41
     },
     {
       "key": "bass",
@@ -178,7 +178,7 @@
     },
     {
       "key": "dtd",
-      "value": 38
+      "value": 39
     },
     {
       "key": "earthfile",
@@ -438,7 +438,7 @@
     },
     {
       "key": "hyprlang",
-      "value": 35
+      "value": 36
     },
     {
       "key": "idl",
@@ -446,7 +446,7 @@
     },
     {
       "key": "ini",
-      "value": 31
+      "value": 32
     },
     {
       "key": "inko",
@@ -690,11 +690,11 @@
     },
     {
       "key": "php",
-      "value": 42
+      "value": 43
     },
     {
       "key": "php_only",
-      "value": 44
+      "value": 45
     },
     {
       "key": "phpdoc",
@@ -790,7 +790,7 @@
     },
     {
       "key": "query",
-      "value": 39
+      "value": 40
     },
     {
       "key": "r",
@@ -866,7 +866,7 @@
     },
     {
       "key": "scala",
-      "value": 51
+      "value": 52
     },
     {
       "key": "scfg",
@@ -882,7 +882,7 @@
     },
     {
       "key": "slang",
-      "value": 33
+      "value": 34
     },
     {
       "key": "slint",
@@ -1138,7 +1138,7 @@
     },
     {
       "key": "xml",
-      "value": 39
+      "value": 40
     },
     {
       "key": "yaml",
@@ -1230,7 +1230,7 @@
     },
     {
       "key": "nu",
-      "value": 42
+      "value": 43
     },
     {
       "key": "runescript",
@@ -1286,7 +1286,7 @@
     },
     {
       "key": "javadoc",
-      "value": 9
+      "value": 10
     },
     {
       "key": "brightscript",
