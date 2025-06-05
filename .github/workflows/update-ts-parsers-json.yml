@@ -57,8 +57,8 @@ jobs:
             echo "No parsers updated"
           else
             echo "Parsers updated"
-            cp nvim-treesitter/.git/refs/heads/main resources/nvim-treesitter.lock
           fi
+          cp nvim-treesitter/.git/refs/heads/main resources/nvim-treesitter.lock
       - name: commit
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
