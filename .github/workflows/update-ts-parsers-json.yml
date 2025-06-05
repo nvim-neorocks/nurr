@@ -45,20 +45,15 @@ jobs:
           | jq -S '{parsers: [to_entries[] | {lang: .key} + (.value | del(.maintainers))] | sort_by(.lang)}' \
           > tree-sitter-parsers.json
           ./scripts/parser-update-counts.sh
-          pushd nvim-treesitter
-          # XXX: Because the main branch is currently rebased a lot,
-          # we use master as the reference for query updates
-          git checkout master
-          popd
           ./scripts/queries-update-counts.sh
       - name: Update nvim-treesitter.lock
         run: |
           if git diff --quiet tree-sitter-parsers.json; then
-            echo "No parsers updated"
+            echo "No parsers or queries updated"
           else
-            echo "Parsers updated"
+            echo "Parsers/queries updated"
+            cp nvim-treesitter/.git/refs/heads/main resources/nvim-treesitter.lock
           fi
-          cp nvim-treesitter/.git/refs/heads/main resources/nvim-treesitter.lock
       - name: commit
         uses: stefanzweifel/git-auto-commit-action@v5
         with:

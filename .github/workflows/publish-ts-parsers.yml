@@ -72,7 +72,7 @@ jobs:
           git checkout "$(cat ../nurr/resources/nvim-treesitter.lock)"
           popd
           if [[ -n "${{ matrix.parsers.install_info.url }}" ]]; then
-            PARSER_REVISION=$(jq -r ".\"${{ matrix.parsers.lang }}\".revision" nvim-treesitter/lockfile.json)
+            PARSER_REVISION="${{ matrix.parsers.install_info.revision }}"
           else
             # Use stub
             PARSER_REVISION="548853648d7cff7e0d959ff95209e8aa97a793bc"

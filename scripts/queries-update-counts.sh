@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Assuming a nvim-treesitter (master) is checked out, for each entry in resources/ts-update-counts.json,
+# Assuming a nvim-treesitter (main) is checked out, for each entry in resources/ts-update-counts.json,
 #
 # - Check the last commit date of the queries
 # - If within the last 12 hours, increment the update count
@@ -29,10 +29,10 @@ fi
 
 # Parse the JSON and iterate over each key
 for key in $(echo "$existing_counts" | jq -r 'keys[]'); do
-  # Get the last commit date for the directory queries/<lang>
+  # Get the last commit date for the directory runtime/queries/<lang>
   # And increment the update count if it is within the last 12 hours
-  if [[ -d "queries/$key" ]]; then
-    commit_date=$(git log -1 --pretty="format:%ci" "queries/$key" 2>/dev/null)
+  if [[ -d "runtime/queries/$key" ]]; then
+    commit_date=$(git log -1 --pretty="format:%ci" "runtime/queries/$key" 2>/dev/null)
     if [[ -n "$commit_date" ]]; then
       commit_timestamp=$(date -d "$commit_date" +%s)
       current_timestamp=$(date +%s)
