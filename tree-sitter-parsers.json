@@ -1074,14 +1074,6 @@
     },
     {
       "install_info": {
-        "revision": "8d3e9782f2d091d0cd39c13bfb3068db0c675960",
-        "url": "https://github.com/srghma/tree-sitter-ipkg"
-      },
-      "lang": "ipkg",
-      "tier": 2
-    },
-    {
-      "install_info": {
         "revision": "9b2f9aec2106b94b4e099fe75e73ebd8ae707c04",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-ispc"
       },
