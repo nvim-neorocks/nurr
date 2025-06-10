@@ -38,7 +38,7 @@
     },
     {
       "key": "bash",
-      "value": 42
+      "value": 43
     },
     {
       "key": "bass",
@@ -194,7 +194,7 @@
     },
     {
       "key": "editorconfig",
-      "value": 51
+      "value": 52
     },
     {
       "key": "eds",
@@ -582,11 +582,11 @@
     },
     {
       "key": "markdown",
-      "value": 42
+      "value": 43
     },
     {
       "key": "markdown_inline",
-      "value": 40
+      "value": 41
     },
     {
       "key": "matlab",
@@ -602,11 +602,11 @@
     },
     {
       "key": "meson",
-      "value": 38
+      "value": 39
     },
     {
       "key": "mlir",
-      "value": 59
+      "value": 60
     },
     {
       "key": "muttrc",
@@ -766,7 +766,7 @@
     },
     {
       "key": "purescript",
-      "value": 30
+      "value": 31
     },
     {
       "key": "pymanifest",
@@ -790,11 +790,11 @@
     },
     {
       "key": "query",
-      "value": 40
+      "value": 41
     },
     {
       "key": "r",
-      "value": 36
+      "value": 37
     },
     {
       "key": "racket",
@@ -866,7 +866,7 @@
     },
     {
       "key": "scala",
-      "value": 52
+      "value": 53
     },
     {
       "key": "scfg",
@@ -886,7 +886,7 @@
     },
     {
       "key": "slint",
-      "value": 35
+      "value": 36
     },
     {
       "key": "smali",
@@ -1214,15 +1214,15 @@
     },
     {
       "key": "xresources",
-      "value": 22
+      "value": 23
     },
     {
       "key": "desktop",
-      "value": 13
+      "value": 14
     },
     {
       "key": "cylc",
-      "value": 2
+      "value": 3
     },
     {
       "key": "sway",
@@ -1258,7 +1258,7 @@
     },
     {
       "key": "enforce",
-      "value": 7
+      "value": 8
     },
     {
       "key": "jinja",
@@ -1286,7 +1286,7 @@
     },
     {
       "key": "javadoc",
-      "value": 10
+      "value": 11
     },
     {
       "key": "brightscript",
