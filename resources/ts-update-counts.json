@@ -226,7 +226,7 @@
     },
     {
       "key": "erlang",
-      "value": 45
+      "value": 46
     },
     {
       "key": "facility",
@@ -234,7 +234,7 @@
     },
     {
       "key": "faust",
-      "value": 29
+      "value": 30
     },
     {
       "key": "fennel",
@@ -250,7 +250,7 @@
     },
     {
       "key": "fish",
-      "value": 30
+      "value": 31
     },
     {
       "key": "foam",
@@ -262,7 +262,7 @@
     },
     {
       "key": "fortran",
-      "value": 47
+      "value": 48
     },
     {
       "key": "fsh",
@@ -386,7 +386,7 @@
     },
     {
       "key": "hcl",
-      "value": 32
+      "value": 33
     },
     {
       "key": "heex",
@@ -530,7 +530,7 @@
     },
     {
       "key": "latex",
-      "value": 34
+      "value": 35
     },
     {
       "key": "ledger",
@@ -590,7 +590,7 @@
     },
     {
       "key": "matlab",
-      "value": 33
+      "value": 34
     },
     {
       "key": "menhir",
@@ -606,7 +606,7 @@
     },
     {
       "key": "mlir",
-      "value": 60
+      "value": 61
     },
     {
       "key": "muttrc",
@@ -690,11 +690,11 @@
     },
     {
       "key": "php",
-      "value": 43
+      "value": 44
     },
     {
       "key": "php_only",
-      "value": 45
+      "value": 46
     },
     {
       "key": "phpdoc",
@@ -846,7 +846,7 @@
     },
     {
       "key": "roc",
-      "value": 37
+      "value": 38
     },
     {
       "key": "ron",
@@ -914,7 +914,7 @@
     },
     {
       "key": "sourcepawn",
-      "value": 30
+      "value": 31
     },
     {
       "key": "sparql",
@@ -998,7 +998,7 @@
     },
     {
       "key": "terraform",
-      "value": 32
+      "value": 33
     },
     {
       "key": "textproto",
@@ -1098,7 +1098,7 @@
     },
     {
       "key": "vhdl",
-      "value": 44
+      "value": 45
     },
     {
       "key": "vhs",
@@ -1250,7 +1250,7 @@
     },
     {
       "key": "slim",
-      "value": 5
+      "value": 6
     },
     {
       "key": "razor",
@@ -1286,7 +1286,7 @@
     },
     {
       "key": "javadoc",
-      "value": 11
+      "value": 12
     },
     {
       "key": "brightscript",
