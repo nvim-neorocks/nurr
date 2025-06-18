@@ -194,7 +194,7 @@
     },
     {
       "key": "editorconfig",
-      "value": 52
+      "value": 53
     },
     {
       "key": "eds",
@@ -386,7 +386,7 @@
     },
     {
       "key": "hcl",
-      "value": 33
+      "value": 34
     },
     {
       "key": "heex",
@@ -582,15 +582,15 @@
     },
     {
       "key": "markdown",
-      "value": 43
+      "value": 44
     },
     {
       "key": "markdown_inline",
-      "value": 41
+      "value": 42
     },
     {
       "key": "matlab",
-      "value": 34
+      "value": 35
     },
     {
       "key": "menhir",
@@ -766,7 +766,7 @@
     },
     {
       "key": "purescript",
-      "value": 31
+      "value": 33
     },
     {
       "key": "pymanifest",
@@ -790,7 +790,7 @@
     },
     {
       "key": "query",
-      "value": 41
+      "value": 42
     },
     {
       "key": "r",
@@ -886,7 +886,7 @@
     },
     {
       "key": "slint",
-      "value": 36
+      "value": 37
     },
     {
       "key": "smali",
@@ -994,11 +994,11 @@
     },
     {
       "key": "templ",
-      "value": 50
+      "value": 51
     },
     {
       "key": "terraform",
-      "value": 33
+      "value": 34
     },
     {
       "key": "textproto",
@@ -1098,7 +1098,7 @@
     },
     {
       "key": "vhdl",
-      "value": 45
+      "value": 46
     },
     {
       "key": "vhs",
@@ -1214,11 +1214,11 @@
     },
     {
       "key": "xresources",
-      "value": 23
+      "value": 24
     },
     {
       "key": "desktop",
-      "value": 14
+      "value": 15
     },
     {
       "key": "cylc",
@@ -1230,7 +1230,7 @@
     },
     {
       "key": "nu",
-      "value": 43
+      "value": 44
     },
     {
       "key": "runescript",
@@ -1274,7 +1274,7 @@
     },
     {
       "key": "tera",
-      "value": 5
+      "value": 6
     },
     {
       "key": "blade",
@@ -1286,7 +1286,7 @@
     },
     {
       "key": "javadoc",
-      "value": 12
+      "value": 13
     },
     {
       "key": "brightscript",
