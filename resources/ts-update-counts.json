@@ -306,7 +306,7 @@
     },
     {
       "key": "gleam",
-      "value": 41
+      "value": 42
     },
     {
       "key": "glimmer",
@@ -390,7 +390,7 @@
     },
     {
       "key": "heex",
-      "value": 34
+      "value": 35
     },
     {
       "key": "helm",
@@ -530,7 +530,7 @@
     },
     {
       "key": "latex",
-      "value": 35
+      "value": 36
     },
     {
       "key": "ledger",
@@ -766,7 +766,7 @@
     },
     {
       "key": "purescript",
-      "value": 33
+      "value": 34
     },
     {
       "key": "pymanifest",
@@ -1050,7 +1050,7 @@
     },
     {
       "key": "typespec",
-      "value": 34
+      "value": 35
     },
     {
       "key": "typoscript",
@@ -1162,7 +1162,7 @@
     },
     {
       "key": "powershell",
-      "value": 38
+      "value": 40
     },
     {
       "key": "rescript",
@@ -1230,7 +1230,7 @@
     },
     {
       "key": "nu",
-      "value": 44
+      "value": 45
     },
     {
       "key": "runescript",
