@@ -2260,12 +2260,11 @@
     {
       "install_info": {
         "generate": true,
-        "generate_from_json": false,
-        "revision": "99a5241ceac351a4af57bcc3571cef5064bde0a3",
+        "revision": "ebefe3134fba71f61c1103cbf27047f749f2b587",
         "url": "https://github.com/alex-pinkus/tree-sitter-swift"
       },
       "lang": "swift",
-      "tier": 3
+      "tier": 2
     },
     {
       "install_info": {
@@ -2281,6 +2280,14 @@
         "url": "https://github.com/ok-ryoko/tree-sitter-systemtap"
       },
       "lang": "systemtap",
+      "tier": 2
+    },
+    {
+      "install_info": {
+        "revision": "a412f4a00a6e56c65f519117969c926c35e80ce4",
+        "url": "https://github.com/gmlarumbe/tree-sitter-systemverilog"
+      },
+      "lang": "systemverilog",
       "tier": 2
     },
     {
@@ -2547,14 +2554,6 @@
         "url": "https://github.com/ventojs/tree-sitter-vento"
       },
       "lang": "vento",
-      "tier": 2
-    },
-    {
-      "install_info": {
-        "revision": "ba3c1e305caf948f718293c86c6018a82ed5043e",
-        "url": "https://github.com/gmlarumbe/tree-sitter-systemverilog"
-      },
-      "lang": "verilog",
       "tier": 2
     },
     {
