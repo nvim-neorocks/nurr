@@ -10,7 +10,7 @@
     },
     {
       "key": "angular",
-      "value": 36
+      "value": 37
     },
     {
       "key": "apex",
@@ -90,7 +90,7 @@
     },
     {
       "key": "clojure",
-      "value": 30
+      "value": 31
     },
     {
       "key": "cmake",
@@ -306,7 +306,7 @@
     },
     {
       "key": "gleam",
-      "value": 42
+      "value": 43
     },
     {
       "key": "glimmer",
@@ -442,7 +442,7 @@
     },
     {
       "key": "idl",
-      "value": 32
+      "value": 33
     },
     {
       "key": "ini",
@@ -550,7 +550,7 @@
     },
     {
       "key": "liquidsoap",
-      "value": 30
+      "value": 31
     },
     {
       "key": "llvm",
@@ -626,7 +626,7 @@
     },
     {
       "key": "nim",
-      "value": 29
+      "value": 30
     },
     {
       "key": "nim_format_string",
@@ -714,7 +714,7 @@
     },
     {
       "key": "poe_filter",
-      "value": 31
+      "value": 32
     },
     {
       "key": "pony",
@@ -794,7 +794,7 @@
     },
     {
       "key": "r",
-      "value": 37
+      "value": 38
     },
     {
       "key": "racket",
@@ -930,7 +930,7 @@
     },
     {
       "key": "ssh_config",
-      "value": 32
+      "value": 33
     },
     {
       "key": "starlark",
@@ -970,7 +970,7 @@
     },
     {
       "key": "systemverilog",
-      "value": 32
+      "value": 33
     },
     {
       "key": "t32",
@@ -1082,7 +1082,7 @@
     },
     {
       "key": "v",
-      "value": 49
+      "value": 50
     },
     {
       "key": "vala",
@@ -1230,7 +1230,7 @@
     },
     {
       "key": "nu",
-      "value": 45
+      "value": 46
     },
     {
       "key": "runescript",
@@ -1262,11 +1262,11 @@
     },
     {
       "key": "jinja",
-      "value": 7
+      "value": 8
     },
     {
       "key": "jinja_inline",
-      "value": 7
+      "value": 8
     },
     {
       "key": "kcl",
@@ -1286,7 +1286,7 @@
     },
     {
       "key": "javadoc",
-      "value": 13
+      "value": 14
     },
     {
       "key": "brightscript",
