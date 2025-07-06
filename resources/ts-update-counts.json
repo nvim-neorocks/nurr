@@ -118,7 +118,7 @@
     },
     {
       "key": "cpp",
-      "value": 43
+      "value": 44
     },
     {
       "key": "css",
@@ -138,7 +138,7 @@
     },
     {
       "key": "d",
-      "value": 34
+      "value": 35
     },
     {
       "key": "dart",
@@ -234,7 +234,7 @@
     },
     {
       "key": "faust",
-      "value": 30
+      "value": 31
     },
     {
       "key": "fennel",
@@ -498,7 +498,7 @@
     },
     {
       "key": "julia",
-      "value": 43
+      "value": 44
     },
     {
       "key": "just",
@@ -530,7 +530,7 @@
     },
     {
       "key": "latex",
-      "value": 36
+      "value": 38
     },
     {
       "key": "ledger",
@@ -550,7 +550,7 @@
     },
     {
       "key": "liquidsoap",
-      "value": 31
+      "value": 32
     },
     {
       "key": "llvm",
@@ -602,11 +602,11 @@
     },
     {
       "key": "meson",
-      "value": 39
+      "value": 40
     },
     {
       "key": "mlir",
-      "value": 61
+      "value": 62
     },
     {
       "key": "muttrc",
@@ -846,7 +846,7 @@
     },
     {
       "key": "roc",
-      "value": 38
+      "value": 39
     },
     {
       "key": "ron",
@@ -958,7 +958,7 @@
     },
     {
       "key": "swift",
-      "value": 55
+      "value": 56
     },
     {
       "key": "sxhkdrc",
@@ -970,11 +970,11 @@
     },
     {
       "key": "systemverilog",
-      "value": 33
+      "value": 34
     },
     {
       "key": "t32",
-      "value": 45
+      "value": 46
     },
     {
       "key": "tablegen",
@@ -1082,7 +1082,7 @@
     },
     {
       "key": "v",
-      "value": 50
+      "value": 51
     },
     {
       "key": "vala",
@@ -1162,7 +1162,7 @@
     },
     {
       "key": "powershell",
-      "value": 40
+      "value": 41
     },
     {
       "key": "rescript",
@@ -1194,7 +1194,7 @@
     },
     {
       "key": "fsharp",
-      "value": 14
+      "value": 15
     },
     {
       "key": "ziggy",
@@ -1230,7 +1230,7 @@
     },
     {
       "key": "nu",
-      "value": 46
+      "value": 47
     },
     {
       "key": "runescript",
@@ -1286,7 +1286,7 @@
     },
     {
       "key": "javadoc",
-      "value": 14
+      "value": 15
     },
     {
       "key": "brightscript",
@@ -1294,7 +1294,7 @@
     },
     {
       "key": "c3",
-      "value": 2
+      "value": 3
     }
   ]
 }
