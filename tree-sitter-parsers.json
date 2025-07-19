@@ -1665,6 +1665,14 @@
     },
     {
       "install_info": {
+        "revision": "4fc94a102c25ea383d70397dac7e677ca3731f1e",
+        "url": "https://github.com/apple/tree-sitter-pkl"
+      },
+      "lang": "pkl",
+      "tier": 2
+    },
+    {
+      "install_info": {
         "revision": "bd860a0f57f697162bf28e576674be9c1500db5e",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-po"
       },
