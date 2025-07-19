@@ -883,6 +883,14 @@
     },
     {
       "install_info": {
+        "revision": "9959049ddeb4416101653a071ee923ba9f7a5cb1",
+        "url": "https://github.com/ajrussellaudio/tree-sitter-groq"
+      },
+      "lang": "groq",
+      "tier": 2
+    },
+    {
+      "install_info": {
         "revision": "549aef253fd38a53995cda1bf55c501174372bf7",
         "url": "https://github.com/tree-sitter-grammars/tree-sitter-gstlaunch"
       },

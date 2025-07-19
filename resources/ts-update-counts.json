@@ -190,7 +190,7 @@
     },
     {
       "key": "ecma",
-      "value": 30
+      "value": 31
     },
     {
       "key": "editorconfig",
@@ -1295,6 +1295,10 @@
     {
       "key": "c3",
       "value": 3
+    },
+    {
+      "key": "groq",
+      "value": 2
     }
   ]
 }
