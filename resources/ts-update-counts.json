@@ -46,7 +46,7 @@
     },
     {
       "key": "beancount",
-      "value": 31
+      "value": 32
     },
     {
       "key": "bibtex",
@@ -86,7 +86,7 @@
     },
     {
       "key": "chatito",
-      "value": 30
+      "value": 32
     },
     {
       "key": "clojure",
@@ -278,7 +278,7 @@
     },
     {
       "key": "gdscript",
-      "value": 38
+      "value": 39
     },
     {
       "key": "gdshader",
@@ -354,7 +354,7 @@
     },
     {
       "key": "gpg",
-      "value": 30
+      "value": 31
     },
     {
       "key": "graphql",
@@ -590,7 +590,7 @@
     },
     {
       "key": "matlab",
-      "value": 36
+      "value": 37
     },
     {
       "key": "menhir",
@@ -606,7 +606,7 @@
     },
     {
       "key": "mlir",
-      "value": 65
+      "value": 66
     },
     {
       "key": "muttrc",
@@ -638,7 +638,7 @@
     },
     {
       "key": "nix",
-      "value": 61
+      "value": 62
     },
     {
       "key": "nqc",
@@ -682,7 +682,7 @@
     },
     {
       "key": "pem",
-      "value": 30
+      "value": 31
     },
     {
       "key": "perl",
@@ -770,7 +770,7 @@
     },
     {
       "key": "pymanifest",
-      "value": 29
+      "value": 30
     },
     {
       "key": "python",
@@ -974,7 +974,7 @@
     },
     {
       "key": "t32",
-      "value": 48
+      "value": 49
     },
     {
       "key": "tablegen",
@@ -1062,7 +1062,7 @@
     },
     {
       "key": "udev",
-      "value": 30
+      "value": 31
     },
     {
       "key": "ungrammar",
@@ -1098,7 +1098,7 @@
     },
     {
       "key": "vhdl",
-      "value": 46
+      "value": 47
     },
     {
       "key": "vhs",
@@ -1258,7 +1258,7 @@
     },
     {
       "key": "enforce",
-      "value": 8
+      "value": 9
     },
     {
       "key": "jinja",
@@ -1290,7 +1290,7 @@
     },
     {
       "key": "brightscript",
-      "value": 1
+      "value": 2
     },
     {
       "key": "c3",
@@ -1298,7 +1298,7 @@
     },
     {
       "key": "groq",
-      "value": 2
+      "value": 3
     },
     {
       "key": "pkl",
