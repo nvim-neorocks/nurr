@@ -1186,11 +1186,11 @@
     },
     {
       "key": "glimmer_javascript",
-      "value": 34
+      "value": 35
     },
     {
       "key": "glimmer_typescript",
-      "value": 34
+      "value": 35
     },
     {
       "key": "fsharp",
@@ -1266,7 +1266,7 @@
     },
     {
       "key": "jinja_inline",
-      "value": 9
+      "value": 10
     },
     {
       "key": "kcl",
