@@ -10,7 +10,7 @@
     },
     {
       "key": "angular",
-      "value": 37
+      "value": 38
     },
     {
       "key": "apex",
@@ -46,7 +46,7 @@
     },
     {
       "key": "beancount",
-      "value": 32
+      "value": 33
     },
     {
       "key": "bibtex",
@@ -238,7 +238,7 @@
     },
     {
       "key": "fennel",
-      "value": 30
+      "value": 31
     },
     {
       "key": "fidl",
@@ -306,7 +306,7 @@
     },
     {
       "key": "gleam",
-      "value": 43
+      "value": 44
     },
     {
       "key": "glimmer",
@@ -442,7 +442,7 @@
     },
     {
       "key": "idl",
-      "value": 34
+      "value": 35
     },
     {
       "key": "ini",
@@ -518,7 +518,7 @@
     },
     {
       "key": "koto",
-      "value": 44
+      "value": 45
     },
     {
       "key": "kusto",
@@ -554,7 +554,7 @@
     },
     {
       "key": "llvm",
-      "value": 32
+      "value": 33
     },
     {
       "key": "lua",
@@ -958,7 +958,7 @@
     },
     {
       "key": "swift",
-      "value": 57
+      "value": 58
     },
     {
       "key": "sxhkdrc",
@@ -970,7 +970,7 @@
     },
     {
       "key": "systemverilog",
-      "value": 36
+      "value": 37
     },
     {
       "key": "t32",
@@ -1098,7 +1098,7 @@
     },
     {
       "key": "vhdl",
-      "value": 47
+      "value": 48
     },
     {
       "key": "vhs",
@@ -1262,11 +1262,11 @@
     },
     {
       "key": "jinja",
-      "value": 8
+      "value": 9
     },
     {
       "key": "jinja_inline",
-      "value": 10
+      "value": 11
     },
     {
       "key": "kcl",
@@ -1274,7 +1274,7 @@
     },
     {
       "key": "tera",
-      "value": 7
+      "value": 8
     },
     {
       "key": "blade",
@@ -1286,7 +1286,7 @@
     },
     {
       "key": "javadoc",
-      "value": 18
+      "value": 19
     },
     {
       "key": "brightscript",
