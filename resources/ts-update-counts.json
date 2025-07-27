@@ -278,7 +278,7 @@
     },
     {
       "key": "gdscript",
-      "value": 39
+      "value": 40
     },
     {
       "key": "gdshader",
@@ -558,7 +558,7 @@
     },
     {
       "key": "lua",
-      "value": 35
+      "value": 36
     },
     {
       "key": "luadoc",
@@ -902,7 +902,7 @@
     },
     {
       "key": "solidity",
-      "value": 35
+      "value": 36
     },
     {
       "key": "soql",
@@ -970,7 +970,7 @@
     },
     {
       "key": "systemverilog",
-      "value": 37
+      "value": 38
     },
     {
       "key": "t32",
@@ -1158,7 +1158,7 @@
     },
     {
       "key": "zig",
-      "value": 34
+      "value": 35
     },
     {
       "key": "powershell",
@@ -1198,15 +1198,15 @@
     },
     {
       "key": "ziggy",
-      "value": 17
-    },
-    {
-      "key": "ziggy_schema",
       "value": 18
     },
     {
+      "key": "ziggy_schema",
+      "value": 19
+    },
+    {
       "key": "superhtml",
-      "value": 23
+      "value": 24
     },
     {
       "key": "gren",
@@ -1286,7 +1286,7 @@
     },
     {
       "key": "javadoc",
-      "value": 19
+      "value": 20
     },
     {
       "key": "brightscript",
