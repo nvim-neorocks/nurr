@@ -2,7 +2,7 @@
   "update_counts": [
     {
       "key": "ada",
-      "value": 29
+      "value": 30
     },
     {
       "key": "agda",
@@ -262,7 +262,7 @@
     },
     {
       "key": "fortran",
-      "value": 49
+      "value": 50
     },
     {
       "key": "fsh",
@@ -442,7 +442,7 @@
     },
     {
       "key": "idl",
-      "value": 35
+      "value": 36
     },
     {
       "key": "ini",
@@ -590,7 +590,7 @@
     },
     {
       "key": "matlab",
-      "value": 37
+      "value": 38
     },
     {
       "key": "menhir",
@@ -626,7 +626,7 @@
     },
     {
       "key": "nim",
-      "value": 30
+      "value": 31
     },
     {
       "key": "nim_format_string",
@@ -882,7 +882,7 @@
     },
     {
       "key": "slang",
-      "value": 34
+      "value": 35
     },
     {
       "key": "slint",
@@ -958,7 +958,7 @@
     },
     {
       "key": "swift",
-      "value": 58
+      "value": 59
     },
     {
       "key": "sxhkdrc",
@@ -994,7 +994,7 @@
     },
     {
       "key": "templ",
-      "value": 51
+      "value": 52
     },
     {
       "key": "terraform",
@@ -1162,7 +1162,7 @@
     },
     {
       "key": "powershell",
-      "value": 42
+      "value": 43
     },
     {
       "key": "rescript",
@@ -1206,7 +1206,7 @@
     },
     {
       "key": "superhtml",
-      "value": 24
+      "value": 25
     },
     {
       "key": "gren",
@@ -1286,7 +1286,7 @@
     },
     {
       "key": "javadoc",
-      "value": 20
+      "value": 21
     },
     {
       "key": "brightscript",
