@@ -74,7 +74,7 @@
     },
     {
       "key": "c_sharp",
-      "value": 42
+      "value": 43
     },
     {
       "key": "cairo",
@@ -194,7 +194,7 @@
     },
     {
       "key": "editorconfig",
-      "value": 54
+      "value": 55
     },
     {
       "key": "eds",
@@ -238,7 +238,7 @@
     },
     {
       "key": "fennel",
-      "value": 31
+      "value": 32
     },
     {
       "key": "fidl",
@@ -282,7 +282,7 @@
     },
     {
       "key": "gdshader",
-      "value": 29
+      "value": 30
     },
     {
       "key": "git_config",
@@ -554,7 +554,7 @@
     },
     {
       "key": "llvm",
-      "value": 33
+      "value": 34
     },
     {
       "key": "lua",
@@ -590,7 +590,7 @@
     },
     {
       "key": "matlab",
-      "value": 38
+      "value": 39
     },
     {
       "key": "menhir",
@@ -638,7 +638,7 @@
     },
     {
       "key": "nix",
-      "value": 62
+      "value": 63
     },
     {
       "key": "nqc",
@@ -686,7 +686,7 @@
     },
     {
       "key": "perl",
-      "value": 44
+      "value": 45
     },
     {
       "key": "php",
@@ -866,7 +866,7 @@
     },
     {
       "key": "scala",
-      "value": 53
+      "value": 54
     },
     {
       "key": "scfg",
@@ -902,7 +902,7 @@
     },
     {
       "key": "solidity",
-      "value": 36
+      "value": 37
     },
     {
       "key": "soql",
@@ -1206,7 +1206,7 @@
     },
     {
       "key": "superhtml",
-      "value": 25
+      "value": 26
     },
     {
       "key": "gren",
@@ -1214,11 +1214,11 @@
     },
     {
       "key": "xresources",
-      "value": 27
+      "value": 28
     },
     {
       "key": "desktop",
-      "value": 17
+      "value": 18
     },
     {
       "key": "cylc",
@@ -1286,7 +1286,7 @@
     },
     {
       "key": "javadoc",
-      "value": 21
+      "value": 22
     },
     {
       "key": "brightscript",
@@ -1294,7 +1294,7 @@
     },
     {
       "key": "c3",
-      "value": 3
+      "value": 4
     },
     {
       "key": "groq",
