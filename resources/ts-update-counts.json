@@ -238,7 +238,7 @@
     },
     {
       "key": "fennel",
-      "value": 32
+      "value": 33
     },
     {
       "key": "fidl",
@@ -690,11 +690,11 @@
     },
     {
       "key": "php",
-      "value": 44
+      "value": 45
     },
     {
       "key": "php_only",
-      "value": 47
+      "value": 49
     },
     {
       "key": "phpdoc",
@@ -1302,6 +1302,10 @@
     },
     {
       "key": "pkl",
+      "value": 2
+    },
+    {
+      "key": "sproto",
       "value": 2
     }
   ]
