@@ -238,7 +238,7 @@
     },
     {
       "key": "fennel",
-      "value": 33
+      "value": 34
     },
     {
       "key": "fidl",
@@ -554,7 +554,7 @@
     },
     {
       "key": "llvm",
-      "value": 34
+      "value": 35
     },
     {
       "key": "lua",
@@ -590,7 +590,7 @@
     },
     {
       "key": "matlab",
-      "value": 39
+      "value": 40
     },
     {
       "key": "menhir",
@@ -606,7 +606,7 @@
     },
     {
       "key": "mlir",
-      "value": 66
+      "value": 67
     },
     {
       "key": "muttrc",
@@ -622,7 +622,7 @@
     },
     {
       "key": "nickel",
-      "value": 33
+      "value": 34
     },
     {
       "key": "nim",
@@ -638,7 +638,7 @@
     },
     {
       "key": "nix",
-      "value": 63
+      "value": 64
     },
     {
       "key": "nqc",
@@ -690,11 +690,11 @@
     },
     {
       "key": "php",
-      "value": 45
+      "value": 46
     },
     {
       "key": "php_only",
-      "value": 49
+      "value": 50
     },
     {
       "key": "phpdoc",
@@ -790,7 +790,7 @@
     },
     {
       "key": "query",
-      "value": 42
+      "value": 43
     },
     {
       "key": "r",
@@ -1110,7 +1110,7 @@
     },
     {
       "key": "vimdoc",
-      "value": 34
+      "value": 35
     },
     {
       "key": "vue",
@@ -1130,7 +1130,7 @@
     },
     {
       "key": "wit",
-      "value": 33
+      "value": 34
     },
     {
       "key": "xcompose",
@@ -1206,7 +1206,7 @@
     },
     {
       "key": "superhtml",
-      "value": 26
+      "value": 27
     },
     {
       "key": "gren",
@@ -1286,7 +1286,7 @@
     },
     {
       "key": "javadoc",
-      "value": 22
+      "value": 23
     },
     {
       "key": "brightscript",
