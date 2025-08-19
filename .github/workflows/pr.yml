@@ -63,12 +63,25 @@ jobs:
       with:
         luaVersion: "5.1"
 
-    - name: Checkout plugin repository
+    # actions/checkout doesn't clone git repos external to github. this is a trick to do so
+    # https://github.com/actions/checkout/issues/24#issuecomment-1234831235
+    # - name: override remote if needed
+    #   if: startWith('https', ${{ matrix.plugin.name }})
+    #   run: |
+    #     git config --global url.https://git.sr.ht.insteadOf git://github.com/
+
+    - name: Checkout plugin repository from github
+      if: ${{ startsWith( matrix.plugin.name, 'https://git.sr.ht') == false }}
       uses: actions/checkout@v4
       with:
         repository: ${{ matrix.plugin.name }}
         ref: ${{ matrix.plugin.ref }}
         path: .
+
+    - name: Clone from sr.ht
+      if: ${{ startsWith(env.REPOSITORY_URL, 'https://git.sr.ht') }}
+      run: |
+        git clone ${{ matrix.plugin.ref }}
 
     - run: |
         echo "GITHUB_REPOSITORY_OVERRIDE=${{ matrix.plugin.name }}" >> $GITHUB_ENV
@@ -85,7 +98,7 @@ jobs:
         } >> "$GITHUB_OUTPUT"
 
     - name: Publish Development LuaRock
-      uses: nvim-neorocks/luarocks-tag-release@v7
+      uses: nvim-neorocks/luarocks-tag-release@teto-ability-override-url
       env:
         LUAROCKS_API_KEY: ${{ secrets.LUAROCKS_API_KEY }}
       with:
