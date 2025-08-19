@@ -18,7 +18,7 @@
     },
     {
       "key": "arduino",
-      "value": 32
+      "value": 33
     },
     {
       "key": "asm",
@@ -86,7 +86,7 @@
     },
     {
       "key": "chatito",
-      "value": 32
+      "value": 33
     },
     {
       "key": "clojure",
@@ -194,7 +194,7 @@
     },
     {
       "key": "editorconfig",
-      "value": 55
+      "value": 56
     },
     {
       "key": "eds",
@@ -294,7 +294,7 @@
     },
     {
       "key": "gitattributes",
-      "value": 31
+      "value": 32
     },
     {
       "key": "gitcommit",
@@ -354,7 +354,7 @@
     },
     {
       "key": "gpg",
-      "value": 31
+      "value": 32
     },
     {
       "key": "graphql",
@@ -442,7 +442,7 @@
     },
     {
       "key": "idl",
-      "value": 36
+      "value": 37
     },
     {
       "key": "ini",
@@ -590,7 +590,7 @@
     },
     {
       "key": "matlab",
-      "value": 40
+      "value": 42
     },
     {
       "key": "menhir",
@@ -606,7 +606,7 @@
     },
     {
       "key": "mlir",
-      "value": 67
+      "value": 68
     },
     {
       "key": "muttrc",
@@ -682,7 +682,7 @@
     },
     {
       "key": "pem",
-      "value": 31
+      "value": 32
     },
     {
       "key": "perl",
@@ -690,11 +690,11 @@
     },
     {
       "key": "php",
-      "value": 46
+      "value": 47
     },
     {
       "key": "php_only",
-      "value": 50
+      "value": 51
     },
     {
       "key": "phpdoc",
@@ -714,7 +714,7 @@
     },
     {
       "key": "poe_filter",
-      "value": 32
+      "value": 33
     },
     {
       "key": "pony",
@@ -1214,11 +1214,11 @@
     },
     {
       "key": "xresources",
-      "value": 28
+      "value": 29
     },
     {
       "key": "desktop",
-      "value": 18
+      "value": 19
     },
     {
       "key": "cylc",
@@ -1286,7 +1286,7 @@
     },
     {
       "key": "javadoc",
-      "value": 23
+      "value": 24
     },
     {
       "key": "brightscript",
