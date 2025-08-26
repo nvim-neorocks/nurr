@@ -18,7 +18,7 @@
     },
     {
       "key": "arduino",
-      "value": 33
+      "value": 34
     },
     {
       "key": "asm",
@@ -206,7 +206,7 @@
     },
     {
       "key": "elixir",
-      "value": 42
+      "value": 43
     },
     {
       "key": "elm",
@@ -346,7 +346,7 @@
     },
     {
       "key": "gotmpl",
-      "value": 35
+      "value": 37
     },
     {
       "key": "gowork",
@@ -394,7 +394,7 @@
     },
     {
       "key": "helm",
-      "value": 35
+      "value": 36
     },
     {
       "key": "hjson",
@@ -554,7 +554,7 @@
     },
     {
       "key": "llvm",
-      "value": 35
+      "value": 36
     },
     {
       "key": "lua",
@@ -606,7 +606,7 @@
     },
     {
       "key": "mlir",
-      "value": 68
+      "value": 69
     },
     {
       "key": "muttrc",
@@ -686,7 +686,7 @@
     },
     {
       "key": "perl",
-      "value": 45
+      "value": 46
     },
     {
       "key": "php",
@@ -1098,7 +1098,7 @@
     },
     {
       "key": "vhdl",
-      "value": 48
+      "value": 49
     },
     {
       "key": "vhs",
@@ -1198,15 +1198,15 @@
     },
     {
       "key": "ziggy",
-      "value": 18
-    },
-    {
-      "key": "ziggy_schema",
       "value": 19
     },
     {
+      "key": "ziggy_schema",
+      "value": 20
+    },
+    {
       "key": "superhtml",
-      "value": 27
+      "value": 28
     },
     {
       "key": "gren",
@@ -1214,11 +1214,11 @@
     },
     {
       "key": "xresources",
-      "value": 29
+      "value": 30
     },
     {
       "key": "desktop",
-      "value": 19
+      "value": 20
     },
     {
       "key": "cylc",
@@ -1278,7 +1278,7 @@
     },
     {
       "key": "blade",
-      "value": 6
+      "value": 8
     },
     {
       "key": "caddy",
@@ -1286,7 +1286,7 @@
     },
     {
       "key": "javadoc",
-      "value": 24
+      "value": 25
     },
     {
       "key": "brightscript",
