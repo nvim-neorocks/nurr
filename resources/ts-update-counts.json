@@ -38,7 +38,7 @@
     },
     {
       "key": "bash",
-      "value": 43
+      "value": 44
     },
     {
       "key": "bass",
@@ -70,7 +70,7 @@
     },
     {
       "key": "c",
-      "value": 45
+      "value": 46
     },
     {
       "key": "c_sharp",
@@ -90,7 +90,7 @@
     },
     {
       "key": "clojure",
-      "value": 31
+      "value": 32
     },
     {
       "key": "cmake",
@@ -118,7 +118,7 @@
     },
     {
       "key": "cpp",
-      "value": 45
+      "value": 46
     },
     {
       "key": "css",
@@ -222,7 +222,7 @@
     },
     {
       "key": "embedded_template",
-      "value": 34
+      "value": 35
     },
     {
       "key": "erlang",
@@ -326,7 +326,7 @@
     },
     {
       "key": "go",
-      "value": 39
+      "value": 40
     },
     {
       "key": "goctl",
@@ -418,7 +418,7 @@
     },
     {
       "key": "html",
-      "value": 36
+      "value": 37
     },
     {
       "key": "html_tags",
@@ -462,11 +462,11 @@
     },
     {
       "key": "java",
-      "value": 42
+      "value": 43
     },
     {
       "key": "javascript",
-      "value": 37
+      "value": 38
     },
     {
       "key": "jq",
@@ -478,11 +478,11 @@
     },
     {
       "key": "json",
-      "value": 36
+      "value": 37
     },
     {
       "key": "json5",
-      "value": 29
+      "value": 30
     },
     {
       "key": "jsonc",
@@ -590,7 +590,7 @@
     },
     {
       "key": "matlab",
-      "value": 42
+      "value": 44
     },
     {
       "key": "menhir",
@@ -862,7 +862,7 @@
     },
     {
       "key": "rust",
-      "value": 50
+      "value": 51
     },
     {
       "key": "scala",
@@ -946,7 +946,7 @@
     },
     {
       "key": "supercollider",
-      "value": 30
+      "value": 31
     },
     {
       "key": "surface",
@@ -1178,7 +1178,7 @@
     },
     {
       "key": "gap",
-      "value": 32
+      "value": 33
     },
     {
       "key": "gaptst",
@@ -1302,10 +1302,14 @@
     },
     {
       "key": "pkl",
-      "value": 2
+      "value": 3
     },
     {
       "key": "sproto",
+      "value": 2
+    },
+    {
+      "key": "wxml",
       "value": 2
     }
   ]
