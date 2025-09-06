@@ -6,7 +6,7 @@
     },
     {
       "key": "agda",
-      "value": 31
+      "value": 32
     },
     {
       "key": "angular",
@@ -222,7 +222,7 @@
     },
     {
       "key": "embedded_template",
-      "value": 35
+      "value": 36
     },
     {
       "key": "erlang",
@@ -466,7 +466,7 @@
     },
     {
       "key": "javascript",
-      "value": 38
+      "value": 39
     },
     {
       "key": "jq",
@@ -882,7 +882,7 @@
     },
     {
       "key": "slang",
-      "value": 35
+      "value": 36
     },
     {
       "key": "slint",
@@ -946,7 +946,7 @@
     },
     {
       "key": "supercollider",
-      "value": 31
+      "value": 32
     },
     {
       "key": "surface",
@@ -970,7 +970,7 @@
     },
     {
       "key": "systemverilog",
-      "value": 40
+      "value": 41
     },
     {
       "key": "t32",
@@ -1226,7 +1226,7 @@
     },
     {
       "key": "sway",
-      "value": 3
+      "value": 4
     },
     {
       "key": "nu",
@@ -1262,11 +1262,11 @@
     },
     {
       "key": "jinja",
-      "value": 9
+      "value": 10
     },
     {
       "key": "jinja_inline",
-      "value": 12
+      "value": 13
     },
     {
       "key": "kcl",
@@ -1286,7 +1286,7 @@
     },
     {
       "key": "javadoc",
-      "value": 25
+      "value": 26
     },
     {
       "key": "brightscript",
@@ -1294,7 +1294,7 @@
     },
     {
       "key": "c3",
-      "value": 4
+      "value": 5
     },
     {
       "key": "groq",
@@ -1302,7 +1302,7 @@
     },
     {
       "key": "pkl",
-      "value": 3
+      "value": 4
     },
     {
       "key": "sproto",
