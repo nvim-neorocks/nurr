@@ -18,7 +18,7 @@
     },
     {
       "key": "arduino",
-      "value": 34
+      "value": 35
     },
     {
       "key": "asm",
@@ -434,7 +434,7 @@
     },
     {
       "key": "hurl",
-      "value": 30
+      "value": 31
     },
     {
       "key": "hyprlang",
@@ -606,7 +606,7 @@
     },
     {
       "key": "mlir",
-      "value": 69
+      "value": 70
     },
     {
       "key": "muttrc",
@@ -790,7 +790,7 @@
     },
     {
       "key": "query",
-      "value": 43
+      "value": 44
     },
     {
       "key": "r",
@@ -886,7 +886,7 @@
     },
     {
       "key": "slint",
-      "value": 39
+      "value": 40
     },
     {
       "key": "smali",
@@ -898,7 +898,7 @@
     },
     {
       "key": "snakemake",
-      "value": 32
+      "value": 34
     },
     {
       "key": "solidity",
@@ -1214,11 +1214,11 @@
     },
     {
       "key": "xresources",
-      "value": 30
+      "value": 31
     },
     {
       "key": "desktop",
-      "value": 20
+      "value": 21
     },
     {
       "key": "cylc",
