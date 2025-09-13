@@ -30,7 +30,7 @@
     },
     {
       "key": "authzed",
-      "value": 29
+      "value": 30
     },
     {
       "key": "awk",
@@ -38,7 +38,7 @@
     },
     {
       "key": "bash",
-      "value": 44
+      "value": 45
     },
     {
       "key": "bass",
@@ -118,7 +118,7 @@
     },
     {
       "key": "cpp",
-      "value": 46
+      "value": 47
     },
     {
       "key": "css",
@@ -194,7 +194,7 @@
     },
     {
       "key": "editorconfig",
-      "value": 56
+      "value": 57
     },
     {
       "key": "eds",
@@ -254,7 +254,7 @@
     },
     {
       "key": "foam",
-      "value": 30
+      "value": 31
     },
     {
       "key": "forth",
@@ -278,7 +278,7 @@
     },
     {
       "key": "gdscript",
-      "value": 41
+      "value": 42
     },
     {
       "key": "gdshader",
@@ -326,7 +326,7 @@
     },
     {
       "key": "go",
-      "value": 40
+      "value": 41
     },
     {
       "key": "goctl",
@@ -418,7 +418,7 @@
     },
     {
       "key": "html",
-      "value": 37
+      "value": 38
     },
     {
       "key": "html_tags",
@@ -434,7 +434,7 @@
     },
     {
       "key": "hurl",
-      "value": 31
+      "value": 32
     },
     {
       "key": "hyprlang",
@@ -442,7 +442,7 @@
     },
     {
       "key": "idl",
-      "value": 37
+      "value": 38
     },
     {
       "key": "ini",
@@ -462,11 +462,11 @@
     },
     {
       "key": "java",
-      "value": 43
+      "value": 44
     },
     {
       "key": "javascript",
-      "value": 39
+      "value": 40
     },
     {
       "key": "jq",
@@ -474,11 +474,11 @@
     },
     {
       "key": "jsdoc",
-      "value": 35
+      "value": 36
     },
     {
       "key": "json",
-      "value": 37
+      "value": 38
     },
     {
       "key": "json5",
@@ -606,7 +606,7 @@
     },
     {
       "key": "mlir",
-      "value": 70
+      "value": 71
     },
     {
       "key": "muttrc",
@@ -690,11 +690,11 @@
     },
     {
       "key": "php",
-      "value": 47
+      "value": 48
     },
     {
       "key": "php_only",
-      "value": 51
+      "value": 52
     },
     {
       "key": "phpdoc",
@@ -774,7 +774,7 @@
     },
     {
       "key": "python",
-      "value": 46
+      "value": 48
     },
     {
       "key": "ql",
@@ -822,7 +822,7 @@
     },
     {
       "key": "regex",
-      "value": 40
+      "value": 41
     },
     {
       "key": "rego",
@@ -862,7 +862,7 @@
     },
     {
       "key": "rust",
-      "value": 51
+      "value": 52
     },
     {
       "key": "scala",
@@ -946,7 +946,7 @@
     },
     {
       "key": "supercollider",
-      "value": 32
+      "value": 33
     },
     {
       "key": "surface",
@@ -1158,11 +1158,11 @@
     },
     {
       "key": "zig",
-      "value": 35
+      "value": 36
     },
     {
       "key": "powershell",
-      "value": 43
+      "value": 44
     },
     {
       "key": "rescript",
@@ -1186,11 +1186,11 @@
     },
     {
       "key": "glimmer_javascript",
-      "value": 35
+      "value": 36
     },
     {
       "key": "glimmer_typescript",
-      "value": 35
+      "value": 36
     },
     {
       "key": "fsharp",
@@ -1222,7 +1222,7 @@
     },
     {
       "key": "cylc",
-      "value": 3
+      "value": 4
     },
     {
       "key": "sway",
@@ -1286,7 +1286,7 @@
     },
     {
       "key": "javadoc",
-      "value": 26
+      "value": 27
     },
     {
       "key": "brightscript",
